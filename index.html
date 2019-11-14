@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pediludium 0.11.18</title>
+    <title>Pediludium 0.12.1</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <style>
@@ -33,7 +33,8 @@
             background-color: #00000080;
         }
         td.placar{
-            font-size: 48pt;
+            font-size: 72pt;
+            font-weight: bold;
             padding: 10px;
         }
         td.cronometro{
@@ -132,7 +133,7 @@
 <body>
     <h1>PEDILUDIUM</h1>
     <img src="https://i.imgur.com/QsSd4qb.png">
-    <p>Versão 0.11.18</p>
+    <p>Versão 0.12.1</p>
     <link rel="icon" href="pic/favicon.ico" />
     <p>Simulador de placar de partida de futebol.</p>
     <table id="tabeladereferencia">
@@ -652,7 +653,7 @@
                                     <option value="47">47 min</option>
                                     <option value="48">48 min</option>
                                     <option value="49">49 min</option>
-                                    <option value="50">10 min</option>
+                                    <option value="50">50 min</option>
                                     <option value="51">51 min</option>
                                     <option value="52">52 min</option>
                                     <option value="53">53 min</option>
@@ -758,17 +759,14 @@
             <td colspan=2><input type="button" class="recarregar" value="Recarregar" onclick="location.reload()">
         </tr>
         <tr>
-            <td id="molduradacasa" rowspan="2"><img id="escudodacasa"></td>
+            <td id="molduradacasa"><img id="escudodacasa"></td>
             <td class="placar"><span id="placar1">0</span></td>
             <td class="placar"><span id="placar2">0</span></td>
-            <td id="molduradefora" rowspan="2"><img id="escudodefora"></td>
-        </tr>
-        <tr>
-            <td class="cronometro" colspan="2"><span id="minutoagora">'&#x1F554;</span>'</td>
+            <td id="molduradefora"><img id="escudodefora"></td>
         </tr>
         <tr>
             <td><span id="txtsumulaA" class="sumula"></span></td>
-            <td colspan=2></td>
+            <td class="cronometro" colspan="2"><span id="minutoagora">'&#x1F554;</span>'</td>
             <td><span id="txtsumulaB" class="sumula"></span></td>
         </tr>
     </table>
@@ -801,38 +799,38 @@
             var pelejanteA = window.document.getElementById('timedacasa').value
             var pelejanteB = window.document.getElementById('timedefora').value
             if(pelejanteA=="braCAM"){//Atlético Mineiro
-                var SPIA = 53.3
-                var AA = 1.5
-                var DA = 1.1
+                var SPIA = 53.38
+                var AA = 1.42
+                var DA = 1.09
                 document.getElementById('escudodacasa').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
             }
             else if(pelejanteA=="braCAP"){//Athletico Paranaense
-                var SPIA = 57.2
-                var AA = 1.5
-                var DA = 1.0
+                var SPIA = 60.26
+                var AA = 1.52
+                var DA = 0.91
                 document.getElementById('escudodacasa').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
             }
             else if(pelejanteA=="braAVA"){//Avaí
-                var SPIA = 39.4
-                var AA = 1.0
-                var DA = 1.2
+                var SPIA = 33.70
+                var AA = 0.92
+                var DA = 1.40
                 document.getElementById('escudodacasa').src ="https://logodetimes.com/times/avai/logo-avai-5.png"
             }
             else if(pelejanteA=="braBAH"){//Bahia
-                var SPIA = 56.6
-                var AA = 1.3
-                var DA = 0.9
+                var SPIA = 52.74
+                var AA = 1.30
+                var DA = 1.00
                 document.getElementById('escudodacasa').src = "https://logodetimes.com/times/bahia/logo-bahia-256.png"
             }
             else if(pelejanteA=="braBOT"){//Botafogo
-                var SPIA = 42.8
-                var AA = 1.1
-                var DA = 1.2
+                var SPIA = 42.07
+                var AA = 1.11
+                var DA = 1.24
                 document.getElementById('escudodacasa').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
             }
             else if(pelejanteA=="braCEA"){//Ceará
-                var SPIA = 47.7
-                var AA = 1.2
+                var SPIA = 50.75
+                var AA = 1.24
                 var DA = 1.1
                 document.getElementById('escudodacasa').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
             }
@@ -3069,11 +3067,6 @@
                 }
             },chaveinter)   
         }
-        var acabou = function apitofinal(){
-                        clearInterval(rolaabola)
-                        sumulaA.innerHTML=''
-                        sumulaB.innerHTML=''
-                    }
     </script>
 </body>
 </html>
