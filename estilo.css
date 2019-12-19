@@ -1,0 +1,121 @@
+body{
+            /*background-image: url(pic/futebol-1gal.png);*/
+            color: white;
+            background-color: darkblue;
+            background-image: url("https://www.6gate.com/wp-content/uploads/2016/04/Epic-Soccer-Training-Review-29.jpg");
+            height: 100%;
+            width:560px;
+            text-align: center;
+            margin: auto;
+            background-position-x: center;
+            background-position-y: bottom;
+        }
+        table{
+            align-content: center;
+        }
+        table.subtabela td{
+            background-color: #ffffff00;
+        }
+        td{
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: white;
+            background-color: #00000080;
+        }
+        td.placar{
+            font-size: 72pt;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td.cronometro{
+            font-size: 32pt;
+            padding: 10px;
+        }
+        .sumula{
+            font-size: 18pt;
+        }
+        img{
+            height:120px;
+            max-width: 120px;
+        }
+        input[type="button"]{
+            color: white;
+            font-size: 20pt;
+            width:180px;
+        }
+        input[type="number"].condicao{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 40pt;
+            width:80px;
+            position: center;
+        }
+        input[type="button"].sortear{
+            background-color: darkgreen;
+        }
+        input[type="button"].iniciar{
+            background-color: orangered;
+        }
+        input[type="button"].recarregar{
+            background-color: darkred;
+        }
+        input[type="checkbox"]{
+            transform: scale(2);
+        }
+        select{
+            background-color: black;
+            color: white;
+        }
+        .alemanha{
+            background-color: white;
+            color: black;
+        }
+        .argentina{
+            background-color: skyblue;
+            color: white;
+        }
+        .austria{
+            background-color: darkred;
+            color: white;
+        }
+        .brasil{
+            background-color: yellow;
+            color: green;
+        }
+        .espanha{
+            background-color: darkred;
+            color: yellow;
+        }
+        .eua{
+            background-color: red;
+            color: white;
+        }
+        .franca{
+            background-color: darkblue;
+            color: white;
+        }
+        .inglaterra{
+            background-color: red;
+            color: white;
+        }
+        .italia{
+            background-color: darkblue;
+            color: white;
+        }
+        .portugal{
+            background-color: red;
+            color: limegreen;
+        }
+        .mexico{
+            background-color: darkgreen;
+            color: white; 
+        }
+        .russia{
+            background-color: white;
+            color: red; 
+        }
+        .uruguai{
+            background-color: skyblue;
+            color: black; 
+        }
