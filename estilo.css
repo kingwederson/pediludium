@@ -4,9 +4,8 @@ body{
     background-color: darkblue;
     background-image: url("https://www.6gate.com/wp-content/uploads/2016/04/Epic-Soccer-Training-Review-29.jpg");
     height: 100%;
-    width:560px;
     text-align: center;
-    margin: auto;
+    margin: none;
     background-position-x: center;
     background-position-y: bottom;
 }
