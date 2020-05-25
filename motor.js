@@ -452,7 +452,7 @@ function jogar(){
         var SPIA = 62.0
         var AA = 1.5
         var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/d/de/Boca_Juniors_2012.svg"
+        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
     }
     else if(pelejanteA=="argIND"){//Independiente
         var SPIA = 49.3
@@ -2007,7 +2007,7 @@ function jogar(){
         var SPIB = 62.0
         var AB = 1.5
         var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/d/de/Boca_Juniors_2012.svg"
+        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
     }
     else if(pelejanteB=="argIND"){//Independiente
         var SPIB = 49.3
