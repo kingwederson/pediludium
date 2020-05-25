@@ -55,13 +55,13 @@ function jogar(){
         var SPIA = 32.34
         var AA = 0.90
         var DA = 1.45
-        document.getElementById('escudodacasa').src ="https://logodetimes.com/times/avai/logo-avai-5.png"
+        document.getElementById('escudodacasa').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
     }
     else if(pelejanteA=="braBAH"){//Bahia
         var SPIA = 51.23
         var AA = 1.30
         var DA = 1.06
-        document.getElementById('escudodacasa').src = "https://logodetimes.com/times/bahia/logo-bahia-256.png"
+        document.getElementById('escudodacasa').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
     }
     else if(pelejanteA=="braBOT"){//Botafogo
         var SPIA = 40.06
@@ -308,7 +308,7 @@ function jogar(){
         var SPIA = 72.0
         var AA = 2.0
         var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/e/e4/SS_Lazio.svg"
+        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
     }
     else if(pelejanteA=="itiMIL"){//Milan
         var SPIA = 73.1
@@ -1611,13 +1611,13 @@ function jogar(){
         var SPIB = 39.4
         var AB = 1.0
         var DB = 1.2
-        document.getElementById('escudodefora').src ="https://logodetimes.com/times/avai/logo-avai-5.png"
+        document.getElementById('escudodefora').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
     }
     else if(pelejanteB=="braBAH"){//Bahia
         var SPIB = 56.6
         var AB = 1.3
         var DB = 0.9
-        document.getElementById('escudodefora').src = "https://logodetimes.com/times/bahia/logo-bahia-256.png"
+        document.getElementById('escudodefora').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
     }
     else if(pelejanteB=="braBOT"){//Botafogo
         var SPIB = 42.8
@@ -1863,7 +1863,7 @@ function jogar(){
         var SPIB = 72.0
         var AB = 2.0
         var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/e/e4/SS_Lazio.svg"
+        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
     }
     else if(pelejanteB=="itiMIL"){//Milan
         var SPIB = 73.1
