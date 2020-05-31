@@ -9,6 +9,10 @@ function sortear(){
         document.getElementById('timedefora').selectedIndex = sort2+1
     }
 }
+function alertagol(){
+    var audio = new Audio('gol.mp3');
+    audio.play();
+}
 function jogar(){
     if(document.getElementById('camponeutro').checked){
         var neutralidade = 1
@@ -37,2216 +41,2216 @@ function jogar(){
             chaveinter = 100
             break
     }
-    var pelejanteA = window.document.getElementById('timedacasa').value
-    var pelejanteB = window.document.getElementById('timedefora').value
-    if(pelejanteA=="braCAM"){//Atlético Mineiro
-        var SPIA = 54.44
-        var AA = 1.42
-        var DA = 1.05
-        document.getElementById('escudodacasa').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
+    var PELcasa = window.document.getElementById('timedacasa').value
+    var PELfora = window.document.getElementById('timedefora').value
+    if(PELcasa=="braCAM"){//Atlético Mineiro
+        var Pcasa = 54.44
+        var Acasa = 1.42
+        var Dcasa = 1.05
+        document.getElementById('ESCcasa').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
     }
-    else if(pelejanteA=="braCAP"){//Athletico Paranaense
-        var SPIA = 62.04
-        var AA = 1.47
-        var DA = 0.79
-        document.getElementById('escudodacasa').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
+    else if(PELcasa=="braCAP"){//Athletico Paranaense
+        var Pcasa = 62.04
+        var Acasa = 1.47
+        var Dcasa = 0.79
+        document.getElementById('ESCcasa').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
     }
-    else if(pelejanteA=="braAVA"){//Avaí
-        var SPIA = 32.34
-        var AA = 0.90
-        var DA = 1.45
-        document.getElementById('escudodacasa').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
+    else if(PELcasa=="braAVA"){//Avaí
+        var Pcasa = 32.34
+        var Acasa = 0.90
+        var Dcasa = 1.45
+        document.getElementById('ESCcasa').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
     }
-    else if(pelejanteA=="braBAH"){//Bahia
-        var SPIA = 51.23
-        var AA = 1.30
-        var DA = 1.06
-        document.getElementById('escudodacasa').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
+    else if(PELcasa=="braBAH"){//Bahia
+        var Pcasa = 51.23
+        var Acasa = 1.30
+        var Dcasa = 1.06
+        document.getElementById('ESCcasa').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
     }
-    else if(pelejanteA=="braBOT"){//Botafogo
-        var SPIA = 40.06
-        var AA = 1.03
-        var DA = 1.24
-        document.getElementById('escudodacasa').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
+    else if(PELcasa=="braBOT"){//Botafogo
+        var Pcasa = 40.06
+        var Acasa = 1.03
+        var Dcasa = 1.24
+        document.getElementById('ESCcasa').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
     }
-    else if(pelejanteA=="braCEA"){//Ceará
-        var SPIA = 49.11
-        var AA = 1.23
-        var DA = 1.07
-        document.getElementById('escudodacasa').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
+    else if(PELcasa=="braCEA"){//Ceará
+        var Pcasa = 49.11
+        var Acasa = 1.23
+        var Dcasa = 1.07
+        document.getElementById('ESCcasa').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
     }
-    else if(pelejanteA=="braCHA"){//Chapecoense
-        var SPIA = 40.75
-        var AA = 1.05
-        var DA = 1.23
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
+    else if(PELcasa=="braCHA"){//Chapecoense
+        var Pcasa = 40.75
+        var Acasa = 1.05
+        var Dcasa = 1.23
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
     }
-    else if(pelejanteA=="braCOR"){//Corinthians
-        var SPIA = 53.56
-        var AA = 1.27
-        var DA = 0.94
-        document.getElementById('escudodacasa').src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
+    else if(PELcasa=="braCOR"){//Corinthians
+        var Pcasa = 53.56
+        var Acasa = 1.27
+        var Dcasa = 0.94
+        document.getElementById('ESCcasa').src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
     }
-    else if(pelejanteA=="braCRU"){//Cruzeiro
-        var SPIA = 51.58
-        var AA = 1.22
-        var DA = 0.96
-        document.getElementById('escudodacasa').src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
+    else if(PELcasa=="braCRU"){//Cruzeiro
+        var Pcasa = 51.58
+        var Acasa = 1.22
+        var Dcasa = 0.96
+        document.getElementById('ESCcasa').src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
     }
-    else if(pelejanteA=="braCSA"){//CSA
-        var SPIA = 35.62
-        var AA = 1.02
-        var DA = 1.43
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
+    else if(PELcasa=="braCSA"){//CSA
+        var Pcasa = 35.62
+        var Acasa = 1.02
+        var Dcasa = 1.43
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
     }
-    else if(pelejanteA=="braFLA"){//Flamengo
-        var SPIA = 73.81
-        var AA = 2.13
-        var DA = 0.83
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/6/68/Flamengo_escudo.svg"
+    else if(PELcasa=="braFLA"){//Flamengo
+        var Pcasa = 73.7
+        var Acasa = 2.13
+        var Dcasa = 0.83
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
     }
-    else if(pelejanteA=="braFLU"){//Fluminense
-        var SPIA = 52.21
-        var AA = 1.33
-        var DA = 1.05
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
+    else if(PELcasa=="braFLU"){//Fluminense
+        var Pcasa = 52.21
+        var Acasa = 1.33
+        var Dcasa = 1.05
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
     }
-    else if(pelejanteA=="braFOR"){//Fortaleza
-        var SPIA = 46.94
-        var AA = 1.30
-        var DA = 1.24
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
+    else if(PELcasa=="braFOR"){//Fortaleza
+        var Pcasa = 46.94
+        var Acasa = 1.30
+        var Dcasa = 1.24
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
     }
-    else if(pelejanteA=="braGOI"){//Goiás
-        var SPIA = 40.7
-        var AA = 1.1
-        var DA = 1.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
+    else if(PELcasa=="braGOI"){//Goiás
+        var Pcasa = 40.7
+        var Acasa = 1.1
+        var Dcasa = 1.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
     }
-    else if(pelejanteA=="braGRE"){//Grêmio
-        var SPIA = 63.9
-        var AA = 1.7
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
+    else if(PELcasa=="braGRE"){//Grêmio
+        var Pcasa = 65.6
+        var Acasa = 1.8
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
     }
-    else if(pelejanteA=="braINT"){//Internacional
-        var SPIA = 55.9
-        var AA = 1.4
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
+    else if(PELcasa=="braINT"){//Internacional
+        var Pcasa = 55.9
+        var Acasa = 1.4
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
     
     }
-    else if(pelejanteA=="braPAL"){//Palmeiras
-        var SPIA = 69.0
-        var AA = 1.7
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
-    }
-    else if(pelejanteA=="braSAN"){//Santos
-        var SPIA = 60.6
-        var AA = 1.6
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
-    }
-    else if(pelejanteA=="braSPFC"){//São Paulo
-        var SPIA = 57.4
-        var AA = 1.3
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
-    }
-    else if(pelejanteA=="braVAS"){//Vasco
-        var SPIA = 50.9
-        var AA = 1.3
-        var DA = 1.1
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
-    }
-    else if(pelejanteA=="engARS"){//Arsenal
-        var SPIA = 79.3
-        var AA = 2.4
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
-    }
-    else if(pelejanteA=="engAST"){//Aston Villa
-        var SPIA = 64.1
-        var AA = 1.7
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
-    }
-    else if(pelejanteA=="engBOU"){//Bournemouth
-        var SPIA = 68.5
-        var AA = 2.1
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
-    }
-    else if(pelejanteA=="engBRI"){//Brighton
-        var SPIA = 65.8
-        var AA = 1.7
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
-    }
-    else if(pelejanteA=="engBUR"){//Burnley
-        var SPIA = 69.8
-        var AA = 1.9
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
-    }
-    else if(pelejanteA=="engCHE"){//Chelsea
-        var SPIA = 85.0
-        var AA = 2.5
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
-    }
-    else if(pelejanteA=="engCRY"){//Crystal Palace
-        var SPIA = 70.4
-        var AA = 1.9
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
-    }
-    else if(pelejanteA=="engEVE"){//Everton
-        var SPIA = 76.8
-        var AA = 2.0
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
-    }
-    else if(pelejanteA=="engLEI"){//Leicester
-        var SPIA = 79.2
-        var AA = 2.0
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
-    }
-    else if(pelejanteA=="engLIV"){//Liverpool
-        var SPIA = 92.3
-        var AA = 2.9
-        var DA = 0.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
-    }
-    else if(pelejanteA=="engMANC"){//Manchester City
-        var SPIA = 95.8
-        var AA = 3.4
-        var DA = 0.2
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
-    }
-    else if(pelejanteA=="engMANU"){//Manchester United
-        var SPIA = 81.8
-        var AA = 2.2
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
-    }
-    else if(pelejanteA=="engNEW"){//Newcastle
-        var SPIA = 65.8
-        var AA = 1.7
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
-    }
-    else if(pelejanteA=="engNOR"){//Norwich
-        var SPIA = 63.2
-        var AA = 1.8
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
-    }
-    else if(pelejanteA=="engSHEU"){//Sheffield United
-        var SPIA = 65.5
-        var AA = 1.7
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
-    }
-    else if(pelejanteA=="engSOU"){//Southampton
-        var SPIA = 70.7
-        var AA = 1.9
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
-    }
-    else if(pelejanteA=="engTOT"){//Tottenham
-        var SPIA = 82.6
-        var AA = 2.4
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
-    }
-    else if(pelejanteA=="engWAT"){//Watford
-        var SPIA = 65.9
-        var AA = 2.0
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
-    }
-    else if(pelejanteA=="engWHU"){//West Ham United
-        var SPIA = 70.0
-        var AA = 2.0
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
-    }
-    else if(pelejanteA=="engWOL"){//Wolves
-        var SPIA = 71.9
-        var AA = 1.9
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
-    }
-    else if(pelejanteA=="itiATA"){//Atalanta
-        var SPIA = 70.4
-        var AA = 2.0
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
-    }
-    else if(pelejanteA=="itiFIO"){//Fiorentina
-        var SPIA = 69.8
-        var AA = 2.0
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
-    }
-    else if(pelejanteA=="itiINT"){//Internazionali
-        var SPIA = 80.2
-        var AA = 2.2
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
-    }
-    else if(pelejanteA=="itiJUV"){//Juventus
-        var SPIA = 87.3
-        var AA = 2.6
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
-    }
-    else if(pelejanteA=="itiLAZ"){//Lazio
-        var SPIA = 72.0
-        var AA = 2.0
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
-    }
-    else if(pelejanteA=="itiMIL"){//Milan
-        var SPIA = 73.1
-        var AA = 2.0
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
-    }
-    else if(pelejanteA=="itiNAP"){//Napoli
-        var SPIA = 82.3
-        var AA = 2.4
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
-    }
-    else if(pelejanteA=="itiROM"){//Roma
-        var SPIA = 73.1
-        var AA = 2.1
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
-    }
-    else if(pelejanteA=="gerBAY"){//Bayern
-        var SPIA = 93.7
-        var AA = 3.3
-        var DA = 0.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
-    }
-    else if(pelejanteA=="gerDOR"){//Dortmund
-        var SPIA = 84.4
-        var AA = 2.6
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
-    }
-    else if(pelejanteA=="gerHOF"){//Hoffenheim
-        var SPIA = 81.1
-        var AA = 2.3
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
-    }
-    else if(pelejanteA=="gerLEV"){//Leverkusen
-        var SPIA = 71.6
-        var AA = 2.2
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
-    }
-    else if(pelejanteA=="gerRBL"){//Red Bull Leipzig
-        var SPIA = 81.4
-        var AA = 2.3
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
-    }
-    else if(pelejanteA=="gerSCH"){//Schalke 04
-        var SPIA = 72.9
-        var AA = 2.0
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
-    }
-    else if(pelejanteA=="gerWER"){//Werder Bremen
-        var SPIA = 69.1
-        var AA = 2.0
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
-    }
-    else if(pelejanteA=="gerWOL"){//Wolfsburg
-        var SPIA = 72.0
-        var AA = 1.9
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
-    }
-    else if(pelejanteA=="spaATL"){//Atlético Madrid
-        var SPIA = 84.9
-        var AA = 2.2
-        var DA = 0.4
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
-    }
-    else if(pelejanteA=="catBAR"){//Barcelona
-        var SPIA = 89.1
-        var AA = 2.8
-        var DA = 0.4
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
-    }
-    else if(pelejanteA=="spaMAD"){//Real Madrid
-        var SPIA = 85.8
-        var AA = 2.6
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
-    }
-    else if(pelejanteA=="spaSEV"){//Sevilla
-        var SPIA = 78.4
-        var AA = 2.1
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
-    }
-    else if(pelejanteA=="porBEN"){//Benfica
-        var SPIA = 76.0
-        var AA = 2.2
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
-    }
-    else if(pelejanteA=="porBRA"){//Braga
-        var SPIA = 78.4
-        var AA = 2.1
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
-    }
-    else if(pelejanteA=="porPOR"){//Porto
-        var SPIA = 78.4
-        var AA = 2.2
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
-    }
-    else if(pelejanteA=="porSPO"){//Sporting
-        var SPIA = 64.3
-        var AA = 1.8
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
-    }
-    else if(pelejanteA=="fraLIL"){//Lille
-        var SPIA = 69.5
-        var AA = 1.8
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
-    }
-    else if(pelejanteA=="fraOLY"){//Lyonnais, Olympique
-        var SPIA = 72.1
-        var AA = 2.0
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
-    }
-    else if(pelejanteA=="fraMAR"){//Marseille
-        var SPIA = 66.2
-        var AA = 1.7
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
-    }
-    else if(pelejanteA=="fraPSG"){//Paris Saint-Germain
-        var SPIA = 88.9
-        var AA = 2.7
-        var DA = 0.4
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
-    }
-    else if(pelejanteA=="argBOC"){//Boca Juniors
-        var SPIA = 62.0
-        var AA = 1.5
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
-    }
-    else if(pelejanteA=="argIND"){//Independiente
-        var SPIA = 49.3
-        var AA = 1.3
-        var DA = 1.2
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
-    }
-    else if(pelejanteA=="argNOB"){//Newell's Old Boys
-        var SPIA = 47.7
-        var AA = 1.2
-        var DA = 1.1
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
-    }
-    else if(pelejanteA=="argRAC"){//Racing
-        var SPIA = 51.2
-        var AA = 1.4
-        var DA = 1.1
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/2/29/Racing_Club_%282014%29.svg"
-    }
-    else if(pelejanteA=="argRIV"){//River Plate
-        var SPIA = 67.9
-        var AA = 1.9
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
-    }
-    else if(pelejanteA=="argVEL"){//Vélez Sarsfield
-        var SPIA = 50.1
-        var AA = 1.3
-        var DA = 1.1
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
-    }
-    else if(pelejanteA=="GER"){//Alemanha
-        var SPIA = 88.4
-        var AA = 3.1
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
-    }
-    else if(pelejanteA=="SAU"){//Arábia Saudita
-        var SPIA = 51.9
-        var AA = 1.5
-        var DA = 1.2
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
-    }
-    else if(pelejanteA=="ARG"){//Argentina
-        var SPIA = 85.2
-        var AA = 2.6
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
-    }
-    else if(pelejanteA=="AUS"){//Austrália
-        var SPIA = 63.4
-        var AA = 1.8
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
-    }
-    else if(pelejanteA=="BEL"){//Bélgica
-        var SPIA = 87.3
-        var AA = 3.0
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
-    }
-    else if(pelejanteA=="BRA"){//Brasil
-        var SPIA = 91.04
-        var AA = 2.92
-        var DA = 0.34
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
-    }
-    else if(pelejanteA=="CHI"){//Chile
-        var SPIA = 76.14
-        var AA = 2.16
-        var DA = 0.69
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
-    }
-    else if(pelejanteA=="COL"){//Colômbia
-        var SPIA = 80.3
-        var AA = 2.1
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
-    }
-    else if(pelejanteA=="KOR"){//Coréia do Sul
-        var SPIA = 62.6
-        var AA = 1.7
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
-    }
-    else if(pelejanteA=="CRC"){//Costa Rica
-        var SPIA = 65.1
-        var AA = 1.7
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
-    }
-    else if(pelejanteA=="CRO"){//Croácia
-        var SPIA = 83.3
-        var AA = 2.6
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
-    }
-    else if(pelejanteA=="DEN"){//Dinamarca
-        var SPIA = 73.2
-        var AA = 2.0
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
-    }
-    else if(pelejanteA=="EGY"){//Egito
-        var SPIA = 58.9
-        var AA = 1.6
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
-    }
-    else if(pelejanteA=="SPA"){//Espanha
-        var SPIA = 91.1
-        var AA = 3.3
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
-    }
-    else if(pelejanteA=="USA"){//Estados Unidos da América
-        var SPIA = 69.75
-        var AA = 1.88
-        var DA = 0.77
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
-    }
-    else if(pelejanteA=="FRA"){//França
-        var SPIA = 88.6
-        var AA = 2.9
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
-    }
-    else if(pelejanteA=="ENG"){//Inglaterra
-        var SPIA = 85.36
-        var AA = 2.64
-        var DA = 0.54
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
-    }
-    else if(pelejanteA=="IRA"){//Irã
-        var SPIA = 67.7
-        var AA = 1.6
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
-    }
-    else if(pelejanteA=="ISL"){//Islândia
-        var SPIA = 67.9
-        var AA = 2.0
-        var DA = 0.9
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
-    }
-    else if(pelejanteA=="JAP"){//Japão
-        var SPIA = 83.1
-        var AA = 2.4
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
-    }
-    else if(pelejanteA=="MAR"){//Marrocos
-        var SPIA = 72.3
-        var AA = 1.9
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
-    }
-    else if(pelejanteA=="MEX"){//México
-        var SPIA = 74.3
-        var AA = 2.1
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
-    }
-    else if(pelejanteA=="USA"){//Nigéria
-        var SPIA = 71.1
-        var AA = 2.1
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
-    }
-    else if(pelejanteA=="PAN"){//Panamá
-        var SPIA = 53.2
-        var AA = 1.5
-        var DA = 1.1
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
-    }
-    else if(pelejanteA=="PER"){//Peru
-        var SPIA = 71.6
-        var AA = 1.9
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/per"
-    }
-    else if(pelejanteA=="POL"){//Polônia
-        var SPIA = 71.1
-        var AA = 2.1
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
-    }
-    else if(pelejanteA=="POR"){//Portugal
-        var SPIA = 82.5
-        var AA = 2.4
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
-    }
-    else if(pelejanteA=="RUS"){//Rússia
-        var SPIA = 70.6
-        var AA = 2.0
-        var DA = 0.8
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
-    }
-    else if(pelejanteA=="SEN"){//Senegal
-        var SPIA = 67.4
-        var AA = 1.7
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
-    }
-    else if(pelejanteA=="SER"){//Sérvia
-        var SPIA = 73.0
-        var AA = 2.0
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
-    }
-    else if(pelejanteA=="SWI"){//Suiça
-        var SPIA = 77.1
-        var AA = 2.3
-        var DA = 0.7
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
-    }
-    else if(pelejanteA=="SWE"){//Suécia
-        var SPIA = 75.8
-        var AA = 2.1
-        var DA = 0.6
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
-    }
-    else if(pelejanteA=="TUN"){//Tunísia
-        var SPIA = 61.9
-        var AA = 1.8
-        var DA = 1.0
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
-    }
-    else if(pelejanteA=="URU"){//Uruguai
-        var SPIA = 81.2
-        var AA = 2.3
-        var DA = 0.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
-    }
-    else if(pelejanteA=="ECU"){//Equador
-        var SPIA = 68.42
-        var AA = 1.81
-        var DA = 0.78
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ecu"
-    }
-    else if(pelejanteA=="PAR"){//Paraguai
-        var SPIA = 67.8
-        var AA = 1.84
-        var DA = 0.82
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/par"
-    }
-    else if(pelejanteA=="VEN"){//Venezuela
-        var SPIA = 67.8
-        var AA = 1.84
-        var DA = 0.82
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ven"
-    }
-    else if(pelejanteA=="BOL"){//Bolívia
-        var SPIA = 52.93
-        var AA = 1.47
-        var DA = 1.13
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bol"
-    }
-    else if(pelejanteA=="AUT"){//Austria
-        var SPIA = 74.48
-        var AA = 2.06
-        var DA = 0.70
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
-    }
-    else if(pelejanteA=="UKR"){//Ucrânia
-        var SPIA = 72.58
-        var AA = 1.95
-        var DA = 0.71
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
-    }
-    else if(pelejanteA=="ALG"){//Argélia
-        var SPIA = 70.27
-        var AA = 1.96
-        var DA = 0.81
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
-    }
-    else if(pelejanteA=="GHA"){//Gana
-        var SPIA = 69.93
-        var AA = 1.64
-        var DA = 0.58
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
-    }
-    else if(pelejanteA=="NOR"){//Noruega
-        var SPIA = 68.99
-        var AA = 1.87
-        var DA = 0.80
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
-    }
-    else if(pelejanteA=="CZE"){//Tchéquia
-        var SPIA = 68.53
-        var AA = 1.92
-        var DA = 0.86
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
-    }
-    else if(pelejanteA=="TUR"){//Turquia
-        var SPIA = 68.43
-        var AA = 1.90
-        var DA = 0.84
-        document.getElementById('escudodacasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
-    }
-    else if(pelejanteA=="gerEIN"){//Eintracht Frankfurt
-        var SPIA = 72.66
-        var AA = 2
-        var DA = 0.79
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
-    }
-    else if(pelejanteA=="spaRSO"){//Real Sociedad
-        var SPIA = 76.33
-        var AA = 2.07
-        var DA = 0.67
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
-    }
-    else if(pelejanteA=="spaBIL"){//Athletic Bilbao
-        var SPIA = 75.44
-        var AA = 1.8
-        var DA = 0.53
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
-    }
-    else if(pelejanteA=="spaGET"){//Getafe
-        var SPIA = 74.87
-        var AA = 1.88
-        var DA = 0.61
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
-    }
-    else if(pelejanteA=="spaVAL"){//Valencia
-        var SPIA = 74.32
-        var AA = 2.13
-        var DA = 0.80
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
-    }
-    else if(pelejanteA=="argBAN"){//Banfield
-        var SPIA = 45.36
-        var AA = 1.16
-        var DA = 1.16
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
-    }
-    else if(pelejanteA=="argSLO"){//San Lorenzo
-        var SPIA = 45.18
-        var AA = 1.18
-        var DA = 1.19
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
-    }
-    else if(pelejanteA=="spaVIL"){//Villarreal
-        var SPIA = 73.74
-        var AA = 2.12
-        var DA = 0.82
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
-    }
-    else if(pelejanteA=="spaEIB"){//Eibar
-        var SPIA = 73.46
-        var AA = 1.87
-        var DA = 0.66
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
-    }
-    else if(pelejanteA=="spaOSA"){//Osasuna
-        var SPIA = 69.25
-        var AA = 1.72
-        var DA = 0.72
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
-    }
-    else if(pelejanteA=="spaGRA"){//Granada
-        var SPIA = 69.13
-        var AA = 1.76
-        var DA = 0.75
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
-    }
-    else if(pelejanteA=="spaBET"){//Real Betis
-        var SPIA = 68.7
-        var AA = 1.93
-        var DA = 0.91
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
-    }
-    else if(pelejanteA=="spaLEG"){//Leganes
-        var SPIA = 68.09
-        var AA = 1.61
-        var DA = 0.68
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
-    }
-    else if(pelejanteA=="spaCEL"){//Celta de Vigo
-        var SPIA = 66.63
-        var AA = 1.81
-        var DA = 0.89
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
-    }
-    else if(pelejanteA=="spaESP"){//Espanyol
-        var SPIA = 66.52
-        var AA = 1.76
-        var DA = 0.86
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
-    }
-    else if(pelejanteA=="spaALA"){//Alavés
-        var SPIA = 65.02
-        var AA = 1.59
-        var DA = 0.78
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
-    }
-    else if(pelejanteA=="spaLEV"){//Levante
-        var SPIA = 64.72
-        var AA = 1.94
-        var DA = 1.08
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
-    }
-    else if(pelejanteA=="spaRVA"){//Real Valladolid
-        var SPIA = 64.35
-        var AA = 1.66
-        var DA = 0.86
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
-    }
-    else if(pelejanteA=="spaMAL"){//Mallorca
-        var SPIA = 61.7
-        var AA = 1.66
-        var DA = 0.97
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
-    }
-    else if(pelejanteA=="engLUFC"){//Leeds
-        var SPIA = 67.62
-        var AA = 1.78
-        var DA = 0.83
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
-    }
-    else if(pelejanteA=="usaLAFC"){//Los Angeles FC
-        var SPIA = 60.7
-        var AA = 2.04
-        var DA = 1.34
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
-    }
-    else if(pelejanteA=="usaATL"){//Atlanta United FC
-        var SPIA = 48.61
-        var AA = 1.53
-        var DA = 1.41
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
-    }
-    else if(pelejanteA=="usaNYC"){//New York City FC
-        var SPIA = 47.8
-        var AA = 1.52
-        var DA = 1.44
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
-    }
-    else if(pelejanteA=="usaPHI"){//Philadelphia Union
-        var SPIA = 45.98
-        var AA = 1.49
-        var DA = 1.49
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
-    }
-    else if(pelejanteA=="braSPO"){//Sport Recife (w)
-        var SPIA = 37.8
-        var AA = 1.1
-        var DA = 1.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
-    }
-    else if(pelejanteA=="braAMG"){//América Mineiro (2018)
-        var SPIA = 43.6
-        var AA = 1.1
-        var DA = 1.2
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
-    }
-    else if(pelejanteA=="braCTB"){//Coritiba (2017)
-        var SPIA = 43.2
-        var AA = 1.2
-        var DA = 1.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
-    }
-    else if(pelejanteA=="braAAPP"){//Ponte Preta (2017)
-        var SPIA = 38.9
-        var AA = 1.1
-        var DA = 1.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
-    }
-    else if(pelejanteA=="braPAR"){//Paraná (2018)
-        var SPIA = 33.2
-        var AA = 0.9
-        var DA = 1.4
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
-    }
-    else if(pelejanteA=="braVIT"){//Vitória (w)
-        var SPIA = 29.8
-        var AA = 1.1
-        var DA = 1.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
-    }
-    else if(pelejanteA=="braAGO"){//Atlético Goianiense (2017)
-        var SPIA = 40.6
-        var AA = 1.1
-        var DA = 1.3
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
-    }
-    else if(pelejanteA=="usaGAL"){//LA Galaxy
-        var SPIA = 42.04
-        var AA = 1.71
-        var DA = 1.93
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
-    }
-    else if(pelejanteA=="canTOR"){//Toronto
-        var SPIA = 43.62
-        var AA = 1.47
-        var DA = 1.58
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
-    }
-    else if(pelejanteA=="usaNYRB"){//New York Red Bulls
-        var SPIA = 43.51
-        var AA = 1.43
-        var DA = 1.54
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
-    }
-    else if(pelejanteA=="usaCHI"){//Chicago Fire
-        var SPIA = 43.06
-        var AA = 1.37
-        var DA = 1.49
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
-    }
-    else if(pelejanteA=="usaSJE"){//San Jose Earthquakes
-        var SPIA = 40.81
-        var AA = 1.42
-        var DA = 1.66
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
-    }
-    else if(pelejanteA=="usaSEA"){//Seattle Sounders
-        var SPIA = 40.61
-        var AA = 1.32
-        var DA = 1.55
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
-    }
-    else if(pelejanteA=="usaPOR"){//Portland Timbers
-        var SPIA = 40.29
-        var AA = 1.42
-        var DA = 1.69
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
-    }
-    else if(pelejanteA=="usaSPO"){//Sporting KC
-        var SPIA = 39.93
-        var AA = 1.4
-        var DA = 1.69
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
-    }
-    else if(pelejanteA=="usaMIN"){//Minnesota United FC
-        var SPIA = 39.02
-        var AA = 1.29
-        var DA = 1.61
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
-    }
-    else if(pelejanteA=="usaDAL"){//FC Dallas
-        var SPIA = 38.32
-        var AA = 1.24
-        var DA = 1.58
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
-    }
-    else if(pelejanteA=="usaCREW"){//Columbus Crew
-        var SPIA = 37.48
-        var AA = 1.13
-        var DA = 1.48
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
-    }
-    else if(pelejanteA=="usaRSL"){//Real Salt Lake
-        var SPIA = 37.3
-        var AA = 1.03
-        var DA = 1.37
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
-    }
-    else if(pelejanteA=="usaNER"){//New England Revolution
-        var SPIA = 36.89
-        var AA = 1.36
-        var DA = 1.79
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
-    }
-    else if(pelejanteA=="usaCOL"){//Colorado Rapids
-        var SPIA = 36.37
-        var AA = 1.35
-        var DA = 1.81
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
-    }
-    else if(pelejanteA=="usaDCU"){//DC United
-        var SPIA = 34.45
-        var AA = 1.13
-        var DA = 1.64
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
-    }
-    else if(pelejanteA=="usaORL"){//Orlando City SC
-        var SPIA = 33.6
-        var AA = 1.15
-        var DA = 1.71
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/8/87/Orlando_City_2012.svg.png"
-    }
-    else if(pelejanteA=="usaHOU"){//Houston Dynamo
-        var SPIA = 34.88
-        var AA = 1.21
-        var DA = 1.71
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
-    }
-    else if(pelejanteA=="canMON"){//Montreal Impact
-        var SPIA = 30.51
-        var AA = 1.09
-        var DA = 1.81
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
-    }
-    else if(pelejanteA=="canVAN"){//Vancouver Whitecaps
-        var SPIA = 24.95
-        var AA = 0.96
-        var DA = 1.97
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
-    }
-    else if(pelejanteA=="usaCIN"){//FC Cincinnati
-        var SPIA = 22.16
-        var AA = 0.87
-        var DA = 2.02
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
-    }
-    else if(pelejanteA=="CAN"){//Canadá
-        var SPIA = 57.25
-        var AA = 1.7
-        var DA = 1.16
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
-    }
-    else if(pelejanteA=="braRBB"){//Red Bull Brasil
-        var SPIA = 41.58
-        var AA = 1.1
-        var DA = 1.5
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
-    }
-    else if(pelejanteA=="ITA"){//Itália
-        var SPIA = 81.95
-        var AA = 2.26
-        var DA = 0.49
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
-    }
-    else if(pelejanteA=="HAI"){//Haiti
-        var SPIA = 51.6
-        var AA = 1.47
-        var DA = 1.19
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
-    }
-    else if(pelejanteA=="NZL"){//Nova Zelânia
-        var SPIA = 51.6
-        var AA = 1.47
-        var DA = 1.19
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
+    else if(PELcasa=="braPAL"){//Palmeiras
+        var Pcasa = 69.0
+        var Acasa = 1.7
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+    }
+    else if(PELcasa=="braSAN"){//Santos
+        var Pcasa = 60.6
+        var Acasa = 1.6
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
+    }
+    else if(PELcasa=="braSPFC"){//São Paulo
+        var Pcasa = 57.4
+        var Acasa = 1.3
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
+    }
+    else if(PELcasa=="braVAS"){//Vasco
+        var Pcasa = 50.1
+        var Acasa = 1.4
+        var Dcasa = 1.2
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
+    }
+    else if(PELcasa=="engARS"){//Arsenal
+        var Pcasa = 79.3
+        var Acasa = 2.4
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
+    }
+    else if(PELcasa=="engAST"){//Aston Villa
+        var Pcasa = 64.1
+        var Acasa = 1.7
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
+    }
+    else if(PELcasa=="engBOU"){//Bournemouth
+        var Pcasa = 68.5
+        var Acasa = 2.1
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
+    }
+    else if(PELcasa=="engBRI"){//Brighton
+        var Pcasa = 65.8
+        var Acasa = 1.7
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+    }
+    else if(PELcasa=="engBUR"){//Burnley
+        var Pcasa = 69.8
+        var Acasa = 1.9
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
+    }
+    else if(PELcasa=="engCHE"){//Chelsea
+        var Pcasa = 85.0
+        var Acasa = 2.5
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
+    }
+    else if(PELcasa=="engCRY"){//Crystal Palace
+        var Pcasa = 70.4
+        var Acasa = 1.9
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
+    }
+    else if(PELcasa=="engEVE"){//Everton
+        var Pcasa = 76.8
+        var Acasa = 2.0
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
+    }
+    else if(PELcasa=="engLEI"){//Leicester
+        var Pcasa = 79.2
+        var Acasa = 2.0
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
+    }
+    else if(PELcasa=="engLIV"){//Liverpool
+        var Pcasa = 92.3
+        var Acasa = 2.9
+        var Dcasa = 0.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
+    }
+    else if(PELcasa=="engMANC"){//Manchester City
+        var Pcasa = 95.8
+        var Acasa = 3.4
+        var Dcasa = 0.2
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
+    }
+    else if(PELcasa=="engMANU"){//Manchester United
+        var Pcasa = 81.8
+        var Acasa = 2.2
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
+    }
+    else if(PELcasa=="engNEW"){//Newcastle
+        var Pcasa = 65.8
+        var Acasa = 1.7
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
+    }
+    else if(PELcasa=="engNOR"){//Norwich
+        var Pcasa = 63.2
+        var Acasa = 1.8
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
+    }
+    else if(PELcasa=="engSHEU"){//Sheffield United
+        var Pcasa = 65.5
+        var Acasa = 1.7
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
+    }
+    else if(PELcasa=="engSOU"){//Southampton
+        var Pcasa = 70.7
+        var Acasa = 1.9
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
+    }
+    else if(PELcasa=="engTOT"){//Tottenham
+        var Pcasa = 82.6
+        var Acasa = 2.4
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
+    }
+    else if(PELcasa=="engWAT"){//Watford
+        var Pcasa = 65.9
+        var Acasa = 2.0
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
+    }
+    else if(PELcasa=="engWHU"){//West Ham United
+        var Pcasa = 70.0
+        var Acasa = 2.0
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
+    }
+    else if(PELcasa=="engWOL"){//Wolves
+        var Pcasa = 71.9
+        var Acasa = 1.9
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+    }
+    else if(PELcasa=="itiATA"){//Atalanta
+        var Pcasa = 70.4
+        var Acasa = 2.0
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
+    }
+    else if(PELcasa=="itiFIO"){//Fiorentina
+        var Pcasa = 69.8
+        var Acasa = 2.0
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
+    }
+    else if(PELcasa=="itiINT"){//Internazionali
+        var Pcasa = 80.2
+        var Acasa = 2.2
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
+    }
+    else if(PELcasa=="itiJUV"){//Juventus
+        var Pcasa = 87.3
+        var Acasa = 2.6
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
+    }
+    else if(PELcasa=="itiLAZ"){//Lazio
+        var Pcasa = 72.0
+        var Acasa = 2.0
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
+    }
+    else if(PELcasa=="itiMIL"){//Milan
+        var Pcasa = 73.1
+        var Acasa = 2.0
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+    }
+    else if(PELcasa=="itiNAP"){//Napoli
+        var Pcasa = 82.3
+        var Acasa = 2.4
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+    }
+    else if(PELcasa=="itiROM"){//Roma
+        var Pcasa = 73.1
+        var Acasa = 2.1
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
+    }
+    else if(PELcasa=="gerBAY"){//Bayern
+        var Pcasa = 93.7
+        var Acasa = 3.3
+        var Dcasa = 0.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
+    }
+    else if(PELcasa=="gerDOR"){//Dortmund
+        var Pcasa = 84.4
+        var Acasa = 2.6
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+    }
+    else if(PELcasa=="gerHOF"){//Hoffenheim
+        var Pcasa = 81.1
+        var Acasa = 2.3
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+    }
+    else if(PELcasa=="gerLEV"){//Leverkusen
+        var Pcasa = 71.6
+        var Acasa = 2.2
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
+    }
+    else if(PELcasa=="gerRBL"){//Red Bull Leipzig
+        var Pcasa = 81.4
+        var Acasa = 2.3
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
+    }
+    else if(PELcasa=="gerSCH"){//Schalke 04
+        var Pcasa = 72.9
+        var Acasa = 2.0
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+    }
+    else if(PELcasa=="gerWER"){//Werder Bremen
+        var Pcasa = 69.1
+        var Acasa = 2.0
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
+    }
+    else if(PELcasa=="gerWOL"){//Wolfsburg
+        var Pcasa = 72.0
+        var Acasa = 1.9
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
+    }
+    else if(PELcasa=="spaATL"){//Atlético Madrid
+        var Pcasa = 84.9
+        var Acasa = 2.2
+        var Dcasa = 0.4
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
+    }
+    else if(PELcasa=="catBAR"){//Barcelona
+        var Pcasa = 89.1
+        var Acasa = 2.8
+        var Dcasa = 0.4
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
+    }
+    else if(PELcasa=="spaMAD"){//Real Madrid
+        var Pcasa = 85.8
+        var Acasa = 2.6
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
+    }
+    else if(PELcasa=="spaSEV"){//Sevilla
+        var Pcasa = 78.4
+        var Acasa = 2.1
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
+    }
+    else if(PELcasa=="porBEN"){//Benfica
+        var Pcasa = 76.0
+        var Acasa = 2.2
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
+    }
+    else if(PELcasa=="porBRA"){//Braga
+        var Pcasa = 78.4
+        var Acasa = 2.1
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
+    }
+    else if(PELcasa=="porPOR"){//Porto
+        var Pcasa = 78.4
+        var Acasa = 2.2
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
+    }
+    else if(PELcasa=="porSPO"){//Sporting
+        var Pcasa = 64.3
+        var Acasa = 1.8
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
+    }
+    else if(PELcasa=="fraLIL"){//Lille
+        var Pcasa = 69.5
+        var Acasa = 1.8
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
+    }
+    else if(PELcasa=="fraOLY"){//Lyonnais, Olympique
+        var Pcasa = 72.1
+        var Acasa = 2.0
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
+    }
+    else if(PELcasa=="fraMAR"){//Marseille
+        var Pcasa = 66.2
+        var Acasa = 1.7
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
+    }
+    else if(PELcasa=="fraPSG"){//Paris Saint-Germain
+        var Pcasa = 88.9
+        var Acasa = 2.7
+        var Dcasa = 0.4
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
+    }
+    else if(PELcasa=="argBOC"){//Boca Juniors
+        var Pcasa = 62.0
+        var Acasa = 1.5
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
+    }
+    else if(PELcasa=="argIND"){//Independiente
+        var Pcasa = 49.3
+        var Acasa = 1.3
+        var Dcasa = 1.2
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+    }
+    else if(PELcasa=="argNOB"){//Newell's Old Boys
+        var Pcasa = 47.7
+        var Acasa = 1.2
+        var Dcasa = 1.1
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
+    }
+    else if(PELcasa=="argRAC"){//Racing
+        var Pcasa = 51.2
+        var Acasa = 1.4
+        var Dcasa = 1.1
+        document.getElementById('ESCcasa').src="https://www.racingclub.com.ar/img/escudo.png"
+    }
+    else if(PELcasa=="argRIV"){//River Plate
+        var Pcasa = 67.9
+        var Acasa = 1.9
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
+    }
+    else if(PELcasa=="argVEL"){//Vélez Sarsfield
+        var Pcasa = 50.1
+        var Acasa = 1.3
+        var Dcasa = 1.1
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
+    }
+    else if(PELcasa=="GER"){//Alemanha
+        var Pcasa = 88.4
+        var Acasa = 3.1
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
+    }
+    else if(PELcasa=="SAU"){//Arábia Saudita
+        var Pcasa = 51.9
+        var Acasa = 1.5
+        var Dcasa = 1.2
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
+    }
+    else if(PELcasa=="ARG"){//Argentina
+        var Pcasa = 85.2
+        var Acasa = 2.6
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
+    }
+    else if(PELcasa=="AUS"){//Austrália
+        var Pcasa = 63.4
+        var Acasa = 1.8
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
+    }
+    else if(PELcasa=="BEL"){//Bélgica
+        var Pcasa = 87.3
+        var Acasa = 3.0
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
+    }
+    else if(PELcasa=="BRA"){//Brasil
+        var Pcasa = 91.04
+        var Acasa = 2.92
+        var Dcasa = 0.34
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
+    }
+    else if(PELcasa=="CHI"){//Chile
+        var Pcasa = 76.14
+        var Acasa = 2.16
+        var Dcasa = 0.69
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
+    }
+    else if(PELcasa=="COL"){//Colômbia
+        var Pcasa = 80.3
+        var Acasa = 2.1
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
+    }
+    else if(PELcasa=="KOR"){//Coréia do Sul
+        var Pcasa = 62.6
+        var Acasa = 1.7
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
+    }
+    else if(PELcasa=="CRC"){//Costa Rica
+        var Pcasa = 65.1
+        var Acasa = 1.7
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
+    }
+    else if(PELcasa=="CRO"){//Croácia
+        var Pcasa = 83.3
+        var Acasa = 2.6
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
+    }
+    else if(PELcasa=="DEN"){//Dinamarca
+        var Pcasa = 73.2
+        var Acasa = 2.0
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
+    }
+    else if(PELcasa=="EGY"){//Egito
+        var Pcasa = 58.9
+        var Acasa = 1.6
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
+    }
+    else if(PELcasa=="SPA"){//Espanha
+        var Pcasa = 91.1
+        var Acasa = 3.3
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
+    }
+    else if(PELcasa=="USA"){//Estados Unidos da América
+        var Pcasa = 69.75
+        var Acasa = 1.88
+        var Dcasa = 0.77
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
+    }
+    else if(PELcasa=="FRA"){//França
+        var Pcasa = 88.6
+        var Acasa = 2.9
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
+    }
+    else if(PELcasa=="ENG"){//Inglaterra
+        var Pcasa = 85.36
+        var Acasa = 2.64
+        var Dcasa = 0.54
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
+    }
+    else if(PELcasa=="IRA"){//Irã
+        var Pcasa = 67.7
+        var Acasa = 1.6
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
+    }
+    else if(PELcasa=="ISL"){//Islândia
+        var Pcasa = 67.9
+        var Acasa = 2.0
+        var Dcasa = 0.9
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
+    }
+    else if(PELcasa=="JAP"){//Japão
+        var Pcasa = 83.1
+        var Acasa = 2.4
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
+    }
+    else if(PELcasa=="MAR"){//Marrocos
+        var Pcasa = 72.3
+        var Acasa = 1.9
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
+    }
+    else if(PELcasa=="MEX"){//México
+        var Pcasa = 74.3
+        var Acasa = 2.1
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
+    }
+    else if(PELcasa=="USA"){//Nigéria
+        var Pcasa = 71.1
+        var Acasa = 2.1
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
+    }
+    else if(PELcasa=="PAN"){//Panamá
+        var Pcasa = 53.2
+        var Acasa = 1.5
+        var Dcasa = 1.1
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
+    }
+    else if(PELcasa=="PER"){//Peru
+        var Pcasa = 71.6
+        var Acasa = 1.9
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/per"
+    }
+    else if(PELcasa=="POL"){//Polônia
+        var Pcasa = 71.1
+        var Acasa = 2.1
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
+    }
+    else if(PELcasa=="POR"){//Portugal
+        var Pcasa = 82.5
+        var Acasa = 2.4
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
+    }
+    else if(PELcasa=="RUS"){//Rússia
+        var Pcasa = 70.6
+        var Acasa = 2.0
+        var Dcasa = 0.8
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
+    }
+    else if(PELcasa=="SEN"){//Senegal
+        var Pcasa = 67.4
+        var Acasa = 1.7
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
+    }
+    else if(PELcasa=="SER"){//Sérvia
+        var Pcasa = 73.0
+        var Acasa = 2.0
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
+    }
+    else if(PELcasa=="SWI"){//Suiça
+        var Pcasa = 77.1
+        var Acasa = 2.3
+        var Dcasa = 0.7
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
+    }
+    else if(PELcasa=="SWE"){//Suécia
+        var Pcasa = 75.8
+        var Acasa = 2.1
+        var Dcasa = 0.6
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
+    }
+    else if(PELcasa=="TUN"){//Tunísia
+        var Pcasa = 61.9
+        var Acasa = 1.8
+        var Dcasa = 1.0
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
+    }
+    else if(PELcasa=="URU"){//Uruguai
+        var Pcasa = 81.2
+        var Acasa = 2.3
+        var Dcasa = 0.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
+    }
+    else if(PELcasa=="ECU"){//Equador
+        var Pcasa = 68.42
+        var Acasa = 1.81
+        var Dcasa = 0.78
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ecu"
+    }
+    else if(PELcasa=="PAR"){//Paraguai
+        var Pcasa = 67.8
+        var Acasa = 1.84
+        var Dcasa = 0.82
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/par"
+    }
+    else if(PELcasa=="VEN"){//Venezuela
+        var Pcasa = 67.8
+        var Acasa = 1.84
+        var Dcasa = 0.82
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ven"
+    }
+    else if(PELcasa=="BOL"){//Bolívia
+        var Pcasa = 52.93
+        var Acasa = 1.47
+        var Dcasa = 1.13
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bol"
+    }
+    else if(PELcasa=="AUT"){//Austria
+        var Pcasa = 74.48
+        var Acasa = 2.06
+        var Dcasa = 0.70
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
+    }
+    else if(PELcasa=="UKR"){//Ucrânia
+        var Pcasa = 72.58
+        var Acasa = 1.95
+        var Dcasa = 0.71
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
+    }
+    else if(PELcasa=="ALG"){//Argélia
+        var Pcasa = 70.27
+        var Acasa = 1.96
+        var Dcasa = 0.81
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
+    }
+    else if(PELcasa=="GHA"){//Gana
+        var Pcasa = 69.93
+        var Acasa = 1.64
+        var Dcasa = 0.58
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
+    }
+    else if(PELcasa=="NOR"){//Noruega
+        var Pcasa = 68.99
+        var Acasa = 1.87
+        var Dcasa = 0.80
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
+    }
+    else if(PELcasa=="CZE"){//Tchéquia
+        var Pcasa = 68.53
+        var Acasa = 1.92
+        var Dcasa = 0.86
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
+    }
+    else if(PELcasa=="TUR"){//Turquia
+        var Pcasa = 68.43
+        var Acasa = 1.90
+        var Dcasa = 0.84
+        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
+    }
+    else if(PELcasa=="gerEIN"){//Eintracht Frankfurt
+        var Pcasa = 72.66
+        var Acasa = 2
+        var Dcasa = 0.79
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+    }
+    else if(PELcasa=="spaRSO"){//Real Sociedad
+        var Pcasa = 76.33
+        var Acasa = 2.07
+        var Dcasa = 0.67
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
+    }
+    else if(PELcasa=="spaBIL"){//Athletic Bilbao
+        var Pcasa = 75.44
+        var Acasa = 1.8
+        var Dcasa = 0.53
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
+    }
+    else if(PELcasa=="spaGET"){//Getafe
+        var Pcasa = 74.87
+        var Acasa = 1.88
+        var Dcasa = 0.61
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
+    }
+    else if(PELcasa=="spaVAL"){//Valencia
+        var Pcasa = 74.32
+        var Acasa = 2.13
+        var Dcasa = 0.80
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
+    }
+    else if(PELcasa=="argBAN"){//Banfield
+        var Pcasa = 45.36
+        var Acasa = 1.16
+        var Dcasa = 1.16
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
+    }
+    else if(PELcasa=="argSLO"){//San Lorenzo
+        var Pcasa = 45.18
+        var Acasa = 1.18
+        var Dcasa = 1.19
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
+    }
+    else if(PELcasa=="spaVIL"){//Villarreal
+        var Pcasa = 73.74
+        var Acasa = 2.12
+        var Dcasa = 0.82
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
+    }
+    else if(PELcasa=="spaEIB"){//Eibar
+        var Pcasa = 73.46
+        var Acasa = 1.87
+        var Dcasa = 0.66
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
+    }
+    else if(PELcasa=="spaOSA"){//Osasuna
+        var Pcasa = 69.25
+        var Acasa = 1.72
+        var Dcasa = 0.72
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
+    }
+    else if(PELcasa=="spaGRA"){//Granada
+        var Pcasa = 69.13
+        var Acasa = 1.76
+        var Dcasa = 0.75
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
+    }
+    else if(PELcasa=="spaBET"){//Real Betis
+        var Pcasa = 68.7
+        var Acasa = 1.93
+        var Dcasa = 0.91
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
+    }
+    else if(PELcasa=="spaLEG"){//Leganes
+        var Pcasa = 68.09
+        var Acasa = 1.61
+        var Dcasa = 0.68
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
+    }
+    else if(PELcasa=="spaCEL"){//Celta de Vigo
+        var Pcasa = 66.63
+        var Acasa = 1.81
+        var Dcasa = 0.89
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
+    }
+    else if(PELcasa=="spaESP"){//Espanyol
+        var Pcasa = 66.52
+        var Acasa = 1.76
+        var Dcasa = 0.86
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
+    }
+    else if(PELcasa=="spaALA"){//Alavés
+        var Pcasa = 65.02
+        var Acasa = 1.59
+        var Dcasa = 0.78
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
+    }
+    else if(PELcasa=="spaLEV"){//Levante
+        var Pcasa = 64.72
+        var Acasa = 1.94
+        var Dcasa = 1.08
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
+    }
+    else if(PELcasa=="spaRVA"){//Real Valladolid
+        var Pcasa = 64.35
+        var Acasa = 1.66
+        var Dcasa = 0.86
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
+    }
+    else if(PELcasa=="spaMAL"){//Mallorca
+        var Pcasa = 61.7
+        var Acasa = 1.66
+        var Dcasa = 0.97
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
+    }
+    else if(PELcasa=="engLUFC"){//Leeds
+        var Pcasa = 67.62
+        var Acasa = 1.78
+        var Dcasa = 0.83
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
+    }
+    else if(PELcasa=="usaLAFC"){//Los Angeles FC
+        var Pcasa = 60.7
+        var Acasa = 2.04
+        var Dcasa = 1.34
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
+    }
+    else if(PELcasa=="usaATL"){//Atlanta United FC
+        var Pcasa = 48.61
+        var Acasa = 1.53
+        var Dcasa = 1.41
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
+    }
+    else if(PELcasa=="usaNYC"){//New York City FC
+        var Pcasa = 47.8
+        var Acasa = 1.52
+        var Dcasa = 1.44
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
+    }
+    else if(PELcasa=="usaPHI"){//Philadelphia Union
+        var Pcasa = 45.98
+        var Acasa = 1.49
+        var Dcasa = 1.49
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
+    }
+    else if(PELcasa=="braSPO"){//Sport Recife (w)
+        var Pcasa = 37.8
+        var Acasa = 1.1
+        var Dcasa = 1.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
+    }
+    else if(PELcasa=="braAMG"){//América Mineiro (2018)
+        var Pcasa = 43.6
+        var Acasa = 1.1
+        var Dcasa = 1.2
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
+    }
+    else if(PELcasa=="braCTB"){//Coritiba (2017)
+        var Pcasa = 43.2
+        var Acasa = 1.2
+        var Dcasa = 1.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
+    }
+    else if(PELcasa=="braAAPP"){//Ponte Preta (2017)
+        var Pcasa = 38.9
+        var Acasa = 1.1
+        var Dcasa = 1.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
+    }
+    else if(PELcasa=="braPAR"){//Paraná (2018)
+        var Pcasa = 33.2
+        var Acasa = 0.9
+        var Dcasa = 1.4
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
+    }
+    else if(PELcasa=="braVIT"){//Vitória (w)
+        var Pcasa = 29.8
+        var Acasa = 1.1
+        var Dcasa = 1.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
+    }
+    else if(PELcasa=="braAGO"){//Atlético Goianiense (2017)
+        var Pcasa = 40.6
+        var Acasa = 1.1
+        var Dcasa = 1.3
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
+    }
+    else if(PELcasa=="usaGAL"){//LA Galaxy
+        var Pcasa = 42.04
+        var Acasa = 1.71
+        var Dcasa = 1.93
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
+    }
+    else if(PELcasa=="canTOR"){//Toronto
+        var Pcasa = 43.62
+        var Acasa = 1.47
+        var Dcasa = 1.58
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
+    }
+    else if(PELcasa=="usaNYRB"){//New York Red Bulls
+        var Pcasa = 43.51
+        var Acasa = 1.43
+        var Dcasa = 1.54
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
+    }
+    else if(PELcasa=="usaCHI"){//Chicago Fire
+        var Pcasa = 43.06
+        var Acasa = 1.37
+        var Dcasa = 1.49
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
+    }
+    else if(PELcasa=="usaSJE"){//San Jose Earthquakes
+        var Pcasa = 40.81
+        var Acasa = 1.42
+        var Dcasa = 1.66
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
+    }
+    else if(PELcasa=="usaSEA"){//Seattle Sounders
+        var Pcasa = 40.61
+        var Acasa = 1.32
+        var Dcasa = 1.55
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
+    }
+    else if(PELcasa=="usaPOR"){//Portland Timbers
+        var Pcasa = 40.29
+        var Acasa = 1.42
+        var Dcasa = 1.69
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
+    }
+    else if(PELcasa=="usaSPO"){//Sporting KC
+        var Pcasa = 39.93
+        var Acasa = 1.4
+        var Dcasa = 1.69
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
+    }
+    else if(PELcasa=="usaMIN"){//Minnesota United FC
+        var Pcasa = 39.02
+        var Acasa = 1.29
+        var Dcasa = 1.61
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
+    }
+    else if(PELcasa=="usaDAL"){//FC Dallas
+        var Pcasa = 38.32
+        var Acasa = 1.24
+        var Dcasa = 1.58
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
+    }
+    else if(PELcasa=="usaCREW"){//Columbus Crew
+        var Pcasa = 37.48
+        var Acasa = 1.13
+        var Dcasa = 1.48
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
+    }
+    else if(PELcasa=="usaRSL"){//Real Salt Lake
+        var Pcasa = 37.3
+        var Acasa = 1.03
+        var Dcasa = 1.37
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
+    }
+    else if(PELcasa=="usaNER"){//New England Revolution
+        var Pcasa = 36.89
+        var Acasa = 1.36
+        var Dcasa = 1.79
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
+    }
+    else if(PELcasa=="usaCOL"){//Colorado Rapids
+        var Pcasa = 36.37
+        var Acasa = 1.35
+        var Dcasa = 1.81
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
+    }
+    else if(PELcasa=="usaDCU"){//DC United
+        var Pcasa = 34.45
+        var Acasa = 1.13
+        var Dcasa = 1.64
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
+    }
+    else if(PELcasa=="usaORL"){//Orlando City SC
+        var Pcasa = 33.6
+        var Acasa = 1.15
+        var Dcasa = 1.71
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/87/Orlando_City_2012.svg.png"
+    }
+    else if(PELcasa=="usaHOU"){//Houston Dynamo
+        var Pcasa = 34.88
+        var Acasa = 1.21
+        var Dcasa = 1.71
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
+    }
+    else if(PELcasa=="canMON"){//Montreal Impact
+        var Pcasa = 30.51
+        var Acasa = 1.09
+        var Dcasa = 1.81
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
+    }
+    else if(PELcasa=="canVAN"){//Vancouver Whitecaps
+        var Pcasa = 24.95
+        var Acasa = 0.96
+        var Dcasa = 1.97
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
+    }
+    else if(PELcasa=="usaCIN"){//FC Cincinnati
+        var Pcasa = 22.16
+        var Acasa = 0.87
+        var Dcasa = 2.02
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
+    }
+    else if(PELcasa=="CAN"){//Canadá
+        var Pcasa = 57.25
+        var Acasa = 1.7
+        var Dcasa = 1.16
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
+    }
+    else if(PELcasa=="braRBB"){//Red Bull Brasil
+        var Pcasa = 41.58
+        var Acasa = 1.1
+        var Dcasa = 1.5
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
+    }
+    else if(PELcasa=="ITA"){//Itália
+        var Pcasa = 81.95
+        var Acasa = 2.26
+        var Dcasa = 0.49
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
+    }
+    else if(PELcasa=="HAI"){//Haiti
+        var Pcasa = 51.6
+        var Acasa = 1.47
+        var Dcasa = 1.19
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
+    }
+    else if(PELcasa=="NZL"){//Nova Zelânia
+        var Pcasa = 51.6
+        var Acasa = 1.47
+        var Dcasa = 1.19
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
         molduradefora.style.backgroundColor = "#ffffff00"
     }
-    else if(pelejanteA=="QAT"){//Qatar
-        var SPIA = 58.07
-        var AA = 1.6
-        var DA = 1.03
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
+    else if(PELcasa=="QAT"){//Qatar
+        var Pcasa = 58.07
+        var Acasa = 1.6
+        var Dcasa = 1.03
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
     }
-    else if(pelejanteA=="nedAJA"){//Ajax
-        var SPIA = 83.89
-        var AA = 3.01
-        var DA = 0.89
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
+    else if(PELcasa=="nedAJA"){//Ajax
+        var Pcasa = 83.89
+        var Acasa = 3.01
+        var Dcasa = 0.89
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
     }
-    else if(pelejanteA=="autRBS"){//Red Bull Salzburg
-        var SPIA = 83.89
-        var AA = 3.01
-        var DA = 0.89
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
+    else if(PELcasa=="autRBS"){//Red Bull Salzburg
+        var Pcasa = 83.89
+        var Acasa = 3.01
+        var Dcasa = 0.89
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
     }
-    else if(pelejanteA=="rusZEN"){//Zenit
-        var SPIA = 75.7
-        var AA = 2.03
-        var DA = 0.68
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
+    else if(PELcasa=="rusZEN"){//Zenit
+        var Pcasa = 75.7
+        var Acasa = 2.03
+        var Dcasa = 0.68
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
         //molduradefora.style.backgroundColor = "#00000000"
     }
-    else if(pelejanteA=="nedPSV"){//PSV
-        var SPIA = 74.54
-        var AA = 2.35
-        var DA = 0.95
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
+    else if(PELcasa=="nedPSV"){//PSV
+        var Pcasa = 74.54
+        var Acasa = 2.35
+        var Dcasa = 0.95
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
     }
-    else if(pelejanteA=="NED"){//Holanda
-        var SPIA = 86.15
-        var AA = 2.79
-        var DA = 0.58
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/en/a/a1/Royal_Netherlands_Football_Association_Logo.svg"
+    else if(PELcasa=="NED"){//Holanda
+        var Pcasa = 86.15
+        var Acasa = 2.79
+        var Dcasa = 0.58
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/a/a1/Royal_Netherlands_Football_Association_Logo.svg"
     }
-    else if(pelejanteA=="engSUN"){//Sunderland
-        var SPIA = 35.0
-        var AA = 1.23
-        var DA = 1.61
-        document.getElementById('escudodacasa').src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
+    else if(PELcasa=="engSUN"){//Sunderland
+        var Pcasa = 35.0
+        var Acasa = 1.23
+        var Dcasa = 1.61
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
     }
     else{
-        var SPIA = 5.29
-        var AA = 0.2
-        var DA = 2.51
-        document.getElementById('escudodacasa').src="https://uploaddeimagens.com.br/images/002/397/523/full/maraboys.png?1570224665"
+        var Pcasa = 5.29
+        var Acasa = 0.2
+        var Dcasa = 2.51
+        document.getElementById('ESCcasa').src="https://uploaddeimagens.com.br/images/002/397/523/full/maraboys.png?1570224665"
     }
     
     //Termina a seleção de equipes mandantes e começa o de equipes visitantes
 
-    if(pelejanteB=="usaGAL"){//LA Galaxy
-        var SPIB = 42.04
-        var AB = 1.71
-        var DB = 1.93
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
+    if(PELfora=="usaGAL"){//LA Galaxy
+        var Pfora = 42.04
+        var Afora = 1.71
+        var Dfora = 1.93
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
     }
-    else if(pelejanteB=="engSUN"){//Sunderland
-        var SPIB = 35.0
-        var AB = 1.23
-        var DB = 1.61
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
+    else if(PELfora=="engSUN"){//Sunderland
+        var Pfora = 35.0
+        var Afora = 1.23
+        var Dfora = 1.61
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
     }
-    else if(pelejanteB=="NED"){//Holanda
-        var SPIB = 86.15
-        var AB = 2.79
-        var DB = 0.58
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/a/a1/Royal_Netherlands_Football_Association_Logo.svg"
+    else if(PELfora=="NED"){//Holanda
+        var Pfora = 86.15
+        var Afora = 2.79
+        var Dfora = 0.58
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/a/a1/Royal_Netherlands_Football_Association_Logo.svg"
     }
-    else if(pelejanteB=="nedPSV"){//PSV
-        var SPIB = 74.54
-        var AB = 2.35
-        var DB = 0.95
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
+    else if(PELfora=="nedPSV"){//PSV
+        var Pfora = 74.54
+        var Afora = 2.35
+        var Dfora = 0.95
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
     }
-    else if(pelejanteB=="rusZEN"){//Zenit
-        var SPIB = 75.7
-        var AB = 2.03
-        var DB = 0.68
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
+    else if(PELfora=="rusZEN"){//Zenit
+        var Pfora = 75.7
+        var Afora = 2.03
+        var Dfora = 0.68
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
         //molduradefora.style.backgroundColor = "#00000000"
     }
-    else if(pelejanteB=="autRBS"){//Red Bull Salzburg
-        var SPIB = 83.89
-        var AB = 3.01
-        var DB = 0.89
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
+    else if(PELfora=="autRBS"){//Red Bull Salzburg
+        var Pfora = 83.89
+        var Afora = 3.01
+        var Dfora = 0.89
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
     }
-    else if(pelejanteB=="nedAJA"){//Ajax
-        var SPIB = 83.89
-        var AB = 3.01
-        var DB = 0.89
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
+    else if(PELfora=="nedAJA"){//Ajax
+        var Pfora = 83.89
+        var Afora = 3.01
+        var Dfora = 0.89
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
     }
-    else if(pelejanteB=="QAT"){//Qatar
-        var SPIB = 58.07
-        var AB = 1.6
-        var DB = 1.03
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
+    else if(PELfora=="QAT"){//Qatar
+        var Pfora = 58.07
+        var Afora = 1.6
+        var Dfora = 1.03
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
     }
-    else if(pelejanteB=="NZL"){//Nova Zelânia
-        var SPIB = 51.6
-        var AB = 1.47
-        var DB = 1.19
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
+    else if(PELfora=="NZL"){//Nova Zelânia
+        var Pfora = 51.6
+        var Afora = 1.47
+        var Dfora = 1.19
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
         molduradefora.style.backgroundColor = "#ffffff00"
     }
-    else if(pelejanteB=="HAI"){//Haiti
-        var SPIB = 51.6
-        var AB = 1.47
-        var DB = 1.19
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
-    }
-    else if(pelejanteB=="ITA"){//Itália
-        var SPIB = 81.95
-        var AB = 2.26
-        var DB = 0.49
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
-    }
-    else if(pelejanteB=="braRBB"){//Red Bull Brasil
-        var SPIB = 41.58
-        var AB = 1.1
-        var DB = 1.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
-    }
-    else if(pelejanteB=="CAN"){//Canadá
-        var SPIB = 57.25
-        var AB = 1.7
-        var DB = 1.16
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
-    }
-    else if(pelejanteB=="usaCIN"){//FC Cincinnati
-        var SPIB = 22.16
-        var AB = 0.87
-        var DB = 2.02
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
-    }
-    else if(pelejanteB=="canVAN"){//Vancouver Whitecaps
-        var SPIB = 24.95
-        var AB = 0.96
-        var Db = 1.97
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
-    }
-    else if(pelejanteB=="canMON"){//Montreal Impact
-        var SPIB = 30.51
-        var AB = 1.09
-        var DB = 1.81
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
-    }
-    else if(pelejanteB=="usaHOU"){//Houston Dynamo
-        var SPIB = 34.88
-        var AB = 1.21
-        var DB = 1.71
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
-    }
-    else if(pelejanteB=="usaORL"){//Orlando City SC
-        var SPIB = 33.6
-        var AB = 1.15
-        var DB = 1.71
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/8/87/Orlando_City_2012.svg.png"
-    }
-    else if(pelejanteB=="usaDCU"){//DC United
-        var SPIB = 34.45
-        var AB = 1.13
-        var DB = 1.64
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
-    }
-    else if(pelejanteB=="usaCOL"){//Colorado Rapids
-        var SPIB = 36.37
-        var AB = 1.35
-        var DB = 1.81
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
-    }
-    else if(pelejanteB=="usaNER"){//New England Revolution
-        var SPIB = 36.89
-        var AB = 1.36
-        var DB = 1.79
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
-    }
-    else if(pelejanteB=="usaRSL"){//Real Salt Lake
-        var SPIB = 37.3
-        var AB = 1.03
-        var DB = 1.37
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
-    }
-    else if(pelejanteB=="usaCREW"){//Columbus Crew
-        var SPIB = 37.48
-        var AB = 1.13
-        var DB = 1.48
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
-    }
-    else if(pelejanteB=="usaDAL"){//FC Dallas
-        var SPIA = 38.32
-        var AB = 1.24
-        var DB = 1.58
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
-    }
-    else if(pelejanteB=="usaMIN"){//Minnesota United FC
-        var SPIB = 39.02
-        var AB = 1.29
-        var DB = 1.61
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
-    }
-    else if(pelejanteB=="usaSPO"){//Sporting KC
-        var SPIB = 39.93
-        var AB = 1.4
-        var DB = 1.69
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
-    }
-    else if(pelejanteB=="usaPOR"){//Portland Timbers
-        var SPIB = 40.29
-        var AB = 1.42
-        var DB = 1.69
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
-    }
-    else if(pelejanteB=="usaSEA"){//Seattle Sounders
-        var SPIB = 40.61
-        var AB = 1.32
-        var DB = 1.55
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
-    }
-    else if(pelejanteB=="usaSJE"){//San Jose Earthquakes
-        var SPIB = 40.81
-        var AB = 1.42
-        var DB = 1.66
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
-    }
-    else if(pelejanteB=="usaCHI"){//Chicago Fire
-        var SPIB = 43.06
-        var AB = 1.37
-        var DB = 1.49
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
-    }
-    else if(pelejanteB=="usaNYRB"){//New York Red Bulls
-        var SPIB = 43.51
-        var AB = 1.43
-        var DB = 1.54
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
-    }
-    else if(pelejanteB=="canTOR"){//Toronto
-        var SPIB = 43.62
-        var AB = 1.47
-        var DB = 1.58
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
-    }
-    else if(pelejanteB=="gerEIN"){//Eintracht Frankfurt
-        var SPIB = 72.66
-        var AB = 2
-        var DB = 0.79
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
-    }
-    else if(pelejanteB=="braAGO"){//Atlético Goianiense (2017)
-        var SPIB = 40.6
-        var AB = 1.1
-        var DB = 1.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
-    }
-    else if(pelejanteB=="braVIT"){//Vitória (w)
-        var SPIB = 29.80
-        var AB = 1.1
-        var DB = 1.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
-    }
-    else if(pelejanteB=="braPAR"){//Paraná (2018)
-        var SPIB = 33.2
-        var AB = 0.9
-        var DB = 1.4
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
-    }
-    else if(pelejanteB=="braAAPP"){//Ponte Preta (2017)
-        var SPIB = 38.9
-        var AB = 1.1
-        var DB = 1.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
-    }
-    else if(pelejanteB=="braCTB"){//Coritiba (2017)
-        var SPIB = 43.2
-        var AB = 1.2
-        var DB = 1.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
-    }
-    else if(pelejanteB=="braAMG"){//América Mineiro (2018)
-        var SPIB = 43.6
-        var AB = 1.1
-        var DB = 1.2
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
-    }
-    else if(pelejanteB=="braSPO"){//Sport Recife (w)
-        var SPIB = 37.8
-        var AB = 1.1
-        var DB = 1.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
-    }
-    else if(pelejanteB=="usaPHI"){//Philadelphia Union
-        var SPIB = 45.98
-        var AB = 1.49
-        var DB = 1.49
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
-    }
-    else if(pelejanteB=="usaNYC"){//New York City FC
-        var SPIB = 47.8
-        var AB = 1.52
-        var DB = 1.44
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
-    }
-    else if(pelejanteB=="usaATL"){//Atlanta United FC
-        var SPIB = 48.61
-        var AB = 1.53
-        var DB = 1.41
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
-    }
-    else if(pelejanteB=="usaLAFC"){//Los Angeles FC
-        var SPIB = 60.7
-        var AB = 2.04
-        var DB = 1.34
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
-    }
-    else if(pelejanteB=="engLUFC"){//Leeds
-        var SPIB = 67.62
-        var AB = 1.78
-        var DB = 0.83
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
-    }
-    else if(pelejanteB=="spaMAL"){//Mallorca
-        var SPIB = 61.7
-        var AB = 1.66
-        var DB = 0.97
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
-    }
-    else if(pelejanteB=="spaRVA"){//Real Valladolid
-        var SPIB = 64.35
-        var AB = 1.66
-        var DB = 0.86
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
-    }
-    else if(pelejanteB=="spaLEV"){//Levante
-        var SPIB = 64.72
-        var AB = 1.94
-        var DB = 1.08
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
-    }
-    else if(pelejanteB=="spaALA"){//Alavés
-        var SPIB = 65.02
-        var AB = 1.59
-        var DB = 0.78
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
-    }
-    else if(pelejanteB=="spaESP"){//Espanyol
-        var SPIB = 66.52
-        var AB = 1.76
-        var DB = 0.86
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
-    }
-    else if(pelejanteB=="spaCEL"){//Celta de Vigo
-        var SPIB = 66.63
-        var AB = 1.81
-        var DB = 0.89
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
-    }
-    else if(pelejanteB=="spaLEG"){//Leganes
-        var SPIB = 68.09
-        var AB = 1.61
-        var DB = 0.68
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
-    }
-    else if(pelejanteB=="spaBET"){//Real Betis
-        var SPIB = 68.7
-        var AB = 1.93
-        var DB = 0.91
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
-    }
-    else if(pelejanteB=="spaGRA"){//Granada
-        var SPIB = 69.13
-        var AB = 1.76
-        var DB = 0.75
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
-    }
-    else if(pelejanteB=="spaOSA"){//Osasuna
-        var SPIB = 69.25
-        var AB = 1.72
-        var DB = 0.72
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
-    }
-    else if(pelejanteB=="spaEIB"){//Eibar
-        var SPIB = 73.46
-        var AB = 1.87
-        var DB = 0.66
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
-    }
-    else if(pelejanteB=="spaVIL"){//Villarreal
-        var SPIB = 73.74
-        var AB = 2.12
-        var DB = 0.82
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
-    }
-    else if(pelejanteB=="argSLO"){//San Lorenzo
-        var SPIB = 45.18
-        var AB = 1.18
-        var DB = 1.19
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
-    }
-    else if(pelejanteB=="argBAN"){//Banfield
-        var SPIB = 45.36
-        var AB = 1.16
-        var DB = 1.16
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
-    }
-    else if(pelejanteB=="spaVAL"){//Valencia
-        var SPIB = 74.32
-        var AB = 2.13
-        var DB = 0.80
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
-    }
-    else if(pelejanteB=="spaGET"){//Getafe
-        var SPIB = 74.87
-        var AB = 1.88
-        var DB = 0.61
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
-    }
-    else if(pelejanteB=="spaBIL"){//Athletic Bilbao
-        var SPIB = 75.44
-        var AB = 1.8
-        var DB = 0.53
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
-    }
-    else if(pelejanteB=="spaRSO"){//Real Sociedad
-        var SPIB = 76.33
-        var AB = 2.07
-        var DB = 0.67
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
-    }
-    else if(pelejanteB=="braCAM"){//Atlético Mineiro
-        var SPIB = 53.3
-        var AB = 1.5
-        var DB = 1.1
-        document.getElementById('escudodefora').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
-    }
-    else if(pelejanteB=="TUR"){//Turquia
-        var SPIB = 68.43
-        var AB = 1.90
-        var DB = 0.84
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
-    }
-    else if(pelejanteB=="CZE"){//Tchéquia
-        var SPIB = 68.53
-        var AB = 1.92
-        var DB = 0.86
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
-    }
-    else if(pelejanteB=="NOR"){//Noruega
-        var SPIB = 68.99
-        var AB = 1.87
-        var DB = 0.80
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
-    }
-    else if(pelejanteB=="GHA"){//Gana
-        var SPIB = 69.93
-        var AB = 1.64
-        var DB = 0.58
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
-    }
-    else if(pelejanteB=="ALG"){//Argélia
-        var SPIB = 70.27
-        var AB = 1.96
-        var DB = 0.81
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
-    }
-    else if(pelejanteB=="UKR"){//Ucrânia
-        var SPIB = 72.58
-        var AB = 1.95
-        var DB = 0.71
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
-    }
-    else if(pelejanteB=="AUT"){//Austria
-        var SPIB = 74.48
-        var AB = 2.06
-        var DB = 0.70
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
-    }
-    else if(pelejanteB=="BOL"){//Bolívia
-        var SPIB = 52.93
-        var AB = 1.47
-        var DB = 1.13
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bol"
-    }
-    else if(pelejanteB=="VEN"){//Venezuela
-        var SPIB = 67.8
-        var AB = 1.84
-        var DB = 0.82
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ven"
-    }
-    else if(pelejanteB=="PAR"){//Paraguai
-        var SPIB = 67.8
-        var AB = 1.84
-        var DB = 0.82
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/par"
-    }
-    else if(pelejanteB=="ECU"){//Equador
-        var SPIB = 68.42
-        var AB = 1.81
-        var DB = 0.78
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ecu"
-    }
-    else if(pelejanteB=="CHI"){//Chile
-        var SPIB = 76.14
-        var AB = 2.16
-        var DB = 0.69
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
-    }
-    else if(pelejanteB=="braCAP"){//Athletico Paranaense
-        var SPIB = 57.2
-        var AB = 1.5
-        var DB = 1.0
-        document.getElementById('escudodefora').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
-    }
-    else if(pelejanteB=="braAVA"){//Avaí
-        var SPIB = 39.4
-        var AB = 1.0
-        var DB = 1.2
-        document.getElementById('escudodefora').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
-    }
-    else if(pelejanteB=="braBAH"){//Bahia
-        var SPIB = 56.6
-        var AB = 1.3
-        var DB = 0.9
-        document.getElementById('escudodefora').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
-    }
-    else if(pelejanteB=="braBOT"){//Botafogo
-        var SPIB = 42.8
-        var AB = 1.1
-        var DB = 1.2
-        document.getElementById('escudodefora').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
-    }
-    else if(pelejanteB=="braCEA"){//Ceará
-        var SPIB = 47.7
-        var AB = 1.2
-        var DB = 1.1
-        document.getElementById('escudodefora').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
-    }
-    else if(pelejanteB=="braCHA"){//Chapecoense
-        var SPIB = 41.8
-        var AB = 1.1
-        var DB = 1.2
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
-    }
-    else if(pelejanteB=="braCOR"){//Corinthians
-        var SPIB = 56.3
-        var AB = 1.2
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
-    }
-    else if(pelejanteB=="braCRU"){//Cruzeiro
-        var SPIB = 49.8
-        var AB = 1.3
-        var DB = 1.1
-        document.getElementById('escudodefora').src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
-    }
-    else if(pelejanteB=="braCSA"){//CSA
-        var SPIB = 35.1
-        var AB = 1.0
-        var DB = 1.4
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
-    }
-    else if(pelejanteB=="braFLA"){//Flamengo
-        var SPIB = 72.3
-        var AB = 2.0
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/6/68/Flamengo_escudo.svg"
-    }
-    else if(pelejanteB=="braFLU"){//Fluminense
-        var SPIB = 48.5
-        var AB = 1.4
-        var DB = 1.2
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
-    }
-    else if(pelejanteB=="braFOR"){//Fortaleza
-        var SPIB = 43.7
-        var AB = 1.2
-        var DB = 1.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
-    }
-    else if(pelejanteB=="braGOI"){//Goiás
-        var SPIB = 40.7
-        var AB = 1.1
-        var DB = 1.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
-    }
-    else if(pelejanteB=="braGRE"){//Grêmio
-        var SPIB = 63.9
-        var AB = 1.7
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
-    }
-    else if(pelejanteB=="braINT"){//Internacional
-        var SPIB = 55.9
-        var AB = 1.4
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
-    }
-    else if(pelejanteB=="braPAL"){//Palmeiras
-        var SPIB = 69.0
-        var AB = 1.7
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
-    }
-    else if(pelejanteB=="braSAN"){//Santos
-        var SPIB = 60.6
-        var AB = 1.6
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
-    }
-    else if(pelejanteB=="braSPFC"){//São Paulo
-        var SPIB = 57.4
-        var AB = 1.3
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
-    }
-    else if(pelejanteB=="braVAS"){//Vasco
-        var SPIB = 50.9
-        var AB = 1.3
-        var DB = 1.1
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
-    }
-    else if(pelejanteB=="engARS"){//Arsenal
-        var SPIB = 79.3
-        var AB = 2.4
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
-    }
-    else if(pelejanteB=="engAST"){//Aston Villa
-        var SPIB = 64.1
-        var AB = 1.7
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
-    }
-    else if(pelejanteB=="engBOU"){//Bournemouth
-        var SPIB = 68.5
-        var AB = 2.1
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
-    }
-    else if(pelejanteB=="engBRI"){//Brighton
-        var SPIB = 65.8
-        var AB = 1.7
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
-    }
-    else if(pelejanteB=="engBUR"){//Burnley
-        var SPIB = 69.8
-        var AB = 1.9
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
-    }
-    else if(pelejanteB=="engCHE"){//Chelsea
-        var SPIB = 85.0
-        var AB = 2.5
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
-    }
-    else if(pelejanteB=="engCRY"){//Crystal Palace
-        var SPIB = 70.4
-        var AB = 1.9
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
-    }
-    else if(pelejanteB=="engEVE"){//Everton
-        var SPIB = 76.8
-        var AB = 2.0
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
-    }
-    else if(pelejanteB=="engLEI"){//Leicester
-        var SPIB = 79.2
-        var AB = 2.0
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
-    }
-    else if(pelejanteB=="engLIV"){//Liverpool
-        var SPIB = 92.3
-        var AB = 2.9
-        var DB = 0.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
-    }
-    else if(pelejanteB=="engMANC"){//Manchester City
-        var SPIB = 95.8
-        var AB = 3.4
-        var DB = 0.2
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
-    }
-    else if(pelejanteB=="engMANU"){//Manchester United
-        var SPIB = 81.8
-        var AB = 2.2
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
-    }
-    else if(pelejanteB=="engNEW"){//Newcastle
-        var SPIB = 65.8
-        var AB = 1.7
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
-    }
-    else if(pelejanteB=="engNOR"){//Norwich
-        var SPIB = 63.2
-        var AB = 1.8
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
-    }
-    else if(pelejanteB=="engSHEU"){//Sheffield United
-        var SPIB = 65.5
-        var AB = 1.7
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
-    }
-    else if(pelejanteB=="engSOU"){//Southampton
-        var SPIB = 70.7
-        var AB = 1.9
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
-    }
-    else if(pelejanteB=="engTOT"){//Tottenham
-        var SPIB = 82.6
-        var AB = 2.4
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
-    }
-    else if(pelejanteB=="engWAT"){//Watford
-        var SPIB = 65.9
-        var AB = 2.0
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
-    }
-    else if(pelejanteB=="engWHU"){//West Ham United
-        var SPIB = 70.0
-        var AB = 2.0
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
-    }
-    else if(pelejanteB=="engWOL"){//Wolves
-        var SPIB = 71.9
-        var AB = 1.9
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
-    }
-    else if(pelejanteB=="itiATA"){//Atalanta
-        var SPIB = 70.4
-        var AB = 2.0
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
-    }
-    else if(pelejanteB=="itiFIO"){//Fiorentina
-        var SPIB = 69.8
-        var AB = 2.0
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
-    }
-    else if(pelejanteB=="itiINT"){//Internazionali
-        var SPIB = 80.2
-        var AB = 2.2
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
-    }
-    else if(pelejanteB=="itiJUV"){//Juventus
-        var SPIB = 87.3
-        var AB = 2.6
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
-    }
-    else if(pelejanteB=="itiLAZ"){//Lazio
-        var SPIB = 72.0
-        var AB = 2.0
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
-    }
-    else if(pelejanteB=="itiMIL"){//Milan
-        var SPIB = 73.1
-        var AB = 2.0
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
-    }
-    else if(pelejanteB=="itiNAP"){//Napoli
-        var SPIB = 82.3
-        var AB = 2.4
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
-    }
-    else if(pelejanteB=="itiROM"){//Roma
-        var SPIB = 73.1
-        var AB = 2.1
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
-    }
-    else if(pelejanteB=="gerBAY"){//Bayern
-        var SPIB = 93.7
-        var AB = 3.3
-        var DB = 0.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
-    }
-    else if(pelejanteB=="gerDOR"){//Dortmund
-        var SPIB = 84.4
-        var AB = 2.6
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
-    }
-    else if(pelejanteB=="gerHOF"){//Hoffenheim
-        var SPIB = 81.1
-        var AB = 2.3
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
-    }
-    else if(pelejanteB=="gerLEV"){//Leverkusen
-        var SPIB = 71.6
-        var AB = 2.2
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
-    }
-    else if(pelejanteB=="gerRBL"){//Red Bull Leipzig
-        var SPIB = 81.4
-        var AB = 2.3
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
-    }
-    else if(pelejanteB=="gerSCH"){//Schalke 04
-        var SPIB = 72.9
-        var AB = 2.0
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
-    }
-    else if(pelejanteB=="gerWER"){//Werder Bremen
-        var SPIB = 69.1
-        var AB = 2.0
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
-    }
-    else if(pelejanteB=="gerWOL"){//Wolfsburg
-        var SPIB = 72.0
-        var AB = 1.9
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
-    }
-    else if(pelejanteB=="spaATL"){//Atlético Madrid
-        var SPIB = 84.9
-        var AB = 2.2
-        var DB = 0.4
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
-    }
-    else if(pelejanteB=="catBAR"){//Barcelona
-        var SPIB = 89.1
-        var AB = 2.8
-        var DB = 0.4
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
-    }
-    else if(pelejanteB=="spaMAD"){//Real Madrid
-        var SPIB = 85.8
-        var AB = 2.6
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
-    }
-    else if(pelejanteB=="spaSEV"){//Sevilla
-        var SPIB = 78.4
-        var AB = 2.1
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
-    }
-    else if(pelejanteB=="porBEN"){//Benfica
-        var SPIB = 76.0
-        var AB = 2.2
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
-    }
-    else if(pelejanteB=="porBRA"){//Braga
-        var SPIB = 78.4
-        var AB = 2.1
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
-    }
-    else if(pelejanteB=="porPOR"){//Porto
-        var SPIB = 78.4
-        var AB = 2.2
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
-    }
-    else if(pelejanteB=="porSPO"){//Sporting
-        var SPIB = 64.3
-        var AB = 1.8
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
-    }
-    else if(pelejanteB=="fraLIL"){//Lille
-        var SPIB = 69.5
-        var AB = 1.8
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
-    }
-    else if(pelejanteB=="fraOLY"){//Lyonnais, Olympique
-        var SPIB = 72.1
-        var AB = 2.0
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
-    }
-    else if(pelejanteB=="fraMAR"){//Marseille
-        var SPIB = 66.2
-        var AB = 1.7
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
-    }
-    else if(pelejanteB=="fraPSG"){//Paris Saint-Germain
-        var SPIB = 88.9
-        var AB = 2.7
-        var DB = 0.4
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
-    }
-    else if(pelejanteB=="argBOC"){//Boca Juniors
-        var SPIB = 62.0
-        var AB = 1.5
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
-    }
-    else if(pelejanteB=="argIND"){//Independiente
-        var SPIB = 49.3
-        var AB = 1.3
-        var DB = 1.2
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
-    }
-    else if(pelejanteB=="argNOB"){//Newell's Old Boys
-        var SPIB = 47.7
-        var AB = 1.2
-        var DB = 1.1
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
-    }
-    else if(pelejanteB=="argRAC"){//Racing
-        var SPIB = 51.2
-        var AB = 1.4
-        var DB = 1.1
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/2/29/Racing_Club_%282014%29.svg"
-    }
-    else if(pelejanteB=="argRIV"){//River Plate
-        var SPIB = 67.9
-        var AB = 1.9
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
-    }
-    else if(pelejanteB=="argVEL"){//Vélez Sarsfield
-        var SPIB = 50.1
-        var AB = 1.3
-        var DB = 1.1
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
-    }
-    else if(pelejanteB=="GER"){//Alemanha
-        var SPIB = 88.4
-        var AB = 3.1
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
-    }
-    else if(pelejanteB=="SAU"){//Arábia Saudita
-        var SPIB = 51.9
-        var AB = 1.5
-        var DB = 1.2
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
-    }
-    else if(pelejanteB=="ARG"){//Argentina
-        var SPIB = 85.2
-        var AB = 2.6
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
-    }
-    else if(pelejanteB=="AUS"){//Austrália
-        var SPIB = 63.4
-        var AB = 1.8
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
-    }
-    else if(pelejanteB=="BEL"){//Bélgica
-        var SPIB = 87.3
-        var AB = 3.0
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
-    }
-    else if(pelejanteB=="BRA"){//Brasil
-        var SPIB = 93.1
-        var AB = 3.1
-        var DB = 0.3
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
-    }
-    else if(pelejanteB=="COL"){//Colômbia
-        var SPIB = 80.3
-        var AB = 2.1
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
-    }
-    else if(pelejanteB=="KOR"){//Coréia do Sul
-        var SPIB = 62.6
-        var AB = 1.7
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
-    }
-    else if(pelejanteB=="CRC"){//Costa Rica
-        var SPIB = 65.1
-        var AB = 1.7
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
-    }
-    else if(pelejanteB=="CRO"){//Croácia
-        var SPIB = 83.3
-        var AB = 2.6
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
-    }
-    else if(pelejanteB=="DEN"){//Dinamarca
-        var SPIB = 73.2
-        var AB = 2.0
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
-    }
-    else if(pelejanteB=="EGY"){//Egito
-        var SPIB = 58.9
-        var AB = 1.6
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
-    }
-    else if(pelejanteB=="SPA"){//Espanha
-        var SPIB = 91.1
-        var AB = 3.3
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
-    }
-    else if(pelejanteB=="USA"){//Estados
-        var SPIB = 69.75
-        var AB = 1.88
-        var DB = 0.77
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
-    }
-    else if(pelejanteB=="FRA"){//França
-        var SPIB = 88.6
-        var AB = 2.9
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
-    }
-    else if(pelejanteB=="ENG"){//Inglaterra
-        var SPIB = 85.36
-        var AB = 2.64
-        var DB = 0.54
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
-    }
-    else if(pelejanteB=="IRA"){//Irã
-        var SPIB = 67.7
-        var AB = 1.6
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
-    }
-    else if(pelejanteB=="ISL"){//Islândia
-        var SPIB = 67.9
-        var AB = 2.0
-        var DB = 0.9
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
-    }
-    else if(pelejanteB=="JAP"){//Japão
-        var SPIB = 83.1
-        var AB = 2.4
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
-    }
-    else if(pelejanteB=="MAR"){//Marrocos
-        var SPIB = 72.3
-        var AB = 1.9
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
-    }
-    else if(pelejanteB=="MEX"){//México
-        var SPIB = 74.3
-        var AB = 2.1
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
-    }
-    else if(pelejanteB=="NIG"){//Nigéria
-        var SPIB = 71.1
-        var AB = 2.1
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
-    }
-    else if(pelejanteB=="PAN"){//Panamá
-        var SPIB = 53.2
-        var AB = 1.5
-        var DB = 1.1
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
-    }
-    else if(pelejanteB=="PER"){//Peru
-        var SPIB = 71.6
-        var AB = 1.9
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/per"
-    }
-    else if(pelejanteB=="POL"){//Polônia
-        var SPIB = 71.1
-        var AB = 2.1
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
-    }
-    else if(pelejanteB=="POR"){//Portugal
-        var SPIB = 82.5
-        var AB = 2.4
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
-    }
-    else if(pelejanteB=="RUS"){//Rússia
-        var SPIB = 70.6
-        var AB = 2.0
-        var DB = 0.8
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
-    }
-    else if(pelejanteB=="SEN"){//Senegal
-        var SPIB = 67.4
-        var AB = 1.7
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
-    }
-    else if(pelejanteB=="SER"){//Sérvia
-        var SPIB = 73.0
-        var AB = 2.0
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
-    }
-    else if(pelejanteB=="SWI"){//Suiça
-        var SPIB = 77.1
-        var AB = 2.3
-        var DB = 0.7
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
-    }
-    else if(pelejanteB=="SWE"){//Suécia
-        var SPIB = 75.8
-        var AB = 2.1
-        var DB = 0.6
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
-    }
-    else if(pelejanteB=="TUN"){//Tunísia
-        var SPIB = 61.9
-        var AB = 1.8
-        var DB = 1.0
-        document.getElementById('escudodefora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
-    }
-    else if(pelejanteB=="URU"){//Uruguai
-        var SPIB = 81.2
-        var AB = 2.3
-        var DB = 0.5
-        document.getElementById('escudodefora').src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
+    else if(PELfora=="HAI"){//Haiti
+        var Pfora = 51.6
+        var Afora = 1.47
+        var Dfora = 1.19
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
+    }
+    else if(PELfora=="ITA"){//Itália
+        var Pfora = 81.95
+        var Afora = 2.26
+        var Dfora = 0.49
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
+    }
+    else if(PELfora=="braRBB"){//Red Bull Brasil
+        var Pfora = 41.58
+        var Afora = 1.1
+        var Dfora = 1.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
+    }
+    else if(PELfora=="CAN"){//Canadá
+        var Pfora = 57.25
+        var Afora = 1.7
+        var Dfora = 1.16
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
+    }
+    else if(PELfora=="usaCIN"){//FC Cincinnati
+        var Pfora = 22.16
+        var Afora = 0.87
+        var Dfora = 2.02
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
+    }
+    else if(PELfora=="canVAN"){//Vancouver Whitecaps
+        var Pfora = 24.95
+        var Afora = 0.96
+        var Dfora = 1.97
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
+    }
+    else if(PELfora=="canMON"){//Montreal Impact
+        var Pfora = 30.51
+        var Afora = 1.09
+        var Dfora = 1.81
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
+    }
+    else if(PELfora=="usaHOU"){//Houston Dynamo
+        var Pfora = 34.88
+        var Afora = 1.21
+        var Dfora = 1.71
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
+    }
+    else if(PELfora=="usaORL"){//Orlando City SC
+        var Pfora = 33.6
+        var Afora = 1.15
+        var Dfora = 1.71
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/87/Orlando_City_2012.svg.png"
+    }
+    else if(PELfora=="usaDCU"){//DC United
+        var Pfora = 34.45
+        var Afora = 1.13
+        var Dfora = 1.64
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
+    }
+    else if(PELfora=="usaCOL"){//Colorado Rapids
+        var Pfora = 36.37
+        var Afora = 1.35
+        var Dfora = 1.81
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
+    }
+    else if(PELfora=="usaNER"){//New England Revolution
+        var Pfora = 36.89
+        var Afora = 1.36
+        var Dfora = 1.79
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
+    }
+    else if(PELfora=="usaRSL"){//Real Salt Lake
+        var Pfora = 37.3
+        var Afora = 1.03
+        var Dfora = 1.37
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
+    }
+    else if(PELfora=="usaCREW"){//Columbus Crew
+        var Pfora = 37.48
+        var Afora = 1.13
+        var Dfora = 1.48
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
+    }
+    else if(PELfora=="usaDAL"){//FC Dallas
+        var Pcasa = 38.32
+        var Afora = 1.24
+        var Dfora = 1.58
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
+    }
+    else if(PELfora=="usaMIN"){//Minnesota United FC
+        var Pfora = 39.02
+        var Afora = 1.29
+        var Dfora = 1.61
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
+    }
+    else if(PELfora=="usaSPO"){//Sporting KC
+        var Pfora = 39.93
+        var Afora = 1.4
+        var Dfora = 1.69
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
+    }
+    else if(PELfora=="usaPOR"){//Portland Timbers
+        var Pfora = 40.29
+        var Afora = 1.42
+        var Dfora = 1.69
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
+    }
+    else if(PELfora=="usaSEA"){//Seattle Sounders
+        var Pfora = 40.61
+        var Afora = 1.32
+        var Dfora = 1.55
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
+    }
+    else if(PELfora=="usaSJE"){//San Jose Earthquakes
+        var Pfora = 40.81
+        var Afora = 1.42
+        var Dfora = 1.66
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
+    }
+    else if(PELfora=="usaCHI"){//Chicago Fire
+        var Pfora = 43.06
+        var Afora = 1.37
+        var Dfora = 1.49
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
+    }
+    else if(PELfora=="usaNYRB"){//New York Red Bulls
+        var Pfora = 43.51
+        var Afora = 1.43
+        var Dfora = 1.54
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
+    }
+    else if(PELfora=="canTOR"){//Toronto
+        var Pfora = 43.62
+        var Afora = 1.47
+        var Dfora = 1.58
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
+    }
+    else if(PELfora=="gerEIN"){//Eintracht Frankfurt
+        var Pfora = 72.66
+        var Afora = 2
+        var Dfora = 0.79
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+    }
+    else if(PELfora=="braAGO"){//Atlético Goianiense (2017)
+        var Pfora = 40.6
+        var Afora = 1.1
+        var Dfora = 1.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
+    }
+    else if(PELfora=="braVIT"){//Vitória (w)
+        var Pfora = 29.80
+        var Afora = 1.1
+        var Dfora = 1.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
+    }
+    else if(PELfora=="braPAR"){//Paraná (2018)
+        var Pfora = 33.2
+        var Afora = 0.9
+        var Dfora = 1.4
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
+    }
+    else if(PELfora=="braAAPP"){//Ponte Preta (2017)
+        var Pfora = 38.9
+        var Afora = 1.1
+        var Dfora = 1.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
+    }
+    else if(PELfora=="braCTB"){//Coritiba (2017)
+        var Pfora = 43.2
+        var Afora = 1.2
+        var Dfora = 1.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
+    }
+    else if(PELfora=="braAMG"){//América Mineiro (2018)
+        var Pfora = 43.6
+        var Afora = 1.1
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
+    }
+    else if(PELfora=="braSPO"){//Sport Recife (w)
+        var Pfora = 37.8
+        var Afora = 1.1
+        var Dfora = 1.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
+    }
+    else if(PELfora=="usaPHI"){//Philadelphia Union
+        var Pfora = 45.98
+        var Afora = 1.49
+        var Dfora = 1.49
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
+    }
+    else if(PELfora=="usaNYC"){//New York City FC
+        var Pfora = 47.8
+        var Afora = 1.52
+        var Dfora = 1.44
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
+    }
+    else if(PELfora=="usaATL"){//Atlanta United FC
+        var Pfora = 48.61
+        var Afora = 1.53
+        var Dfora = 1.41
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
+    }
+    else if(PELfora=="usaLAFC"){//Los Angeles FC
+        var Pfora = 60.7
+        var Afora = 2.04
+        var Dfora = 1.34
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
+    }
+    else if(PELfora=="engLUFC"){//Leeds
+        var Pfora = 67.62
+        var Afora = 1.78
+        var Dfora = 0.83
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
+    }
+    else if(PELfora=="spaMAL"){//Mallorca
+        var Pfora = 61.7
+        var Afora = 1.66
+        var Dfora = 0.97
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
+    }
+    else if(PELfora=="spaRVA"){//Real Valladolid
+        var Pfora = 64.35
+        var Afora = 1.66
+        var Dfora = 0.86
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
+    }
+    else if(PELfora=="spaLEV"){//Levante
+        var Pfora = 64.72
+        var Afora = 1.94
+        var Dfora = 1.08
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
+    }
+    else if(PELfora=="spaALA"){//Alavés
+        var Pfora = 65.02
+        var Afora = 1.59
+        var Dfora = 0.78
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
+    }
+    else if(PELfora=="spaESP"){//Espanyol
+        var Pfora = 66.52
+        var Afora = 1.76
+        var Dfora = 0.86
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
+    }
+    else if(PELfora=="spaCEL"){//Celta de Vigo
+        var Pfora = 66.63
+        var Afora = 1.81
+        var Dfora = 0.89
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
+    }
+    else if(PELfora=="spaLEG"){//Leganes
+        var Pfora = 68.09
+        var Afora = 1.61
+        var Dfora = 0.68
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
+    }
+    else if(PELfora=="spaBET"){//Real Betis
+        var Pfora = 68.7
+        var Afora = 1.93
+        var Dfora = 0.91
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
+    }
+    else if(PELfora=="spaGRA"){//Granada
+        var Pfora = 69.13
+        var Afora = 1.76
+        var Dfora = 0.75
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
+    }
+    else if(PELfora=="spaOSA"){//Osasuna
+        var Pfora = 69.25
+        var Afora = 1.72
+        var Dfora = 0.72
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
+    }
+    else if(PELfora=="spaEIB"){//Eibar
+        var Pfora = 73.46
+        var Afora = 1.87
+        var Dfora = 0.66
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
+    }
+    else if(PELfora=="spaVIL"){//Villarreal
+        var Pfora = 73.74
+        var Afora = 2.12
+        var Dfora = 0.82
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
+    }
+    else if(PELfora=="argSLO"){//San Lorenzo
+        var Pfora = 45.18
+        var Afora = 1.18
+        var Dfora = 1.19
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
+    }
+    else if(PELfora=="argBAN"){//Banfield
+        var Pfora = 45.36
+        var Afora = 1.16
+        var Dfora = 1.16
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
+    }
+    else if(PELfora=="spaVAL"){//Valencia
+        var Pfora = 74.32
+        var Afora = 2.13
+        var Dfora = 0.80
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
+    }
+    else if(PELfora=="spaGET"){//Getafe
+        var Pfora = 74.87
+        var Afora = 1.88
+        var Dfora = 0.61
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
+    }
+    else if(PELfora=="spaBIL"){//Athletic Bilbao
+        var Pfora = 75.44
+        var Afora = 1.8
+        var Dfora = 0.53
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
+    }
+    else if(PELfora=="spaRSO"){//Real Sociedad
+        var Pfora = 76.33
+        var Afora = 2.07
+        var Dfora = 0.67
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
+    }
+    else if(PELfora=="braCAM"){//Atlético Mineiro
+        var Pfora = 53.3
+        var Afora = 1.5
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
+    }
+    else if(PELfora=="TUR"){//Turquia
+        var Pfora = 68.43
+        var Afora = 1.90
+        var Dfora = 0.84
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
+    }
+    else if(PELfora=="CZE"){//Tchéquia
+        var Pfora = 68.53
+        var Afora = 1.92
+        var Dfora = 0.86
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
+    }
+    else if(PELfora=="NOR"){//Noruega
+        var Pfora = 68.99
+        var Afora = 1.87
+        var Dfora = 0.80
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
+    }
+    else if(PELfora=="GHA"){//Gana
+        var Pfora = 69.93
+        var Afora = 1.64
+        var Dfora = 0.58
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
+    }
+    else if(PELfora=="ALG"){//Argélia
+        var Pfora = 70.27
+        var Afora = 1.96
+        var Dfora = 0.81
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
+    }
+    else if(PELfora=="UKR"){//Ucrânia
+        var Pfora = 72.58
+        var Afora = 1.95
+        var Dfora = 0.71
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
+    }
+    else if(PELfora=="AUT"){//Austria
+        var Pfora = 74.48
+        var Afora = 2.06
+        var Dfora = 0.70
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
+    }
+    else if(PELfora=="BOL"){//Bolívia
+        var Pfora = 52.93
+        var Afora = 1.47
+        var Dfora = 1.13
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bol"
+    }
+    else if(PELfora=="VEN"){//Venezuela
+        var Pfora = 67.8
+        var Afora = 1.84
+        var Dfora = 0.82
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ven"
+    }
+    else if(PELfora=="PAR"){//Paraguai
+        var Pfora = 67.8
+        var Afora = 1.84
+        var Dfora = 0.82
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/par"
+    }
+    else if(PELfora=="ECU"){//Equador
+        var Pfora = 68.42
+        var Afora = 1.81
+        var Dfora = 0.78
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ecu"
+    }
+    else if(PELfora=="CHI"){//Chile
+        var Pfora = 76.14
+        var Afora = 2.16
+        var Dfora = 0.69
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
+    }
+    else if(PELfora=="braCAP"){//Athletico Paranaense
+        var Pfora = 57.2
+        var Afora = 1.5
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
+    }
+    else if(PELfora=="braAVA"){//Avaí
+        var Pfora = 39.4
+        var Afora = 1.0
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
+    }
+    else if(PELfora=="braBAH"){//Bahia
+        var Pfora = 56.6
+        var Afora = 1.3
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
+    }
+    else if(PELfora=="braBOT"){//Botafogo
+        var Pfora = 42.8
+        var Afora = 1.1
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
+    }
+    else if(PELfora=="braCEA"){//Ceará
+        var Pfora = 47.7
+        var Afora = 1.2
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
+    }
+    else if(PELfora=="braCHA"){//Chapecoense
+        var Pfora = 41.8
+        var Afora = 1.1
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
+    }
+    else if(PELfora=="braCOR"){//Corinthians
+        var Pfora = 56.3
+        var Afora = 1.2
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
+    }
+    else if(PELfora=="braCRU"){//Cruzeiro
+        var Pfora = 49.8
+        var Afora = 1.3
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
+    }
+    else if(PELfora=="braCSA"){//CSA
+        var Pfora = 35.1
+        var Afora = 1.0
+        var Dfora = 1.4
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
+    }
+    else if(PELfora=="braFLA"){//Flamengo
+        var Pfora = 72.3
+        var Afora = 2.0
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
+    }
+    else if(PELfora=="braFLU"){//Fluminense
+        var Pfora = 48.5
+        var Afora = 1.4
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
+    }
+    else if(PELfora=="braFOR"){//Fortaleza
+        var Pfora = 43.7
+        var Afora = 1.2
+        var Dfora = 1.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
+    }
+    else if(PELfora=="braGOI"){//Goiás
+        var Pfora = 40.7
+        var Afora = 1.1
+        var Dfora = 1.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
+    }
+    else if(PELfora=="braGRE"){//Grêmio
+        var Pfora = 65.6
+        var Afora = 1.8
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
+    }
+    else if(PELfora=="braINT"){//Internacional
+        var Pfora = 55.9
+        var Afora = 1.4
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
+    }
+    else if(PELfora=="braPAL"){//Palmeiras
+        var Pfora = 69.0
+        var Afora = 1.7
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+    }
+    else if(PELfora=="braSAN"){//Santos
+        var Pfora = 60.6
+        var Afora = 1.6
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
+    }
+    else if(PELfora=="braSPFC"){//São Paulo
+        var Pfora = 57.4
+        var Afora = 1.3
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
+    }
+    else if(PELfora=="braVAS"){//Vasco
+        var Pfora = 50.1
+        var Afora = 1.4
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
+    }
+    else if(PELfora=="engARS"){//Arsenal
+        var Pfora = 79.3
+        var Afora = 2.4
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
+    }
+    else if(PELfora=="engAST"){//Aston Villa
+        var Pfora = 64.1
+        var Afora = 1.7
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
+    }
+    else if(PELfora=="engBOU"){//Bournemouth
+        var Pfora = 68.5
+        var Afora = 2.1
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
+    }
+    else if(PELfora=="engBRI"){//Brighton
+        var Pfora = 65.8
+        var Afora = 1.7
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+    }
+    else if(PELfora=="engBUR"){//Burnley
+        var Pfora = 69.8
+        var Afora = 1.9
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
+    }
+    else if(PELfora=="engCHE"){//Chelsea
+        var Pfora = 85.0
+        var Afora = 2.5
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
+    }
+    else if(PELfora=="engCRY"){//Crystal Palace
+        var Pfora = 70.4
+        var Afora = 1.9
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
+    }
+    else if(PELfora=="engEVE"){//Everton
+        var Pfora = 76.8
+        var Afora = 2.0
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
+    }
+    else if(PELfora=="engLEI"){//Leicester
+        var Pfora = 79.2
+        var Afora = 2.0
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
+    }
+    else if(PELfora=="engLIV"){//Liverpool
+        var Pfora = 92.3
+        var Afora = 2.9
+        var Dfora = 0.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
+    }
+    else if(PELfora=="engMANC"){//Manchester City
+        var Pfora = 95.8
+        var Afora = 3.4
+        var Dfora = 0.2
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
+    }
+    else if(PELfora=="engMANU"){//Manchester United
+        var Pfora = 81.8
+        var Afora = 2.2
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
+    }
+    else if(PELfora=="engNEW"){//Newcastle
+        var Pfora = 65.8
+        var Afora = 1.7
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
+    }
+    else if(PELfora=="engNOR"){//Norwich
+        var Pfora = 63.2
+        var Afora = 1.8
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
+    }
+    else if(PELfora=="engSHEU"){//Sheffield United
+        var Pfora = 65.5
+        var Afora = 1.7
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
+    }
+    else if(PELfora=="engSOU"){//Southampton
+        var Pfora = 70.7
+        var Afora = 1.9
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
+    }
+    else if(PELfora=="engTOT"){//Tottenham
+        var Pfora = 82.6
+        var Afora = 2.4
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
+    }
+    else if(PELfora=="engWAT"){//Watford
+        var Pfora = 65.9
+        var Afora = 2.0
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
+    }
+    else if(PELfora=="engWHU"){//West Ham United
+        var Pfora = 70.0
+        var Afora = 2.0
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
+    }
+    else if(PELfora=="engWOL"){//Wolves
+        var Pfora = 71.9
+        var Afora = 1.9
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+    }
+    else if(PELfora=="itiATA"){//Atalanta
+        var Pfora = 70.4
+        var Afora = 2.0
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
+    }
+    else if(PELfora=="itiFIO"){//Fiorentina
+        var Pfora = 69.8
+        var Afora = 2.0
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
+    }
+    else if(PELfora=="itiINT"){//Internazionali
+        var Pfora = 80.2
+        var Afora = 2.2
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
+    }
+    else if(PELfora=="itiJUV"){//Juventus
+        var Pfora = 87.3
+        var Afora = 2.6
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
+    }
+    else if(PELfora=="itiLAZ"){//Lazio
+        var Pfora = 72.0
+        var Afora = 2.0
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
+    }
+    else if(PELfora=="itiMIL"){//Milan
+        var Pfora = 73.1
+        var Afora = 2.0
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+    }
+    else if(PELfora=="itiNAP"){//Napoli
+        var Pfora = 82.3
+        var Afora = 2.4
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+    }
+    else if(PELfora=="itiROM"){//Roma
+        var Pfora = 73.1
+        var Afora = 2.1
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
+    }
+    else if(PELfora=="gerBAY"){//Bayern
+        var Pfora = 93.7
+        var Afora = 3.3
+        var Dfora = 0.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
+    }
+    else if(PELfora=="gerDOR"){//Dortmund
+        var Pfora = 84.4
+        var Afora = 2.6
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+    }
+    else if(PELfora=="gerHOF"){//Hoffenheim
+        var Pfora = 81.1
+        var Afora = 2.3
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+    }
+    else if(PELfora=="gerLEV"){//Leverkusen
+        var Pfora = 71.6
+        var Afora = 2.2
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
+    }
+    else if(PELfora=="gerRBL"){//Red Bull Leipzig
+        var Pfora = 81.4
+        var Afora = 2.3
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
+    }
+    else if(PELfora=="gerSCH"){//Schalke 04
+        var Pfora = 72.9
+        var Afora = 2.0
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+    }
+    else if(PELfora=="gerWER"){//Werder Bremen
+        var Pfora = 69.1
+        var Afora = 2.0
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
+    }
+    else if(PELfora=="gerWOL"){//Wolfsburg
+        var Pfora = 72.0
+        var Afora = 1.9
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
+    }
+    else if(PELfora=="spaATL"){//Atlético Madrid
+        var Pfora = 84.9
+        var Afora = 2.2
+        var Dfora = 0.4
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
+    }
+    else if(PELfora=="catBAR"){//Barcelona
+        var Pfora = 89.1
+        var Afora = 2.8
+        var Dfora = 0.4
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
+    }
+    else if(PELfora=="spaMAD"){//Real Madrid
+        var Pfora = 85.8
+        var Afora = 2.6
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
+    }
+    else if(PELfora=="spaSEV"){//Sevilla
+        var Pfora = 78.4
+        var Afora = 2.1
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
+    }
+    else if(PELfora=="porBEN"){//Benfica
+        var Pfora = 76.0
+        var Afora = 2.2
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
+    }
+    else if(PELfora=="porBRA"){//Braga
+        var Pfora = 78.4
+        var Afora = 2.1
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
+    }
+    else if(PELfora=="porPOR"){//Porto
+        var Pfora = 78.4
+        var Afora = 2.2
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
+    }
+    else if(PELfora=="porSPO"){//Sporting
+        var Pfora = 64.3
+        var Afora = 1.8
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
+    }
+    else if(PELfora=="fraLIL"){//Lille
+        var Pfora = 69.5
+        var Afora = 1.8
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
+    }
+    else if(PELfora=="fraOLY"){//Lyonnais, Olympique
+        var Pfora = 72.1
+        var Afora = 2.0
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
+    }
+    else if(PELfora=="fraMAR"){//Marseille
+        var Pfora = 66.2
+        var Afora = 1.7
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
+    }
+    else if(PELfora=="fraPSG"){//Paris Saint-Germain
+        var Pfora = 88.9
+        var Afora = 2.7
+        var Dfora = 0.4
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
+    }
+    else if(PELfora=="argBOC"){//Boca Juniors
+        var Pfora = 62.0
+        var Afora = 1.5
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
+    }
+    else if(PELfora=="argIND"){//Independiente
+        var Pfora = 49.3
+        var Afora = 1.3
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+    }
+    else if(PELfora=="argNOB"){//Newell's Old Boys
+        var Pfora = 47.7
+        var Afora = 1.2
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
+    }
+    else if(PELfora=="argRAC"){//Racing
+        var Pfora = 51.2
+        var Afora = 1.4
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src="https://www.racingclub.com.ar/img/escudo.png"
+    }
+    else if(PELfora=="argRIV"){//River Plate
+        var Pfora = 67.9
+        var Afora = 1.9
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
+    }
+    else if(PELfora=="argVEL"){//Vélez Sarsfield
+        var Pfora = 50.1
+        var Afora = 1.3
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
+    }
+    else if(PELfora=="GER"){//Alemanha
+        var Pfora = 88.4
+        var Afora = 3.1
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
+    }
+    else if(PELfora=="SAU"){//Arábia Saudita
+        var Pfora = 51.9
+        var Afora = 1.5
+        var Dfora = 1.2
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
+    }
+    else if(PELfora=="ARG"){//Argentina
+        var Pfora = 85.2
+        var Afora = 2.6
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
+    }
+    else if(PELfora=="AUS"){//Austrália
+        var Pfora = 63.4
+        var Afora = 1.8
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
+    }
+    else if(PELfora=="BEL"){//Bélgica
+        var Pfora = 87.3
+        var Afora = 3.0
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
+    }
+    else if(PELfora=="BRA"){//Brasil
+        var Pfora = 93.1
+        var Afora = 3.1
+        var Dfora = 0.3
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
+    }
+    else if(PELfora=="COL"){//Colômbia
+        var Pfora = 80.3
+        var Afora = 2.1
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
+    }
+    else if(PELfora=="KOR"){//Coréia do Sul
+        var Pfora = 62.6
+        var Afora = 1.7
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
+    }
+    else if(PELfora=="CRC"){//Costa Rica
+        var Pfora = 65.1
+        var Afora = 1.7
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
+    }
+    else if(PELfora=="CRO"){//Croácia
+        var Pfora = 83.3
+        var Afora = 2.6
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
+    }
+    else if(PELfora=="DEN"){//Dinamarca
+        var Pfora = 73.2
+        var Afora = 2.0
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
+    }
+    else if(PELfora=="EGY"){//Egito
+        var Pfora = 58.9
+        var Afora = 1.6
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
+    }
+    else if(PELfora=="SPA"){//Espanha
+        var Pfora = 91.1
+        var Afora = 3.3
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
+    }
+    else if(PELfora=="USA"){//Estados
+        var Pfora = 69.75
+        var Afora = 1.88
+        var Dfora = 0.77
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
+    }
+    else if(PELfora=="FRA"){//França
+        var Pfora = 88.6
+        var Afora = 2.9
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
+    }
+    else if(PELfora=="ENG"){//Inglaterra
+        var Pfora = 85.36
+        var Afora = 2.64
+        var Dfora = 0.54
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
+    }
+    else if(PELfora=="IRA"){//Irã
+        var Pfora = 67.7
+        var Afora = 1.6
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
+    }
+    else if(PELfora=="ISL"){//Islândia
+        var Pfora = 67.9
+        var Afora = 2.0
+        var Dfora = 0.9
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
+    }
+    else if(PELfora=="JAP"){//Japão
+        var Pfora = 83.1
+        var Afora = 2.4
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
+    }
+    else if(PELfora=="MAR"){//Marrocos
+        var Pfora = 72.3
+        var Afora = 1.9
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
+    }
+    else if(PELfora=="MEX"){//México
+        var Pfora = 74.3
+        var Afora = 2.1
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
+    }
+    else if(PELfora=="NIG"){//Nigéria
+        var Pfora = 71.1
+        var Afora = 2.1
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
+    }
+    else if(PELfora=="PAN"){//Panamá
+        var Pfora = 53.2
+        var Afora = 1.5
+        var Dfora = 1.1
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
+    }
+    else if(PELfora=="PER"){//Peru
+        var Pfora = 71.6
+        var Afora = 1.9
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/per"
+    }
+    else if(PELfora=="POL"){//Polônia
+        var Pfora = 71.1
+        var Afora = 2.1
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
+    }
+    else if(PELfora=="POR"){//Portugal
+        var Pfora = 82.5
+        var Afora = 2.4
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
+    }
+    else if(PELfora=="RUS"){//Rússia
+        var Pfora = 70.6
+        var Afora = 2.0
+        var Dfora = 0.8
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
+    }
+    else if(PELfora=="SEN"){//Senegal
+        var Pfora = 67.4
+        var Afora = 1.7
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
+    }
+    else if(PELfora=="SER"){//Sérvia
+        var Pfora = 73.0
+        var Afora = 2.0
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
+    }
+    else if(PELfora=="SWI"){//Suiça
+        var Pfora = 77.1
+        var Afora = 2.3
+        var Dfora = 0.7
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
+    }
+    else if(PELfora=="SWE"){//Suécia
+        var Pfora = 75.8
+        var Afora = 2.1
+        var Dfora = 0.6
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
+    }
+    else if(PELfora=="TUN"){//Tunísia
+        var Pfora = 61.9
+        var Afora = 1.8
+        var Dfora = 1.0
+        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
+    }
+    else if(PELfora=="URU"){//Uruguai
+        var Pfora = 81.2
+        var Afora = 2.3
+        var Dfora = 0.5
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
     }
     else{
-        var SPIB = 5.29
-        var AB = 0.2
-        var DB = 2.51
-        document.getElementById('escudodefora').src="https://uploaddeimagens.com.br/images/002/397/526/full/souza.png?1570224716"
+        var Pfora = 5.29
+        var Afora = 0.2
+        var Dfora = 2.51
+        document.getElementById('ESCfora').src="https://uploaddeimagens.com.br/images/002/397/526/full/souza.png?1570224716"
     }
     txtsumulaA.innerHTML = ''
     txtsumulaB.innerHTML = ''
-    var golA = (SPIA/SPIB)*(1.10-0.1*neutralidade)*(Number(AA)+Number(DB))/2
-    var golB = (SPIB/SPIA)*(0.91+0.09*neutralidade)*(Number(AB)+Number(DA))/2
+    var golA = (Pcasa/Pfora)*(1.10-0.1*neutralidade)*(Number(Acasa)+Number(Dfora))/2
+    var golB = (Pfora/Pcasa)*(0.91+0.09*neutralidade)*(Number(Afora)+Number(Dcasa))/2
     txtmediaA.innerText = Number(golA).toFixed(2)
     txtmediaB.innerText = Number(golB).toFixed(2)
     var golatualA = Number(document.getElementById('placarAinicial').value)
@@ -2289,6 +2293,7 @@ function jogar(){
         if(tempodejogo<90+acrescimo+prorrogacao){
             tempodejogo += 1
             if(golAagora>0){
+                alertagol()
                 golatualA = golatualA+1
                 placar1.innerText=golatualA
                 sumulaA = sumulaA+`${tempodejogo}&apos;&nbsp;`
@@ -2297,6 +2302,7 @@ function jogar(){
                 placar1.innerText=golatualA
             }
             if(golBagora>0){
+                alertagol()
                 golatualB = golatualB+1
                 placar2.innerText=golatualB
                 sumulaB = sumulaB+`${tempodejogo}&apos;&nbsp;`
