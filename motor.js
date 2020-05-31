@@ -2259,6 +2259,7 @@ function jogar(){
     var sumulaA = String('')
     var sumulaB = String('')
     var rolaabola = setInterval(function apitoinicial(){
+        alertagol()
         if(document.getElementById('prorrogar').checked){
             var prorrogase = 1
         }else{
@@ -2313,6 +2314,7 @@ function jogar(){
         }else{
             minutoagora.innerText = "'FIM"
             acabou
+            alertagol()
         }
     },chaveinter)
 }
