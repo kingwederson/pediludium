@@ -324,7 +324,7 @@ function jogar(){
         var Pcasa = 82.3
         var Acasa = 2.4
         var Dcasa = 0.6
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg"
     }
     else if(PELcasa=="itiROM"){//Roma
         var Pcasa = 73.1
@@ -1879,7 +1879,7 @@ function jogar(){
         var Pfora = 82.3
         var Afora = 2.4
         var Dfora = 0.6
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/28/S.S.C._Napoli_logo.svg"
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg"
     }
     else if(PELfora=="itiROM"){//Roma
         var Pfora = 73.1
@@ -2259,7 +2259,6 @@ function jogar(){
     var sumulaA = String('')
     var sumulaB = String('')
     var rolaabola = setInterval(function apitoinicial(){
-        alertagol()
         if(document.getElementById('prorrogar').checked){
             var prorrogase = 1
         }else{
