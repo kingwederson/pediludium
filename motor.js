@@ -696,25 +696,25 @@ function jogar(){
         var Pcasa = 68.42
         var Acasa = 1.81
         var Dcasa = 0.78
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ecu"
+        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/5750.png"
     }
     else if(PELcasa=="PAR"){//Paraguai
         var Pcasa = 67.8
         var Acasa = 1.84
         var Dcasa = 0.82
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/par"
+        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/3581.png"
     }
     else if(PELcasa=="VEN"){//Venezuela
         var Pcasa = 67.8
         var Acasa = 1.84
         var Dcasa = 0.82
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ven"
+        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/3504.png"
     }
     else if(PELcasa=="BOL"){//Bolívia
         var Pcasa = 52.93
         var Acasa = 1.47
         var Dcasa = 1.13
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bol"
+        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/5233.png"
     }
     else if(PELcasa=="AUT"){//Austria
         var Pcasa = 74.48
@@ -1579,25 +1579,25 @@ function jogar(){
         var Pfora = 52.93
         var Afora = 1.47
         var Dfora = 1.13
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bol"
+        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/5233.png"
     }
     else if(PELfora=="VEN"){//Venezuela
         var Pfora = 67.8
         var Afora = 1.84
         var Dfora = 0.82
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ven"
+        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/3504.png"
     }
     else if(PELfora=="PAR"){//Paraguai
         var Pfora = 67.8
         var Afora = 1.84
         var Dfora = 0.82
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/par"
+        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/3581.png"
     }
     else if(PELfora=="ECU"){//Equador
         var Pfora = 68.42
         var Afora = 1.81
         var Dfora = 0.78
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ecu"
+        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/5750.png"
     }
     else if(PELfora=="CHI"){//Chile
         var Pfora = 76.14
