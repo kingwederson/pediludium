@@ -20,17 +20,19 @@
         </tr>
         <tr>
             <td colspan=4>Lenta
-                <input type="range" id="intervalodasimulacao" list="velomarca" value="4" step="1" min="1" max="6" style="width:400px;">
+                <input type="range" id="intervalodasimulacao" list="velomarca" value="4" step="1" min="1" max="8" style="width:400px;" onchange="mudavel()" onclick="mudavel()">
                 Rápida
                 <datalist id="velomarca">
-                        <option value="1" label="90 min">
-                        <option value="2" label="7.5 min">
-                        <option value="3" label="90 s">
-                        <option value="4" label="45 s">
-                        <option value="5" label="18 s">
-                        <option value="6" label="9 s">
+                        <option value="1" label="90 min"></option>
+                        <option value="2" label="30 min"></option>
+                        <option value="3" label="15 min"></option>
+                        <option value="4" label="7.5 min"></option>
+                        <option value="5" label="90 s"></option>
+                        <option value="6" label="45 s"></option>
+                        <option value="7" label="18 s"></option>
+                        <option value="8" label="9 s"></option>
                 </datalist><br>
-                90 min --- 7.5 min --- 90 seg --- 45 seg --- 18 seg --- 9 seg
+                duração: <span id="resvelocidade">7&half; min</span>
             </td>
         </tr>
         <tr>

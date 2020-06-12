@@ -1,3 +1,32 @@
+function mudavel(){
+    var intervalosel = Number(document.getElementById('intervalodasimulacao').value)
+    switch(intervalosel){
+        case 1:
+            resvelocidade.innerText = "90 min"
+            break
+        case 2:
+            resvelocidade.innerText = "30 min"
+            break
+        case 3:
+            resvelocidade.innerText = "15 min"
+            break
+        case 4:
+            resvelocidade.innerText = "7\xBD min"
+            break
+        case 5:
+            resvelocidade.innerText = "90 s"
+            break
+        case 6:
+            resvelocidade.innerText = "45 s"
+            break
+        case 7:
+            resvelocidade.innerText = "18 s"
+            break
+        case 8:
+            resvelocidade.innerText = "9 s"
+            break
+    }
+}
 function sortear(){
     var adversarios = 128
     var sort1 = parseInt(adversarios*Math.random())
@@ -26,18 +55,24 @@ function jogar(){
             chaveinter = 60000
             break
         case 2:
-            chaveinter = 5000
+            chaveinter = 20000
             break
         case 3:
-            chaveinter = 1000
+            chaveinter = 10000
             break
         case 4:
-            chaveinter = 500
+            chaveinter = 5000
             break
         case 5:
-            chaveinter = 200
+            chaveinter = 1000
             break
         case 6:
+            chaveinter = 500
+            break
+        case 7:
+            chaveinter = 200
+            break
+        case 8:
             chaveinter = 100
             break
     }
