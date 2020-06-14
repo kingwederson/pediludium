@@ -352,7 +352,7 @@ function mudavel(){
     }
 }
 function sortear(){
-    var adversarios = 128
+    var adversarios = 150
     var sort1 = parseInt(adversarios*Math.random())
     document.getElementById('timedacasa').selectedIndex = sort1+1
     var sort2 = parseInt(adversarios*Math.random())
