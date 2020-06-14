@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pediludium 0.15.1</title>
+    <title>Pediludium 0.15.4</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="estilo.css?id=4" />
+    <link rel="stylesheet" type="text/css" href="estilo.css?id=5" />
 </head>
 <body>
     <h1><img class="logo" src="https://i.imgur.com/QsSd4qb.png"></h1>
-    <p>Versão 0.15.1</p>
+    <p>Versão 0.15.4</p>
     <link rel="icon" href="pic/favicon.ico" />
     <p>Simulador de placar de partida de futebol.</p>
     <table id="tabeladereferencia">
@@ -20,7 +20,7 @@
         </tr>
         <tr>
             <td colspan=4>Lenta
-                <input type="range" id="intervalodasimulacao" list="velomarca" value="4" step="1" min="1" max="8" style="width:400px;" onchange="mudavel()" onclick="mudavel()">
+                <input type="range" id="intervalodasimulacao" list="velomarca" value="5" step="1" min="1" max="8" style="width:400px;" onchange="mudavel()" onclick="mudavel()">
                 Rápida
                 <datalist id="velomarca">
                         <option value="1" label="90 min"></option>
@@ -32,7 +32,7 @@
                         <option value="7" label="18 s"></option>
                         <option value="8" label="9 s"></option>
                 </datalist><br>
-                duração: <span id="resvelocidade">7&half; min</span>
+                duração: <span id="resvelocidade">90 s</span>
             </td>
         </tr>
         <tr>
@@ -77,7 +77,7 @@
                             <option value="engARS">Arsenal</option>
                             <option value="engAST">Aston Villa</option>
                             <option value="engBOU">Bournemouth</option>
-                            <option value="engBRI">Brighton</option>
+                            <option value="engBHA">Brighton</option>
                             <option value="engBUR">Burnley</option>
                             <option value="engCHE">Chelsea</option>
                             <option value="engCRY">Crystal Palace</option>
@@ -120,19 +120,23 @@
                         <optgroup label="Áustria (1)" class="austria">
                             <option value="autRBS">Red Bull Salzburg</option>
                         </optgroup>
-                        <optgroup label="Canadá & EUA (24)" class="eua">
+                        <optgroup label="Canadá & EUA (32)" class="eua">
                             <option value="usaATL">Atlanta United</option>
+                            <option value="usaAUS">Austin FC</option>
+                            <option value="usaCHA" disabled>Charlotte</option>
                             <option value="usaCHI">Chicago Fire</option>
                             <option value="usaCIN">Cincinnati</option>
-                            <option value="usaCOL">Colorado</option>
+                            <option value="usaCOL">Colorado Rapids</option>
                             <option value="usaCREW">Columbus Crew</option>
                             <option value="usaDAL">Dallas</option>
                             <option value="usaDCU">DC United</option>
                             <option value="usaHOU">Houston Dynamo</option>
+                            <option value="usaMIA">Inter Miami</option>
                             <option value="usaLAFC">Los Angeles FC</option>
                             <option value="usaGAL">LA Galaxy</option>
                             <option value="usaMIN">Minnesota</option>
                             <option value="canMON">Montreal Impact</option>
+                            <option value="usaNAS">Nashiville</option>
                             <option value="usaNER">New England Revolution</option>
                             <option value="usaNYC">New York City FC</option>
                             <option value="usaNYRB">New York Red Bulls</option>
@@ -140,37 +144,41 @@
                             <option value="usaPHI">Philadelphia Union</option>
                             <option value="usaPOR">Portland Timbers</option>
                             <option value="usaRSL">Real Salt Lake</option>
+                            <option value="usaSAC">Sacramento Republic</option>
+                            <option value="usaLOU" disabled>Saint Louis</option>
                             <option value="usaSJE">San Jose Earthquakes</option>
                             <option value="usaSEA">Seattle Sounders</option>
                             <option value="usaSPO">Sporting Kansas City</option>
                             <option value="canTOR">Toronto</option>
                             <option value="canVAN">Vancouver Whitecaps</option>
                         </optgroup>
-                        <optgroup label="Ibérica, Península (24)" class="espanha">
+                        <optgroup label="Catalunha e Espanha (20)" class="espanha">
                             <option value="spaALA">Alavés</option>
                             <option value="spaBIL">Athletic Bilbao</option>
                             <option value="spaATL">Atlético Madrid</option>
                             <option value="catBAR">Barcelona</option>
-                            <option value="porBEN">Benfica</option>
-                            <option value="porBRA">Braga</option>
                             <option value="spaCEL">Celta de Vigo</option>
                             <option value="spaEIB">Eibar</option>
-                            <option value="spaESP">Espanyol</option>
+                            <option value="catESP">Espanyol</option>
                             <option value="spaGRA">Granada</option>
                             <option value="spaGET">Getafe</option>
                             <option value="spaLEG">Leganés</option>
                             <option value="spaLEV">Levante</option>
                             <option value="spaMAL">Mallorca</option>
                             <option value="spaOSA">Osasuna</option>
-                            <option value="porPOR">Porto</option>
                             <option value="spaBET">Real Betis</option>
                             <option value="spaMAD">Real Madrid</option>
                             <option value="spaRSO">Real Sociedad</option>
                             <option value="spaRVA">Real Valladolid</option>
                             <option value="spaSEV">Sevilla</option>
-                            <option value="porSPO">Sporting</option>
                             <option value="spaVAL">Valencia</option>
                             <option value="spaVIL">Villarreal</option>
+                        </optgroup>
+                        <optgroup label="Portugal (4)" class="portugal">
+                            <option value="porBEN">Benfica</option>
+                            <option value="porBRA">Braga</option>
+                            <option value="porPOR">Porto</option>
+                            <option value="porSPO">Sporting</option>
                         </optgroup>
                         <optgroup label="França (4)" class="franca">
                             <option value="fraLIL">Lille</option>
@@ -182,15 +190,27 @@
                             <option value="nedAJA">Ajax</option>
                             <option value="nedPSV">PSV</option>
                         </optgroup>
-                        <optgroup label="Itália (8)" class="italia">
-                            <option value="itiATA">Atalanta</option>
-                            <option value="itiFIO">Fiorentina</option>
-                            <option value="itiINT">Internazionale</option>
-                            <option value="itiJUV">Juventus</option>
-                            <option value="itiLAZ">Lazio</option>
-                            <option value="itiMIL">Milan</option>
-                            <option value="itiNAP">Napoli</option>
-                            <option value="itiROM">Roma</option>
+                        <optgroup label="Itália (20)" class="italia">
+                            <option value="itaATA">Atalanta</option>
+                            <option value="itaBRE">Brescia</option>
+                            <option value="itaBOL">Bologna</option>
+                            <option value="itaCAG">Cagliari</option>
+                            <option value="itaFIO">Fiorentina</option>
+                            <option value="itaGEN">Genoa</option>
+                            <option value="itaHEL">Hellas Verona</option>
+                            <option value="itaINT">Internazionale</option>
+                            <option value="itaJUV">Juventus</option>
+                            <option value="itaLAZ">Lazio</option>
+                            <option value="itaLEC">Lecce</option>
+                            <option value="itaMIL">Milan</option>
+                            <option value="itaNAP">Napoli</option>
+                            <option value="itaPAR">Parma</option>
+                            <option value="itaROM">Roma</option>
+                            <option value="itaSAM">Sampdoria</option>
+                            <option value="itaSAS">Sassuolo</option>
+                            <option value="itaSPAL">SPAL</option>
+                            <option value="itaTOR">Torino</option>
+                            <option value="itaUDI">Udinese</option>
                         </optgroup>
                         <optgroup label="Rússia (1)" class="russia">
                             <option value="rusZEN">Zenit</option>
@@ -237,13 +257,14 @@
                             <option value="TUR">Turquia</option>
                             <option value="UKR">Ucrânia</option>
                         </optgroup>
-                        <optgroup label="AFC & OFC (6)">
+                        <optgroup label="AFC & OFC (7)">
                             <option value="AUS">Austrália</option>
                             <option value="KOR">Coréia do Sul</option>
                             <option value="IRA">Irã</option>
-                            <option value="JAP">Japão</option>
+                            <option value="JPN">Japão</option>
                             <option value="QAT">Qatar</option>
                             <option value="NZL">Nova Zelândia</option>
+                            <option value="SAU">Arábia Saudita</option>
                         </optgroup>
                         <optgroup label="CAF (8)">
                             <option value="ALG">Argélia</option>
@@ -251,7 +272,7 @@
                             <option value="EGY">Egito</option>
                             <option value="GHA">Gana</option>
                             <option value="MAR">Marrocos</option>
-                            <option value="NIG">Nigéria</option>
+                            <option value="NGA">Nigéria</option>
                             <option value="SEN">Senegal</option>
                             <option value="TUN">Tunísia</option>
                         </optgroup>
@@ -296,7 +317,7 @@
                         <option value="engARS">Arsenal</option>
                         <option value="engAST">Aston Villa</option>
                         <option value="engBOU">Bournemouth</option>
-                        <option value="engBRI">Brighton</option>
+                        <option value="engBHA">Brighton</option>
                         <option value="engBUR">Burnley</option>
                         <option value="engCHE">Chelsea</option>
                         <option value="engCRY">Crystal Palace</option>
@@ -339,19 +360,23 @@
                     <optgroup label="Áustria (1)" class="austria">
                         <option value="autRBS">Red Bull Salzburg</option>
                     </optgroup>
-                    <optgroup label="Canadá & EUA (24)" class="eua">
+                    <optgroup label="Canadá & EUA (32)" class="eua">
                         <option value="usaATL">Atlanta United</option>
+                        <option value="usaAUS">Austin FC</option>
+                        <option value="usaCHA" disabled>Charlotte</option>
                         <option value="usaCHI">Chicago Fire</option>
                         <option value="usaCIN">Cincinnati</option>
-                        <option value="usaCOL">Colorado</option>
+                        <option value="usaCOL">Colorado Rapids</option>
                         <option value="usaCREW">Columbus Crew</option>
                         <option value="usaDAL">Dallas</option>
                         <option value="usaDCU">DC United</option>
                         <option value="usaHOU">Houston Dynamo</option>
+                        <option value="usaMIA">Inter Miami</option>
                         <option value="usaLAFC">Los Angeles FC</option>
                         <option value="usaGAL">LA Galaxy</option>
                         <option value="usaMIN">Minnesota</option>
                         <option value="canMON">Montreal Impact</option>
+                        <option value="usaNAS">Nashiville</option>
                         <option value="usaNER">New England Revolution</option>
                         <option value="usaNYC">New York City FC</option>
                         <option value="usaNYRB">New York Red Bulls</option>
@@ -359,37 +384,40 @@
                         <option value="usaPHI">Philadelphia Union</option>
                         <option value="usaPOR">Portland Timbers</option>
                         <option value="usaRSL">Real Salt Lake</option>
+                        <option value="usaLOU" disabled>Saint Louis</option>
                         <option value="usaSJE">San Jose Earthquakes</option>
                         <option value="usaSEA">Seattle Sounders</option>
                         <option value="usaSPO">Sporting Kansas City</option>
                         <option value="canTOR">Toronto</option>
                         <option value="canVAN">Vancouver Whitecaps</option>
                     </optgroup>
-                    <optgroup label="Ibérica, Península (24)" class="espanha">
+                    <optgroup label="Catalunha e Espanha (20)" class="espanha">
                         <option value="spaALA">Alavés</option>
                         <option value="spaBIL">Athletic Bilbao</option>
                         <option value="spaATL">Atlético Madrid</option>
                         <option value="catBAR">Barcelona</option>
-                        <option value="porBEN">Benfica</option>
-                        <option value="porBRA">Braga</option>
                         <option value="spaCEL">Celta de Vigo</option>
                         <option value="spaEIB">Eibar</option>
-                        <option value="spaESP">Espanyol</option>
+                        <option value="catESP">Espanyol</option>
                         <option value="spaGRA">Granada</option>
                         <option value="spaGET">Getafe</option>
                         <option value="spaLEG">Leganés</option>
                         <option value="spaLEV">Levante</option>
                         <option value="spaMAL">Mallorca</option>
                         <option value="spaOSA">Osasuna</option>
-                        <option value="porPOR">Porto</option>
                         <option value="spaBET">Real Betis</option>
                         <option value="spaMAD">Real Madrid</option>
                         <option value="spaRSO">Real Sociedad</option>
                         <option value="spaRVA">Real Valladolid</option>
                         <option value="spaSEV">Sevilla</option>
-                        <option value="porSPO">Sporting</option>
                         <option value="spaVAL">Valencia</option>
                         <option value="spaVIL">Villarreal</option>
+                    </optgroup>
+                    <optgroup label="Portugal (4)" class="portugal">
+                        <option value="porBEN">Benfica</option>
+                        <option value="porBRA">Braga</option>
+                        <option value="porPOR">Porto</option>
+                        <option value="porSPO">Sporting</option>
                     </optgroup>
                     <optgroup label="França (4)" class="franca">
                         <option value="fraLIL">Lille</option>
@@ -401,15 +429,27 @@
                         <option value="nedAJA">Ajax</option>
                         <option value="nedPSV">PSV</option>
                     </optgroup>
-                    <optgroup label="Itália (8)" class="italia">
-                        <option value="itiATA">Atalanta</option>
-                        <option value="itiFIO">Fiorentina</option>
-                        <option value="itiINT">Internazionale</option>
-                        <option value="itiJUV">Juventus</option>
-                        <option value="itiLAZ">Lazio</option>
-                        <option value="itiMIL">Milan</option>
-                        <option value="itiNAP">Napoli</option>
-                        <option value="itiROM">Roma</option>
+                    <optgroup label="Itália (20)" class="italia">
+                        <option value="itaATA">Atalanta</option>
+                        <option value="itaBRE">Brescia</option>
+                        <option value="itaBOL">Bologna</option>
+                        <option value="itaCAG">Cagliari</option>
+                        <option value="itaFIO">Fiorentina</option>
+                        <option value="itaGEN">Genoa</option>
+                        <option value="itaHEL">Hellas Verona</option>
+                        <option value="itaINT">Internazionale</option>
+                        <option value="itaJUV">Juventus</option>
+                        <option value="itaLAZ">Lazio</option>
+                        <option value="itaLEC">Lecce</option>
+                        <option value="itaMIL">Milan</option>
+                        <option value="itaNAP">Napoli</option>
+                        <option value="itaPAR">Parma</option>
+                        <option value="itaROM">Roma</option>
+                        <option value="itaSAM">Sampdoria</option>
+                        <option value="itaSAS">Sassuolo</option>
+                        <option value="itaSPAL">SPAL</option>
+                        <option value="itaTOR">Torino</option>
+                        <option value="itaUDI">Udinese</option>
                     </optgroup>
                     <optgroup label="Rússia (1)" class="russia">
                         <option value="rusZEN">Zenit</option>
@@ -460,9 +500,10 @@
                         <option value="AUS">Austrália</option>
                         <option value="KOR">Coréia do Sul</option>
                         <option value="IRA">Irã</option>
-                        <option value="JAP">Japão</option>
+                        <option value="JPN">Japão</option>
                         <option value="QAT">Qatar</option>
                         <option value="NZL">Nova Zelândia</option>
+                        <option value="SAU">Arábia Saudita</option>
                     </optgroup>
                     <optgroup label="CAF (8)">
                         <option value="ALG">Argélia</option>
@@ -470,7 +511,7 @@
                         <option value="EGY">Egito</option>
                         <option value="GHA">Gana</option>
                         <option value="MAR">Marrocos</option>
-                        <option value="NIG">Nigéria</option>
+                        <option value="NGA">Nigéria</option>
                         <option value="SEN">Senegal</option>
                         <option value="TUN">Tunísia</option>
                     </optgroup>
@@ -661,7 +702,7 @@
             <td><span id="txtsumulaB" class="sumula"></span></td>
         </tr>
     </table>
-    <script type="text/javascript" src="motor.js?id=3"></script>
+    <script type="text/javascript" src="motor.js?id=4"></script>
     <h2>Créditos</h2>
     <h3>Programação</h3>
     <p>Wederson Geovane de Paula.<br>
