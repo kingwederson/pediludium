@@ -116,6 +116,7 @@ var engLUT = {spi:35.31,a:1.09,d:1.55}
 var braAGO = {spi:38.90,a:1.16,d:1.45}
 var braSPO = {spi:40.01,a:1.19,d:1.43}
 var braBOT = {spi:40.50,a:1.10,d:1.31}
+var braCRU = {spi:51.58,a:1.22,d:0.96}
 var braCTB = {spi:41.08,a:1.22,d:1.42}
 var braRBB = {spi:43.00,a:1.27,d:1.38}
 var braFOR = {spi:45.02,a:1.27,d:1.29}
