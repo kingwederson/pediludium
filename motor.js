@@ -29,6 +29,7 @@ var IRA = {spi:67.62,a:1.71,d:0.73}
 var IRE = {spi:58.14,a:1.39,d:0.83}
 var IRQ = {spi:59.17,a:1.46,d:0.86}
 var ISL = {spi:60.83,a:1.69,d:1.00}
+var ISR = {spi:55.16,a:1.67,d:1.23}
 var ITA = {spi:83.26,a:2.21,d:0.40}
 var JPN = {spi:70.23,a:1.94,d:0.80}
 var KOR = {spi:61.93,a:1.62,d:0.89}
@@ -352,7 +353,7 @@ function mudavel(){
     }
 }
 function sortear(){
-    var adversarios = 150
+    var adversarios = 180
     var sort1 = parseInt(adversarios*Math.random())
     document.getElementById('timedacasa').selectedIndex = sort1+1
     var sort2 = parseInt(adversarios*Math.random())
@@ -516,6 +517,12 @@ function jogar(){
         var Acasa = ISL.a
         var Dcasa = ISL.d
         document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
+    }
+    else if(PELcasa=="ISR"){//Israel
+        var Pcasa = ISR.spi
+        var Acasa = ISR.a
+        var Dcasa = ISR.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"
     }
     else if(PELcasa=="JPN"){//Japão
         var Pcasa = JPN.spi
@@ -1764,6 +1771,12 @@ function jogar(){
         var Afora = ISL.a
         var Dfora = ISL.d
         document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
+    }
+    else if(PELfora=="ISR"){//Israel
+        var Pfora = ISR.spi
+        var Afora = ISR.a
+        var Dfora = ISR.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"
     }
     else if(PELfora=="JPN"){//Japão
         var Pfora = JPN.spi

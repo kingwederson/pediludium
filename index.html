@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pediludium 0.15.5</title>
+    <title>Pediludium 0.15.6</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="estilo.css?id=5" />
@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1><img class="logo" src="https://i.imgur.com/QsSd4qb.png"></h1>
-    <p>Versão 0.15.5</p>
+    <p>Versão 0.15.6</p>
     <link rel="icon" href="pic/favicon.ico" />
     <p>Simulador de placar de partida de futebol.</p>
     <table id="tabeladereferencia">
@@ -44,12 +44,12 @@
             <td>
                     <select id="timedacasa">
                             <option></option>
-                        <optgroup label="Brasil (28)" class="brasil">
+                        <optgroup label="Brasil (24)" class="brasil">
                             <option value="braCAP">Athletico Paranaense</option>
                             <option value="braAGO">Atlético Goianiense</option>
-                            <option value="braCAM">Atlético Mineiro</option>
+                            <option value="braCAM">Atlético Mineiro</option><!--
                             <option value="braAMG" disabled>América Mineiro</option>
-                            <option value="braAVA">Avaí</option>
+                            <option value="braAVA" disabled>Avaí</option>-->
                             <option value="braBAH">Bahia</option>
                             <option value="braBOT">Botafogo</option>
                             <option value="braCEA">Ceará</option>
@@ -64,15 +64,15 @@
                             <option value="braGOI">Goiás</option>
                             <option value="braGRE">Grêmio</option>
                             <option value="braINT">Internacional</option>
-                            <option value="braPAL">Palmeiras</option>
+                            <option value="braPAL">Palmeiras</option><!--
                             <option value="braPAR" disabled>Paraná Clube</option>
-                            <option value="braAAPP" disabled>Ponte Preta</option>
+                            <option value="braAAPP" disabled>Ponte Preta</option>-->
                             <option value="braRBB">Red Bull Brasil</option>
                             <option value="braSAN">Santos</option>
                             <option value="braSPFC">São Paulo</option>
                             <option value="braSPO">Sport Recife</option>
-                            <option value="braVAS">Vasco</option>
-                            <option value="braVIT" disabled>Vitória</option>
+                            <option value="braVAS">Vasco</option><!--
+                            <option value="braVIT" disabled>Vitória</option>-->
                         </optgroup>
                         <optgroup label="Inglaterra (22)" class="inglaterra">
                             <option value="engARS">Arsenal</option>
@@ -246,7 +246,7 @@
                             <option value="MEX">México</option>
                             <option value="PAN">Panamá</option>
                         </optgroup>
-                        <optgroup label="UEFA (20)">
+                        <optgroup label="UEFA (21)">
                             <option value="GER">Alemanha</option>
                             <option value="BEL">Bélgica</option>
                             <option value="CRO">Croácia</option>
@@ -256,6 +256,7 @@
                             <option value="NED">Holanda</option>
                             <option value="ENG">Inglaterra</option>
                             <option value="ISL">Islândia</option>
+                            <option value="ISR">Israel</option>
                             <option value="ITA">Itália</option>
                             <option value="NOR">Noruega</option>
                             <option value="POL">Polônia</option>
@@ -294,12 +295,12 @@
             <td>
                 <select id="timedefora">
                         <option></option>
-                    <optgroup label="Brasil (28)" class="brasil">
+                    <optgroup label="Brasil (24)" class="brasil">
                         <option value="braCAP">Athletico Paranaense</option>
                         <option value="braAGO">Atlético Goianiense</option>
-                        <option value="braCAM">Atlético Mineiro</option>
+                        <option value="braCAM">Atlético Mineiro</option><!--
                         <option value="braAMG" disabled>América Mineiro</option>
-                        <option value="braAVA">Avaí</option>
+                        <option value="braAVA" disabled>Avaí</option>-->
                         <option value="braBAH">Bahia</option>
                         <option value="braBOT">Botafogo</option>
                         <option value="braCEA">Ceará</option>
@@ -314,15 +315,15 @@
                         <option value="braGOI">Goiás</option>
                         <option value="braGRE">Grêmio</option>
                         <option value="braINT">Internacional</option>
-                        <option value="braPAL">Palmeiras</option>
+                        <option value="braPAL">Palmeiras</option><!--
                         <option value="braPAR" disabled>Paraná Clube</option>
-                        <option value="braAAPP" disabled>Ponte Preta</option>
+                        <option value="braAAPP" disabled>Ponte Preta</option>-->
                         <option value="braRBB">Red Bull Brasil</option>
                         <option value="braSAN">Santos</option>
                         <option value="braSPFC">São Paulo</option>
                         <option value="braSPO">Sport Recife</option>
-                        <option value="braVAS">Vasco</option>
-                        <option value="braVIT" disabled>Vitória</option>
+                        <option value="braVAS">Vasco</option><!--
+                        <option value="braVIT" disabled>Vitória</option>-->
                     </optgroup>
                     <optgroup label="Inglaterra (22)" class="inglaterra">
                         <option value="engARS">Arsenal</option>
@@ -495,7 +496,7 @@
                         <option value="MEX">México</option>
                         <option value="PAN">Panamá</option>
                     </optgroup>
-                    <optgroup label="UEFA (20)">
+                    <optgroup label="UEFA (21)">
                         <option value="GER">Alemanha</option>
                         <option value="BEL">Bélgica</option>
                         <option value="CRO">Croácia</option>
@@ -505,6 +506,7 @@
                         <option value="NED">Holanda</option>
                         <option value="ENG">Inglaterra</option>
                         <option value="ISL">Islândia</option>
+                        <option value="ISR">Israel</option>
                         <option value="ITA">Itália</option>
                         <option value="NOR">Noruega</option>
                         <option value="POL">Polônia</option>
