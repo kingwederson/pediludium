@@ -111,6 +111,7 @@ var engBAR = {spi:43.14,a:1.23,d:1.33}
 var engHUL = {spi:41.18,a:1.31,d:1.52}
 var engCHA = {spi:36.60,a:1.11,d:1.50}
 var engLUT = {spi:35.31,a:1.09,d:1.55}
+var engSUN = {spi:31.75,a:0.9,d:1.47}
 
 //Brasil
 var braAGO = {spi:38.90,a:1.16,d:1.45}
@@ -145,6 +146,7 @@ var usaPHI = {spi:46.0,a:1.51,d:1.51}
 var usaNYC = {spi:44.86,a:1.42,d:1.46}
 var usaMIA = {spi:44.25,a:1.35,d:1.42}
 var usaSEA = {spi:44.11,a:1.42,d:1.51}
+var usaSAC = {spi:23.23,a:0.85,d:1.92}
 var usaCHI = {spi:42.14,a:1.42,d:1.6}
 var usaGAL = {spi:42.1,a:1.69,d:1.9}
 var usaMIN = {spi:41.98,a:1.4,d:1.58}
@@ -162,7 +164,7 @@ var usaDCU = {spi:33.65,a:1.11,d:1.66}
 var usaHOU = {spi:33.25,a:1.16,d:1.74}
 var usaMON = {spi:31.91,a:1.14,d:1.79}
 var usaNAS = {spi:27.53,a:0.86,d:1.65}
-var usaVAN = {spi:25.01,a:0.92,d:1.9}
+var canVAN = {spi:25.01,a:0.92,d:1.9}
 var usaCIN = {spi:23.81,a:0.92,d:1.99}
 var usaAUS = {spi:20.00,a:0.85,d:2.00}
 var usaCHA = {spi:20.00,a:0.85,d:2.00}
@@ -357,7 +359,7 @@ function mudavel(){
     }
 }
 function sortear(){
-    var adversarios = 180
+    var adversarios = 152
     var sort1 = parseInt(adversarios*Math.random())
     document.getElementById('timedacasa').selectedIndex = sort1+1
     var sort2 = parseInt(adversarios*Math.random())
@@ -368,8 +370,9 @@ function sortear(){
     }
 }
 function alertagol(){
-    var audio = new Audio('gol.mp3');
-    audio.play();
+    var audio = new Audio('gol.mp3')
+    audio.volume = 0.01
+    audio.play()
 }
 function jogar(){
     if(document.getElementById('camponeutro').checked){
@@ -794,9 +797,9 @@ function jogar(){
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
     }
     else if(PELcasa=="braFOR"){//Fortaleza
-        var Pcasa = 46.94
-        var Acasa = 1.30
-        var Dcasa = 1.24
+        var Pcasa = braFOR.spi
+        var Acasa = braFOR.a
+        var Dcasa = braFOR.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
     }
     else if(PELcasa=="braGOI"){//Goiás
@@ -2048,9 +2051,9 @@ function jogar(){
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
     }
     else if(PELfora=="braFOR"){//Fortaleza
-        var Pfora = 46.94
-        var Afora = 1.30
-        var Dfora = 1.24
+        var Pfora = braFOR.spi
+        var Afora = braFOR.a
+        var Dfora = braFOR.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
     }
     else if(PELfora=="braGOI"){//Goiás
@@ -2118,7 +2121,7 @@ function jogar(){
         var Pfora = braCTB.spi
         var Afora = braCTB.a
         var Dfora = braCTB.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
     }
     else if(PELfora=="braAAPP"){//Ponte Preta (2017)
         var Pfora = braAAPP.spi
