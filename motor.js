@@ -189,7 +189,7 @@ var spaATL = {spi:83.78,a:2.08,d:0.36}
 
 //Alemanha
 var gerPAD = {spi:56.78,a:1.63,d:1.15}
-var gerFOR = {spi:58.95,a:1.72,d:1.14}
+var gerDUS = {spi:58.95,a:1.72,d:1.14}
 var gerWER = {spi:59.72,a:1.62,d:1.02}
 var gerFRE = {spi:61.48,a:1.79,d:1.09}
 var gerSCH = {spi:62.66,a:1.64,d:0.92}
@@ -1125,11 +1125,23 @@ function jogar(){
         var Dcasa = itaTOR.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png"
     }
+    else if(PELcasa=="gerAUG"){//Augsburg
+        var Pcasa = gerAUG.spi
+        var Acasa = gerAUG.a
+        var Dcasa = gerAUG.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/4/42/FC_Augsburg.png"
+    }
     else if(PELcasa=="gerBAY"){//Bayern
         var Pcasa = gerBAY.spi
         var Acasa = gerBAY.a
         var Dcasa = gerBAY.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
+    }
+    else if(PELcasa=="gerMOC"){//Borussia Mönchengladbach
+        var Pcasa = gerMOC.spi
+        var Acasa = gerMOC.a
+        var Dcasa = gerMOC.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Borussia_M%C3%B6nchengladbach.png"
     }
     else if(PELcasa=="gerDOR"){//Dortmund
         var Pcasa = gerDOR.spi
@@ -1137,11 +1149,23 @@ function jogar(){
         var Dcasa = gerDOR.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
     }
+    else if(PELcasa=="gerDUS"){//Düsseldorf
+        var Pcasa = gerDUS.spi
+        var Acasa = gerDUS.a
+        var Dcasa = gerDUS.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
+    }
     else if(PELcasa=="gerEIN"){//Eintracht Frankfurt
         var Pcasa = gerEIN.spi
         var Acasa = gerEIN.a
         var Dcasa = gerEIN.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+    }
+    else if(PELcasa=="gerFRE"){//Freiburg
+        var Pcasa = gerFRE.spi
+        var Acasa = gerFRE.a
+        var Dcasa = gerFRE.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"
     }
     else if(PELcasa=="gerHOF"){//Hoffenheim
         var Pcasa = gerHOF.spi
@@ -1149,11 +1173,35 @@ function jogar(){
         var Dcasa = gerHOF.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
     }
+    else if(PELcasa=="gerHER"){//Hertha Berlin
+        var Pcasa = gerHER.spi
+        var Acasa = gerHER.a
+        var Dcasa = gerHER.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
+    }
+    else if(PELcasa=="gerKOL"){//Koln
+        var Pcasa = gerKOL.spi
+        var Acasa = gerKOL.a
+        var Dcasa = gerKOL.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"
+    }
     else if(PELcasa=="gerLEV"){//Leverkusen
         var Pcasa = gerLEV.spi
         var Acasa = gerLEV.a
         var Dcasa = gerLEV.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
+    }
+    else if(PELcasa=="gerMAI"){//Mainz 05
+        var Pcasa = gerMAI.spi
+        var Acasa = gerMAI.a
+        var Dcasa = gerMAI.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
+    }
+    else if(PELcasa=="gerPAD"){//Padeborn
+        var Pcasa = gerPAD.spi
+        var Acasa = gerPAD.a
+        var Dcasa = gerPAD.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"
     }
     else if(PELcasa=="gerRBL"){//Red Bull Leipzig
         var Pcasa = gerRBL.spi
@@ -1166,6 +1214,12 @@ function jogar(){
         var Acasa = gerSCH.a
         var Dcasa = gerSCH.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+    }
+    else if(PELcasa=="gerBER"){//Union Berlin
+        var Pcasa = gerBER.spi
+        var Acasa = gerBER.a
+        var Dcasa = gerBER.d
+        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/81/1_FC_Union_Berlin.png"
     }
     else if(PELcasa=="gerWER"){//Werder Bremen
         var Pcasa = gerWER.spi
@@ -2319,11 +2373,23 @@ function jogar(){
         var Dfora = itaTOR.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png"
     }
+    else if(PELfora=="gerAUG"){//Augsburg
+        var Pfora = gerAUG.spi
+        var Afora = gerAUG.a
+        var Dfora = gerAUG.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/4/42/FC_Augsburg.png"
+    }
     else if(PELfora=="gerBAY"){//Bayern
         var Pfora = gerBAY.spi
         var Afora = gerBAY.a
         var Dfora = gerBAY.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
+    }
+    else if(PELfora=="gerMOC"){//Borussia Mönchengladbach
+        var Pfora = gerMOC.spi
+        var Afora = gerMOC.a
+        var Dfora = gerMOC.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Borussia_M%C3%B6nchengladbach.png"
     }
     else if(PELfora=="gerDOR"){//Dortmund
         var Pfora = gerDOR.spi
@@ -2331,11 +2397,23 @@ function jogar(){
         var Dfora = gerDOR.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
     }
+    else if(PELfora=="gerDUS"){//Düsseldorf
+        var Pfora = gerDUS.spi
+        var Afora = gerDUS.a
+        var Dfora = gerDUS.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
+    }
     else if(PELfora=="gerEIN"){//Eintracht Frankfurt
         var Pfora = gerEIN.spi
         var Afora = gerEIN.a
         var Dfora = gerEIN.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+    }
+    else if(PELfora=="gerFRE"){//Freiburg
+        var Pfora = gerFRE.spi
+        var Afora = gerFRE.a
+        var Dfora = gerFRE.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"
     }
     else if(PELfora=="gerHOF"){//Hoffenheim
         var Pfora = gerHOF.spi
@@ -2343,11 +2421,35 @@ function jogar(){
         var Dfora = gerHOF.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
     }
+    else if(PELfora=="gerHER"){//Hertha Berlin
+        var Pfora = gerHER.spi
+        var Afora = gerHER.a
+        var Dfora = gerHER.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
+    }
+    else if(PELfora=="gerKOL"){//Koln
+        var Pfora = gerKOL.spi
+        var Afora = gerKOL.a
+        var Dfora = gerKOL.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"
+    }
     else if(PELfora=="gerLEV"){//Leverkusen
         var Pfora = gerLEV.spi
         var Afora = gerLEV.a
         var Dfora = gerLEV.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
+    }
+    else if(PELfora=="gerMAI"){//Mainz 05
+        var Pfora = gerMAI.spi
+        var Afora = gerMAI.a
+        var Dfora = gerMAI.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
+    }
+    else if(PELfora=="gerPAD"){//Padeborn
+        var Pfora = gerPAD.spi
+        var Afora = gerPAD.a
+        var Dfora = gerPAD.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"
     }
     else if(PELfora=="gerRBL"){//Red Bull Leipzig
         var Pfora = gerRBL.spi
@@ -2360,6 +2462,12 @@ function jogar(){
         var Afora = gerSCH.a
         var Dfora = gerSCH.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+    }
+    else if(PELfora=="gerBER"){//Union Berlin
+        var Pfora = gerBER.spi
+        var Afora = gerBER.a
+        var Dfora = gerBER.d
+        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/81/1_FC_Union_Berlin.png"
     }
     else if(PELfora=="gerWER"){//Werder Bremen
         var Pfora = gerWER.spi
