@@ -114,6 +114,7 @@ var engLUT = {spi:35.31,a:1.09,d:1.55}
 
 //Brasil
 var braAGO = {spi:38.90,a:1.16,d:1.45}
+var braAVA = {spi:32.34,a:0.9,d:1.45}
 var braSPO = {spi:40.01,a:1.19,d:1.43}
 var braBOT = {spi:40.50,a:1.10,d:1.31}
 var braCHA = {spi:40.75,a:1.05,d:1.23}
