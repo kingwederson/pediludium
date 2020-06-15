@@ -418,2516 +418,2518 @@ function jogar(){
     var Pcasa
     var Acasa
     var Dcasa
+    var escudocasa = document.getElementById('ESCcasa')
 
     var PELfora = window.document.getElementById('timedefora').value
     var Pfora
     var Afora
     var Dfora
+    var escudofora = document.getElementById('ESCfora')
 
     if(PELcasa=="GER"){//Alemanha
-        var Pcasa = GER.spi
-        var Acasa = GER.a
-        var Dcasa = GER.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
+        Pcasa = GER.spi
+        Acasa = GER.a
+        Dcasa = GER.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
     }
     else if(PELcasa=="SAU"){//Arábia Saudita
-        var Pcasa = SAU.spi
-        var Acasa = SAU.a
-        var Dcasa = SAU.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
+        Pcasa = SAU.spi
+        Acasa = SAU.a
+        Dcasa = SAU.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
     }
     else if(PELcasa=="ARG"){//Argentina
-        var Pcasa = ARG.spi
-        var Acasa = ARG.a
-        var Dcasa = ARG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
+        Pcasa = ARG.spi
+        Acasa = ARG.a
+        Dcasa = ARG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
     }
     else if(PELcasa=="AUS"){//Austrália
-        var Pcasa = AUS.spi
-        var Acasa = AUS.a
-        var Dcasa = AUS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
+        Pcasa = AUS.spi
+        Acasa = AUS.a
+        Dcasa = AUS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
     }
     else if(PELcasa=="BEL"){//Bélgica
-        var Pcasa = BEL.spi
-        var Acasa = BEL.a
-        var Dcasa = BEL.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
+        Pcasa = BEL.spi
+        Acasa = BEL.a
+        Dcasa = BEL.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
     }
     else if(PELcasa=="BRA"){//Brasil
-        var Pcasa = BRA.spi
-        var Acasa = BRA.a
-        var Dcasa = BRA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
+        Pcasa = BRA.spi
+        Acasa = BRA.a
+        Dcasa = BRA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
     }
     else if(PELcasa=="CHI"){//Chile
-        var Pcasa = CHI.spi
-        var Acasa = CHI.a
-        var Dcasa = CHI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
+        Pcasa = CHI.spi
+        Acasa = CHI.a
+        Dcasa = CHI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
     }
     else if(PELcasa=="COL"){//Colômbia
-        var Pcasa = COL.spi
-        var Acasa = COL.a
-        var Dcasa = COL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
+        Pcasa = COL.spi
+        Acasa = COL.a
+        Dcasa = COL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
     }
     else if(PELcasa=="KOR"){//Coréia do Sul
-        var Pcasa = KOR.spi
-        var Acasa = KOR.a
-        var Dcasa = KOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
+        Pcasa = KOR.spi
+        Acasa = KOR.a
+        Dcasa = KOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
     }
     else if(PELcasa=="CRC"){//Costa Rica
-        var Pcasa = CRC.spi
-        var Acasa = CRC.a
-        var Dcasa = CRC.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
+        Pcasa = CRC.spi
+        Acasa = CRC.a
+        Dcasa = CRC.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
     }
     else if(PELcasa=="CRO"){//Croácia
-        var Pcasa = CRO.spi
-        var Acasa = CRO.a
-        var Dcasa = CRO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
+        Pcasa = CRO.spi
+        Acasa = CRO.a
+        Dcasa = CRO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
     }
     else if(PELcasa=="DEN"){//Dinamarca
-        var Pcasa = DEN.spi
-        var Acasa = DEN.a
-        var Dcasa = DEN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
+        Pcasa = DEN.spi
+        Acasa = DEN.a
+        Dcasa = DEN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
     }
     else if(PELcasa=="EGY"){//Egito
-        var Pcasa = EGY.spi
-        var Acasa = EGY.a
-        var Dcasa = EGY.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
+        Pcasa = EGY.spi
+        Acasa = EGY.a
+        Dcasa = EGY.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
     }
     else if(PELcasa=="SPA"){//Espanha
-        var Pcasa = SPA.spi
-        var Acasa = SPA.a
-        var Dcasa = SPA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
+        Pcasa = SPA.spi
+        Acasa = SPA.a
+        Dcasa = SPA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
     }
     else if(PELcasa=="USA"){//Estados Unidos da América
-        var Pcasa = USA.spi
-        var Acasa = USA.a
-        var Dcasa = USA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
+        Pcasa = USA.spi
+        Acasa = USA.a
+        Dcasa = USA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
     }
     else if(PELcasa=="FRA"){//França
-        var Pcasa = FRA.spi
-        var Acasa = FRA.a
-        var Dcasa = FRA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
+        Pcasa = FRA.spi
+        Acasa = FRA.a
+        Dcasa = FRA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
     }
     else if(PELcasa=="ENG"){//Inglaterra
-        var Pcasa = ENG.spi
-        var Acasa = ENG.a
-        var Dcasa = ENG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
+        Pcasa = ENG.spi
+        Acasa = ENG.a
+        Dcasa = ENG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
     }
     else if(PELcasa=="IRA"){//Irã
-        var Pcasa = IRA.spi
-        var Acasa = IRA.a
-        var Dcasa = IRA.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
+        Pcasa = IRA.spi
+        Acasa = IRA.a
+        Dcasa = IRA.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
     }
     else if(PELcasa=="ISL"){//Islândia
-        var Pcasa = ISL.spi
-        var Acasa = ISL.a
-        var Dcasa = ISL.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
+        Pcasa = ISL.spi
+        Acasa = ISL.a
+        Dcasa = ISL.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
     }
     else if(PELcasa=="ISR"){//Israel
-        var Pcasa = ISR.spi
-        var Acasa = ISR.a
-        var Dcasa = ISR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"
+        Pcasa = ISR.spi
+        Acasa = ISR.a
+        Dcasa = ISR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"
     }
     else if(PELcasa=="JPN"){//Japão
-        var Pcasa = JPN.spi
-        var Acasa = JPN.a
-        var Dcasa = JPN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
+        Pcasa = JPN.spi
+        Acasa = JPN.a
+        Dcasa = JPN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
     }
     else if(PELcasa=="MAR"){//Marrocos
-        var Pcasa = MAR.spi
-        var Acasa = MAR.a
-        var Dcasa = MAR.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
+        Pcasa = MAR.spi
+        Acasa = MAR.a
+        Dcasa = MAR.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
     }
     else if(PELcasa=="MEX"){//México
-        var Pcasa = MEX.spi
-        var Acasa = MEX.a
-        var Dcasa = MEX.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
+        Pcasa = MEX.spi
+        Acasa = MEX.a
+        Dcasa = MEX.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
     }
     else if(PELcasa=="USA"){//Nigéria
-        var Pcasa = USA.spi
-        var Acasa = USA.a
-        var Dcasa = USA.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
+        Pcasa = USA.spi
+        Acasa = USA.a
+        Dcasa = USA.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
     }
     else if(PELcasa=="PAN"){//Panamá
-        var Pcasa = PAN.spi
-        var Acasa = PAN.a
-        var Dcasa = PAN.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
+        Pcasa = PAN.spi
+        Acasa = PAN.a
+        Dcasa = PAN.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
     }
     else if(PELcasa=="PER"){//Peru
-        var Pcasa = PER.spi
-        var Acasa = PER.a
-        var Dcasa = PER.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/3/36/Fpf-logo.svg"
+        Pcasa = PER.spi
+        Acasa = PER.a
+        Dcasa = PER.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/3/36/Fpf-logo.svg"
     }
     else if(PELcasa=="POL"){//Polônia
-        var Pcasa = POL.spi
-        var Acasa = POL.a
-        var Dcasa = POL.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
+        Pcasa = POL.spi
+        Acasa = POL.a
+        Dcasa = POL.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
     }
     else if(PELcasa=="POR"){//Portugal
-        var Pcasa = POR.spi
-        var Acasa = POR.a
-        var Dcasa = POR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
+        Pcasa = POR.spi
+        Acasa = POR.a
+        Dcasa = POR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
     }
     else if(PELcasa=="RUS"){//Rússia
-        var Pcasa = RUS.spi
-        var Acasa = RUS.a
-        var Dcasa = RUS.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
+        Pcasa = RUS.spi
+        Acasa = RUS.a
+        Dcasa = RUS.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
     }
     else if(PELcasa=="SEN"){//Senegal
-        var Pcasa = SEN.spi
-        var Acasa = SEN.a
-        var Dcasa = SEN.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
+        Pcasa = SEN.spi
+        Acasa = SEN.a
+        Dcasa = SEN.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
     }
     else if(PELcasa=="SER"){//Sérvia
-        var Pcasa = SER.spi
-        var Acasa = SER.a
-        var Dcasa = SER.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
+        Pcasa = SER.spi
+        Acasa = SER.a
+        Dcasa = SER.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
     }
     else if(PELcasa=="SWI"){//Suiça
-        var Pcasa = 77.1
-        var Acasa = 2.3
-        var Dcasa = 0.7
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
+        Pcasa = 77.1
+        Acasa = 2.3
+        Dcasa = 0.7
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
     }
     else if(PELcasa=="SWE"){//Suécia
-        var Pcasa = SWE.spi
-        var Acasa = SWE.a
-        var Dcasa = SWE.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
+        Pcasa = SWE.spi
+        Acasa = SWE.a
+        Dcasa = SWE.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
     }
     else if(PELcasa=="TUN"){//Tunísia
-        var Pcasa = TUN.spi
-        var Acasa = TUN.a
-        var Dcasa = TUN.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
+        Pcasa = TUN.spi
+        Acasa = TUN.a
+        Dcasa = TUN.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
     }
     else if(PELcasa=="URU"){//Uruguai
-        var Pcasa = URU.spi
-        var Acasa = URU.a
-        var Dcasa = URU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
+        Pcasa = URU.spi
+        Acasa = URU.a
+        Dcasa = URU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
     }
     else if(PELcasa=="ECU"){//Equador
-        var Pcasa = ECU.spi
-        var Acasa = ECU.a
-        var Dcasa = ECU.d
-        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/5750.png"
+        Pcasa = ECU.spi
+        Acasa = ECU.a
+        Dcasa = ECU.d
+        escudocasa.src="https://tmssl.akamaized.net/images/wappen/normquad/5750.png"
     }
     else if(PELcasa=="PAR"){//Paraguai
-        var Pcasa = PAR.spi
-        var Acasa = PAR.a
-        var Dcasa = PAR.d
-        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/3581.png"
+        Pcasa = PAR.spi
+        Acasa = PAR.a
+        Dcasa = PAR.d
+        escudocasa.src="https://tmssl.akamaized.net/images/wappen/normquad/3581.png"
     }
     else if(PELcasa=="VEN"){//Venezuela
-        var Pcasa = VEN.spi
-        var Acasa = VEN.a
-        var Dcasa = VEN.d
-        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/3504.png"
+        Pcasa = VEN.spi
+        Acasa = VEN.a
+        Dcasa = VEN.d
+        escudocasa.src="https://tmssl.akamaized.net/images/wappen/normquad/3504.png"
     }
     else if(PELcasa=="BOL"){//Bolívia
-        var Pcasa = BOL.spi
-        var Acasa = BOL.a
-        var Dcasa = BOL.d
-        document.getElementById('ESCcasa').src="https://tmssl.akamaized.net/images/wappen/normquad/5233.png"
+        Pcasa = BOL.spi
+        Acasa = BOL.a
+        Dcasa = BOL.d
+        escudocasa.src="https://tmssl.akamaized.net/images/wappen/normquad/5233.png"
     }
     else if(PELcasa=="CAN"){//Canadá
-        var Pcasa = CAN.spi
-        var Acasa = CAN.a
-        var Dcasa = CAN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
+        Pcasa = CAN.spi
+        Acasa = CAN.a
+        Dcasa = CAN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
     }
     else if(PELcasa=="AUT"){//Austria
-        var Pcasa = AUT.spi
-        var Acasa = AUT.a
-        var Dcasa = AUT.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
+        Pcasa = AUT.spi
+        Acasa = AUT.a
+        Dcasa = AUT.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
     }
     else if(PELcasa=="UKR"){//Ucrânia
-        var Pcasa = UKR.spi
-        var Acasa = UKR.a
-        var Dcasa = UKR.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
+        Pcasa = UKR.spi
+        Acasa = UKR.a
+        Dcasa = UKR.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
     }
     else if(PELcasa=="ALG"){//Argélia
-        var Pcasa = ALG.spi
-        var Acasa = ALG.a
-        var Dcasa = ALG.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
+        Pcasa = ALG.spi
+        Acasa = ALG.a
+        Dcasa = ALG.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
     }
     else if(PELcasa=="GHA"){//Gana
-        var Pcasa = GHA.spi
-        var Acasa = GHA.a
-        var Dcasa = GHA.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
+        Pcasa = GHA.spi
+        Acasa = GHA.a
+        Dcasa = GHA.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
     }
     else if(PELcasa=="NOR"){//Noruega
-        var Pcasa = NOR.spi
-        var Acasa = NOR.a
-        var Dcasa = NOR.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
+        Pcasa = NOR.spi
+        Acasa = NOR.a
+        Dcasa = NOR.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
     }
     else if(PELcasa=="CZE"){//Tchéquia
-        var Pcasa = CZE.spi
-        var Acasa = CZE.a
-        var Dcasa = CZE.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
+        Pcasa = CZE.spi
+        Acasa = CZE.a
+        Dcasa = CZE.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
     }
     else if(PELcasa=="TUR"){//Turquia
-        var Pcasa = TUR.spi
-        var Acasa = TUR.a
-        var Dcasa = TUR.d
-        document.getElementById('ESCcasa').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
+        Pcasa = TUR.spi
+        Acasa = TUR.a
+        Dcasa = TUR.d
+        escudocasa.src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
     }
     else if(PELcasa=="ITA"){//Itália
-        var Pcasa = ITA.spi
-        var Acasa = ITA.a
-        var Dcasa = ITA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
+        Pcasa = ITA.spi
+        Acasa = ITA.a
+        Dcasa = ITA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
     }
     else if(PELcasa=="HAI"){//Haiti
-        var Pcasa = HAI.spi
-        var Acasa = HAI.a
-        var Dcasa = HAI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
+        Pcasa = HAI.spi
+        Acasa = HAI.a
+        Dcasa = HAI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
     }
     else if(PELcasa=="NZL"){//Nova Zelânia
-        var Pcasa = NZL.spi
-        var Acasa = NZL.a
-        var Dcasa = NZL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
+        Pcasa = NZL.spi
+        Acasa = NZL.a
+        Dcasa = NZL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
         molduradefora.style.backgroundColor = "#ffffff00"
     }
     else if(PELcasa=="QAT"){//Qatar
-        var Pcasa = QAT.spi
-        var Acasa = QAT.a
-        var Dcasa = QAT.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
+        Pcasa = QAT.spi
+        Acasa = QAT.a
+        Dcasa = QAT.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
     }
     else if(PELcasa=="braAGO"){//Atlético Goianiense (2017)
-        var Pcasa = braAGO.spi
-        var Acasa = braAGO.a
-        var Dcasa = braAGO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
+        Pcasa = braAGO.spi
+        Acasa = braAGO.a
+        Dcasa = braAGO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
     }
     else if(PELcasa=="braCAM"){//Atlético Mineiro
-        var Pcasa = braCAM.spi
-        var Acasa = braCAM.a
-        var Dcasa = braCAM.d
+        Pcasa = braCAM.spi
+        Acasa = braCAM.a
+        Dcasa = braCAM.d
         document.getElementById('ESCcasa').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
     }
     else if(PELcasa=="braCAP"){//Athletico Paranaense
-        var Pcasa = braCAP.spi
-        var Acasa = braCAP.a
-        var Dcasa = braCAP.d
+        Pcasa = braCAP.spi
+        Acasa = braCAP.a
+        Dcasa = braCAP.d
         document.getElementById('ESCcasa').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
     }
     else if(PELcasa=="braAVA"){//Avaí
-        var Pcasa = braAVA.spi
-        var Acasa = braAVA.a
-        var Dcasa = braAVA.d
+        Pcasa = braAVA.spi
+        Acasa = braAVA.a
+        Dcasa = braAVA.d
         document.getElementById('ESCcasa').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
     }
     else if(PELcasa=="braBAH"){//Bahia
-        var Pcasa = braBAH.spi
-        var Acasa = braBAH.a
-        var Dcasa = braBAH.d
+        Pcasa = braBAH.spi
+        Acasa = braBAH.a
+        Dcasa = braBAH.d
         document.getElementById('ESCcasa').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
     }
     else if(PELcasa=="braBOT"){//Botafogo
-        var Pcasa = braBOT.spi
-        var Acasa = braBOT.a
-        var Dcasa = braBOT.d
+        Pcasa = braBOT.spi
+        Acasa = braBOT.a
+        Dcasa = braBOT.d
         document.getElementById('ESCcasa').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
     }
     else if(PELcasa=="braCEA"){//Ceará
-        var Pcasa = braCEA.spi
-        var Acasa = braCEA.a
-        var Dcasa = braCEA.d
+        Pcasa = braCEA.spi
+        Acasa = braCEA.a
+        Dcasa = braCEA.d
         document.getElementById('ESCcasa').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
     }
     else if(PELcasa=="braCHA"){//Chapecoense
-        var Pcasa = braCHA.spi
-        var Acasa = braCHA.a
-        var Dcasa = braCHA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
+        Pcasa = braCHA.spi
+        Acasa = braCHA.a
+        Dcasa = braCHA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
     }
     else if(PELcasa=="braCOR"){//Corinthians
-        var Pcasa = braCOR.spi
-        var Acasa = braCOR.a
-        var Dcasa = braCOR.d
-        document.getElementById('ESCcasa').src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
+        Pcasa = braCOR.spi
+        Acasa = braCOR.a
+        Dcasa = braCOR.d
+        escudocasa.src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
     }
     else if(PELcasa=="braCRU"){//Cruzeiro
-        var Pcasa = braCRU.spi
-        var Acasa = braCRU.a
-        var Dcasa = braCRU.d
-        document.getElementById('ESCcasa').src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
+        Pcasa = braCRU.spi
+        Acasa = braCRU.a
+        Dcasa = braCRU.d
+        escudocasa.src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
     }
     else if(PELcasa=="braCSA"){//CSA
-        var Pcasa = braCSA.spi
-        var Acasa = braCSA.a
-        var Dcasa = braCSA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
+        Pcasa = braCSA.spi
+        Acasa = braCSA.a
+        Dcasa = braCSA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
     }
     else if(PELcasa=="braFLA"){//Flamengo
-        var Pcasa = braFLA.spi
-        var Acasa = braFLA.a
-        var Dcasa = braFLA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
+        Pcasa = braFLA.spi
+        Acasa = braFLA.a
+        Dcasa = braFLA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
     }
     else if(PELcasa=="braFLU"){//Fluminense
-        var Pcasa = braFLU.spi
-        var Acasa = braFLU.a
-        var Dcasa = braFLU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
+        Pcasa = braFLU.spi
+        Acasa = braFLU.a
+        Dcasa = braFLU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
     }
     else if(PELcasa=="braFOR"){//Fortaleza
-        var Pcasa = braFOR.spi
-        var Acasa = braFOR.a
-        var Dcasa = braFOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
+        Pcasa = braFOR.spi
+        Acasa = braFOR.a
+        Dcasa = braFOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
     }
     else if(PELcasa=="braGOI"){//Goiás
-        var Pcasa = braGOI.spi
-        var Acasa = braGOI.a
-        var Dcasa = braGOI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
+        Pcasa = braGOI.spi
+        Acasa = braGOI.a
+        Dcasa = braGOI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
     }
     else if(PELcasa=="braGRE"){//Grêmio
-        var Pcasa = braGRE.spi
-        var Acasa = braGRE.a
-        var Dcasa = braGRE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
+        Pcasa = braGRE.spi
+        Acasa = braGRE.a
+        Dcasa = braGRE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
     }
     else if(PELcasa=="braINT"){//Internacional
-        var Pcasa = braINT.spi
-        var Acasa = braINT.a
-        var Dcasa = braINT.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
+        Pcasa = braINT.spi
+        Acasa = braINT.a
+        Dcasa = braINT.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
     
     }
     else if(PELcasa=="braPAL"){//Palmeiras
-        var Pcasa = braPAL.spi
-        var Acasa = braPAL.a
-        var Dcasa = braPAL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+        Pcasa = braPAL.spi
+        Acasa = braPAL.a
+        Dcasa = braPAL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
     }
     else if(PELcasa=="braRBB"){//Red Bull Brasil
-        var Pcasa = braRBB.spi
-        var Acasa = braRBB.a
-        var Dcasa = braRBB.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
+        Pcasa = braRBB.spi
+        Acasa = braRBB.a
+        Dcasa = braRBB.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
     }
     else if(PELcasa=="braSAN"){//Santos
-        var Pcasa = braSAN.spi
-        var Acasa = braSAN.a
-        var Dcasa = braSAN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
+        Pcasa = braSAN.spi
+        Acasa = braSAN.a
+        Dcasa = braSAN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
     }
     else if(PELcasa=="braSPFC"){//São Paulo
-        var Pcasa = braSPFC.spi
-        var Acasa = braSPFC.a
-        var Dcasa = braSPFC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
+        Pcasa = braSPFC.spi
+        Acasa = braSPFC.a
+        Dcasa = braSPFC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
     }
     else if(PELcasa=="braVAS"){//Vasco
-        var Pcasa = braVAS.spi
-        var Acasa = braVAS.a
-        var Dcasa = braVAS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
+        Pcasa = braVAS.spi
+        Acasa = braVAS.a
+        Dcasa = braVAS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
     }
     else if(PELcasa=="braSPO"){//Sport Recife (w)
-        var Pcasa = braSPO.spi
-        var Acasa = braSPO.a
-        var Dcasa = braSPO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
+        Pcasa = braSPO.spi
+        Acasa = braSPO.a
+        Dcasa = braSPO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
     }
     else if(PELcasa=="braAMG"){//América Mineiro (2018)
-        var Pcasa = braAMG.spi
-        var Acasa = braAMG.a
-        var Dcasa = braAMG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
+        Pcasa = braAMG.spi
+        Acasa = braAMG.a
+        Dcasa = braAMG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
     }
     else if(PELcasa=="braCTB"){//Coritiba (2017)
-        var Pcasa = braCTB.spi
-        var Acasa = braCTB.a
-        var Dcasa = braCTB.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
+        Pcasa = braCTB.spi
+        Acasa = braCTB.a
+        Dcasa = braCTB.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
     }
     else if(PELcasa=="braAAPP"){//Ponte Preta (2017)
-        var Pcasa = braAAPP.spi
-        var Acasa = braAAPP.a
-        var Dcasa = braAAPP.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
+        Pcasa = braAAPP.spi
+        Acasa = braAAPP.a
+        Dcasa = braAAPP.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
     }
     else if(PELcasa=="braPAR"){//Paraná (2018)
-        var Pcasa = braPAR.spi
-        var Acasa = braPAR.a
-        var Dcasa = braPAR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
+        Pcasa = braPAR.spi
+        Acasa = braPAR.a
+        Dcasa = braPAR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
     }
     else if(PELcasa=="braVIT"){//Vitória (w)
-        var Pcasa = braVIT.spi
-        var Acasa = braVIT.a
-        var Dcasa = braVIT.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
+        Pcasa = braVIT.spi
+        Acasa = braVIT.a
+        Dcasa = braVIT.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
     }
     else if(PELcasa=="engARS"){//Arsenal
-        var Pcasa = engARS.spi
-        var Acasa = engARS.a
-        var Dcasa = engARS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
+        Pcasa = engARS.spi
+        Acasa = engARS.a
+        Dcasa = engARS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
     }
     else if(PELcasa=="engAST"){//Aston Villa
-        var Pcasa = engAST.spi
-        var Acasa = engAST.a
-        var Dcasa = engAST.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
+        Pcasa = engAST.spi
+        Acasa = engAST.a
+        Dcasa = engAST.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
     }
     else if(PELcasa=="engBOU"){//Bournemouth
-        var Pcasa = engBOU.spi
-        var Acasa = engBOU.a
-        var Dcasa = engBOU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
+        Pcasa = engBOU.spi
+        Acasa = engBOU.a
+        Dcasa = engBOU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
     }
     else if(PELcasa=="engBHA"){//Brighton
-        var Pcasa = engBHA.spi
-        var Acasa = engBHA.a
-        var Dcasa = engBHA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+        Pcasa = engBHA.spi
+        Acasa = engBHA.a
+        Dcasa = engBHA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
     }
     else if(PELcasa=="engBUR"){//Burnley
-        var Pcasa = engBUR.spi
-        var Acasa = engBUR.a
-        var Dcasa = engBUR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
+        Pcasa = engBUR.spi
+        Acasa = engBUR.a
+        Dcasa = engBUR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
     }
     else if(PELcasa=="engCHE"){//Chelsea
-        var Pcasa = engCHE.spi
-        var Acasa = engCHE.a
-        var Dcasa = engCHE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
+        Pcasa = engCHE.spi
+        Acasa = engCHE.a
+        Dcasa = engCHE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
     }
     else if(PELcasa=="engCRY"){//Crystal Palace
-        var Pcasa = engCRY.spi
-        var Acasa = engCRY.a
-        var Dcasa = engCRY.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
+        Pcasa = engCRY.spi
+        Acasa = engCRY.a
+        Dcasa = engCRY.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
     }
     else if(PELcasa=="engEVE"){//Everton
-        var Pcasa = engEVE.spi
-        var Acasa = engEVE.a
-        var Dcasa = engEVE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
+        Pcasa = engEVE.spi
+        Acasa = engEVE.a
+        Dcasa = engEVE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
     }
     else if(PELcasa=="engLEE"){//Leeds
-        var Pcasa = engLEE.spi
-        var Acasa = engLEE.a
-        var Dcasa = engLEE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
+        Pcasa = engLEE.spi
+        Acasa = engLEE.a
+        Dcasa = engLEE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
     }
     else if(PELcasa=="engLEI"){//Leicester
-        var Pcasa = engLEI.spi
-        var Acasa = engLEI.a
-        var Dcasa = engLEI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
+        Pcasa = engLEI.spi
+        Acasa = engLEI.a
+        Dcasa = engLEI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
     }
     else if(PELcasa=="engLIV"){//Liverpool
-        var Pcasa = engLIV.spi
-        var Acasa = engLIV.a
-        var Dcasa = engLIV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
+        Pcasa = engLIV.spi
+        Acasa = engLIV.a
+        Dcasa = engLIV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
     }
     else if(PELcasa=="engMANC"){//Manchester City
-        var Pcasa = engMANC.spi
-        var Acasa = engMANC.a
-        var Dcasa = engMANC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
+        Pcasa = engMANC.spi
+        Acasa = engMANC.a
+        Dcasa = engMANC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
     }
     else if(PELcasa=="engMANU"){//Manchester United
-        var Pcasa = engMANU.spi
-        var Acasa = engMANU.a
-        var Dcasa = engMANU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
+        Pcasa = engMANU.spi
+        Acasa = engMANU.a
+        Dcasa = engMANU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
     }
     else if(PELcasa=="engNEW"){//Newcastle
-        var Pcasa = engNEW.spi
-        var Acasa = engNEW.a
-        var Dcasa = engNEW.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
+        Pcasa = engNEW.spi
+        Acasa = engNEW.a
+        Dcasa = engNEW.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
     }
     else if(PELcasa=="engNOR"){//Norwich
-        var Pcasa = engNOR.spi
-        var Acasa = engNOR.a
-        var Dcasa = engNOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
+        Pcasa = engNOR.spi
+        Acasa = engNOR.a
+        Dcasa = engNOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
     }
     else if(PELcasa=="engSHEU"){//Sheffield United
-        var Pcasa = engSHEU.spi
-        var Acasa = engSHEU.a
-        var Dcasa = engSHEU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
+        Pcasa = engSHEU.spi
+        Acasa = engSHEU.a
+        Dcasa = engSHEU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
     }
     else if(PELcasa=="engSOU"){//Southampton
-        var Pcasa = engSOU.spi
-        var Acasa = engSOU.a
-        var Dcasa = engSOU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
+        Pcasa = engSOU.spi
+        Acasa = engSOU.a
+        Dcasa = engSOU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
     }
     else if(PELcasa=="engSUN"){//Sunderland
-        var Pcasa = engSUN.spi
-        var Acasa = engSUN.a
-        var Dcasa = engSUN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
+        Pcasa = engSUN.spi
+        Acasa = engSUN.a
+        Dcasa = engSUN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
     }
     else if(PELcasa=="engTOT"){//Tottenham
-        var Pcasa = engTOT.spi
-        var Acasa = engTOT.a
-        var Dcasa = engTOT.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
+        Pcasa = engTOT.spi
+        Acasa = engTOT.a
+        Dcasa = engTOT.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
     }
     else if(PELcasa=="engWAT"){//Watford
-        var Pcasa = engWAT.spi
-        var Acasa = engWAT.a
-        var Dcasa = engWAT.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
+        Pcasa = engWAT.spi
+        Acasa = engWAT.a
+        Dcasa = engWAT.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
     }
     else if(PELcasa=="engWHU"){//West Ham United
-        var Pcasa = engWHU.spi
-        var Acasa = engWHU.a
-        var Dcasa = engWHU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
+        Pcasa = engWHU.spi
+        Acasa = engWHU.a
+        Dcasa = engWHU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
     }
     else if(PELcasa=="engWOL"){//Wolves
-        var Pcasa = engWOL.spi
-        var Acasa = engWOL.a
-        var Dcasa = engWOL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+        Pcasa = engWOL.spi
+        Acasa = engWOL.a
+        Dcasa = engWOL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
     }
     else if(PELcasa=="itaATA"){//Atalanta
-        var Pcasa = itaATA.spi
-        var Acasa = itaATA.a
-        var Dcasa = itaATA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
+        Pcasa = itaATA.spi
+        Acasa = itaATA.a
+        Dcasa = itaATA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
     }
     else if(PELcasa=="itaBRE"){//Brescia
-        var Pcasa = itaBRE.spi
-        var Acasa = itaBRE.a
-        var Dcasa = itaBRE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/1/17/Brescia_calcio_badge.svg"
+        Pcasa = itaBRE.spi
+        Acasa = itaBRE.a
+        Dcasa = itaBRE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/1/17/Brescia_calcio_badge.svg"
     }
     else if(PELcasa=="itaBOL"){//Bologna
-        var Pcasa = itaBOL.spi
-        var Acasa = itaBOL.a
-        var Dcasa = itaBOL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/5/5b/Bologna_F.C._1909_logo.svg"
+        Pcasa = itaBOL.spi
+        Acasa = itaBOL.a
+        Dcasa = itaBOL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/5/5b/Bologna_F.C._1909_logo.svg"
     }
     else if(PELcasa=="itaCAG"){//Cagliari
-        var Pcasa = itaCAG.spi
-        var Acasa = itaCAG.a
-        var Dcasa = itaCAG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/86/Cagliari_Calcio_Logo_2015.png"
+        Pcasa = itaCAG.spi
+        Acasa = itaCAG.a
+        Dcasa = itaCAG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/8/86/Cagliari_Calcio_Logo_2015.png"
     }
     else if(PELcasa=="itaFIO"){//Fiorentina
-        var Pcasa = itaFIO.spi
-        var Acasa = itaFIO.a
-        var Dcasa = itaFIO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
+        Pcasa = itaFIO.spi
+        Acasa = itaFIO.a
+        Dcasa = itaFIO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
     }
     else if(PELcasa=="itaGEN"){//Genoa
-        var Pcasa = itaGEN.spi
-        var Acasa = itaGEN.a
-        var Dcasa = itaGEN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/6/6c/Genoa_C.F.C._logo.svg"
+        Pcasa = itaGEN.spi
+        Acasa = itaGEN.a
+        Dcasa = itaGEN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/6/6c/Genoa_C.F.C._logo.svg"
     }
     else if(PELcasa=="itaHEL"){//Hellas Verona
-        var Pcasa = itaHEL.spi
-        var Acasa = itaHEL.a
-        var Dcasa = itaHEL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/35/Hellas_Verona_logo.png"
+        Pcasa = itaHEL.spi
+        Acasa = itaHEL.a
+        Dcasa = itaHEL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/3/35/Hellas_Verona_logo.png"
     }
     else if(PELcasa=="itaINT"){//Internazionali
-        var Pcasa = itaINT.spi
-        var Acasa = itaINT.a
-        var Dcasa = itaINT.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
+        Pcasa = itaINT.spi
+        Acasa = itaINT.a
+        Dcasa = itaINT.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
     }
     else if(PELcasa=="itaJUV"){//Juventus
-        var Pcasa = itaJUV.spi
-        var Acasa = itaJUV.a
-        var Dcasa = itaJUV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
+        Pcasa = itaJUV.spi
+        Acasa = itaJUV.a
+        Dcasa = itaJUV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
     }
     else if(PELcasa=="itaLAZ"){//Lazio
-        var Pcasa = itaLAZ.spi
-        var Acasa = itaLAZ.a
-        var Dcasa = itaLAZ.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
+        Pcasa = itaLAZ.spi
+        Acasa = itaLAZ.a
+        Dcasa = itaLAZ.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
     }
     else if(PELcasa=="itaLEC"){//Lecce
-        var Pcasa = itaLEC.spi
-        var Acasa = itaLEC.a
-        var Dcasa = itaLEC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/6/6e/US_Lecce.png"
+        Pcasa = itaLEC.spi
+        Acasa = itaLEC.a
+        Dcasa = itaLEC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/6/6e/US_Lecce.png"
     }
     else if(PELcasa=="itaMIL"){//Milan
-        var Pcasa = itaMIL.spi
-        var Acasa = itaMIL.a
-        var Dcasa = itaMIL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+        Pcasa = itaMIL.spi
+        Acasa = itaMIL.a
+        Dcasa = itaMIL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
     }
     else if(PELcasa=="itaNAP"){//Napoli
-        var Pcasa = itaNAP.spi
-        var Acasa = itaNAP.a
-        var Dcasa = itaNAP.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg"
+        Pcasa = itaNAP.spi
+        Acasa = itaNAP.a
+        Dcasa = itaNAP.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg"
     }
     else if(PELcasa=="itaPAR"){//Parma
-        var Pcasa = itaPAR.spi
-        var Acasa = itaPAR.a
-        var Dcasa = itaPAR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/1/1c/Parma_Calcio_1913_logo.svg"
+        Pcasa = itaPAR.spi
+        Acasa = itaPAR.a
+        Dcasa = itaPAR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/1/1c/Parma_Calcio_1913_logo.svg"
     }
     else if(PELcasa=="itaROM"){//Roma
-        var Pcasa = itaROM.spi
-        var Acasa = itaROM.a
-        var Dcasa = itaROM.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
+        Pcasa = itaROM.spi
+        Acasa = itaROM.a
+        Dcasa = itaROM.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
     }
     else if(PELcasa=="itaSAS"){//Sassuolo
-        var Pcasa = itaSAS.spi
-        var Acasa = itaSAS.a
-        var Dcasa = itaSAS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/1/1c/US_Sassuolo_Calcio_logo.svg"
+        Pcasa = itaSAS.spi
+        Acasa = itaSAS.a
+        Dcasa = itaSAS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/1/1c/US_Sassuolo_Calcio_logo.svg"
     }
     else if(PELcasa=="itaSPAL"){//SPAL
-        var Pcasa = itaSPAL.spi
-        var Acasa = itaSPAL.a
-        var Dcasa = itaSPAL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/a/a3/SPAL_2013.png"
+        Pcasa = itaSPAL.spi
+        Acasa = itaSPAL.a
+        Dcasa = itaSPAL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/a/a3/SPAL_2013.png"
     }
     else if(PELcasa=="itaSAN"){//Sampdoria
-        var Pcasa = itaSAN.spi
-        var Acasa = itaSAN.a
-        var Dcasa = itaSAN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/d/d2/U.C._Sampdoria_logo.svg"
+        Pcasa = itaSAN.spi
+        Acasa = itaSAN.a
+        Dcasa = itaSAN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/d/d2/U.C._Sampdoria_logo.svg"
     }
     else if(PELcasa=="itaUDI"){//Udinese
-        var Pcasa = itaUDI.spi
-        var Acasa = itaUDI.a
-        var Dcasa = itaUDI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/c/ce/Udinese_Calcio_logo.svg"
+        Pcasa = itaUDI.spi
+        Acasa = itaUDI.a
+        Dcasa = itaUDI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/c/ce/Udinese_Calcio_logo.svg"
     }
     else if(PELcasa=="itaTOR"){//Torino
-        var Pcasa = itaTOR.spi
-        var Acasa = itaTOR.a
-        var Dcasa = itaTOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png"
+        Pcasa = itaTOR.spi
+        Acasa = itaTOR.a
+        Dcasa = itaTOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png"
     }
     else if(PELcasa=="gerAUG"){//Augsburg
-        var Pcasa = gerAUG.spi
-        var Acasa = gerAUG.a
-        var Dcasa = gerAUG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/4/42/FC_Augsburg.png"
+        Pcasa = gerAUG.spi
+        Acasa = gerAUG.a
+        Dcasa = gerAUG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/4/42/FC_Augsburg.png"
     }
     else if(PELcasa=="gerBAY"){//Bayern
-        var Pcasa = gerBAY.spi
-        var Acasa = gerBAY.a
-        var Dcasa = gerBAY.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
+        Pcasa = gerBAY.spi
+        Acasa = gerBAY.a
+        Dcasa = gerBAY.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
     }
     else if(PELcasa=="gerMOC"){//Borussia Mönchengladbach
-        var Pcasa = gerMOC.spi
-        var Acasa = gerMOC.a
-        var Dcasa = gerMOC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Borussia_M%C3%B6nchengladbach.png"
+        Pcasa = gerMOC.spi
+        Acasa = gerMOC.a
+        Dcasa = gerMOC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Borussia_M%C3%B6nchengladbach.png"
     }
     else if(PELcasa=="gerDOR"){//Dortmund
-        var Pcasa = gerDOR.spi
-        var Acasa = gerDOR.a
-        var Dcasa = gerDOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+        Pcasa = gerDOR.spi
+        Acasa = gerDOR.a
+        Dcasa = gerDOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
     }
     else if(PELcasa=="gerDUS"){//Düsseldorf
-        var Pcasa = gerDUS.spi
-        var Acasa = gerDUS.a
-        var Dcasa = gerDUS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
+        Pcasa = gerDUS.spi
+        Acasa = gerDUS.a
+        Dcasa = gerDUS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
     }
     else if(PELcasa=="gerEIN"){//Eintracht Frankfurt
-        var Pcasa = gerEIN.spi
-        var Acasa = gerEIN.a
-        var Dcasa = gerEIN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+        Pcasa = gerEIN.spi
+        Acasa = gerEIN.a
+        Dcasa = gerEIN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
     }
     else if(PELcasa=="gerFRE"){//Freiburg
-        var Pcasa = gerFRE.spi
-        var Acasa = gerFRE.a
-        var Dcasa = gerFRE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"
+        Pcasa = gerFRE.spi
+        Acasa = gerFRE.a
+        Dcasa = gerFRE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"
     }
     else if(PELcasa=="gerHOF"){//Hoffenheim
-        var Pcasa = gerHOF.spi
-        var Acasa = gerHOF.a
-        var Dcasa = gerHOF.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+        Pcasa = gerHOF.spi
+        Acasa = gerHOF.a
+        Dcasa = gerHOF.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
     }
     else if(PELcasa=="gerHER"){//Hertha Berlin
-        var Pcasa = gerHER.spi
-        var Acasa = gerHER.a
-        var Dcasa = gerHER.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
+        Pcasa = gerHER.spi
+        Acasa = gerHER.a
+        Dcasa = gerHER.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
     }
     else if(PELcasa=="gerKOL"){//Koln
-        var Pcasa = gerKOL.spi
-        var Acasa = gerKOL.a
-        var Dcasa = gerKOL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"
+        Pcasa = gerKOL.spi
+        Acasa = gerKOL.a
+        Dcasa = gerKOL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"
     }
     else if(PELcasa=="gerLEV"){//Leverkusen
-        var Pcasa = gerLEV.spi
-        var Acasa = gerLEV.a
-        var Dcasa = gerLEV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
+        Pcasa = gerLEV.spi
+        Acasa = gerLEV.a
+        Dcasa = gerLEV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
     }
     else if(PELcasa=="gerMAI"){//Mainz 05
-        var Pcasa = gerMAI.spi
-        var Acasa = gerMAI.a
-        var Dcasa = gerMAI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
+        Pcasa = gerMAI.spi
+        Acasa = gerMAI.a
+        Dcasa = gerMAI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
     }
     else if(PELcasa=="gerPAD"){//Padeborn
-        var Pcasa = gerPAD.spi
-        var Acasa = gerPAD.a
-        var Dcasa = gerPAD.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"
+        Pcasa = gerPAD.spi
+        Acasa = gerPAD.a
+        Dcasa = gerPAD.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"
     }
     else if(PELcasa=="gerRBL"){//Red Bull Leipzig
-        var Pcasa = gerRBL.spi
-        var Acasa = gerRBL.a
-        var Dcasa = gerRBL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
+        Pcasa = gerRBL.spi
+        Acasa = gerRBL.a
+        Dcasa = gerRBL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
     }
     else if(PELcasa=="gerSCH"){//Schalke 04
-        var Pcasa = gerSCH.spi
-        var Acasa = gerSCH.a
-        var Dcasa = gerSCH.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+        Pcasa = gerSCH.spi
+        Acasa = gerSCH.a
+        Dcasa = gerSCH.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
     }
     else if(PELcasa=="gerBER"){//Union Berlin
-        var Pcasa = gerBER.spi
-        var Acasa = gerBER.a
-        var Dcasa = gerBER.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/81/1_FC_Union_Berlin.png"
+        Pcasa = gerBER.spi
+        Acasa = gerBER.a
+        Dcasa = gerBER.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/8/81/1_FC_Union_Berlin.png"
     }
     else if(PELcasa=="gerWER"){//Werder Bremen
-        var Pcasa = gerWER.spi
-        var Acasa = gerWER.a
-        var Dcasa = gerWER.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
+        Pcasa = gerWER.spi
+        Acasa = gerWER.a
+        Dcasa = gerWER.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
     }
     else if(PELcasa=="gerWOL"){//Wolfsburg
-        var Pcasa = gerWOL.spi
-        var Acasa = gerWOL.a
-        var Dcasa = gerWOL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
+        Pcasa = gerWOL.spi
+        Acasa = gerWOL.a
+        Dcasa = gerWOL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
     }
     else if(PELcasa=="spaATL"){//Atlético Madrid
-        var Pcasa = spaATL.spi
-        var Acasa = spaATL.a
-        var Dcasa = spaATL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
+        Pcasa = spaATL.spi
+        Acasa = spaATL.a
+        Dcasa = spaATL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
     }
     else if(PELcasa=="catBAR"){//Barcelona
-        var Pcasa = catBAR.spi
-        var Acasa = catBAR.a
-        var Dcasa = catBAR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
+        Pcasa = catBAR.spi
+        Acasa = catBAR.a
+        Dcasa = catBAR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
     }
     else if(PELcasa=="spaMAD"){//Real Madrid
-        var Pcasa = spaMAD.spi
-        var Acasa = spaMAD.a
-        var Dcasa = spaMAD.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
+        Pcasa = spaMAD.spi
+        Acasa = spaMAD.a
+        Dcasa = spaMAD.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
     }
     else if(PELcasa=="spaSEV"){//Sevilla
-        var Pcasa = spaSEV.spi
-        var Acasa = spaSEV.a
-        var Dcasa = spaSEV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
+        Pcasa = spaSEV.spi
+        Acasa = spaSEV.a
+        Dcasa = spaSEV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
     }
     else if(PELcasa=="spaRSO"){//Real Sociedad
-        var Pcasa = spaRSO.spi
-        var Acasa = spaRSO.a
-        var Dcasa = spaRSO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
+        Pcasa = spaRSO.spi
+        Acasa = spaRSO.a
+        Dcasa = spaRSO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
     }
     else if(PELcasa=="spaBIL"){//Athletic Bilbao
-        var Pcasa = spaBIL.spi
-        var Acasa = spaBIL.a
-        var Dcasa = spaBIL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
+        Pcasa = spaBIL.spi
+        Acasa = spaBIL.a
+        Dcasa = spaBIL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
     }
     else if(PELcasa=="spaGET"){//Getafe
-        var Pcasa = spaGET.spi
-        var Acasa = spaGET.a
-        var Dcasa = spaGET.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
+        Pcasa = spaGET.spi
+        Acasa = spaGET.a
+        Dcasa = spaGET.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
     }
     else if(PELcasa=="spaVAL"){//Valencia
-        var Pcasa = spaVAL.spi
-        var Acasa = spaVAL.a
-        var Dcasa = spaVAL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
+        Pcasa = spaVAL.spi
+        Acasa = spaVAL.a
+        Dcasa = spaVAL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
     }
     else if(PELcasa=="argBAN"){//Banfield
-        var Pcasa = argBAN.spi
-        var Acasa = argBAN.a
-        var Dcasa = argBAN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
+        Pcasa = argBAN.spi
+        Acasa = argBAN.a
+        Dcasa = argBAN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
     }
     else if(PELcasa=="argSLO"){//San Lorenzo
-        var Pcasa = argSLO.spi
-        var Acasa = argSLO.a
-        var Dcasa = argSLO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
+        Pcasa = argSLO.spi
+        Acasa = argSLO.a
+        Dcasa = argSLO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
     }
     else if(PELcasa=="spaVIL"){//Villarreal
-        var Pcasa = spaVIL.spi
-        var Acasa = spaVIL.a
-        var Dcasa = spaVIL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
+        Pcasa = spaVIL.spi
+        Acasa = spaVIL.a
+        Dcasa = spaVIL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
     }
     else if(PELcasa=="spaEIB"){//Eibar
-        var Pcasa = spaEIB.spi
-        var Acasa = spaEIB.a
-        var Dcasa = spaEIB.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
+        Pcasa = spaEIB.spi
+        Acasa = spaEIB.a
+        Dcasa = spaEIB.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
     }
     else if(PELcasa=="spaOSA"){//Osasuna
-        var Pcasa = spaOSA.spi
-        var Acasa = spaOSA.a
-        var Dcasa = spaOSA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
+        Pcasa = spaOSA.spi
+        Acasa = spaOSA.a
+        Dcasa = spaOSA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
     }
     else if(PELcasa=="spaGRA"){//Granada
-        var Pcasa = spaGRA.spi
-        var Acasa = spaGRA.a
-        var Dcasa = spaGRA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
+        Pcasa = spaGRA.spi
+        Acasa = spaGRA.a
+        Dcasa = spaGRA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
     }
     else if(PELcasa=="spaBET"){//Real Betis
-        var Pcasa = spaBET.spi
-        var Acasa = spaBET.a
-        var Dcasa = spaBET.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
+        Pcasa = spaBET.spi
+        Acasa = spaBET.a
+        Dcasa = spaBET.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
     }
     else if(PELcasa=="spaLEG"){//Leganes
-        var Pcasa = spaLEG.spi
-        var Acasa = spaLEG.a
-        var Dcasa = spaLEG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
+        Pcasa = spaLEG.spi
+        Acasa = spaLEG.a
+        Dcasa = spaLEG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
     }
     else if(PELcasa=="spaCEL"){//Celta de Vigo
-        var Pcasa = spaCEL.spi
-        var Acasa = spaCEL.a
-        var Dcasa = spaCEL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
+        Pcasa = spaCEL.spi
+        Acasa = spaCEL.a
+        Dcasa = spaCEL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
     }
     else if(PELcasa=="catESP"){//Espanyol
-        var Pcasa = catESP.spi
-        var Acasa = catESP.a
-        var Dcasa = catESP.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
+        Pcasa = catESP.spi
+        Acasa = catESP.a
+        Dcasa = catESP.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
     }
     else if(PELcasa=="spaALA"){//Alavés
-        var Pcasa = spaALA.spi
-        var Acasa = spaALA.a
-        var Dcasa = spaALA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
+        Pcasa = spaALA.spi
+        Acasa = spaALA.a
+        Dcasa = spaALA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
     }
     else if(PELcasa=="spaLEV"){//Levante
-        var Pcasa = spaLEV.spi
-        var Acasa = spaLEV.a
-        var Dcasa = spaLEV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
+        Pcasa = spaLEV.spi
+        Acasa = spaLEV.a
+        Dcasa = spaLEV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
     }
     else if(PELcasa=="spaRVA"){//Real Valladolid
-        var Pcasa = spaRVA.spi
-        var Acasa = spaRVA.a
-        var Dcasa = spaRVA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
+        Pcasa = spaRVA.spi
+        Acasa = spaRVA.a
+        Dcasa = spaRVA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
     }
     else if(PELcasa=="spaMAL"){//Mallorca
-        var Pcasa = spaMAL.spi
-        var Acasa = spaMAL.a
-        var Dcasa = spaMAL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
+        Pcasa = spaMAL.spi
+        Acasa = spaMAL.a
+        Dcasa = spaMAL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
     }
     else if(PELcasa=="porBEN"){//Benfica
-        var Pcasa = porBEN.spi
-        var Acasa = porBEN.a
-        var Dcasa = porBEN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
+        Pcasa = porBEN.spi
+        Acasa = porBEN.a
+        Dcasa = porBEN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
     }
     else if(PELcasa=="porBRA"){//Braga
-        var Pcasa = porBRA.spi
-        var Acasa = porBRA.a
-        var Dcasa = porBRA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
+        Pcasa = porBRA.spi
+        Acasa = porBRA.a
+        Dcasa = porBRA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
     }
     else if(PELcasa=="porPOR"){//Porto
-        var Pcasa = porPOR.spi
-        var Acasa = porPOR.a
-        var Dcasa = porPOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
+        Pcasa = porPOR.spi
+        Acasa = porPOR.a
+        Dcasa = porPOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
     }
     else if(PELcasa=="porSPO"){//Sporting
-        var Pcasa = porSPO.spi
-        var Acasa = porSPO.a
-        var Dcasa = porSPO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
+        Pcasa = porSPO.spi
+        Acasa = porSPO.a
+        Dcasa = porSPO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
     }
     else if(PELcasa=="fraLIL"){//Lille
-        var Pcasa = fraLIL.spi
-        var Acasa = fraLIL.a
-        var Dcasa = fraLIL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
+        Pcasa = fraLIL.spi
+        Acasa = fraLIL.a
+        Dcasa = fraLIL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
     }
     else if(PELcasa=="fraOLY"){//Lyonnais, Olympique
-        var Pcasa = fraOLY.spi
-        var Acasa = fraOLY.a
-        var Dcasa = fraOLY.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
+        Pcasa = fraOLY.spi
+        Acasa = fraOLY.a
+        Dcasa = fraOLY.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
     }
     else if(PELcasa=="fraMAR"){//Marseille
-        var Pcasa = fraMAR.spi
-        var Acasa = fraMAR.a
-        var Dcasa = fraMAR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
+        Pcasa = fraMAR.spi
+        Acasa = fraMAR.a
+        Dcasa = fraMAR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
     }
     else if(PELcasa=="fraPSG"){//Paris Saint-Germain
-        var Pcasa = fraPSG.spi
-        var Acasa = fraPSG.a
-        var Dcasa = fraPSG.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
+        Pcasa = fraPSG.spi
+        Acasa = fraPSG.a
+        Dcasa = fraPSG.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
     }
     else if(PELcasa=="argBOC"){//Boca Juniors
-        var Pcasa = argBOC.spi
-        var Acasa = argBOC.a
-        var Dcasa = argBOC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
+        Pcasa = argBOC.spi
+        Acasa = argBOC.a
+        Dcasa = argBOC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
     }
     else if(PELcasa=="argIND"){//Independiente
-        var Pcasa = argIND.spi
-        var Acasa = argIND.a
-        var Dcasa = argIND.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+        Pcasa = argIND.spi
+        Acasa = argIND.a
+        Dcasa = argIND.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
     }
     else if(PELcasa=="argNOB"){//Newell's Old Boys
-        var Pcasa = argNOB.spi
-        var Acasa = argNOB.a
-        var Dcasa = argNOB.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
+        Pcasa = argNOB.spi
+        Acasa = argNOB.a
+        Dcasa = argNOB.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
     }
     else if(PELcasa=="argRAC"){//Racing
-        var Pcasa = argRAC.spi
-        var Acasa = argRAC.a
-        var Dcasa = argRAC.d
-        document.getElementById('ESCcasa').src="https://www.racingclub.com.ar/img/escudo.png"
+        Pcasa = argRAC.spi
+        Acasa = argRAC.a
+        Dcasa = argRAC.d
+        escudocasa.src="https://www.racingclub.com.ar/img/escudo.png"
     }
     else if(PELcasa=="argRIV"){//River Plate
-        var Pcasa = argRIV.spi
-        var Acasa = argRIV.a
-        var Dcasa = argRIV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
+        Pcasa = argRIV.spi
+        Acasa = argRIV.a
+        Dcasa = argRIV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
     }
     else if(PELcasa=="argVEL"){//Vélez Sarsfield
-        var Pcasa = argVEL.spi
-        var Acasa = argVEL.a
-        var Dcasa = argVEL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
+        Pcasa = argVEL.spi
+        Acasa = argVEL.a
+        Dcasa = argVEL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
     }
     else if(PELcasa=="usaLAFC"){//Los Angeles FC
-        var Pcasa = usaLAFC.spi
-        var Acasa = usaLAFC.a
-        var Dcasa = usaLAFC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
+        Pcasa = usaLAFC.spi
+        Acasa = usaLAFC.a
+        Dcasa = usaLAFC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
     }
     else if(PELcasa=="usaATL"){//Atlanta United FC
-        var Pcasa = usaATL.spi
-        var Acasa = usaATL.a
-        var Dcasa = usaATL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
+        Pcasa = usaATL.spi
+        Acasa = usaATL.a
+        Dcasa = usaATL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
     }
     else if(PELcasa=="usaNYC"){//New York City FC
-        var Pcasa = usaNYC.spi
-        var Acasa = usaNYC.a
-        var Dcasa = usaNYC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
+        Pcasa = usaNYC.spi
+        Acasa = usaNYC.a
+        Dcasa = usaNYC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
     }
     else if(PELcasa=="usaPHI"){//Philadelphia Union
-        var Pcasa = usaPHI.spi
-        var Acasa = usaPHI.a
-        var Dcasa = usaPHI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
+        Pcasa = usaPHI.spi
+        Acasa = usaPHI.a
+        Dcasa = usaPHI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
     }
     else if(PELcasa=="usaAUS"){//Austin FC
-        var Pcasa = usaAUS.spi
-        var Acasa = usaAUS.a
-        var Dcasa = usaAUS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"
+        Pcasa = usaAUS.spi
+        Acasa = usaAUS.a
+        Dcasa = usaAUS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"
     }
     else if(PELcasa=="usaMIA"){//Inter Miami
-        var Pcasa = usaMIA.spi
-        var Acasa = usaMIA.a
-        var Dcasa = usaMIA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"
+        Pcasa = usaMIA.spi
+        Acasa = usaMIA.a
+        Dcasa = usaMIA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"
     }
     else if(PELcasa=="usaNAS"){//Nashiville
-        var Pcasa = usaNAS.spi
-        var Acasa = usaNAS.a
-        var Dcasa = usaNAS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f5/Nashville_SCMLS.png"
+        Pcasa = usaNAS.spi
+        Acasa = usaNAS.a
+        Dcasa = usaNAS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/f5/Nashville_SCMLS.png"
     }
     else if(PELcasa=="usaGAL"){//LA Galaxy
-        var Pcasa = usaGAL.spi
-        var Acasa = usaGAL.a
-        var Dcasa = usaGAL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
+        Pcasa = usaGAL.spi
+        Acasa = usaGAL.a
+        Dcasa = usaGAL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
     }
     else if(PELcasa=="canTOR"){//Toronto
-        var Pcasa = canTOR.spi
-        var Acasa = canTOR.a
-        var Dcasa = canTOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
+        Pcasa = canTOR.spi
+        Acasa = canTOR.a
+        Dcasa = canTOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
     }
     else if(PELcasa=="usaNYRB"){//New York Red Bulls
-        var Pcasa = usaNYRB.spi
-        var Acasa = usaNYRB.a
-        var Dcasa = usaNYRB.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
+        Pcasa = usaNYRB.spi
+        Acasa = usaNYRB.a
+        Dcasa = usaNYRB.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
     }
     else if(PELcasa=="usaCHI"){//Chicago Fire
-        var Pcasa = usaCHI.spi
-        var Acasa = usaCHI.a
-        var Dcasa = usaCHI.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
+        Pcasa = usaCHI.spi
+        Acasa = usaCHI.a
+        Dcasa = usaCHI.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
     }
     else if(PELcasa=="usaSJE"){//San Jose Earthquakes
-        var Pcasa = usaSJE.spi
-        var Acasa = usaSJE.a
-        var Dcasa = usaSJE.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
+        Pcasa = usaSJE.spi
+        Acasa = usaSJE.a
+        Dcasa = usaSJE.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
     }
     else if(PELcasa=="usaSEA"){//Seattle Sounders
-        var Pcasa = usaSEA.spi
-        var Acasa = usaSEA.a
-        var Dcasa = usaSEA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
+        Pcasa = usaSEA.spi
+        Acasa = usaSEA.a
+        Dcasa = usaSEA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
     }
     else if(PELcasa=="usaPOR"){//Portland Timbers
-        var Pcasa = usaPOR.spi
-        var Acasa = usaPOR.a
-        var Dcasa = usaPOR.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
+        Pcasa = usaPOR.spi
+        Acasa = usaPOR.a
+        Dcasa = usaPOR.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
     }
     else if(PELcasa=="usaSPO"){//Sporting KC
-        var Pcasa = usaSPO.spi
-        var Acasa = usaSPO.a
-        var Dcasa = usaSPO.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
+        Pcasa = usaSPO.spi
+        Acasa = usaSPO.a
+        Dcasa = usaSPO.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
     }
     else if(PELcasa=="usaMIN"){//Minnesota United FC
-        var Pcasa = usaMIN.spi
-        var Acasa = usaMIN.a
-        var Dcasa = usaMIN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
+        Pcasa = usaMIN.spi
+        Acasa = usaMIN.a
+        Dcasa = usaMIN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
     }
     else if(PELcasa=="usaDAL"){//FC Dallas
-        var Pcasa = usaDAL.spi
-        var Acasa = usaDAL.a
-        var Dcasa = usaDALd
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
+        Pcasa = usaDAL.spi
+        Acasa = usaDAL.a
+        Dcasa = usaDALd
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
     }
     else if(PELcasa=="usaCREW"){//Columbus Crew
-        var Pcasa = usaCREW.spi
-        var Acasa = usaCREW.a
-        var Dcasa = usaCREW.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
+        Pcasa = usaCREW.spi
+        Acasa = usaCREW.a
+        Dcasa = usaCREW.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
     }
     else if(PELcasa=="usaRSL"){//Real Salt Lake
-        var Pcasa = usaRSL.spi
-        var Acasa = usaRSL.a
-        var Dcasa = usaRSL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
+        Pcasa = usaRSL.spi
+        Acasa = usaRSL.a
+        Dcasa = usaRSL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
     }
     else if(PELcasa=="usaNER"){//New England Revolution
-        var Pcasa = usaNER.spi
-        var Acasa = usaNER.a
-        var Dcasa = usaNER.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
+        Pcasa = usaNER.spi
+        Acasa = usaNER.a
+        Dcasa = usaNER.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
     }
     else if(PELcasa=="usaCOL"){//Colorado Rapids
-        var Pcasa = usaCOL.spi
-        var Acasa = usaCOL.a
-        var Dcasa = usaCOL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
+        Pcasa = usaCOL.spi
+        Acasa = usaCOL.a
+        Dcasa = usaCOL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
     }
     else if(PELcasa=="usaDCU"){//DC United
-        var Pcasa = usaDCU.spi
-        var Acasa = usaDCU.a
-        var Dcasa = usaDCU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
+        Pcasa = usaDCU.spi
+        Acasa = usaDCU.a
+        Dcasa = usaDCU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
     }
     else if(PELcasa=="usaORL"){//Orlando City SC
-        var Pcasa = usaORL.spi
-        var Acasa = usaORL.a
-        var Dcasa = usaORL.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/c/c0/OrlandoCity_SC_logo.png"
+        Pcasa = usaORL.spi
+        Acasa = usaORL.a
+        Dcasa = usaORL.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/c/c0/OrlandoCity_SC_logo.png"
     }
     else if(PELcasa=="usaHOU"){//Houston Dynamo
-        var Pcasa = usaHOU.spi
-        var Acasa = usaHOU.a
-        var Dcasa = usaHOU.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
+        Pcasa = usaHOU.spi
+        Acasa = usaHOU.a
+        Dcasa = usaHOU.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
     }
     else if(PELcasa=="canMON"){//Montreal Impact
-        var Pcasa = canMON.spi
-        var Acasa = canMON.a
-        var Dcasa = canMON.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
+        Pcasa = canMON.spi
+        Acasa = canMON.a
+        Dcasa = canMON.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
     }
     else if(PELcasa=="canVAN"){//Vancouver Whitecaps
-        var Pcasa = canVAN.spi
-        var Acasa = canVAN.a
-        var Dcasa = canVAN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
+        Pcasa = canVAN.spi
+        Acasa = canVAN.a
+        Dcasa = canVAN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
     }
     else if(PELcasa=="usaCIN"){//FC Cincinnati
-        var Pcasa = usaCIN.spi
-        var Acasa = usaCIN.a
-        var Dcasa = usaCIN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
+        Pcasa = usaCIN.spi
+        Acasa = usaCIN.a
+        Dcasa = usaCIN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
     }
     else if(PELcasa=="usaSAC"){//Sacramento Republic FC
-        var Pcasa = usaSAC.spi
-        var Acasa = usaSAC.a
-        var Dcasa = usaSAC.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/1/19/Sacramento_Republic_FC.png"
+        Pcasa = usaSAC.spi
+        Acasa = usaSAC.a
+        Dcasa = usaSAC.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/1/19/Sacramento_Republic_FC.png"
     }
     else if(PELcasa=="nedAJA"){//Ajax
-        var Pcasa = nedAJA.spi
-        var Acasa = nedAJA.a
-        var Dcasa = nedAJA.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
+        Pcasa = nedAJA.spi
+        Acasa = nedAJA.a
+        Dcasa = nedAJA.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
     }
     else if(PELcasa=="nedPSV"){//PSV
-        var Pcasa = nedPSV.spi
-        var Acasa = nedPSV.a
-        var Dcasa = nedPSV.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
+        Pcasa = nedPSV.spi
+        Acasa = nedPSV.a
+        Dcasa = nedPSV.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
     }
     else if(PELcasa=="autRBS"){//Red Bull Salzburg
-        var Pcasa = autRBS.spi
-        var Acasa = autRBS.a
-        var Dcasa = autRBS.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
+        Pcasa = autRBS.spi
+        Acasa = autRBS.a
+        Dcasa = autRBS.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
     }
     else if(PELcasa=="rusZEN"){//Zenit
-        var Pcasa = rusZEN.spi
-        var Acasa = rusZEN.a
-        var Dcasa = rusZEN.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
+        Pcasa = rusZEN.spi
+        Acasa = rusZEN.a
+        Dcasa = rusZEN.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
         //molduradefora.style.backgroundColor = "#00000000"
     }
     else{
-        var Pcasa = 5.29
-        var Acasa = 0.2
-        var Dcasa = 2.51
-        document.getElementById('ESCcasa').src="https://uploaddeimagens.com.br/images/002/397/523/full/maraboys.png?1570224665"
+        Pcasa = 5.29
+        Acasa = 0.2
+        Dcasa = 2.51
+        escudocasa.src="https://uploaddeimagens.com.br/images/002/397/523/full/maraboys.png?1570224665"
     }
     
     //Termina a seleção de equipes mandantes e começa o de equipes visitantes
 
     if(PELfora=="GER"){//Alemanha
-        var Pfora = GER.spi
-        var Afora = GER.a
-        var Dfora = GER.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
+        Pfora = GER.spi
+        Afora = GER.a
+        Dfora = GER.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"
     }
     else if(PELfora=="SAU"){//Arábia Saudita
-        var Pfora = SAU.spi
-        var Afora = SAU.a
-        var Dfora = SAU.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
+        Pfora = SAU.spi
+        Afora = SAU.a
+        Dfora = SAU.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"
     }
     else if(PELfora=="ARG"){//Argentina
-        var Pfora = ARG.spi
-        var Afora = ARG.a
-        var Dfora = ARG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
+        Pfora = ARG.spi
+        Afora = ARG.a
+        Dfora = ARG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/fc/230px-Afa_logo.svg.png"
     }
     else if(PELfora=="AUS"){//Austrália
-        var Pfora = AUS.spi
-        var Afora = AUS.a
-        var Dfora = AUS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
+        Pfora = AUS.spi
+        Afora = AUS.a
+        Dfora = AUS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/6/69/Football_Federation_Australia_logo.svg.png"
     }
     else if(PELfora=="BEL"){//Bélgica
-        var Pfora = BEL.spi
-        var Afora = BEL.a
-        var Dfora = BEL.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
+        Pfora = BEL.spi
+        Afora = BEL.a
+        Dfora = BEL.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/bel"
     }
     else if(PELfora=="BRA"){//Brasil
-        var Pfora = BRA.spi
-        var Afora = BRA.a
-        var Dfora = BRA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
+        Pfora = BRA.spi
+        Afora = BRA.a
+        Dfora = BRA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"
     }
     else if(PELfora=="CHI"){//Chile
-        var Pfora = CHI.spi
-        var Afora = CHI.a
-        var Dfora = CHI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
+        Pfora = CHI.spi
+        Afora = CHI.a
+        Dfora = CHI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"
     }
     else if(PELfora=="COL"){//Colômbia
-        var Pfora = COL.spi
-        var Afora = COL.a
-        var Dfora = COL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
+        Pfora = COL.spi
+        Afora = COL.a
+        Dfora = COL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"
     }
     else if(PELfora=="KOR"){//Coréia do Sul
-        var Pfora = KOR.spi
-        var Afora = KOR.a
-        var Dfora = KOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
+        Pfora = KOR.spi
+        Afora = KOR.a
+        Dfora = KOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"
     }
     else if(PELfora=="CRC"){//Costa Rica
-        var Pfora = CRC.spi
-        var Afora = CRC.a
-        var Dfora = CRC.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
+        Pfora = CRC.spi
+        Afora = CRC.a
+        Dfora = CRC.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/crc"
     }
     else if(PELfora=="CRO"){//Croácia
-        var Pfora = CRO.spi
-        var Afora = CRO.a
-        var Dfora = CRO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
+        Pfora = CRO.spi
+        Afora = CRO.a
+        Dfora = CRO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"
     }
     else if(PELfora=="DEN"){//Dinamarca
-        var Pfora = DEN.spi
-        var Afora = DEN.a
-        var Dfora = DEN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
+        Pfora = DEN.spi
+        Afora = DEN.a
+        Dfora = DEN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"
     }
     else if(PELfora=="EGY"){//Egito
-        var Pfora = EGY.spi
-        var Afora = EGY.a
-        var Dfora = EGY.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
+        Pfora = EGY.spi
+        Afora = EGY.a
+        Dfora = EGY.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"
     }
     else if(PELfora=="SPA"){//Espanha
-        var Pfora = SPA.spi
-        var Afora = SPA.a
-        var Dfora = SPA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
+        Pfora = SPA.spi
+        Afora = SPA.a
+        Dfora = SPA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"
     }
     else if(PELfora=="USA"){//Estados Unidos da América
-        var Pfora = USA.spi
-        var Afora = USA.a
-        var Dfora = USA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
+        Pfora = USA.spi
+        Afora = USA.a
+        Dfora = USA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"
     }
     else if(PELfora=="FRA"){//França
-        var Pfora = FRA.spi
-        var Afora = FRA.a
-        var Dfora = FRA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
+        Pfora = FRA.spi
+        Afora = FRA.a
+        Dfora = FRA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"
     }
     else if(PELfora=="ENG"){//Inglaterra
-        var Pfora = ENG.spi
-        var Afora = ENG.a
-        var Dfora = ENG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
+        Pfora = ENG.spi
+        Afora = ENG.a
+        Dfora = ENG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"
     }
     else if(PELfora=="IRA"){//Irã
-        var Pfora = IRA.spi
-        var Afora = IRA.a
-        var Dfora = IRA.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
+        Pfora = IRA.spi
+        Afora = IRA.a
+        Dfora = IRA.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ira"
     }
     else if(PELfora=="ISL"){//Islândia
-        var Pfora = ISL.spi
-        var Afora = ISL.a
-        var Dfora = ISL.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
+        Pfora = ISL.spi
+        Afora = ISL.a
+        Dfora = ISL.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/isl"
     }
     else if(PELfora=="ISR"){//Israel
-        var Pfora = ISR.spi
-        var Afora = ISR.a
-        var Dfora = ISR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"
+        Pfora = ISR.spi
+        Afora = ISR.a
+        Dfora = ISR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"
     }
     else if(PELfora=="JPN"){//Japão
-        var Pfora = JPN.spi
-        var Afora = JPN.a
-        var Dfora = JPN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
+        Pfora = JPN.spi
+        Afora = JPN.a
+        Dfora = JPN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"
     }
     else if(PELfora=="MAR"){//Marrocos
-        var Pfora = MAR.spi
-        var Afora = MAR.a
-        var Dfora = MAR.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
+        Pfora = MAR.spi
+        Afora = MAR.a
+        Dfora = MAR.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/mar"
     }
     else if(PELfora=="MEX"){//México
-        var Pfora = MEX.spi
-        var Afora = MEX.a
-        var Dfora = MEX.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
+        Pfora = MEX.spi
+        Afora = MEX.a
+        Dfora = MEX.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"
     }
     else if(PELfora=="USA"){//Nigéria
-        var Pfora = USA.spi
-        var Afora = USA.a
-        var Dfora = USA.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
+        Pfora = USA.spi
+        Afora = USA.a
+        Dfora = USA.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"
     }
     else if(PELfora=="PAN"){//Panamá
-        var Pfora = PAN.spi
-        var Afora = PAN.a
-        var Dfora = PAN.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
+        Pfora = PAN.spi
+        Afora = PAN.a
+        Dfora = PAN.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/pan"
     }
     else if(PELfora=="PER"){//Peru
-        var Pfora = PER.spi
-        var Afora = PER.a
-        var Dfora = PER.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/3/36/Fpf-logo.svg"
+        Pfora = PER.spi
+        Afora = PER.a
+        Dfora = PER.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/3/36/Fpf-logo.svg"
     }
     else if(PELfora=="POL"){//Polônia
-        var Pfora = POL.spi
-        var Afora = POL.a
-        var Dfora = POL.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
+        Pfora = POL.spi
+        Afora = POL.a
+        Dfora = POL.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/pol"
     }
     else if(PELfora=="POR"){//Portugal
-        var Pfora = POR.spi
-        var Afora = POR.a
-        var Dfora = POR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
+        Pfora = POR.spi
+        Afora = POR.a
+        Dfora = POR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"
     }
     else if(PELfora=="RUS"){//Rússia
-        var Pfora = RUS.spi
-        var Afora = RUS.a
-        var Dfora = RUS.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
+        Pfora = RUS.spi
+        Afora = RUS.a
+        Dfora = RUS.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/rus"
     }
     else if(PELfora=="SEN"){//Senegal
-        var Pfora = SEN.spi
-        var Afora = SEN.a
-        var Dfora = SEN.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
+        Pfora = SEN.spi
+        Afora = SEN.a
+        Dfora = SEN.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/sen"
     }
     else if(PELfora=="SER"){//Sérvia
-        var Pfora = SER.spi
-        var Afora = SER.a
-        var Dfora = SER.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
+        Pfora = SER.spi
+        Afora = SER.a
+        Dfora = SER.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/srb"
     }
     else if(PELfora=="SWI"){//Suiça
-        var Pfora = 77.1
-        var Afora = 2.3
-        var Dfora = 0.7
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
+        Pfora = 77.1
+        Afora = 2.3
+        Dfora = 0.7
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/sui"
     }
     else if(PELfora=="SWE"){//Suécia
-        var Pfora = SWE.spi
-        var Afora = SWE.a
-        var Dfora = SWE.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
+        Pfora = SWE.spi
+        Afora = SWE.a
+        Dfora = SWE.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/swe"
     }
     else if(PELfora=="TUN"){//Tunísia
-        var Pfora = TUN.spi
-        var Afora = TUN.a
-        var Dfora = TUN.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
+        Pfora = TUN.spi
+        Afora = TUN.a
+        Dfora = TUN.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/tun"
     }
     else if(PELfora=="URU"){//Uruguai
-        var Pfora = URU.spi
-        var Afora = URU.a
-        var Dfora = URU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
+        Pfora = URU.spi
+        Afora = URU.a
+        Dfora = URU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"
     }
     else if(PELfora=="ECU"){//Equador
-        var Pfora = ECU.spi
-        var Afora = ECU.a
-        var Dfora = ECU.d
-        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/5750.png"
+        Pfora = ECU.spi
+        Afora = ECU.a
+        Dfora = ECU.d
+       escudofora.src="https://tmssl.akamaized.net/images/wappen/normquad/5750.png"
     }
     else if(PELfora=="PAR"){//Paraguai
-        var Pfora = PAR.spi
-        var Afora = PAR.a
-        var Dfora = PAR.d
-        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/3581.png"
+        Pfora = PAR.spi
+        Afora = PAR.a
+        Dfora = PAR.d
+       escudofora.src="https://tmssl.akamaized.net/images/wappen/normquad/3581.png"
     }
     else if(PELfora=="VEN"){//Venezuela
-        var Pfora = VEN.spi
-        var Afora = VEN.a
-        var Dfora = VEN.d
-        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/3504.png"
+        Pfora = VEN.spi
+        Afora = VEN.a
+        Dfora = VEN.d
+       escudofora.src="https://tmssl.akamaized.net/images/wappen/normquad/3504.png"
     }
     else if(PELfora=="BOL"){//Bolívia
-        var Pfora = BOL.spi
-        var Afora = BOL.a
-        var Dfora = BOL.d
-        document.getElementById('ESCfora').src="https://tmssl.akamaized.net/images/wappen/normquad/5233.png"
+        Pfora = BOL.spi
+        Afora = BOL.a
+        Dfora = BOL.d
+       escudofora.src="https://tmssl.akamaized.net/images/wappen/normquad/5233.png"
     }
     else if(PELfora=="CAN"){//Canadá
-        var Pfora = CAN.spi
-        var Afora = CAN.a
-        var Dfora = CAN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
+        Pfora = CAN.spi
+        Afora = CAN.a
+        Dfora = CAN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"
     }
     else if(PELfora=="AUT"){//Austria
-        var Pfora = AUT.spi
-        var Afora = AUT.a
-        var Dfora = AUT.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
+        Pfora = AUT.spi
+        Afora = AUT.a
+        Dfora = AUT.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/aut"
     }
     else if(PELfora=="UKR"){//Ucrânia
-        var Pfora = UKR.spi
-        var Afora = UKR.a
-        var Dfora = UKR.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
+        Pfora = UKR.spi
+        Afora = UKR.a
+        Dfora = UKR.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"
     }
     else if(PELfora=="ALG"){//Argélia
-        var Pfora = ALG.spi
-        var Afora = ALG.a
-        var Dfora = ALG.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
+        Pfora = ALG.spi
+        Afora = ALG.a
+        Dfora = ALG.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/alg"
     }
     else if(PELfora=="GHA"){//Gana
-        var Pfora = GHA.spi
-        var Afora = GHA.a
-        var Dfora = GHA.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
+        Pfora = GHA.spi
+        Afora = GHA.a
+        Dfora = GHA.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/gha"
     }
     else if(PELfora=="NOR"){//Noruega
-        var Pfora = NOR.spi
-        var Afora = NOR.a
-        var Dfora = NOR.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
+        Pfora = NOR.spi
+        Afora = NOR.a
+        Dfora = NOR.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/nor"
     }
     else if(PELfora=="CZE"){//Tchéquia
-        var Pfora = CZE.spi
-        var Afora = CZE.a
-        var Dfora = CZE.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
+        Pfora = CZE.spi
+        Afora = CZE.a
+        Dfora = CZE.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/cze"
     }
     else if(PELfora=="TUR"){//Turquia
-        var Pfora = TUR.spi
-        var Afora = TUR.a
-        var Dfora = TUR.d
-        document.getElementById('ESCfora').src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
+        Pfora = TUR.spi
+        Afora = TUR.a
+        Dfora = TUR.d
+       escudofora.src="https://api.fifa.com/api/v1/picture/flags-sq-4/tur"
     }
     else if(PELfora=="ITA"){//Itália
-        var Pfora = ITA.spi
-        var Afora = ITA.a
-        var Dfora = ITA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
+        Pfora = ITA.spi
+        Afora = ITA.a
+        Dfora = ITA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"
     }
     else if(PELfora=="HAI"){//Haiti
-        var Pfora = HAI.spi
-        var Afora = HAI.a
-        var Dfora = HAI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
+        Pfora = HAI.spi
+        Afora = HAI.a
+        Dfora = HAI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"
     }
     else if(PELfora=="NZL"){//Nova Zelânia
-        var Pfora = NZL.spi
-        var Afora = NZL.a
-        var Dfora = NZL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
+        Pfora = NZL.spi
+        Afora = NZL.a
+        Dfora = NZL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"
         molduradefora.style.backgroundColor = "#ffffff00"
     }
     else if(PELfora=="QAT"){//Qatar
-        var Pfora = QAT.spi
-        var Afora = QAT.a
-        var Dfora = QAT.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
+        Pfora = QAT.spi
+        Afora = QAT.a
+        Dfora = QAT.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"
     }
     else if(PELfora=="braAGO"){//Atlético Goianiense (2017)
-        var Pfora = braAGO.spi
-        var Afora = braAGO.a
-        var Dfora = braAGO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
+        Pfora = braAGO.spi
+        Afora = braAGO.a
+        Dfora = braAGO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"
     }
     else if(PELfora=="braCAM"){//Atlético Mineiro
-        var Pfora = braCAM.spi
-        var Afora = braCAM.a
-        var Dfora = braCAM.d
+        Pfora = braCAM.spi
+        Afora = braCAM.a
+        Dfora = braCAM.d
         document.getElementById('ESCfora').src = "https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"
     }
     else if(PELfora=="braCAP"){//Athletico Paranaense
-        var Pfora = braCAP.spi
-        var Afora = braCAP.a
-        var Dfora = braCAP.d
+        Pfora = braCAP.spi
+        Afora = braCAP.a
+        Dfora = braCAP.d
         document.getElementById('ESCfora').src ="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"
     }
     else if(PELfora=="braAVA"){//Avaí
-        var Pfora = braAVA.spi
-        var Afora = braAVA.a
-        var Dfora = braAVA.d
+        Pfora = braAVA.spi
+        Afora = braAVA.a
+        Dfora = braAVA.d
         document.getElementById('ESCfora').src ="https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"
     }
     else if(PELfora=="braBAH"){//Bahia
-        var Pfora = braBAH.spi
-        var Afora = braBAH.a
-        var Dfora = braBAH.d
+        Pfora = braBAH.spi
+        Afora = braBAH.a
+        Dfora = braBAH.d
         document.getElementById('ESCfora').src = "https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"
     }
     else if(PELfora=="braBOT"){//Botafogo
-        var Pfora = braBOT.spi
-        var Afora = braBOT.a
-        var Dfora = braBOT.d
+        Pfora = braBOT.spi
+        Afora = braBOT.a
+        Dfora = braBOT.d
         document.getElementById('ESCfora').src = "https://logodetimes.com/times/botafogo/logo-botafogo-256.png"
     }
     else if(PELfora=="braCEA"){//Ceará
-        var Pfora = braCEA.spi
-        var Afora = braCEA.a
-        var Dfora = braCEA.d
+        Pfora = braCEA.spi
+        Afora = braCEA.a
+        Dfora = braCEA.d
         document.getElementById('ESCfora').src = "https://logodetimes.com/times/ceara/logo-ceara-256.png"
     }
     else if(PELfora=="braCHA"){//Chapecoense
-        var Pfora = braCHA.spi
-        var Afora = braCHA.a
-        var Dfora = braCHA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
+        Pfora = braCHA.spi
+        Afora = braCHA.a
+        Dfora = braCHA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"
     }
     else if(PELfora=="braCOR"){//Corinthians
-        var Pfora = braCOR.spi
-        var Afora = braCOR.a
-        var Dfora = braCOR.d
-        document.getElementById('ESCfora').src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
+        Pfora = braCOR.spi
+        Afora = braCOR.a
+        Dfora = braCOR.d
+       escudofora.src="https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"
     }
     else if(PELfora=="braCRU"){//Cruzeiro
-        var Pfora = braCRU.spi
-        var Afora = braCRU.a
-        var Dfora = braCRU.d
-        document.getElementById('ESCfora').src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
+        Pfora = braCRU.spi
+        Afora = braCRU.a
+        Dfora = braCRU.d
+       escudofora.src="https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"
     }
     else if(PELfora=="braCSA"){//CSA
-        var Pfora = braCSA.spi
-        var Afora = braCSA.a
-        var Dfora = braCSA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
+        Pfora = braCSA.spi
+        Afora = braCSA.a
+        Dfora = braCSA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"
     }
     else if(PELfora=="braFLA"){//Flamengo
-        var Pfora = braFLA.spi
-        var Afora = braFLA.a
-        var Dfora = braFLA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
+        Pfora = braFLA.spi
+        Afora = braFLA.a
+        Dfora = braFLA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"
     }
     else if(PELfora=="braFLU"){//Fluminense
-        var Pfora = braFLU.spi
-        var Afora = braFLU.a
-        var Dfora = braFLU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
+        Pfora = braFLU.spi
+        Afora = braFLU.a
+        Dfora = braFLU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"
     }
     else if(PELfora=="braFOR"){//Fortaleza
-        var Pfora = braFOR.spi
-        var Afora = braFOR.a
-        var Dfora = braFOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
+        Pfora = braFOR.spi
+        Afora = braFOR.a
+        Dfora = braFOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"
     }
     else if(PELfora=="braGOI"){//Goiás
-        var Pfora = braGOI.spi
-        var Afora = braGOI.a
-        var Dfora = braGOI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
+        Pfora = braGOI.spi
+        Afora = braGOI.a
+        Dfora = braGOI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"
     }
     else if(PELfora=="braGRE"){//Grêmio
-        var Pfora = braGRE.spi
-        var Afora = braGRE.a
-        var Dfora = braGRE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
+        Pfora = braGRE.spi
+        Afora = braGRE.a
+        Dfora = braGRE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"
     }
     else if(PELfora=="braINT"){//Internacional
-        var Pfora = braINT.spi
-        var Afora = braINT.a
-        var Dfora = braINT.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
+        Pfora = braINT.spi
+        Afora = braINT.a
+        Dfora = braINT.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"
     
     }
     else if(PELfora=="braPAL"){//Palmeiras
-        var Pfora = braPAL.spi
-        var Afora = braPAL.a
-        var Dfora = braPAL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
+        Pfora = braPAL.spi
+        Afora = braPAL.a
+        Dfora = braPAL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"
     }
     else if(PELfora=="braRBB"){//Red Bull Brasil
-        var Pfora = braRBB.spi
-        var Afora = braRBB.a
-        var Dfora = braRBB.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
+        Pfora = braRBB.spi
+        Afora = braRBB.a
+        Dfora = braRBB.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"
     }
     else if(PELfora=="braSAN"){//Santos
-        var Pfora = braSAN.spi
-        var Afora = braSAN.a
-        var Dfora = braSAN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
+        Pfora = braSAN.spi
+        Afora = braSAN.a
+        Dfora = braSAN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
     }
     else if(PELfora=="braSPFC"){//São Paulo
-        var Pfora = braSPFC.spi
-        var Afora = braSPFC.a
-        var Dfora = braSPFC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
+        Pfora = braSPFC.spi
+        Afora = braSPFC.a
+        Dfora = braSPFC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"
     }
     else if(PELfora=="braVAS"){//Vasco
-        var Pfora = braVAS.spi
-        var Afora = braVAS.a
-        var Dfora = braVAS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
+        Pfora = braVAS.spi
+        Afora = braVAS.a
+        Dfora = braVAS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"
     }
     else if(PELfora=="braSPO"){//Sport Recife (w)
-        var Pfora = braSPO.spi
-        var Afora = braSPO.a
-        var Dfora = braSPO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
+        Pfora = braSPO.spi
+        Afora = braSPO.a
+        Dfora = braSPO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"
     }
     else if(PELfora=="braAMG"){//América Mineiro (2018)
-        var Pfora = braAMG.spi
-        var Afora = braAMG.a
-        var Dfora = braAMG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
+        Pfora = braAMG.spi
+        Afora = braAMG.a
+        Dfora = braAMG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"
     }
     else if(PELfora=="braCTB"){//Coritiba (2017)
-        var Pfora = braCTB.spi
-        var Afora = braCTB.a
-        var Dfora = braCTB.d
-        document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
+        Pfora = braCTB.spi
+        Afora = braCTB.a
+        Dfora = braCTB.d
+        escudocasa.src="https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"
     }
     else if(PELfora=="braAAPP"){//Ponte Preta (2017)
-        var Pfora = braAAPP.spi
-        var Afora = braAAPP.a
-        var Dfora = braAAPP.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
+        Pfora = braAAPP.spi
+        Afora = braAAPP.a
+        Dfora = braAAPP.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"
     }
     else if(PELfora=="braPAR"){//Paraná (2018)
-        var Pfora = braPAR.spi
-        var Afora = braPAR.a
-        var Dfora = braPAR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
+        Pfora = braPAR.spi
+        Afora = braPAR.a
+        Dfora = braPAR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"
     }
     else if(PELfora=="braVIT"){//Vitória (w)
-        var Pfora = braVIT.spi
-        var Afora = braVIT.a
-        var Dfora = braVIT.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
+        Pfora = braVIT.spi
+        Afora = braVIT.a
+        Dfora = braVIT.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"
     }
     else if(PELfora=="engARS"){//Arsenal
-        var Pfora = engARS.spi
-        var Afora = engARS.a
-        var Dfora = engARS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
+        Pfora = engARS.spi
+        Afora = engARS.a
+        Dfora = engARS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/5/53/Arsenal_FC.svg"
     }
     else if(PELfora=="engAST"){//Aston Villa
-        var Pfora = engAST.spi
-        var Afora = engAST.a
-        var Dfora = engAST.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
+        Pfora = engAST.spi
+        Afora = engAST.a
+        Dfora = engAST.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/1/15/Aston_Villa.svg"
     }
     else if(PELfora=="engBOU"){//Bournemouth
-        var Pfora = engBOU.spi
-        var Afora = engBOU.a
-        var Dfora = engBOU.b
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
+        Pfora = engBOU.spi
+        Afora = engBOU.a
+        Dfora = engBOU.b
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"
     }
     else if(PELfora=="engBHA"){//Brighton
-        var Pfora = engBHA.spi
-        var Afora = engBHA.a
-        var Dfora = engBHA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+        Pfora = engBHA.spi
+        Afora = engBHA.a
+        Dfora = engBHA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
     }
     else if(PELfora=="engBUR"){//Burnley
-        var Pfora = engBUR.spi
-        var Afora = engBUR.a
-        var Dfora = engBUR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
+        Pfora = engBUR.spi
+        Afora = engBUR.a
+        Dfora = engBUR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"
     }
     else if(PELfora=="engCHE"){//Chelsea
-        var Pfora = engCHE.spi
-        var Afora = engCHE.a
-        var Dfora = engCHE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
+        Pfora = engCHE.spi
+        Afora = engCHE.a
+        Dfora = engCHE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"
     }
     else if(PELfora=="engCRY"){//Crystal Palace
-        var Pfora = engCRY.spi
-        var Afora = engCRY.a
-        var Dfora = engCRY.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
+        Pfora = engCRY.spi
+        Afora = engCRY.a
+        Dfora = engCRY.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"
     }
     else if(PELfora=="engEVE"){//Everton
-        var Pfora = engEVE.spi
-        var Afora = engEVE.a
-        var Dfora = engEVE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
+        Pfora = engEVE.spi
+        Afora = engEVE.a
+        Dfora = engEVE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
     }
     else if(PELfora=="engLEE"){//Leeds
-        var Pfora = engLEE.spi
-        var Afora = engLEE.a
-        var Dfora = engLEE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
+        Pfora = engLEE.spi
+        Afora = engLEE.a
+        Dfora = engLEE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
     }
     else if(PELfora=="engLEI"){//Leicester
-        var Pfora = engLEI.spi
-        var Afora = engLEI.a
-        var Dfora = engLEI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
+        Pfora = engLEI.spi
+        Afora = engLEI.a
+        Dfora = engLEI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"
     }
     else if(PELfora=="engLIV"){//Liverpool
-        var Pfora = engLIV.spi
-        var Afora = engLIV.a
-        var Dfora = engLIV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
+        Pfora = engLIV.spi
+        Afora = engLIV.a
+        Dfora = engLIV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"
     }
     else if(PELfora=="engMANC"){//Manchester City
-        var Pfora = engMANC.spi
-        var Afora = engMANC.a
-        var Dfora = engMANC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
+        Pfora = engMANC.spi
+        Afora = engMANC.a
+        Dfora = engMANC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"
     }
     else if(PELfora=="engMANU"){//Manchester United
-        var Pfora = engMANU.spi
-        var Afora = engMANU.a
-        var Dfora = engMANU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
+        Pfora = engMANU.spi
+        Afora = engMANU.a
+        Dfora = engMANU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"
     }
     else if(PELfora=="engNEW"){//Newcastle
-        var Pfora = engNEW.spi
-        var Afora = engNEW.a
-        var Dfora = engNEW.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
+        Pfora = engNEW.spi
+        Afora = engNEW.a
+        Dfora = engNEW.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"
     }
     else if(PELfora=="engNOR"){//Norwich
-        var Pfora = engNOR.spi
-        var Afora = engNOR.a
-        var Dfora = engNOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
+        Pfora = engNOR.spi
+        Afora = engNOR.a
+        Dfora = engNOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"
     }
     else if(PELfora=="engSHEU"){//Sheffield United
-        var Pfora = engSHEU.spi
-        var Afora = engSHEU.a
-        var Dfora = engSHEU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
+        Pfora = engSHEU.spi
+        Afora = engSHEU.a
+        Dfora = engSHEU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"
     }
     else if(PELfora=="engSOU"){//Southampton
-        var Pfora = engSOU.spi
-        var Afora = engSOU.a
-        var Dfora = engSOU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
+        Pfora = engSOU.spi
+        Afora = engSOU.a
+        Dfora = engSOU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"
     }
     else if(PELfora=="engSUN"){//Sunderland
-        var Pfora = engSUN.spi
-        var Afora = engSUN.a
-        var Dfora = engSUN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
+        Pfora = engSUN.spi
+        Afora = engSUN.a
+        Dfora = engSUN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"
     }
     else if(PELfora=="engTOT"){//Tottenham
-        var Pfora = engTOT.spi
-        var Afora = engTOT.a
-        var Dfora = engTOT.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
+        Pfora = engTOT.spi
+        Afora = engTOT.a
+        Dfora = engTOT.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"
     }
     else if(PELfora=="engWAT"){//Watford
-        var Pfora = engWAT.spi
-        var Afora = engWAT.a
-        var Dfora = engWAT.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
+        Pfora = engWAT.spi
+        Afora = engWAT.a
+        Dfora = engWAT.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"
     }
     else if(PELfora=="engWHU"){//West Ham United
-        var Pfora = engWHU.spi
-        var Afora = engWHU.a
-        var Dfora = engWHU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
+        Pfora = engWHU.spi
+        Afora = engWHU.a
+        Dfora = engWHU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"
     }
     else if(PELfora=="engWOL"){//Wolves
-        var Pfora = engWOL.spi
-        var Afora = engWOL.a
-        var Dfora = engWOL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+        Pfora = engWOL.spi
+        Afora = engWOL.a
+        Dfora = engWOL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
     }
     else if(PELfora=="itaATA"){//Atalanta
-        var Pfora = itaATA.spi
-        var Afora = itaATA.a
-        var Dfora = itaATA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
+        Pfora = itaATA.spi
+        Afora = itaATA.a
+        Dfora = itaATA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/6/66/AtalantaBC.svg"
     }
     else if(PELfora=="itaBRE"){//Brescia
-        var Pfora = itaBRE.spi
-        var Afora = itaBRE.a
-        var Dfora = itaBRE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/1/17/Brescia_calcio_badge.svg"
+        Pfora = itaBRE.spi
+        Afora = itaBRE.a
+        Dfora = itaBRE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/1/17/Brescia_calcio_badge.svg"
     }
     else if(PELfora=="itaBOL"){//Bologna
-        var Pfora = itaBOL.spi
-        var Afora = itaBOL.a
-        var Dfora = itaBOL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/5/5b/Bologna_F.C._1909_logo.svg"
+        Pfora = itaBOL.spi
+        Afora = itaBOL.a
+        Dfora = itaBOL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/5/5b/Bologna_F.C._1909_logo.svg"
     }
     else if(PELfora=="itaCAG"){//Cagliari
-        var Pfora = itaCAG.spi
-        var Afora = itaCAG.a
-        var Dfora = itaCAG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/86/Cagliari_Calcio_Logo_2015.png"
+        Pfora = itaCAG.spi
+        Afora = itaCAG.a
+        Dfora = itaCAG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/8/86/Cagliari_Calcio_Logo_2015.png"
     }
     else if(PELfora=="itaFIO"){//Fiorentina
-        var Pfora = itaFIO.spi
-        var Afora = itaFIO.a
-        var Dfora = itaFIO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
+        Pfora = itaFIO.spi
+        Afora = itaFIO.a
+        Dfora = itaFIO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/b/ba/ACF_Fiorentina_2.svg"
     }
     else if(PELfora=="itaGEN"){//Genoa
-        var Pfora = itaGEN.spi
-        var Afora = itaGEN.a
-        var Dfora = itaGEN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/6/6c/Genoa_C.F.C._logo.svg"
+        Pfora = itaGEN.spi
+        Afora = itaGEN.a
+        Dfora = itaGEN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/6/6c/Genoa_C.F.C._logo.svg"
     }
     else if(PELfora=="itaHEL"){//Hellas Verona
-        var Pfora = itaHEL.spi
-        var Afora = itaHEL.a
-        var Dfora = itaHEL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/35/Hellas_Verona_logo.png"
+        Pfora = itaHEL.spi
+        Afora = itaHEL.a
+        Dfora = itaHEL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/3/35/Hellas_Verona_logo.png"
     }
     else if(PELfora=="itaINT"){//Internazionali
-        var Pfora = itaINT.spi
-        var Afora = itaINT.a
-        var Dfora = itaINT.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
+        Pfora = itaINT.spi
+        Afora = itaINT.a
+        Dfora = itaINT.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/8/89/FC_Internazionale_Milano_2014.svg"
     }
     else if(PELfora=="itaJUV"){//Juventus
-        var Pfora = itaJUV.spi
-        var Afora = itaJUV.a
-        var Dfora = itaJUV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
+        Pfora = itaJUV.spi
+        Afora = itaJUV.a
+        Dfora = itaJUV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg"
     }
     else if(PELfora=="itaLAZ"){//Lazio
-        var Pfora = itaLAZ.spi
-        var Afora = itaLAZ.a
-        var Dfora = itaLAZ.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
+        Pfora = itaLAZ.spi
+        Afora = itaLAZ.a
+        Dfora = itaLAZ.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/e/e4/SS_Lazio.svg"
     }
     else if(PELfora=="itaLEC"){//Lecce
-        var Pfora = itaLEC.spi
-        var Afora = itaLEC.a
-        var Dfora = itaLEC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/6/6e/US_Lecce.png"
+        Pfora = itaLEC.spi
+        Afora = itaLEC.a
+        Dfora = itaLEC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/6/6e/US_Lecce.png"
     }
     else if(PELfora=="itaMIL"){//Milan
-        var Pfora = itaMIL.spi
-        var Afora = itaMIL.a
-        var Dfora = itaMIL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
+        Pfora = itaMIL.spi
+        Afora = itaMIL.a
+        Dfora = itaMIL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg"
     }
     else if(PELfora=="itaNAP"){//Napoli
-        var Pfora = itaNAP.spi
-        var Afora = itaNAP.a
-        var Dfora = itaNAP.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg"
+        Pfora = itaNAP.spi
+        Afora = itaNAP.a
+        Dfora = itaNAP.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/b/ba/SSC_Napoli.svg"
     }
     else if(PELfora=="itaPAR"){//Parma
-        var Pfora = itaPAR.spi
-        var Afora = itaPAR.a
-        var Dfora = itaPAR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/1/1c/Parma_Calcio_1913_logo.svg"
+        Pfora = itaPAR.spi
+        Afora = itaPAR.a
+        Dfora = itaPAR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/1/1c/Parma_Calcio_1913_logo.svg"
     }
     else if(PELfora=="itaROM"){//Roma
-        var Pfora = itaROM.spi
-        var Afora = itaROM.a
-        var Dfora = itaROM.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
+        Pfora = itaROM.spi
+        Afora = itaROM.a
+        Dfora = itaROM.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg"
     }
     else if(PELfora=="itaSAS"){//Sassuolo
-        var Pfora = itaSAS.spi
-        var Afora = itaSAS.a
-        var Dfora = itaSAS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/1/1c/US_Sassuolo_Calcio_logo.svg"
+        Pfora = itaSAS.spi
+        Afora = itaSAS.a
+        Dfora = itaSAS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/1/1c/US_Sassuolo_Calcio_logo.svg"
     }
     else if(PELfora=="itaSPAL"){//SPAL
-        var Pfora = itaSPAL.spi
-        var Afora = itaSPAL.a
-        var Dfora = itaSPAL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/a/a3/SPAL_2013.png"
+        Pfora = itaSPAL.spi
+        Afora = itaSPAL.a
+        Dfora = itaSPAL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/a/a3/SPAL_2013.png"
     }
     else if(PELfora=="itaSAN"){//Sampdoria
-        var Pfora = itaSAN.spi
-        var Afora = itaSAN.a
-        var Dfora = itaSAN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/d/d2/U.C._Sampdoria_logo.svg"
+        Pfora = itaSAN.spi
+        Afora = itaSAN.a
+        Dfora = itaSAN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/d/d2/U.C._Sampdoria_logo.svg"
     }
     else if(PELfora=="itaUDI"){//Udinese
-        var Pfora = itaUDI.spi
-        var Afora = itaUDI.a
-        var Dfora = itaUDI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/c/ce/Udinese_Calcio_logo.svg"
+        Pfora = itaUDI.spi
+        Afora = itaUDI.a
+        Dfora = itaUDI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/c/ce/Udinese_Calcio_logo.svg"
     }
     else if(PELfora=="itaTOR"){//Torino
-        var Pfora = itaTOR.spi
-        var Afora = itaTOR.a
-        var Dfora = itaTOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png"
+        Pfora = itaTOR.spi
+        Afora = itaTOR.a
+        Dfora = itaTOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/2/2e/Torino_FC_logo.png"
     }
     else if(PELfora=="gerAUG"){//Augsburg
-        var Pfora = gerAUG.spi
-        var Afora = gerAUG.a
-        var Dfora = gerAUG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/4/42/FC_Augsburg.png"
+        Pfora = gerAUG.spi
+        Afora = gerAUG.a
+        Dfora = gerAUG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/4/42/FC_Augsburg.png"
     }
     else if(PELfora=="gerBAY"){//Bayern
-        var Pfora = gerBAY.spi
-        var Afora = gerBAY.a
-        var Dfora = gerBAY.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
+        Pfora = gerBAY.spi
+        Afora = gerBAY.a
+        Dfora = gerBAY.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg"
     }
     else if(PELfora=="gerMOC"){//Borussia Mönchengladbach
-        var Pfora = gerMOC.spi
-        var Afora = gerMOC.a
-        var Dfora = gerMOC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Borussia_M%C3%B6nchengladbach.png"
+        Pfora = gerMOC.spi
+        Afora = gerMOC.a
+        Dfora = gerMOC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Borussia_M%C3%B6nchengladbach.png"
     }
     else if(PELfora=="gerDOR"){//Dortmund
-        var Pfora = gerDOR.spi
-        var Afora = gerDOR.a
-        var Dfora = gerDOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
+        Pfora = gerDOR.spi
+        Afora = gerDOR.a
+        Dfora = gerDOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg"
     }
     else if(PELfora=="gerDUS"){//Düsseldorf
-        var Pfora = gerDUS.spi
-        var Afora = gerDUS.a
-        var Dfora = gerDUS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
+        Pfora = gerDUS.spi
+        Afora = gerDUS.a
+        Dfora = gerDUS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"
     }
     else if(PELfora=="gerEIN"){//Eintracht Frankfurt
-        var Pfora = gerEIN.spi
-        var Afora = gerEIN.a
-        var Dfora = gerEIN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
+        Pfora = gerEIN.spi
+        Afora = gerEIN.a
+        Dfora = gerEIN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"
     }
     else if(PELfora=="gerFRE"){//Freiburg
-        var Pfora = gerFRE.spi
-        var Afora = gerFRE.a
-        var Dfora = gerFRE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"
+        Pfora = gerFRE.spi
+        Afora = gerFRE.a
+        Dfora = gerFRE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"
     }
     else if(PELfora=="gerHOF"){//Hoffenheim
-        var Pfora = gerHOF.spi
-        var Afora = gerHOF.a
-        var Dfora = gerHOF.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
+        Pfora = gerHOF.spi
+        Afora = gerHOF.a
+        Dfora = gerHOF.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"
     }
     else if(PELfora=="gerHER"){//Hertha Berlin
-        var Pfora = gerHER.spi
-        var Afora = gerHER.a
-        var Dfora = gerHER.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
+        Pfora = gerHER.spi
+        Afora = gerHER.a
+        Dfora = gerHER.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"
     }
     else if(PELfora=="gerKOL"){//Koln
-        var Pfora = gerKOL.spi
-        var Afora = gerKOL.a
-        var Dfora = gerKOL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"
+        Pfora = gerKOL.spi
+        Afora = gerKOL.a
+        Dfora = gerKOL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"
     }
     else if(PELfora=="gerLEV"){//Leverkusen
-        var Pfora = gerLEV.spi
-        var Afora = gerLEV.a
-        var Dfora = gerLEV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
+        Pfora = gerLEV.spi
+        Afora = gerLEV.a
+        Dfora = gerLEV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"
     }
     else if(PELfora=="gerMAI"){//Mainz 05
-        var Pfora = gerMAI.spi
-        var Afora = gerMAI.a
-        var Dfora = gerMAI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
+        Pfora = gerMAI.spi
+        Afora = gerMAI.a
+        Dfora = gerMAI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg"
     }
     else if(PELfora=="gerPAD"){//Padeborn
-        var Pfora = gerPAD.spi
-        var Afora = gerPAD.a
-        var Dfora = gerPAD.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"
+        Pfora = gerPAD.spi
+        Afora = gerPAD.a
+        Dfora = gerPAD.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"
     }
     else if(PELfora=="gerRBL"){//Red Bull Leipzig
-        var Pfora = gerRBL.spi
-        var Afora = gerRBL.a
-        var Dfora = gerRBL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
+        Pfora = gerRBL.spi
+        Afora = gerRBL.a
+        Dfora = gerRBL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"
     }
     else if(PELfora=="gerSCH"){//Schalke 04
-        var Pfora = gerSCH.spi
-        var Afora = gerSCH.a
-        var Dfora = gerSCH.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
+        Pfora = gerSCH.spi
+        Afora = gerSCH.a
+        Dfora = gerSCH.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"
     }
     else if(PELfora=="gerBER"){//Union Berlin
-        var Pfora = gerBER.spi
-        var Afora = gerBER.a
-        var Dfora = gerBER.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/81/1_FC_Union_Berlin.png"
+        Pfora = gerBER.spi
+        Afora = gerBER.a
+        Dfora = gerBER.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/8/81/1_FC_Union_Berlin.png"
     }
     else if(PELfora=="gerWER"){//Werder Bremen
-        var Pfora = gerWER.spi
-        var Afora = gerWER.a
-        var Dfora = gerWER.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
+        Pfora = gerWER.spi
+        Afora = gerWER.a
+        Dfora = gerWER.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"
     }
     else if(PELfora=="gerWOL"){//Wolfsburg
-        var Pfora = gerWOL.spi
-        var Afora = gerWOL.a
-        var Dfora = gerWOL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
+        Pfora = gerWOL.spi
+        Afora = gerWOL.a
+        Dfora = gerWOL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
     }
     else if(PELfora=="spaATL"){//Atlético Madrid
-        var Pfora = spaATL.spi
-        var Afora = spaATL.a
-        var Dfora = spaATL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
+        Pfora = spaATL.spi
+        Afora = spaATL.a
+        Dfora = spaATL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
     }
     else if(PELfora=="catBAR"){//Barcelona
-        var Pfora = catBAR.spi
-        var Afora = catBAR.a
-        var Dfora = catBAR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
+        Pfora = catBAR.spi
+        Afora = catBAR.a
+        Dfora = catBAR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/4/47/FC_Barcelona_%28crest%29.svg"
     }
     else if(PELfora=="spaMAD"){//Real Madrid
-        var Pfora = spaMAD.spi
-        var Afora = spaMAD.a
-        var Dfora = spaMAD.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
+        Pfora = spaMAD.spi
+        Afora = spaMAD.a
+        Dfora = spaMAD.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/5/56/Real_Madrid_CF.svg"
     }
     else if(PELfora=="spaSEV"){//Sevilla
-        var Pfora = spaSEV.spi
-        var Afora = spaSEV.a
-        var Dfora = spaSEV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
+        Pfora = spaSEV.spi
+        Afora = spaSEV.a
+        Dfora = spaSEV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/f/f1/Logo_Sevilla_FC.svg"
     }
     else if(PELfora=="spaRSO"){//Real Sociedad
-        var Pfora = spaRSO.spi
-        var Afora = spaRSO.a
-        var Dfora = spaRSO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
+        Pfora = spaRSO.spi
+        Afora = spaRSO.a
+        Dfora = spaRSO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/6/6a/Real_Sociedad_logo.png"
     }
     else if(PELfora=="spaBIL"){//Athletic Bilbao
-        var Pfora = spaBIL.spi
-        var Afora = spaBIL.a
-        var Dfora = spaBIL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
+        Pfora = spaBIL.spi
+        Afora = spaBIL.a
+        Dfora = spaBIL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Club_Athletic_Bilbao_logo.png"
     }
     else if(PELfora=="spaGET"){//Getafe
-        var Pfora = spaGET.spi
-        var Afora = spaGET.a
-        var Dfora = spaGET.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
+        Pfora = spaGET.spi
+        Afora = spaGET.a
+        Dfora = spaGET.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/d/de/Getafe_CF.svg"
     }
     else if(PELfora=="spaVAL"){//Valencia
-        var Pfora = spaVAL.spi
-        var Afora = spaVAL.a
-        var Dfora = spaVAL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
+        Pfora = spaVAL.spi
+        Afora = spaVAL.a
+        Dfora = spaVAL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/c/ce/Valenciacf.svg"
     }
     else if(PELfora=="argBAN"){//Banfield
-        var Pfora = argBAN.spi
-        var Afora = argBAN.a
-        var Dfora = argBAN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
+        Pfora = argBAN.spi
+        Afora = argBAN.a
+        Dfora = argBAN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/1/16/CA_Banfield_%282014%29.svg"
     }
     else if(PELfora=="argSLO"){//San Lorenzo
-        var Pfora = argSLO.spi
-        var Afora = argSLO.a
-        var Dfora = argSLO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
+        Pfora = argSLO.spi
+        Afora = argSLO.a
+        Dfora = argSLO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/7/77/Escudo_del_Club_Atl%C3%A9tico_San_Lorenzo_de_Almagro.svg"
     }
     else if(PELfora=="spaVIL"){//Villarreal
-        var Pfora = spaVIL.spi
-        var Afora = spaVIL.a
-        var Dfora = spaVIL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
+        Pfora = spaVIL.spi
+        Afora = spaVIL.a
+        Dfora = spaVIL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/7/70/Villarreal_CF_logo.svg"
     }
     else if(PELfora=="spaEIB"){//Eibar
-        var Pfora = spaEIB.spi
-        var Afora = spaEIB.a
-        var Dfora = spaEIB.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
+        Pfora = spaEIB.spi
+        Afora = spaEIB.a
+        Dfora = spaEIB.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/de/a/ab/Eibar.svg"
     }
     else if(PELfora=="spaOSA"){//Osasuna
-        var Pfora = spaOSA.spi
-        var Afora = spaOSA.a
-        var Dfora = spaOSA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
+        Pfora = spaOSA.spi
+        Afora = spaOSA.a
+        Dfora = spaOSA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/3/39/CA_Osasuna.png"
     }
     else if(PELfora=="spaGRA"){//Granada
-        var Pfora = spaGRA.spi
-        var Afora = spaGRA.a
-        var Dfora = spaGRA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
+        Pfora = spaGRA.spi
+        Afora = spaGRA.a
+        Dfora = spaGRA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/9/9a/Granada_FC_logo.png"
     }
     else if(PELfora=="spaBET"){//Real Betis
-        var Pfora = spaBET.spi
-        var Afora = spaBET.a
-        var Dfora = spaBET.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
+        Pfora = spaBET.spi
+        Afora = spaBET.a
+        Dfora = spaBET.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/1/13/Real_betis_logo.svg"
     }
     else if(PELfora=="spaLEG"){//Leganes
-        var Pfora = spaLEG.spi
-        var Afora = spaLEG.a
-        var Dfora = spaLEG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
+        Pfora = spaLEG.spi
+        Afora = spaLEG.a
+        Dfora = spaLEG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/4/46/Logo_CD_Legan%C3%A9s.svg"
     }
     else if(PELfora=="spaCEL"){//Celta de Vigo
-        var Pfora = spaCEL.spi
-        var Afora = spaCEL.a
-        var Dfora = spaCEL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
+        Pfora = spaCEL.spi
+        Afora = spaCEL.a
+        Dfora = spaCEL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/b/b7/Logo_RC_Celta_Vigo.svg"
     }
     else if(PELfora=="catESP"){//Espanyol
-        var Pfora = catESP.spi
-        var Afora = catESP.a
-        var Dfora = catESP.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
+        Pfora = catESP.spi
+        Afora = catESP.a
+        Dfora = catESP.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/2/29/Rcd_espanyol_logo.png"
     }
     else if(PELfora=="spaALA"){//Alavés
-        var Pfora = spaALA.spi
-        var Afora = spaALA.a
-        var Dfora = spaALA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
+        Pfora = spaALA.spi
+        Afora = spaALA.a
+        Dfora = spaALA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"
     }
     else if(PELfora=="spaLEV"){//Levante
-        var Pfora = spaLEV.spi
-        var Afora = spaLEV.a
-        var Dfora = spaLEV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
+        Pfora = spaLEV.spi
+        Afora = spaLEV.a
+        Dfora = spaLEV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/e/e7/Levante_logo2014.svg"
     }
     else if(PELfora=="spaRVA"){//Real Valladolid
-        var Pfora = spaRVA.spi
-        var Afora = spaRVA.a
-        var Dfora = spaRVA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
+        Pfora = spaRVA.spi
+        Afora = spaRVA.a
+        Dfora = spaRVA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/0/00/RealValladolid_Logo2014.svg"
     }
     else if(PELfora=="spaMAL"){//Mallorca
-        var Pfora = spaMAL.spi
-        var Afora = spaMAL.a
-        var Dfora = spaMAL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
+        Pfora = spaMAL.spi
+        Afora = spaMAL.a
+        Dfora = spaMAL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/1/1d/RCD_Mallorca.png"
     }
     else if(PELfora=="porBEN"){//Benfica
-        var Pfora = porBEN.spi
-        var Afora = porBEN.a
-        var Dfora = porBEN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
+        Pfora = porBEN.spi
+        Afora = porBEN.a
+        Dfora = porBEN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/a/a2/SL_Benfica_logo.svg"
     }
     else if(PELfora=="porBRA"){//Braga
-        var Pfora = porBRA.spi
-        var Afora = porBRA.a
-        var Dfora = porBRA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
+        Pfora = porBRA.spi
+        Afora = porBRA.a
+        Dfora = porBRA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/f9/150px-Sporting_Clube_Braga.png"
     }
     else if(PELfora=="porPOR"){//Porto
-        var Pfora = porPOR.spi
-        var Afora = porPOR.a
-        var Dfora = porPOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
+        Pfora = porPOR.spi
+        Afora = porPOR.a
+        Dfora = porPOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/f/f1/FC_Porto.svg"
     }
     else if(PELfora=="porSPO"){//Sporting
-        var Pfora = porSPO.spi
-        var Afora = porSPO.a
-        var Dfora = porSPO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
+        Pfora = porSPO.spi
+        Afora = porSPO.a
+        Dfora = porSPO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/3/3e/Sporting_Clube_de_Portugal.png"
     }
     else if(PELfora=="fraLIL"){//Lille
-        var Pfora = fraLIL.spi
-        var Afora = fraLIL.a
-        var Dfora = fraLIL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
+        Pfora = fraLIL.spi
+        Afora = fraLIL.a
+        Dfora = fraLIL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/6/62/Logo_LOSC_Lille_2018.svg"
     }
     else if(PELfora=="fraOLY"){//Lyonnais, Olympique
-        var Pfora = fraOLY.spi
-        var Afora = fraOLY.a
-        var Dfora = fraOLY.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
+        Pfora = fraOLY.spi
+        Afora = fraOLY.a
+        Dfora = fraOLY.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/e/e2/Olympique_lyonnais_%28logo%29.svg"
     }
     else if(PELfora=="fraMAR"){//Marseille
-        var Pfora = fraMAR.spi
-        var Afora = fraMAR.a
-        var Dfora = fraMAR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
+        Pfora = fraMAR.spi
+        Afora = fraMAR.a
+        Dfora = fraMAR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/4/43/Logo_Olympique_de_Marseille.svg"
     }
     else if(PELfora=="fraPSG"){//Paris Saint-Germain
-        var Pfora = fraPSG.spi
-        var Afora = fraPSG.a
-        var Dfora = fraPSG.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
+        Pfora = fraPSG.spi
+        Afora = fraPSG.a
+        Dfora = fraPSG.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/8/86/Paris_Saint-Germain_Logo.svg"
     }
     else if(PELfora=="argBOC"){//Boca Juniors
-        var Pfora = argBOC.spi
-        var Afora = argBOC.a
-        var Dfora = argBOC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
+        Pfora = argBOC.spi
+        Afora = argBOC.a
+        Dfora = argBOC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors_2012.svg"
     }
     else if(PELfora=="argIND"){//Independiente
-        var Pfora = argIND.spi
-        var Afora = argIND.a
-        var Dfora = argIND.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+        Pfora = argIND.spi
+        Afora = argIND.a
+        Dfora = argIND.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
     }
     else if(PELfora=="argNOB"){//Newell's Old Boys
-        var Pfora = argNOB.spi
-        var Afora = argNOB.a
-        var Dfora = argNOB.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
+        Pfora = argNOB.spi
+        Afora = argNOB.a
+        Dfora = argNOB.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/f/fc/CA_Newell%E2%80%99s_Old_Boys.svg"
     }
     else if(PELfora=="argRAC"){//Racing
-        var Pfora = argRAC.spi
-        var Afora = argRAC.a
-        var Dfora = argRAC.d
-        document.getElementById('ESCfora').src="https://www.racingclub.com.ar/img/escudo.png"
+        Pfora = argRAC.spi
+        Afora = argRAC.a
+        Dfora = argRAC.d
+       escudofora.src="https://www.racingclub.com.ar/img/escudo.png"
     }
     else if(PELfora=="argRIV"){//River Plate
-        var Pfora = argRIV.spi
-        var Afora = argRIV.a
-        var Dfora = argRIV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
+        Pfora = argRIV.spi
+        Afora = argRIV.a
+        Dfora = argRIV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/6/69/Escudo_del_Club_Atl%C3%A9tico_River_Plate.svg"
     }
     else if(PELfora=="argVEL"){//Vélez Sarsfield
-        var Pfora = argVEL.spi
-        var Afora = argVEL.a
-        var Dfora = argVEL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
+        Pfora = argVEL.spi
+        Afora = argVEL.a
+        Dfora = argVEL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/2/21/Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"
     }
     else if(PELfora=="usaLAFC"){//Los Angeles FC
-        var Pfora = usaLAFC.spi
-        var Afora = usaLAFC.a
-        var Dfora = usaLAFC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
+        Pfora = usaLAFC.spi
+        Afora = usaLAFC.a
+        Dfora = usaLAFC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"
     }
     else if(PELfora=="usaATL"){//Atlanta United FC
-        var Pfora = usaATL.spi
-        var Afora = usaATL.a
-        var Dfora = usaATL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
+        Pfora = usaATL.spi
+        Afora = usaATL.a
+        Dfora = usaATL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"
     }
     else if(PELfora=="usaNYC"){//New York City FC
-        var Pfora = usaNYC.spi
-        var Afora = usaNYC.a
-        var Dfora = usaNYC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
+        Pfora = usaNYC.spi
+        Afora = usaNYC.a
+        Dfora = usaNYC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"
     }
     else if(PELfora=="usaPHI"){//Philadelphia Union
-        var Pfora = usaPHI.spi
-        var Afora = usaPHI.a
-        var Dfora = usaPHI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
+        Pfora = usaPHI.spi
+        Afora = usaPHI.a
+        Dfora = usaPHI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"
     }
     else if(PELfora=="usaAUS"){//Austin FC
-        var Pfora = usaAUS.spi
-        var Afora = usaAUS.a
-        var Dfora = usaAUS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"
+        Pfora = usaAUS.spi
+        Afora = usaAUS.a
+        Dfora = usaAUS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"
     }
     else if(PELfora=="usaMIA"){//Inter Miami
-        var Pfora = usaMIA.spi
-        var Afora = usaMIA.a
-        var Dfora = usaMIA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"
+        Pfora = usaMIA.spi
+        Afora = usaMIA.a
+        Dfora = usaMIA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"
     }
     else if(PELfora=="usaNAS"){//Nashiville
-        var Pfora = usaNAS.spi
-        var Afora = usaNAS.a
-        var Dfora = usaNAS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f5/Nashville_SCMLS.png"
+        Pfora = usaNAS.spi
+        Afora = usaNAS.a
+        Dfora = usaNAS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/f5/Nashville_SCMLS.png"
     }
     else if(PELfora=="usaGAL"){//LA Galaxy
-        var Pfora = usaGAL.spi
-        var Afora = usaGAL.a
-        var Dfora = usaGAL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
+        Pfora = usaGAL.spi
+        Afora = usaGAL.a
+        Dfora = usaGAL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"
     }
     else if(PELfora=="canTOR"){//Toronto
-        var Pfora = canTOR.spi
-        var Afora = canTOR.a
-        var Dfora = canTOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
+        Pfora = canTOR.spi
+        Afora = canTOR.a
+        Dfora = canTOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"
     }
     else if(PELfora=="usaNYRB"){//New York Red Bulls
-        var Pfora = usaNYRB.spi
-        var Afora = usaNYRB.a
-        var Dfora = usaNYRB.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
+        Pfora = usaNYRB.spi
+        Afora = usaNYRB.a
+        Dfora = usaNYRB.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"
     }
     else if(PELfora=="usaCHI"){//Chicago Fire
-        var Pfora = usaCHI.spi
-        var Afora = usaCHI.a
-        var Dfora = usaCHI.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
+        Pfora = usaCHI.spi
+        Afora = usaCHI.a
+        Dfora = usaCHI.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"
     }
     else if(PELfora=="usaSJE"){//San Jose Earthquakes
-        var Pfora = usaSJE.spi
-        var Afora = usaSJE.a
-        var Dfora = usaSJE.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
+        Pfora = usaSJE.spi
+        Afora = usaSJE.a
+        Dfora = usaSJE.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"
     }
     else if(PELfora=="usaSEA"){//Seattle Sounders
-        var Pfora = usaSEA.spi
-        var Afora = usaSEA.a
-        var Dfora = usaSEA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
+        Pfora = usaSEA.spi
+        Afora = usaSEA.a
+        Dfora = usaSEA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"
     }
     else if(PELfora=="usaPOR"){//Portland Timbers
-        var Pfora = usaPOR.spi
-        var Afora = usaPOR.a
-        var Dfora = usaPOR.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
+        Pfora = usaPOR.spi
+        Afora = usaPOR.a
+        Dfora = usaPOR.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"
     }
     else if(PELfora=="usaSPO"){//Sporting KC
-        var Pfora = usaSPO.spi
-        var Afora = usaSPO.a
-        var Dfora = usaSPO.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
+        Pfora = usaSPO.spi
+        Afora = usaSPO.a
+        Dfora = usaSPO.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"
     }
     else if(PELfora=="usaMIN"){//Minnesota United FC
-        var Pfora = usaMIN.spi
-        var Afora = usaMIN.a
-        var Dfora = usaMIN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
+        Pfora = usaMIN.spi
+        Afora = usaMIN.a
+        Dfora = usaMIN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"
     }
     else if(PELfora=="usaDAL"){//FC Dallas
-        var Pfora = usaDAL.spi
-        var Afora = usaDAL.a
-        var Dfora = usaDALd
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
+        Pfora = usaDAL.spi
+        Afora = usaDAL.a
+        Dfora = usaDALd
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"
     }
     else if(PELfora=="usaCREW"){//Columbus Crew
-        var Pfora = usaCREW.spi
-        var Afora = usaCREW.a
-        var Dfora = usaCREW.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
+        Pfora = usaCREW.spi
+        Afora = usaCREW.a
+        Dfora = usaCREW.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"
     }
     else if(PELfora=="usaRSL"){//Real Salt Lake
-        var Pfora = usaRSL.spi
-        var Afora = usaRSL.a
-        var Dfora = usaRSL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
+        Pfora = usaRSL.spi
+        Afora = usaRSL.a
+        Dfora = usaRSL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"
     }
     else if(PELfora=="usaNER"){//New England Revolution
-        var Pfora = usaNER.spi
-        var Afora = usaNER.a
-        var Dfora = usaNER.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
+        Pfora = usaNER.spi
+        Afora = usaNER.a
+        Dfora = usaNER.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"
     }
     else if(PELfora=="usaCOL"){//Colorado Rapids
-        var Pfora = usaCOL.spi
-        var Afora = usaCOL.a
-        var Dfora = usaCOL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
+        Pfora = usaCOL.spi
+        Afora = usaCOL.a
+        Dfora = usaCOL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"
     }
     else if(PELfora=="usaDCU"){//DC United
-        var Pfora = usaDCU.spi
-        var Afora = usaDCU.a
-        var Dfora = usaDCU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
+        Pfora = usaDCU.spi
+        Afora = usaDCU.a
+        Dfora = usaDCU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"
     }
     else if(PELfora=="usaORL"){//Orlando City SC
-        var Pfora = usaORL.spi
-        var Afora = usaORL.a
-        var Dfora = usaORL.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/c/c0/OrlandoCity_SC_logo.png"
+        Pfora = usaORL.spi
+        Afora = usaORL.a
+        Dfora = usaORL.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/c/c0/OrlandoCity_SC_logo.png"
     }
     else if(PELfora=="usaHOU"){//Houston Dynamo
-        var Pfora = usaHOU.spi
-        var Afora = usaHOU.a
-        var Dfora = usaHOU.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
+        Pfora = usaHOU.spi
+        Afora = usaHOU.a
+        Dfora = usaHOU.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"
     }
     else if(PELfora=="canMON"){//Montreal Impact
-        var Pfora = canMON.spi
-        var Afora = canMON.a
-        var Dfora = canMON.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
+        Pfora = canMON.spi
+        Afora = canMON.a
+        Dfora = canMON.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"
     }
     else if(PELfora=="canVAN"){//Vancouver Whitecaps
-        var Pfora = canVAN.spi
-        var Afora = canVAN.a
-        var Dfora = canVAN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
+        Pfora = canVAN.spi
+        Afora = canVAN.a
+        Dfora = canVAN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"
     }
     else if(PELfora=="usaCIN"){//FC Cincinnati
-        var Pfora = usaCIN.spi
-        var Afora = usaCIN.a
-        var Dfora = usaCIN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
+        Pfora = usaCIN.spi
+        Afora = usaCIN.a
+        Dfora = usaCIN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"
     }
     else if(PELfora=="usaSAC"){//Sacramento Republic FC
-        var Pfora = usaSAC.spi
-        var Afora = usaSAC.a
-        var Dfora = usaSAC.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/1/19/Sacramento_Republic_FC.png"
+        Pfora = usaSAC.spi
+        Afora = usaSAC.a
+        Dfora = usaSAC.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/1/19/Sacramento_Republic_FC.png"
     }
     else if(PELfora=="nedAJA"){//Ajax
-        var Pfora = nedAJA.spi
-        var Afora = nedAJA.a
-        var Dfora = nedAJA.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
+        Pfora = nedAJA.spi
+        Afora = nedAJA.a
+        Dfora = nedAJA.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg"
     }
     else if(PELfora=="nedPSV"){//PSV
-        var Pfora = nedPSV.spi
-        var Afora = nedPSV.a
-        var Dfora = nedPSV.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
+        Pfora = nedPSV.spi
+        Afora = nedPSV.a
+        Dfora = nedPSV.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/sco/0/05/PSV_Eindhoven.svg"
     }
     else if(PELfora=="autRBS"){//Red Bull Salzburg
-        var Pfora = autRBS.spi
-        var Afora = autRBS.a
-        var Dfora = autRBS.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
+        Pfora = autRBS.spi
+        Afora = autRBS.a
+        Dfora = autRBS.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/pt/2/24/Red_Bull_Salzburg.png"
     }
     else if(PELfora=="rusZEN"){//Zenit
-        var Pfora = rusZEN.spi
-        var Afora = rusZEN.a
-        var Dfora = rusZEN.d
-        document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
+        Pfora = rusZEN.spi
+        Afora = rusZEN.a
+        Dfora = rusZEN.d
+       escudofora.src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"
         //molduradefora.style.backgroundColor = "#00000000"
     }
     else{
-        var Pfora = 5.29
-        var Afora = 0.2
-        var Dfora = 2.51
-        document.getElementById('ESCfora').src="https://uploaddeimagens.com.br/images/002/397/526/full/souza.png?1570224716"
+        Pfora = 5.29
+        Afora = 0.2
+        Dfora = 2.51
+       escudofora.src="https://uploaddeimagens.com.br/images/002/397/526/full/souza.png?1570224716"
     }
     txtsumulaA.innerHTML = ''
     txtsumulaB.innerHTML = ''
