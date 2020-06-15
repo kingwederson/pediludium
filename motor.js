@@ -194,6 +194,12 @@ var spaGET = {spi:79.99,a:1.8,d:0.36}
 var spaSEV = {spi:81.02,a:2.16,d:0.53}
 var spaATL = {spi:83.78,a:2.08,d:0.36}
 
+//Portugal
+var porBRA = {spi:63.81,a:1.88,d:1.07}
+var porBEN = {spi:72.61,a:2.07,d:0.84}
+var porPOR = {spi:72.95,a:1.92,d:0.72}
+var porSPO = {spi:63.29,a:1.67,d:0.92}
+
 //Alemanha
 var gerPAD = {spi:56.78,a:1.63,d:1.15}
 var gerDUS = {spi:58.95,a:1.72,d:1.14}
@@ -409,7 +415,14 @@ function jogar(){
             break
     }
     var PELcasa = window.document.getElementById('timedacasa').value
+    var Pcasa
+    var Acasa
+    var Dcasa
+
     var PELfora = window.document.getElementById('timedefora').value
+    var Pfora
+    var Afora
+    var Dfora
 
     if(PELcasa=="GER"){//Alemanha
         var Pcasa = GER.spi
@@ -935,10 +948,10 @@ function jogar(){
         var Dcasa = engEVE.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
     }
-    else if(PELcasa=="engLUFC"){//Leeds
-        var Pcasa = engLUFC.spi
-        var Acasa = engLUFC.a
-        var Dcasa = engLUFC.d
+    else if(PELcasa=="engLEE"){//Leeds
+        var Pcasa = engLEE.spi
+        var Acasa = engLEE.a
+        var Dcasa = engLEE.d
         document.getElementById('ESCcasa').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
     }
     else if(PELcasa=="engLEI"){//Leicester
@@ -2189,10 +2202,10 @@ function jogar(){
         var Dfora = engEVE.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"
     }
-    else if(PELfora=="engLUFC"){//Leeds
-        var Pfora = engLUFC.spi
-        var Afora = engLUFC.a
-        var Dfora = engLUFC.d
+    else if(PELfora=="engLEE"){//Leeds
+        var Pfora = engLEE.spi
+        var Afora = engLEE.a
+        var Dfora = engLEE.d
         document.getElementById('ESCfora').src="https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"
     }
     else if(PELfora=="engLEI"){//Leicester
