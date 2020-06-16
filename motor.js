@@ -35,7 +35,6 @@ var ISR = {spi:55.16,a:1.67,d:1.23,e:"https://upload.wikimedia.org/wikipedia/en/
 var ITA = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"}
 var JPN = {spi:70.23,a:1.94,d:0.80,e:"https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"}
 var KOR = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"}
-var QAT = {spi:58.57,a:1.61,d:1.02,e:"https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"}
 var MLI = {spi:65.33,a:1.57,d:0.71,e:desco}//Mali
 var MAR = {spi:69.08,a:1.68,d:0.65,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/mar"}
 var MEX = {spi:76.36,a:2.24,d:0.74,e:"https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"}
@@ -49,13 +48,14 @@ var PAN = {spi:49.55,a:1.29,d:1.09,e:"https://api.fifa.com/api/v1/picture/flags-
 var PER = {spi:71.90,a:1.97,d:0.68,e:"https://upload.wikimedia.org/wikipedia/en/3/36/Fpf-logo.svg"}
 var POL = {spi:70.98,a:1.94,d:0.76,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/pol"}
 var POR = {spi:82.75,a:2.42,d:0.55,e:"https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"}
+var QAT = {spi:58.57,a:1.61,d:1.02,e:"https://upload.wikimedia.org/wikipedia/fr/3/39/Football_Qatar_federation.svg"}
 var ROU = {spi:60.54,a:1.59,d:0.92,e:desco}
 var RUS = {spi:76.86,a:2.26,d:0.73,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/rus"}
 var SAU = {spi:53.09,a:1.57,d:1.22,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ksa"}
 var SCO = {spi:58.33,a:1.60,d:1.02,e:desco}
 var SER = {spi:71.24,a:2.14,d:0.90,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/srb"}
 var SEN = {spi:69.73,a:1.67,d:0.62,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/sen"}
-var SLO = {spi:65.67,a:1.89,d:0.96,e:desco}
+var SLV = {spi:65.67,a:1.89,d:0.96,e:desco}
 var SPA = {spi:91.92,a:3.53,d:0.56,e:"https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"}
 var SWE = {spi:74.83,a:2.06,d:0.69,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/swe"}
 var SWI = {spi:79.98,a:2.44,d:0.70,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/sui"}
@@ -109,7 +109,7 @@ var engBLA = {spi:49.34,a:1.33,d:1.17,e:desco}
 var engBOU = {spi:64.05,a:1.85,d:1.03,e:"https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"}
 var engBRE = {spi:65.68,a:1.74,d:0.88,e:desco}
 var engBUR = {spi:71.17,a:1.84,d:0.73,e:"https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"}
-var engCAR = {spi:51.60,a:1.42,d:1.17,e:desco}
+var walCAR = {spi:51.60,a:1.42,d:1.17,e:desco}
 var engCHA = {spi:36.60,a:1.11,d:1.50,e:desco}
 var engCHE = {spi:85.54,a:2.44,d:0.47,e:"https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"}
 var engCRY = {spi:70.27,a:1.76,d:0.71,e:"https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"}
@@ -137,7 +137,7 @@ var engSHEW = {spi:44.27,a:1.26,d:1.31,e:desco}
 var engSOU = {spi:68.31,a:1.88,d:0.88,e:"https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"}
 var engSTO = {spi:53.01,a:1.39,d:1.07,e:desco}
 var engSUN = {spi:31.75,a:0.9,d:1.47,e:"https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"}
-var engSWA = {spi:48.53,a:1.38,d:1.26,e:desco}
+var walSWA = {spi:48.53,a:1.38,d:1.26,e:desco}
 var engTOT = {spi:76.59,a:2.2,d:0.75,e:"https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"}
 var engWAT = {spi:72.81,a:1.92,d:0.72,e:"https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"}
 var engWBA = {spi:60.08,a:1.57,d:0.96,e:desco}
@@ -489,6 +489,12 @@ function jogar(){
         Dcasa = BEL.d
         escudocasa.src = BEL.e
     }
+    else if(PELcasa=="BIH"){//Bósnia e Herzegovina
+        Pcasa = BIH.spi
+        Acasa = BIH.a
+        Dcasa = BIH.d
+        escudocasa.src = BIH.e
+    }
     else if(PELcasa=="BOL"){//Bolívia
         Pcasa = BOL.spi
         Acasa = BOL.a
@@ -511,6 +517,18 @@ function jogar(){
         Pcasa = CHI.spi
         Acasa = CHI.a
         Dcasa = CHI.d
+        escudocasa.src = CHI.e
+    }
+    else if(PELcasa=="CIV"){//Costa do Marfim
+        Pcasa = CIV.spi
+        Acasa = CIV.a
+        Dcasa = CIV.d
+        escudocasa.src = CHI.e
+    }
+    else if(PELcasa=="CMR"){//Camarões
+        Pcasa = CMR.spi
+        Acasa = CMR.a
+        Dcasa = CMR.d
         escudocasa.src = CHI.e
     }
     else if(PELcasa=="COL"){//Colômbia
@@ -561,6 +579,12 @@ function jogar(){
         Dcasa = ENG.d
         escudocasa.src = ENG.e
     }
+    else if(PELcasa=="FIN"){//Finlândia
+        Pcasa = FIN.spi
+        Acasa = FIN.a
+        Dcasa = FIN.d
+        escudocasa.src = FIN.e
+    }
     else if(PELcasa=="FRA"){//França
         Pcasa = FRA.spi
         Acasa = FRA.a
@@ -579,17 +603,41 @@ function jogar(){
         Dcasa = GHA.d
         escudocasa.src = GHA.e
     }
+    else if(PELcasa=="GRC"){//Grécia
+        Pcasa = GRC.spi
+        Acasa = GRC.a
+        Dcasa = GRC.d
+        escudocasa.src = GRC.e
+    }
     else if(PELcasa=="HAI"){//Haiti
         Pcasa = HAI.spi
         Acasa = HAI.a
         Dcasa = HAI.d
         escudocasa.src = HAI.e
     }
+    else if(PELcasa=="HON"){//Honduras
+        Pcasa = HON.spi
+        Acasa = HON.a
+        Dcasa = HON.d
+        escudocasa.src = HON.e
+    }
     else if(PELcasa=="IRA"){//Irã
         Pcasa = IRA.spi
         Acasa = IRA.a
         Dcasa = IRA.d
         escudocasa.src = IRA.e
+    }
+    else if(PELcasa=="IRE"){//Iralanda
+        Pcasa = IRE.spi
+        Acasa = IRE.a
+        Dcasa = IRE.d
+        escudocasa.src = IRE.e
+    }
+    else if(PELcasa=="IRQ"){//Iraque
+        Pcasa = IRQ.spi
+        Acasa = IRQ.a
+        Dcasa = IRQ.d
+        escudocasa.src = IRQ.e
     }
     else if(PELcasa=="ISL"){//Islândia
         Pcasa = ISL.spi
@@ -638,6 +686,12 @@ function jogar(){
         Acasa = NED.a
         Dcasa = NED.d
         escudocasa.src = NED.e
+    }
+    else if(PELcasa=="NIR"){//Irlanda do Norte
+        Pcasa = NIR.spi
+        Acasa = NIR.a
+        Dcasa = NIR.d
+        escudocasa.src = NIR.e
     }
     else if(PELcasa=="NGA"){//Nigéria
         Pcasa = NGA.spi
@@ -688,11 +742,23 @@ function jogar(){
         Dcasa = POR.d
         escudocasa.src = POR.e
     }
+    else if(PELcasa=="ROU"){//Romemia
+        Pcasa = ROU.spi
+        Acasa = ROU.a
+        Dcasa = ROU.d
+        escudocasa.src = ROU.e
+    }
     else if(PELcasa=="QAT"){//Qatar
         Pcasa = QAT.spi
         Acasa = QAT.a
         Dcasa = QAT.d
         escudocasa.src = QAT.e
+    }
+    else if(PELcasa=="MLI"){//Mali
+        Pcasa = MLI.spi
+        Acasa = MLI.a
+        Dcasa = MLI.d
+        escudocasa.src = MLI.e
     }
     else if(PELcasa=="RUS"){//Rússia
         Pcasa = RUS.spi
@@ -706,6 +772,12 @@ function jogar(){
         Dcasa = SAU.d
         escudocasa.src = SAU.e
     }
+    else if(PELcasa=="SCO"){//Escócia
+        Pcasa = SCO.spi
+        Acasa = SCO.a
+        Dcasa = SCO.d
+        escudocasa.src = SCO.e
+    }
     else if(PELcasa=="SEN"){//Senegal
         Pcasa = SEN.spi
         Acasa = SEN.a
@@ -717,6 +789,12 @@ function jogar(){
         Acasa = SER.a
         Dcasa = SER.d
         escudocasa.src = SER.e
+    }
+    else if(PELcasa=="SLV"){//Eslováquia
+        Pcasa = SLV.spi
+        Acasa = SLV.a
+        Dcasa = SLV.d
+        escudocasa.src = SLV.e
     }
     else if(PELcasa=="SPA"){//Espanha
         Pcasa = SPA.spi
@@ -760,6 +838,12 @@ function jogar(){
         Dcasa = URU.d
         escudocasa.src = URU.e
     }
+    else if(PELcasa=="UZB"){//Uzbequistão
+        Pcasa = UZB.spi
+        Acasa = UZB.a
+        Dcasa = UZB.d
+        escudocasa.src = UZB.e
+    }
     else if(PELcasa=="USA"){//Estados Unidos da América
         Pcasa = USA.spi
         Acasa = USA.a
@@ -771,6 +855,12 @@ function jogar(){
         Acasa = VEN.a
         Dcasa = VEN.d
         escudocasa.src = VEN.e
+    }
+    else if(PELcasa=="WAL"){//Gales
+        Pcasa = WAL.spi
+        Acasa = WAL.a
+        Dcasa = WAL.d
+        escudocasa.src = WAL.e
     }
     else if(PELcasa=="braAAPP"){//Ponte Preta (2017)
         Pcasa = braAAPP.spi
@@ -953,11 +1043,11 @@ function jogar(){
         Dcasa = engAST.d
         escudocasa.src = engAST.e
     }
-    else if(PELcasa=="engBOU"){//Bournemouth
-        Pcasa = engBOU.spi
-        Acasa = engBOU.a
-        Dcasa = engBOU.d
-        escudocasa.src = engBOU.e
+    else if(PELcasa=="engBAR"){//Barnsley
+        Pcasa = engBAR.spi
+        Acasa = engBARU.a
+        Dcasa = engBAR.d
+        escudocasa.src = engBAR.e
     }
     else if(PELcasa=="engBHA"){//Brighton
         Pcasa = engBHA.spi
@@ -965,11 +1055,47 @@ function jogar(){
         Dcasa = engBHA.d
         escudocasa.src = engBHA.e
     }
+    else if(PELcasa=="engBIR"){//Birmingham
+        Pcasa = engBIR.spi
+        Acasa = engBIR.a
+        Dcasa = engBIR.d
+        escudocasa.src = engBIR.e
+    }
+    else if(PELcasa=="engBLA"){//Blackburn
+        Pcasa = engBLA.spi
+        Acasa = engBLA.a
+        Dcasa = engBLA.d
+        escudocasa.src = engBLA.e
+    }
+    else if(PELcasa=="engBOU"){//Bournemouth
+        Pcasa = engBOU.spi
+        Acasa = engBOU.a
+        Dcasa = engBOU.d
+        escudocasa.src = engBOU.e
+    }
+    else if(PELcasa=="engBRE"){//Brentford
+        Pcasa = engBRE.spi
+        Acasa = engBRE.a
+        Dcasa = engBRE.d
+        escudocasa.src = engBRE.e
+    }
     else if(PELcasa=="engBUR"){//Burnley
         Pcasa = engBUR.spi
         Acasa = engBUR.a
         Dcasa = engBUR.d
         escudocasa.src = engBUR.e
+    }
+    else if(PELcasa=="walCAR"){//Cardiff
+        Pcasa = walCAR.spi
+        Acasa = walCAR.a
+        Dcasa = walCAR.d
+        escudocasa.src = walCAR.e
+    }
+    else if(PELcasa=="engCHA"){//Charlton Athletic
+        Pcasa = engCHA.spi
+        Acasa = engCHA.a
+        Dcasa = engCHA.d
+        escudocasa.src = engCHA.e
     }
     else if(PELcasa=="engCHE"){//Chelsea
         Pcasa = engCHE.spi
@@ -983,11 +1109,35 @@ function jogar(){
         Dcasa = engCRY.d
         escudocasa.src = engCRY.e
     }
+    else if(PELcasa=="engDER"){//Derby County
+        Pcasa = engDER.spi
+        Acasa = engDER.a
+        Dcasa = engDER.d
+        escudocasa.src = engDER.e
+    }
     else if(PELcasa=="engEVE"){//Everton
         Pcasa = engEVE.spi
         Acasa = engEVE.a
         Dcasa = engEVE.d
         escudocasa.src = engEVE.e
+    }
+    else if(PELcasa=="engFUL"){//Fulham
+        Pcasa = engFUL.spi
+        Acasa = engFUL.a
+        Dcasa = engFUL.d
+        escudocasa.src = engFUL.e
+    }
+    else if(PELcasa=="engHUD"){//Huddersfield Town
+        Pcasa = engHUD.spi
+        Acasa = engHUD.a
+        Dcasa = engHUD.d
+        escudocasa.src = engHUD.e
+    }
+    else if(PELcasa=="engHUL"){//Hull City
+        Pcasa = engHUL.spi
+        Acasa = engHUL.a
+        Dcasa = engHUL.d
+        escudocasa.src = engHUL.e
     }
     else if(PELcasa=="engLEE"){//Leeds
         Pcasa = engLEE.spi
@@ -1007,6 +1157,12 @@ function jogar(){
         Dcasa = engLIV.d
         escudocasa.src = engLIV.e
     }
+    else if(PELcasa=="engLUT"){//Luton Town
+        Pcasa = engLUT.spi
+        Acasa = engLUT.a
+        Dcasa = engLUT.d
+        escudocasa.src = engLUT.e
+    }
     else if(PELcasa=="engMANC"){//Manchester City
         Pcasa = engMANC.spi
         Acasa = engMANC.a
@@ -1018,6 +1174,18 @@ function jogar(){
         Acasa = engMANU.a
         Dcasa = engMANU.d
         escudocasa.src = engMANU.e
+    }
+    else if(PELcasa=="engMID"){//Middlesbrough
+        Pcasa = engMID.spi
+        Acasa = engMID.a
+        Dcasa = engMID.d
+        escudocasa.src = engMID.e
+    }
+    else if(PELcasa=="engMIL"){//Millwall
+        Pcasa = engMIL.spi
+        Acasa = engMIL.a
+        Dcasa = engMIL.d
+        escudocasa.src = engMIL.e
     }
     else if(PELcasa=="engNEW"){//Newcastle
         Pcasa = engNEW.spi
@@ -1037,17 +1205,47 @@ function jogar(){
         Dcasa = engSHEU.d
         escudocasa.src = engSHEU.e
     }
+    else if(PELcasa=="engPNE"){//Preston North End
+        Pcasa = engPNE.spi
+        Acasa = engPNE.a
+        Dcasa = engPNE.d
+        escudocasa.src = engPNE.e
+    }
+    else if(PELcasa=="engQPR"){//Queens Park Rangers
+        Pcasa = engQPR.spi
+        Acasa = engQPR.a
+        Dcasa = engQPR.d
+        escudocasa.src = engQPR.e
+    }
+    else if(PELcasa=="engREA"){//Reading
+        Pcasa = engREA.spi
+        Acasa = engREA.a
+        Dcasa = engREA.d
+        escudocasa.src = engREA.e
+    }
+    else if(PELcasa=="engSHEW"){//Sheffield Wednesday
+        Pcasa = engSHEW.spi
+        Acasa = engSHEW.a
+        Dcasa = engSHEW.d
+        escudocasa.src = engSHEW.e
+    }
     else if(PELcasa=="engSOU"){//Southampton
         Pcasa = engSOU.spi
         Acasa = engSOU.a
         Dcasa = engSOU.d
         escudocasa.src =  engSOU.e
     }
-    else if(PELcasa=="engSUN"){//Sunderland
-        Pcasa = engSUN.spi
-        Acasa = engSUN.a
-        Dcasa = engSUN.d
-        escudocasa.src = engSUN.e
+    else if(PELcasa=="engSTO"){//Stoke City
+        Pcasa = engSTO.spi
+        Acasa = engSTO.a
+        Dcasa = engSTO.d
+        escudocasa.src = engSTO.e
+    }
+    else if(PELcasa=="engSWA"){//Swansea
+        Pcasa = engSWA.spi
+        Acasa = engSWA.a
+        Dcasa = engSWA.d
+        escudocasa.src = engSWA.e
     }
     else if(PELcasa=="engTOT"){//Tottenham
         Pcasa = engTOT.spi
@@ -1061,11 +1259,17 @@ function jogar(){
         Dcasa = engWAT.d
         escudocasa.src = engWAT.e
     }
-    else if(PELcasa=="engWHU"){//West Ham United
-        Pcasa = engWHU.spi
-        Acasa = engWHU.a
-        Dcasa = engWHU.d
-        escudocasa.src = engWHU.e
+    else if(PELcasa=="engWBA"){//West Bromwich Albion
+        Pcasa = engWBA.spi
+        Acasa = engWBA.a
+        Dcasa = engWBA.d
+        escudocasa.src = engWBA.e
+    }
+    else if(PELcasa=="engWIG"){//Wigan
+        Pcasa = engWIG.spi
+        Acasa = engWIG.a
+        Dcasa = engWIG.d
+        escudocasa.src = engWIG.e
     }
     else if(PELcasa=="engWOL"){//Wolves
         Pcasa = engWOL.spi
@@ -1265,11 +1469,11 @@ function jogar(){
         Dcasa = gerMAI.d
         escudocasa.src = gerMAI.e
     }
-    else if(PELcasa=="gerMOC"){//Borussia Mönchengladbach
-        Pcasa = gerMOC.spi
-        Acasa = gerMOC.a
-        Dcasa = gerMOC.d
-        escudocasa.src = gerMOC.e
+    else if(PELcasa=="gerMON"){//Borussia Mönchengladbach
+        Pcasa = gerMON.spi
+        Acasa = gerMON.a
+        Dcasa = gerMON.d
+        escudocasa.src = gerMON.e
     }
     else if(PELcasa=="gerPAD"){//Padeborn
         Pcasa = gerPAD.spi
@@ -1445,6 +1649,42 @@ function jogar(){
         Dcasa = porSPO.d
         escudocasa.src = porSPO.e
     }
+    else if(PELcasa=="fraAMI"){//AMI
+        Pcasa = fraAMI.spi
+        Acasa = fraAMI.a
+        Dcasa = fraAMI.d
+        escudocasa.src = fraAMI.e
+    }
+    else if(PELcasa=="fraANG"){//ANG
+        Pcasa = fraANG.spi
+        Acasa = fraANG.a
+        Dcasa = fraANG.d
+        escudocasa.src = fraANG.e
+    }
+    else if(PELcasa=="fraBOR"){//BOR
+        Pcasa = fraBOR.spi
+        Acasa = fraBOR.a
+        Dcasa = fraBOR.d
+        escudocasa.src = fraBOR.e
+    }
+    else if(PELcasa=="fraBRE"){//BRE
+        Pcasa = fraBRE.spi
+        Acasa = fraBRE.a
+        Dcasa = fraBRE.d
+        escudocasa.src = fraBRE.e
+    }
+    else if(PELcasa=="fraDIJ"){//DIJ
+        Pcasa = fraDIJ.spi
+        Acasa = fraDIJ.a
+        Dcasa = fraDIJ.d
+        escudocasa.src = fraDIJ.e
+    }
+    else if(PELcasa=="fraETI"){//ETI
+        Pcasa = fraETI.spi
+        Acasa = fraETI.a
+        Dcasa = fraETI.d
+        escudocasa.src = fraETI.e
+    }
     else if(PELcasa=="fraLIL"){//Lille
         Pcasa = fraLIL.spi
         Acasa = fraLIL.a
@@ -1463,11 +1703,71 @@ function jogar(){
         Dcasa = fraMAR.d
         escudocasa.src = fraMAR.e
     }
+    else if(PELcasa=="fraMETZ"){//METZ
+        Pcasa = fraMETZ.spi
+        Acasa = fraMETZ.a
+        Dcasa = fraMETZ.d
+        escudocasa.src = fraMETZ.e
+    }
+    else if(PELcasa=="fraMON"){//MON
+        Pcasa = fraMON.spi
+        Acasa = fraMON.a
+        Dcasa = fraMON.d
+        escudocasa.src = fraMON.e
+    }
+    else if(PELcasa=="monMON"){//MON
+        Pcasa = monMON.spi
+        Acasa = monMON.a
+        Dcasa = monMON.d
+        escudocasa.src = monMON.e
+    }
+    else if(PELcasa=="fraNAN"){//NAN
+        Pcasa = fraNAN.spi
+        Acasa = fraNAN.a
+        Dcasa = fraNAN.d
+        escudocasa.src = fraNAN.e
+    }
+    else if(PELcasa=="fraNIC"){//NIC
+        Pcasa = fraNIC.spi
+        Acasa = fraNIC.a
+        Dcasa = fraNIC.d
+        escudocasa.src = fraNIC.e
+    }
+    else if(PELcasa=="fraNIM"){//NIM
+        Pcasa = fraNIM.spi
+        Acasa = fraNIM.a
+        Dcasa = fraNIM.d
+        escudocasa.src = fraNIM.e
+    }
     else if(PELcasa=="fraPSG"){//Paris Saint-Germain
         Pcasa = fraPSG.spi
         Acasa = fraPSG.a
         Dcasa = fraPSG.d
         escudocasa.src = fraPSG.e
+    }
+    else if(PELcasa=="fraREI"){//REI
+        Pcasa = fraREI.spi
+        Acasa = fraREI.a
+        Dcasa = fraREI.d
+        escudocasa.src = fraREI.e
+    }
+    else if(PELcasa=="fraREN"){//REM
+        Pcasa = fraREN.spi
+        Acasa = fraREN.a
+        Dcasa = fraREN.d
+        escudocasa.src = fraREN.e
+    }
+    else if(PELcasa=="fraSTR"){//STR
+        Pcasa = fraSTR.spi
+        Acasa = fraSTR.a
+        Dcasa = fraSTR.d
+        escudocasa.src = fraSTR.e
+    }
+    else if(PELcasa=="fraTOU"){//TOU
+        Pcasa = fraTOU.spi
+        Acasa = fraTOU.a
+        Dcasa = fraTOU.d
+        escudocasa.src = fraTOU.e
     }
     else if(PELcasa=="argBAN"){//Banfield
         Pcasa = argBAN.spi
@@ -1749,6 +2049,12 @@ function jogar(){
         Dfora = BEL.d
         escudofora.src = BEL.e
     }
+    else if(PELfora=="BIH"){//Bósnia e Herzegovina
+        Pfora = BIH.spi
+        Afora = BIH.a
+        Dfora = BIH.d
+        escudofora.src = BIH.e
+    }
     else if(PELfora=="BOL"){//Bolívia
         Pfora = BOL.spi
         Afora = BOL.a
@@ -1771,6 +2077,18 @@ function jogar(){
         Pfora = CHI.spi
         Afora = CHI.a
         Dfora = CHI.d
+        escudofora.src = CHI.e
+    }
+    else if(PELfora=="CIV"){//Costa do Marfim
+        Pfora = CIV.spi
+        Afora = CIV.a
+        Dfora = CIV.d
+        escudofora.src = CHI.e
+    }
+    else if(PELfora=="CMR"){//Camarões
+        Pfora = CMR.spi
+        Afora = CMR.a
+        Dfora = CMR.d
         escudofora.src = CHI.e
     }
     else if(PELfora=="COL"){//Colômbia
@@ -1821,6 +2139,12 @@ function jogar(){
         Dfora = ENG.d
         escudofora.src = ENG.e
     }
+    else if(PELfora=="FIN"){//Finlândia
+        Pfora = FIN.spi
+        Afora = FIN.a
+        Dfora = FIN.d
+        escudofora.src = FIN.e
+    }
     else if(PELfora=="FRA"){//França
         Pfora = FRA.spi
         Afora = FRA.a
@@ -1839,17 +2163,41 @@ function jogar(){
         Dfora = GHA.d
         escudofora.src = GHA.e
     }
+    else if(PELfora=="GRC"){//Grécia
+        Pfora = GRC.spi
+        Afora = GRC.a
+        Dfora = GRC.d
+        escudofora.src = GRC.e
+    }
     else if(PELfora=="HAI"){//Haiti
         Pfora = HAI.spi
         Afora = HAI.a
         Dfora = HAI.d
         escudofora.src = HAI.e
     }
+    else if(PELfora=="HON"){//Honduras
+        Pfora = HON.spi
+        Afora = HON.a
+        Dfora = HON.d
+        escudofora.src = HON.e
+    }
     else if(PELfora=="IRA"){//Irã
         Pfora = IRA.spi
         Afora = IRA.a
         Dfora = IRA.d
         escudofora.src = IRA.e
+    }
+    else if(PELfora=="IRE"){//Iralanda
+        Pfora = IRE.spi
+        Afora = IRE.a
+        Dfora = IRE.d
+        escudofora.src = IRE.e
+    }
+    else if(PELfora=="IRQ"){//Iraque
+        Pfora = IRQ.spi
+        Afora = IRQ.a
+        Dfora = IRQ.d
+        escudofora.src = IRQ.e
     }
     else if(PELfora=="ISL"){//Islândia
         Pfora = ISL.spi
@@ -1899,6 +2247,12 @@ function jogar(){
         Dfora = NED.d
         escudofora.src = NED.e
     }
+    else if(PELfora=="NIR"){//Irlanda do Norte
+        Pfora = NIR.spi
+        Afora = NIR.a
+        Dfora = NIR.d
+        escudofora.src = NIR.e
+    }
     else if(PELfora=="NGA"){//Nigéria
         Pfora = NGA.spi
         Afora = NGA.a
@@ -1916,7 +2270,7 @@ function jogar(){
         Afora = NZL.a
         Dfora = NZL.d
         escudofora.src = NZL.e
-        molduradefora.style.backgroundColor = "#ffffff00"
+        molduradafora.style.backgroundColor = "#ffffff00"
     }
     else if(PELfora=="PAN"){//Panamá
         Pfora = PAN.spi
@@ -1948,11 +2302,23 @@ function jogar(){
         Dfora = POR.d
         escudofora.src = POR.e
     }
+    else if(PELfora=="ROU"){//Romemia
+        Pfora = ROU.spi
+        Afora = ROU.a
+        Dfora = ROU.d
+        escudofora.src = ROU.e
+    }
     else if(PELfora=="QAT"){//Qatar
         Pfora = QAT.spi
         Afora = QAT.a
         Dfora = QAT.d
         escudofora.src = QAT.e
+    }
+    else if(PELfora=="MLI"){//Mali
+        Pfora = MLI.spi
+        Afora = MLI.a
+        Dfora = MLI.d
+        escudofora.src = MLI.e
     }
     else if(PELfora=="RUS"){//Rússia
         Pfora = RUS.spi
@@ -1966,6 +2332,12 @@ function jogar(){
         Dfora = SAU.d
         escudofora.src = SAU.e
     }
+    else if(PELfora=="SCO"){//Escócia
+        Pfora = SCO.spi
+        Afora = SCO.a
+        Dfora = SCO.d
+        escudofora.src = SCO.e
+    }
     else if(PELfora=="SEN"){//Senegal
         Pfora = SEN.spi
         Afora = SEN.a
@@ -1977,6 +2349,12 @@ function jogar(){
         Afora = SER.a
         Dfora = SER.d
         escudofora.src = SER.e
+    }
+    else if(PELfora=="SLV"){//Eslováquia
+        Pfora = SLV.spi
+        Afora = SLV.a
+        Dfora = SLV.d
+        escudofora.src = SLV.e
     }
     else if(PELfora=="SPA"){//Espanha
         Pfora = SPA.spi
@@ -2020,6 +2398,12 @@ function jogar(){
         Dfora = URU.d
         escudofora.src = URU.e
     }
+    else if(PELfora=="UZB"){//Uzbequistão
+        Pfora = UZB.spi
+        Afora = UZB.a
+        Dfora = UZB.d
+        escudofora.src = UZB.e
+    }
     else if(PELfora=="USA"){//Estados Unidos da América
         Pfora = USA.spi
         Afora = USA.a
@@ -2031,6 +2415,12 @@ function jogar(){
         Afora = VEN.a
         Dfora = VEN.d
         escudofora.src = VEN.e
+    }
+    else if(PELfora=="WAL"){//Gales
+        Pfora = WAL.spi
+        Afora = WAL.a
+        Dfora = WAL.d
+        escudofora.src = WAL.e
     }
     else if(PELfora=="braAAPP"){//Ponte Preta (2017)
         Pfora = braAAPP.spi
@@ -2525,11 +2915,11 @@ function jogar(){
         Dfora = gerMAI.d
         escudofora.src = gerMAI.e
     }
-    else if(PELfora=="gerMOC"){//Borussia Mönchengladbach
-        Pfora = gerMOC.spi
-        Afora = gerMOC.a
-        Dfora = gerMOC.d
-        escudofora.src = gerMOC.e
+    else if(PELfora=="gerMON"){//Borussia Mönchengladbach
+        Pfora = gerMON.spi
+        Afora = gerMON.a
+        Dfora = gerMON.d
+        escudofora.src = gerMON.e
     }
     else if(PELfora=="gerPAD"){//Padeborn
         Pfora = gerPAD.spi
@@ -2705,6 +3095,42 @@ function jogar(){
         Dfora = porSPO.d
         escudofora.src = porSPO.e
     }
+    else if(PELfora=="fraAMI"){//AMI
+        Pfora = fraAMI.spi
+        Afora = fraAMI.a
+        Dfora = fraAMI.d
+        escudofora.src = fraAMI.e
+    }
+    else if(PELfora=="fraANG"){//ANG
+        Pfora = fraANG.spi
+        Afora = fraANG.a
+        Dfora = fraANG.d
+        escudofora.src = fraANG.e
+    }
+    else if(PELfora=="fraBOR"){//BOR
+        Pfora = fraBOR.spi
+        Afora = fraBOR.a
+        Dfora = fraBOR.d
+        escudofora.src = fraBOR.e
+    }
+    else if(PELfora=="fraBRE"){//BRE
+        Pfora = fraBRE.spi
+        Afora = fraBRE.a
+        Dfora = fraBRE.d
+        escudofora.src = fraBRE.e
+    }
+    else if(PELfora=="fraDIJ"){//DIJ
+        Pfora = fraDIJ.spi
+        Afora = fraDIJ.a
+        Dfora = fraDIJ.d
+        escudofora.src = fraDIJ.e
+    }
+    else if(PELfora=="fraETI"){//ETI
+        Pfora = fraETI.spi
+        Afora = fraETI.a
+        Dfora = fraETI.d
+        escudofora.src = fraETI.e
+    }
     else if(PELfora=="fraLIL"){//Lille
         Pfora = fraLIL.spi
         Afora = fraLIL.a
@@ -2723,11 +3149,65 @@ function jogar(){
         Dfora = fraMAR.d
         escudofora.src = fraMAR.e
     }
+    else if(PELfora=="fraMETZ"){//METZ
+        Pfora = fraMETZ.spi
+        Afora = fraMETZ.a
+        Dfora = fraMETZ.d
+        escudofora.src = fraMETZ.e
+    }
+    else if(PELfora=="fraMON"){//MON
+        Pfora = fraMON.spi
+        Afora = fraMON.a
+        Dfora = fraMON.d
+        escudofora.src = fraMON.e
+    }
+    else if(PELfora=="monMON"){//MON
+        Pfora = monMON.spi
+        Afora = monMON.a
+        Dfora = monMON.d
+        escudofora.src = monMON.e
+    }
+    else if(PELfora=="fraNAN"){//NAN
+        Pfora = fraNAN.spi
+        Afora = fraNAN.a
+        Dfora = fraNAN.d
+        escudofora.src = fraNAN.e
+    }
+    else if(PELfora=="fraNIC"){//NIC
+        Pfora = fraNIC.spi
+        Afora = fraNIC.a
+        Dfora = fraNIC.d
+        escudofora.src = fraNIC.e
+    }
+    else if(PELfora=="fraNIM"){//NIM
+        Pfora = fraNIM.spi
+        Afora = fraNIM.a
+        Dfora = fraNIM.d
+        escudofora.src = fraNIM.e
+    }
     else if(PELfora=="fraPSG"){//Paris Saint-Germain
         Pfora = fraPSG.spi
         Afora = fraPSG.a
         Dfora = fraPSG.d
         escudofora.src = fraPSG.e
+    }
+    else if(PELfora=="fraREI"){//REI
+        Pfora = fraREI.spi
+        Afora = fraREI.a
+        Dfora = fraREI.d
+        escudofora.src = fraREI.e
+    }
+    else if(PELfora=="fraSTR"){//STR
+        Pfora = fraSTR.spi
+        Afora = fraSTR.a
+        Dfora = fraSTR.d
+        escudofora.src = fraSTR.e
+    }
+    else if(PELfora=="fraTOU"){//TOU
+        Pfora = fraTOU.spi
+        Afora = fraTOU.a
+        Dfora = fraTOU.d
+        escudofora.src = fraTOU.e
     }
     else if(PELfora=="argBAN"){//Banfield
         Pfora = argBAN.spi
