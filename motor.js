@@ -1781,11 +1781,41 @@ function jogar(){
         Dcasa = argBOC.d
         escudocasa.src = argBOC.e
     }
+    else if(PELcasa=="argCOL"){//Colón
+        Pcasa = argCOL.spi
+        Acasa = argCOL.a
+        Dcasa = argCOL.d
+        escudocasa.src = argCOL.e
+    }
+    else if(PELcasa=="argEST"){//Estudiantes
+        Pcasa = argEST.spi
+        Acasa = argEST.a
+        Dcasa = argEST.d
+        escudocasa.src = argEST.e
+    }
+    else if(PELcasa=="argGOD"){//Godoy Cruz
+        Pcasa = argGOD.spi
+        Acasa = argGOD.a
+        Dcasa = argGOD.d
+        escudocasa.src = argGOD.e
+    }
     else if(PELcasa=="argIND"){//Independiente
         Pcasa = argIND.spi
         Acasa = argIND.a
         Dcasa = argIND.d
         escudocasa.src = argIND.e
+    }
+    else if(PELcasa=="argHUR"){//Huracán
+        Pcasa = argHUR.spi
+        Acasa = argHUR.a
+        Dcasa = argHUR.d
+        escudocasa.src = argHUR.e
+    }
+    else if(PELcasa=="argLAN"){//Lanús
+        Pcasa = argLAN.spi
+        Acasa = argLAN.a
+        Dcasa = argLAN.d
+        escudocasa.src = argLAN.e
     }
     else if(PELcasa=="argNOB"){//Newell's Old Boys
         Pcasa = argNOB.spi
@@ -2603,11 +2633,11 @@ function jogar(){
         Dfora = engAST.d
         escudofora.src = engAST.e
     }
-    else if(PELfora=="engBOU"){//Bournemouth
-        Pfora = engBOU.spi
-        Afora = engBOU.a
-        Dfora = engBOU.d
-        escudofora.src = engBOU.e
+    else if(PELfora=="engBAR"){//Barnsley
+        Pfora = engBAR.spi
+        Afora = engBARU.a
+        Dfora = engBAR.d
+        escudofora.src = engBAR.e
     }
     else if(PELfora=="engBHA"){//Brighton
         Pfora = engBHA.spi
@@ -2615,11 +2645,47 @@ function jogar(){
         Dfora = engBHA.d
         escudofora.src = engBHA.e
     }
+    else if(PELfora=="engBIR"){//Birmingham
+        Pfora = engBIR.spi
+        Afora = engBIR.a
+        Dfora = engBIR.d
+        escudofora.src = engBIR.e
+    }
+    else if(PELfora=="engBLA"){//Blackburn
+        Pfora = engBLA.spi
+        Afora = engBLA.a
+        Dfora = engBLA.d
+        escudofora.src = engBLA.e
+    }
+    else if(PELfora=="engBOU"){//Bournemouth
+        Pfora = engBOU.spi
+        Afora = engBOU.a
+        Dfora = engBOU.d
+        escudofora.src = engBOU.e
+    }
+    else if(PELfora=="engBRE"){//Brentford
+        Pfora = engBRE.spi
+        Afora = engBRE.a
+        Dfora = engBRE.d
+        escudofora.src = engBRE.e
+    }
     else if(PELfora=="engBUR"){//Burnley
         Pfora = engBUR.spi
         Afora = engBUR.a
         Dfora = engBUR.d
         escudofora.src = engBUR.e
+    }
+    else if(PELfora=="walCAR"){//Cardiff
+        Pfora = walCAR.spi
+        Afora = walCAR.a
+        Dfora = walCAR.d
+        escudofora.src = walCAR.e
+    }
+    else if(PELfora=="engCHA"){//Charlton Athletic
+        Pfora = engCHA.spi
+        Afora = engCHA.a
+        Dfora = engCHA.d
+        escudofora.src = engCHA.e
     }
     else if(PELfora=="engCHE"){//Chelsea
         Pfora = engCHE.spi
@@ -2633,11 +2699,35 @@ function jogar(){
         Dfora = engCRY.d
         escudofora.src = engCRY.e
     }
+    else if(PELfora=="engDER"){//Derby County
+        Pfora = engDER.spi
+        Afora = engDER.a
+        Dfora = engDER.d
+        escudofora.src = engDER.e
+    }
     else if(PELfora=="engEVE"){//Everton
         Pfora = engEVE.spi
         Afora = engEVE.a
         Dfora = engEVE.d
         escudofora.src = engEVE.e
+    }
+    else if(PELfora=="engFUL"){//Fulham
+        Pfora = engFUL.spi
+        Afora = engFUL.a
+        Dfora = engFUL.d
+        escudofora.src = engFUL.e
+    }
+    else if(PELfora=="engHUD"){//Huddersfield Town
+        Pfora = engHUD.spi
+        Afora = engHUD.a
+        Dfora = engHUD.d
+        escudofora.src = engHUD.e
+    }
+    else if(PELfora=="engHUL"){//Hull City
+        Pfora = engHUL.spi
+        Afora = engHUL.a
+        Dfora = engHUL.d
+        escudofora.src = engHUL.e
     }
     else if(PELfora=="engLEE"){//Leeds
         Pfora = engLEE.spi
@@ -2657,6 +2747,12 @@ function jogar(){
         Dfora = engLIV.d
         escudofora.src = engLIV.e
     }
+    else if(PELfora=="engLUT"){//Luton Town
+        Pfora = engLUT.spi
+        Afora = engLUT.a
+        Dfora = engLUT.d
+        escudofora.src = engLUT.e
+    }
     else if(PELfora=="engMANC"){//Manchester City
         Pfora = engMANC.spi
         Afora = engMANC.a
@@ -2668,6 +2764,18 @@ function jogar(){
         Afora = engMANU.a
         Dfora = engMANU.d
         escudofora.src = engMANU.e
+    }
+    else if(PELfora=="engMID"){//Middlesbrough
+        Pfora = engMID.spi
+        Afora = engMID.a
+        Dfora = engMID.d
+        escudofora.src = engMID.e
+    }
+    else if(PELfora=="engMIL"){//Millwall
+        Pfora = engMIL.spi
+        Afora = engMIL.a
+        Dfora = engMIL.d
+        escudofora.src = engMIL.e
     }
     else if(PELfora=="engNEW"){//Newcastle
         Pfora = engNEW.spi
@@ -2687,17 +2795,47 @@ function jogar(){
         Dfora = engSHEU.d
         escudofora.src = engSHEU.e
     }
+    else if(PELfora=="engPNE"){//Preston North End
+        Pfora = engPNE.spi
+        Afora = engPNE.a
+        Dfora = engPNE.d
+        escudofora.src = engPNE.e
+    }
+    else if(PELfora=="engQPR"){//Queens Park Rangers
+        Pfora = engQPR.spi
+        Afora = engQPR.a
+        Dfora = engQPR.d
+        escudofora.src = engQPR.e
+    }
+    else if(PELfora=="engREA"){//Reading
+        Pfora = engREA.spi
+        Afora = engREA.a
+        Dfora = engREA.d
+        escudofora.src = engREA.e
+    }
+    else if(PELfora=="engSHEW"){//Sheffield Wednesday
+        Pfora = engSHEW.spi
+        Afora = engSHEW.a
+        Dfora = engSHEW.d
+        escudofora.src = engSHEW.e
+    }
     else if(PELfora=="engSOU"){//Southampton
         Pfora = engSOU.spi
         Afora = engSOU.a
         Dfora = engSOU.d
         escudofora.src =  engSOU.e
     }
-    else if(PELfora=="engSUN"){//Sunderland
-        Pfora = engSUN.spi
-        Afora = engSUN.a
-        Dfora = engSUN.d
-        escudofora.src = engSUN.e
+    else if(PELfora=="engSTO"){//Stoke City
+        Pfora = engSTO.spi
+        Afora = engSTO.a
+        Dfora = engSTO.d
+        escudofora.src = engSTO.e
+    }
+    else if(PELfora=="engSWA"){//Swansea
+        Pfora = engSWA.spi
+        Afora = engSWA.a
+        Dfora = engSWA.d
+        escudofora.src = engSWA.e
     }
     else if(PELfora=="engTOT"){//Tottenham
         Pfora = engTOT.spi
@@ -2711,11 +2849,17 @@ function jogar(){
         Dfora = engWAT.d
         escudofora.src = engWAT.e
     }
-    else if(PELfora=="engWHU"){//West Ham United
-        Pfora = engWHU.spi
-        Afora = engWHU.a
-        Dfora = engWHU.d
-        escudofora.src = engWHU.e
+    else if(PELfora=="engWBA"){//West Bromwich Albion
+        Pfora = engWBA.spi
+        Afora = engWBA.a
+        Dfora = engWBA.d
+        escudofora.src = engWBA.e
+    }
+    else if(PELfora=="engWIG"){//Wigan
+        Pfora = engWIG.spi
+        Afora = engWIG.a
+        Dfora = engWIG.d
+        escudofora.src = engWIG.e
     }
     else if(PELfora=="engWOL"){//Wolves
         Pfora = engWOL.spi
@@ -3221,11 +3365,41 @@ function jogar(){
         Dfora = argBOC.d
         escudofora.src = argBOC.e
     }
+    else if(PELfora=="argCOL"){//Colón
+        Pfora = argCOL.spi
+        Afora = argCOL.a
+        Dfora = argCOL.d
+        escudofora.src = argCOL.e
+    }
+    else if(PELfora=="argEST"){//Estudiantes
+        Pfora = argEST.spi
+        Afora = argEST.a
+        Dfora = argEST.d
+        escudofora.src = argEST.e
+    }
+    else if(PELfora=="argGOD"){//Godoy Cruz
+        Pfora = argGOD.spi
+        Afora = argGOD.a
+        Dfora = argGOD.d
+        escudofora.src = argGOD.e
+    }
     else if(PELfora=="argIND"){//Independiente
         Pfora = argIND.spi
         Afora = argIND.a
         Dfora = argIND.d
         escudofora.src = argIND.e
+    }
+    else if(PELfora=="argHUR"){//Huracán
+        Pfora = argHUR.spi
+        Afora = argHUR.a
+        Dfora = argHUR.d
+        escudofora.src = argHUR.e
+    }
+    else if(PELfora=="argLAN"){//Lanús
+        Pfora = argLAN.spi
+        Afora = argLAN.a
+        Dfora = argLAN.d
+        escudofora.src = argLAN.e
     }
     else if(PELfora=="argNOB"){//Newell's Old Boys
         Pfora = argNOB.spi
@@ -3256,6 +3430,12 @@ function jogar(){
         Afora = argVEL.a
         Dfora = argVEL.d
         escudofora.src = argVEL.e
+    }
+    else if(PELfora=="usaLAFC"){//Los Angeles FC
+        Pfora = usaLAFC.spi
+        Afora = usaLAFC.a
+        Dfora = usaLAFC.d
+        escudofora.src = usaLAFC.e
     }
     else if(PELfora=="usaLAFC"){//Los Angeles FC
         Pfora = usaLAFC.spi
