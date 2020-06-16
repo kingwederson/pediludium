@@ -168,7 +168,7 @@ var gerWOL = {spi:76.34,a:2.05,d:0.66,e:"https://upload.wikimedia.org/wikipedia/
 
 //EUA e Canadá
 var usaATL = {spi:46.35,a:1.41,d:1.38,e:"https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"}
-var usaAUS = {spi:20.00,a:0.85,d:2.00,e:"https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"}
+var usaAUS = {spi:22.94,a:0.85,d:1.93,e:"https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"}
 var usaCHA = {spi:20.00,a:0.85,d:2.00,e:desco}
 var usaCHI = {spi:42.14,a:1.42,d:1.6,e:"https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"}
 var usaCIN = {spi:23.81,a:0.92,d:1.99,e:"https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"}
@@ -376,30 +376,42 @@ function mudavel(){
             resvelocidade.innerText = "90 min"
             break
         case 2:
-            resvelocidade.innerText = "30 min"
+            resvelocidade.innerText = "45 min"
             break
         case 3:
-            resvelocidade.innerText = "15 min"
+            resvelocidade.innerText = "30 min"
             break
         case 4:
-            resvelocidade.innerText = "7\xBD min"
+            resvelocidade.innerText = "15 min"
             break
         case 5:
-            resvelocidade.innerText = "90 s"
+            resvelocidade.innerText = "7\xBD min"
             break
         case 6:
-            resvelocidade.innerText = "45 s"
+            resvelocidade.innerText = "4\xBD min"
             break
         case 7:
-            resvelocidade.innerText = "18 s"
+            resvelocidade.innerText = "3 min"
             break
         case 8:
+            resvelocidade.innerText = "90 s"
+            break
+        case 9:
+            resvelocidade.innerText = "45 s"
+            break
+        case 10:
+            resvelocidade.innerText = "27 s"
+            break
+        case 11:
+            resvelocidade.innerText = "18 s"
+            break
+        case 12:
             resvelocidade.innerText = "9 s"
             break
     }
 }
 function sortear(){
-    var adversarios = 152
+    var adversarios = 196
     var sort1 = parseInt(adversarios*Math.random())
     document.getElementById('timedacasa').selectedIndex = sort1+1
     var sort2 = parseInt(adversarios*Math.random())
@@ -427,24 +439,36 @@ function jogar(){
             chaveinter = 60000
             break
         case 2:
-            chaveinter = 20000
+            chaveinter = 30000
             break
         case 3:
-            chaveinter = 10000
+            chaveinter = 20000
             break
         case 4:
-            chaveinter = 5000
+            chaveinter = 10000
             break
         case 5:
-            chaveinter = 1000
+            chaveinter = 5000
             break
         case 6:
-            chaveinter = 500
+            chaveinter = 3000
             break
         case 7:
-            chaveinter = 200
+            chaveinter = 2000
             break
         case 8:
+            chaveinter = 1000
+            break
+        case 9:
+            chaveinter = 500
+            break
+        case 10:
+            chaveinter = 300
+            break
+        case 11:
+            chaveinter = 200
+            break
+        case 12:
             chaveinter = 100
             break
     }
@@ -1247,6 +1271,12 @@ function jogar(){
         Acasa = engSTO.a
         Dcasa = engSTO.d
         escudocasa.src = engSTO.e
+    }
+    else if(PELcasa=="engSUN"){//Sunderland
+        Pcasa = engSUN.spi
+        Acasa = engSUN.a
+        Dcasa = engSUN.d
+        escudocasa.src = engSUN.e
     }
     else if(PELcasa=="engSWA"){//Swansea
         Pcasa = engSWA.spi
@@ -2843,6 +2873,12 @@ function jogar(){
         Afora = engSTO.a
         Dfora = engSTO.d
         escudofora.src = engSTO.e
+    }
+    else if(PELfora=="engSUN"){//Sunderland
+        Pfora = engSUN.spi
+        Afora = engSUN.a
+        Dfora = engSUN.d
+        escudofora.src = engSUN.e
     }
     else if(PELfora=="engSWA"){//Swansea
         Pfora = engSWA.spi
