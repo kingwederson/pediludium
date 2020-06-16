@@ -13,16 +13,16 @@ var CHI = {spi:75.78,a:2.13,d:0.70,e:"https://upload.wikimedia.org/wikipedia/com
 var CIV = {spi:61.60,a:1.63,d:0.91,e:desco}//Costa do Marfim
 var CMR = {spi:58.85,a:1.46,d:0.86,e:desco}//Camarões
 var COL = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"}
-var CRC = {spi:61.93,a:1.62,d:0.89,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/crc"}
+var CRC = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/pt/f/f5/Costa_Rica_football_association.png"}
 var CRO = {spi:80.05,a:2.51,d:0.74,e:"https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"}
-var CZE = {spi:69.13,a:1.98,d:0.88,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/cze"}
+var CZE = {spi:69.13,a:1.98,d:0.88,e:"https://upload.wikimedia.org/wikipedia/en/e/e1/Football_Association_of_the_Czech_Republic_logo.svg"}
 var DEN = {spi:75.63,a:2.08,d:0.66,e:"https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"}
 var ECU = {spi:67.79,a:1.81,d:0.80,e:"https://tmssl.akamaized.net/images/wappen/normquad/5750.png"}
 var EGY = {spi:58.70,a:1.49,d:0.91,e:"https://upload.wikimedia.org/wikipedia/de/6/60/Egyptian_Football_Association.svg"}
 var ENG = {spi:87.20,a:2.81,d:0.53,e:"https://upload.wikimedia.org/wikipedia/en/d/d5/FA_crest_2009.svg"}
 var FRA = {spi:85.13,a:2.65,d:0.56,e:"https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png"}
 var GER = {spi:89.43,a:3.24,d:0.61,e:"https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"}
-var GHA = {spi:68.24,a:1.53,d:0.57,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/gha"}
+var GHA = {spi:68.24,a:1.53,d:0.57,e:"https://upload.wikimedia.org/wikipedia/pt/6/67/Ghana_Football_Association.png"}
 var GRC = {spi:61.67,a:1.51,d:0.80,e:desco}//Grécia
 var FIN = {spi:58.08,a:1.55,d:0.98,e:desco}
 var HAI = {spi:50.56,a:1.47,d:1.23,e:"https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"}
@@ -33,13 +33,14 @@ var IRQ = {spi:59.17,a:1.46,d:0.86,e:desco}
 var ISL = {spi:60.83,a:1.69,d:1.00,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/isl"}
 var ISR = {spi:55.16,a:1.67,d:1.23,e:"https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"}
 var ITA = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"}
+var JAM = {spi:47.08,a:1.31,d:1.22,e:"https://upload.wikimedia.org/wikipedia/en/c/cf/Jamaica_Football_Federation.svg"}
 var JPN = {spi:70.23,a:1.94,d:0.80,e:"https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"}
 var KOR = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"}
 var MLI = {spi:65.33,a:1.57,d:0.71,e:desco}//Mali
 var MAR = {spi:69.08,a:1.68,d:0.65,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/mar"}
 var MEX = {spi:76.36,a:2.24,d:0.74,e:"https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"}
 var NED = {spi:86.24,a:2.76,d:0.56,e:"https://upload.wikimedia.org/wikipedia/en/7/78/Netherlands_national_football_team_logo.svg"}
-var NIR = {spi:58.76,a:1.46,d:0.87,e:desco}
+var NIR = {spi:58.76,a:1.46,d:0.87,e:"https://upload.wikimedia.org/wikipedia/en/2/25/Irish_Football_Association_logo.svg"}
 var NGA = {spi:63.23,a:1.87,d:1.05,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"}//Nigéria
 var NOR = {spi:70.35,a:1.94,d:0.79,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/nor"}
 var NZL = {spi:44.18,a:1.26,d:1.30,e:"https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"}
@@ -57,8 +58,8 @@ var SER = {spi:71.24,a:2.14,d:0.90,e:"https://api.fifa.com/api/v1/picture/flags-
 var SEN = {spi:69.73,a:1.67,d:0.62,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/sen"}
 var SLV = {spi:65.67,a:1.89,d:0.96,e:desco}
 var SPA = {spi:91.92,a:3.53,d:0.56,e:"https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"}
-var SWE = {spi:74.83,a:2.06,d:0.69,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/swe"}
-var SWI = {spi:79.98,a:2.44,d:0.70,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/sui"}
+var SWE = {spi:74.83,a:2.06,d:0.69,e:"https://upload.wikimedia.org/wikipedia/en/8/8d/Swedish_Football_Association_crest.svg"}
+var SWI = {spi:79.98,a:2.44,d:0.70,e:"https://upload.wikimedia.org/wikipedia/en/5/53/SFV_Logo.svg"}
 var TUN = {spi:62.67,a:1.57,d:0.81,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/tun"}
 var TUR = {spi:67.73,a:1.80,d:0.90,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/tur"}
 var UKR = {spi:72.61,a:1.93,d:0.69,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"}
@@ -656,6 +657,12 @@ function jogar(){
         Acasa = ITA.a
         Dcasa = ITA.d
         escudocasa.src = ITA.e
+    }
+    else if(PELcasa=="JAM"){//Jamaica
+        Pcasa = JAM.spi
+        Acasa = JAM.a
+        Dcasa = JAM.d
+        escudocasa.src = JAM.e
     }
     else if(PELcasa=="JPN"){//Japão
         Pcasa = JPN.spi
@@ -2042,8 +2049,8 @@ function jogar(){
     }
     else{
         Pcasa = 5.29
-        Acasa = 0.2
-        Dcasa = 2.51
+        Acasa = 0.0
+        Dcasa = 10
         escudocasa.src = "https://uploaddeimagens.com.br/images/002/397/523/full/maraboys.png?1570224665"
     }
     
@@ -2246,6 +2253,12 @@ function jogar(){
         Afora = ITA.a
         Dfora = ITA.d
         escudofora.src = ITA.e
+    }
+    else if(PELfora=="JAM"){//Jamaica
+        Pfora = JAM.spi
+        Afora = JAM.a
+        Dfora = JAM.d
+        escudofora.src = JAM.e
     }
     else if(PELfora=="JPN"){//Japão
         Pfora = JPN.spi
@@ -3633,7 +3646,7 @@ function jogar(){
     else{
         Pfora = 5.29
         Afora = 0.2
-        Dfora = 2.51
+        Dfora = 10
        escudofora.src = "https://uploaddeimagens.com.br/images/002/397/526/full/souza.png?1570224716"
     }
     txtsumulaA.innerHTML = ''
