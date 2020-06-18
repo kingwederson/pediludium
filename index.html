@@ -8,11 +8,11 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="estilo.css?id=6" />
-    <script type="text/javascript" src="motor.js?id=12"></script>
+    <script type="text/javascript" src="motor.js?id=13"></script>
 </head>
 <body>
     <h1><img class="logo" src="https://i.imgur.com/QsSd4qb.png"></h1>
-    <p id="versao">Versão 0.16.6</p>
+    <p id="versao">Versão 0.16.7</p>
     <link rel="icon" href="pic/favicon.ico" />
     <p>Simulador de placar de partida de futebol.</p>
     <table id="tabeladereferencia">
@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td colspan=4>Lenta
-                <input type="range" id="intervalodasimulacao" list="velomarca" value="5" step="1" min="1" max="8" style="width:400px;" onchange="mudavel()" onclick="mudavel()">
+                <input type="range" id="intervalodasimulacao" list="velomarca" value="8" step="1" min="1" max="12" style="width:400px;" onchange="mudavel()" onclick="mudavel()">
                 Rápida
                 <datalist id="velomarca">
                         <option value="1" label="90 min"></option>
@@ -344,6 +344,14 @@
                             <option value="SEN">Senegal</option>
                             <option value="TUN">Tunísia</option>
                         </optgroup>
+                        <optgroup class="ficcao" label="Fantasia (6)">
+                            <option value="fanAST">Astro Soccer</option>
+                            <option value="fanBAD">Badenia United</option>
+                            <option value="fanGLA">Glader</option>
+                            <option value="fanPHA">Phalguna Athletic</option>
+                            <option value="fanPEG">Pegasus</option>
+                            <option value="fanTAL">Talmikan</option>
+                        </optgroup>
                     </select>
             </td>
             <td><span id="txtmediaA"></span></td>
@@ -650,6 +658,14 @@
                     <option value="NGA">Nigéria</option>
                     <option value="SEN">Senegal</option>
                     <option value="TUN">Tunísia</option>
+                </optgroup>
+                <optgroup class="ficcao" label="Fantasia (6)">
+                    <option value="fanAST">Astro Soccer</option>
+                    <option value="fanBAD">Badenia United</option>
+                    <option value="fanGLA">Glader</option>
+                    <option value="fanPHA">Phalguna Athletic</option>
+                    <option value="fanPEG">Pegasus</option>
+                    <option value="fanTAL">Talmikan</option>
                 </optgroup>
             </select>
         </td>

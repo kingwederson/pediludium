@@ -138,10 +138,10 @@ var engSHEW = {spi:44.27,a:1.26,d:1.31,e:"https://upload.wikimedia.org/wikipedia
 var engSOU = {spi:68.31,a:1.88,d:0.88,e:"https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"}
 var engSTO = {spi:53.01,a:1.39,d:1.07,e:desco}
 var engSUN = {spi:31.75,a:0.9,d:1.47,e:"https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"}
-var walSWA = {spi:48.53,a:1.38,d:1.26,e:desco}
+var walSWA = {spi:48.53,a:1.38,d:1.26,e:"https://upload.wikimedia.org/wikipedia/pt/1/16/Swansea_City_AFC_logo.png"}
 var engTOT = {spi:76.59,a:2.2,d:0.75,e:"https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"}
 var engWAT = {spi:72.81,a:1.92,d:0.72,e:"https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"}
-var engWBA = {spi:60.08,a:1.57,d:0.96,e:desco}
+var engWBA = {spi:60.08,a:1.57,d:0.96,e:"https://upload.wikimedia.org/wikipedia/pt/b/b1/West_Bromwich_Albion.png"}
 var engWHU = {spi:67.27,a:1.94,d:0.97,e:"https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"}
 var engWIG = {spi:47.06,a:1.19,d:1.12,e:desco}
 var engWOL = {spi:80.53,a:2.04,d:0.47,e:"https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"}
@@ -368,6 +368,14 @@ var rusUFA = {spi:47.85,a:0.94,d:0.82,e:desco}
 var rusUSO = {spi:42.88,a:1.27,d:1.4,e:desco}
 var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"}
 
+//Fantasia
+var fanAST = {spi:50,a:1.5,d:1.5,e:"pic/astro.svg"}
+var fanBAD = {spi:50,a:1.5,d:1.5,e:"pic/badenia.svg"}
+var fanGLA = {spi:50,a:1.5,d:1.5,e:"pic/glader.svg"}
+var fanPHA = {spi:50,a:1.5,d:1.5,e:"pic/phalguna.svg"}
+var fanPEG = {spi:50,a:1.5,d:1.5,e:"pic/pegasus.svg"}
+var fanTAL = {spi:50,a:1.5,d:1.5,e:"pic/talmikan.svg"}
+
 
 function mudavel(){
     var intervalosel = Number(document.getElementById('intervalodasimulacao').value)
@@ -427,6 +435,7 @@ function alertagol(){
     audio.play()
 }
 function jogar(){
+    minutoagora.innerText = "0"
     if(document.getElementById('camponeutro').checked){
         var neutralidade = 1
     }else{
@@ -1308,6 +1317,12 @@ function jogar(){
         Dcasa = engWIG.d
         escudocasa.src = engWIG.e
     }
+    else if(PELcasa=="engWHU"){//West Hum United
+        Pcasa = engWHU.spi
+        Acasa = engWHU.a
+        Dcasa = engWHU.d
+        escudocasa.src = engWHU.e
+    }
     else if(PELcasa=="engWOL"){//Wolves
         Pcasa = engWOL.spi
         Acasa = engWOL.a
@@ -2076,6 +2091,43 @@ function jogar(){
         Dcasa = rusZEN.d
         escudocasa.src = rusZEN.e
         //molduradefora.style.backgroundColor = "#00000000"
+    }
+    //FANTASIA
+    else if(PELcasa=="fanAST"){//Astro
+        Pcasa = fanAST.spi
+        Acasa = fanAST.a
+        Dcasa = fanAST.d
+        escudocasa.src = fanAST.e
+    }
+    else if(PELcasa=="fanBAD"){//Badenia
+        Pcasa = fanBAD.spi
+        Acasa = fanBAD.a
+        Dcasa = fanBAD.d
+        escudocasa.src = fanBAD.e
+    }
+    else if(PELcasa=="fanGLA"){//Glader
+        Pcasa = fanGLA.spi
+        Acasa = fanGLA.a
+        Dcasa = fanGLA.d
+        escudocasa.src = fanGLA.e
+    }
+    else if(PELcasa=="fanPHA"){//Phalguna
+        Pcasa = fanPHA.spi
+        Acasa = fanPHA.a
+        Dcasa = fanPHA.d
+        escudocasa.src = fanPHA.e
+    }
+    else if(PELcasa=="fanPEG"){//Pegasus
+        Pcasa = fanPEG.spi
+        Acasa = fanPEG.a
+        Dcasa = fanPEG.d
+        escudocasa.src = fanPEG.e
+    }
+    else if(PELcasa=="fanTAL"){//Talmikan
+        Pcasa = fanTAL.spi
+        Acasa = fanTAL.a
+        Dcasa = fanTAL.d
+        escudocasa.src = fanTAL.e
     }
     else{
         Pcasa = 5.29
@@ -2910,6 +2962,12 @@ function jogar(){
         Dfora = engWIG.d
         escudofora.src = engWIG.e
     }
+    else if(PELfora=="engWHU"){//West Ham United
+        Pfora = engWHU.spi
+        Afora = engWHU.a
+        Dfora = engWHU.d
+        escudofora.src = engWHU.e
+    }
     else if(PELfora=="engWOL"){//Wolves
         Pfora = engWOL.spi
         Afora = engWOL.a
@@ -3679,9 +3737,46 @@ function jogar(){
         escudofora.src = rusZEN.e
         //molduradefora.style.backgroundColor = "#00000000"
     }
+    //FANTASIA
+    else if(PELfora=="fanAST"){//Astro
+        Pfora = fanAST.spi
+        Afora = fanAST.a
+        Dfora = fanAST.d
+        escudofora.src = fanAST.e
+    }
+    else if(PELfora=="fanBAD"){//Badenia
+        Pfora = fanBAD.spi
+        Afora = fanBAD.a
+        Dfora = fanBAD.d
+        escudofora.src = fanBAD.e
+    }
+    else if(PELfora=="fanGLA"){//Glader
+        Pfora = fanGLA.spi
+        Afora = fanGLA.a
+        Dfora = fanGLA.d
+        escudofora.src = fanGLA.e
+    }
+    else if(PELfora=="fanPHA"){//Phalguna
+        Pfora = fanPHA.spi
+        Afora = fanPHA.a
+        Dfora = fanPHA.d
+        escudofora.src = fanPHA.e
+    }
+    else if(PELfora=="fanPEG"){//Pegasus
+        Pfora = fanPEG.spi
+        Afora = fanPEG.a
+        Dfora = fanPEG.d
+        escudofora.src = fanPEG.e
+    }
+    else if(PELfora=="fanTAL"){//Talmikan
+        Pfora = fanTAL.spi
+        Afora = fanTAL.a
+        Dfora = fanTAL.d
+        escudofora.src = fanTAL.e
+    }
     else{
-        Pfora = 5.29
-        Afora = 0.2
+        Pfora = 5.00
+        Afora = 0.0
         Dfora = 10
        escudofora.src = "https://uploaddeimagens.com.br/images/002/397/526/full/souza.png?1570224716"
     }
@@ -3696,7 +3791,7 @@ function jogar(){
     var tempodejogo = Number(document.getElementById('tempoinicial').value)
     var sumulaA = String('')
     var sumulaB = String('')
-    var rolaabola = setInterval(function apitoinicial(){
+    setInterval(function apitoinicial(){
         if(document.getElementById('prorrogar').checked){
             var prorrogase = 1
         }else{

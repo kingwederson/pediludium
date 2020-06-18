@@ -19,7 +19,7 @@ td{
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
-    background-color: #00008080;
+    background-color: #00000080;
 }
 td.placar{
     font-size: 72pt;
@@ -35,7 +35,7 @@ td.cronometro{
 }
 img{
     height:120px;
-    max-width: 120px;
+    /*max-width: 120px;*/
     margin:auto;
 }
 img.logo{
@@ -235,5 +235,6 @@ select{
     border-radius: 10px;
 }
 .ficcao{
-    display:none;
+    background-color: white;
+    color:black;
 }
