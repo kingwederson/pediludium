@@ -369,12 +369,16 @@ var rusUSO = {spi:42.88,a:1.27,d:1.4,e:desco}
 var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"}
 
 //Fantasia
+var fanALB = {spi:50,a:1.5,d:1.5,e:"pic/albaduz.svg"}
 var fanAST = {spi:50,a:1.5,d:1.5,e:"pic/astro.svg"}
 var fanBAD = {spi:50,a:1.5,d:1.5,e:"pic/badenia.svg"}
+var fanDRA = {spi:50,a:1.5,d:1.5,e:"pic/drax.svg"}
 var fanGLA = {spi:50,a:1.5,d:1.5,e:"pic/glader.svg"}
+var fanLAN = {spi:50,a:1.5,d:1.5,e:"pic/lanz.svg"}
 var fanPHA = {spi:50,a:1.5,d:1.5,e:"pic/phalguna.svg"}
 var fanPEG = {spi:50,a:1.5,d:1.5,e:"pic/pegasus.svg"}
 var fanTAL = {spi:50,a:1.5,d:1.5,e:"pic/talmikan.svg"}
+var fanTUS = {spi:50,a:1.5,d:1.5,e:"pic/tusler.svg"}
 
 
 function mudavel(){
@@ -2093,6 +2097,12 @@ function jogar(){
         //molduradefora.style.backgroundColor = "#00000000"
     }
     //FANTASIA
+    else if(PELcasa=="fanALB"){//Albaduz
+        Pcasa = fanALB.spi
+        Acasa = fanALB.a
+        Dcasa = fanALB.d
+        escudocasa.src = fanALB.e
+    }
     else if(PELcasa=="fanAST"){//Astro
         Pcasa = fanAST.spi
         Acasa = fanAST.a
@@ -2105,11 +2115,23 @@ function jogar(){
         Dcasa = fanBAD.d
         escudocasa.src = fanBAD.e
     }
+    else if(PELcasa=="fanDRA"){//Drax
+        Pcasa = fanDRA.spi
+        Acasa = fanDRA.a
+        Dcasa = fanDRA.d
+        escudocasa.src = fanDRA.e
+    }
     else if(PELcasa=="fanGLA"){//Glader
         Pcasa = fanGLA.spi
         Acasa = fanGLA.a
         Dcasa = fanGLA.d
         escudocasa.src = fanGLA.e
+    }
+    else if(PELcasa=="fanLAN"){//Lanz
+        Pcasa = fanLAN.spi
+        Acasa = fanLAN.a
+        Dcasa = fanLAN.d
+        escudocasa.src = fanLAN.e
     }
     else if(PELcasa=="fanPHA"){//Phalguna
         Pcasa = fanPHA.spi
@@ -2128,6 +2150,12 @@ function jogar(){
         Acasa = fanTAL.a
         Dcasa = fanTAL.d
         escudocasa.src = fanTAL.e
+    }
+    else if(PELcasa=="fanTUS"){//Tusler
+        Pcasa = fanTUS.spi
+        Acasa = fanTUS.a
+        Dcasa = fanTUS.d
+        escudocasa.src = fanTUS.e
     }
     else{
         Pcasa = 5.29
@@ -3738,6 +3766,12 @@ function jogar(){
         //molduradefora.style.backgroundColor = "#00000000"
     }
     //FANTASIA
+    else if(PELfora=="fanALB"){//Albaduz
+        Pfora = fanALB.spi
+        Afora = fanALB.a
+        Dfora = fanALB.d
+        escudofora.src = fanALB.e
+    }
     else if(PELfora=="fanAST"){//Astro
         Pfora = fanAST.spi
         Afora = fanAST.a
@@ -3750,11 +3784,23 @@ function jogar(){
         Dfora = fanBAD.d
         escudofora.src = fanBAD.e
     }
+    else if(PELfora=="fanDRA"){//Drax
+        Pfora = fanDRA.spi
+        Afora = fanDRA.a
+        Dfora = fanDRA.d
+        escudofora.src = fanDRA.e
+    }
     else if(PELfora=="fanGLA"){//Glader
         Pfora = fanGLA.spi
         Afora = fanGLA.a
         Dfora = fanGLA.d
         escudofora.src = fanGLA.e
+    }
+    else if(PELfora=="fanLAN"){//Lanz
+        Pfora = fanLAN.spi
+        Afora = fanLAN.a
+        Dfora = fanLAN.d
+        escudofora.src = fanLAN.e
     }
     else if(PELfora=="fanPHA"){//Phalguna
         Pfora = fanPHA.spi
@@ -3773,6 +3819,12 @@ function jogar(){
         Afora = fanTAL.a
         Dfora = fanTAL.d
         escudofora.src = fanTAL.e
+    }
+    else if(PELfora=="fanTUS"){//Tusler
+        Pfora = fanTUS.spi
+        Afora = fanTUS.a
+        Dfora = fanTUS.d
+        escudofora.src = fanTUS.e
     }
     else{
         Pfora = 5.00
