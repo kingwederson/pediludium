@@ -43,13 +43,19 @@
      inkscape:window-height="705"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="1.6619718"
-     inkscape:cx="215.47355"
-     inkscape:cy="162.66537"
+     inkscape:zoom="0.58759577"
+     inkscape:cx="-206.80405"
+     inkscape:cy="55.162801"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:pagecheckerboard="true" />
+  <path
+     style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:20;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="M 44.614225,28.241792 43.260715,145.275 c 8.93168,30.51011 27.05752,70.78831 83.681635,93.25391 49.60189,-20.9068 76.21907,-57.90148 81.57617,-93.74805 l 0.75195,-116.539068 z"
+     id="rect908"
+     inkscape:connector-curvature="0" />
   <g
      id="g1040"
      transform="matrix(1.4091869,0,0,1.4091869,-254.04659,-12.184486)">

@@ -5,13 +5,13 @@ var AUS = {spi:67.34,a:1.92,d:0.90,e:"https://upload.wikimedia.org/wikipedia/pt/
 var AUT = {spi:73.34,a:2.02,d:0.72,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/aut"}
 var ALG = {spi:71.02,a:1.94,d:0.76,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/alg"}
 var BEL = {spi:88.29,a:3.05,d:0.59,e:"https://upload.wikimedia.org/wikipedia/en/f/f9/Royal_Belgian_FA_logo_2019.svg"}
-var BIH = {spi:68.70,a:2.00,d:0.91,e:desco}
+var BIH = {spi:68.70,a:2.00,d:0.91,e:"https://upload.wikimedia.org/wikipedia/pt/5/5a/Logo_of_the_Football_Association_of_Bosnia_and_Herzegovina_%282013-present%29.png"}
 var BOL = {spi:53.10,a:1.54,d:1.19,e:"https://tmssl.akamaized.net/images/wappen/normquad/5233.png"}
 var BRA = {spi:90.29,a:2.88,d:0.37,e:"https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"}
 var CAN = {spi:59.71,a:1.82,d:1.16,e:"https://upload.wikimedia.org/wikipedia/en/6/69/Canadian_Soccer_Association_logo.svg"}
 var CHI = {spi:75.78,a:2.13,d:0.70,e:"https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png"}
 var CIV = {spi:61.60,a:1.63,d:0.91,e:desco}//Costa do Marfim
-var CMR = {spi:58.85,a:1.46,d:0.86,e:desco}//Camarões
+var CMR = {spi:58.85,a:1.46,d:0.86,e:"https://upload.wikimedia.org/wikipedia/pt/e/e8/Cameroon_2010crest.png"}//Camarões
 var COL = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"}
 var CRC = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/pt/f/f5/Costa_Rica_football_association.png"}
 var CRO = {spi:80.05,a:2.51,d:0.74,e:"https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"}
@@ -108,42 +108,42 @@ var engBHA = {spi:70.62,a:1.87,d:0.77,e:"https://upload.wikimedia.org/wikipedia/
 var engBIR = {spi:48.02,a:1.40,d:1.30,e:"https://upload.wikimedia.org/wikipedia/pt/6/6c/Birmingham_City_FC.png"}
 var engBLA = {spi:49.34,a:1.33,d:1.17,e:"https://upload.wikimedia.org/wikipedia/pt/0/0f/Blackburn_Rovers.svg"}
 var engBOU = {spi:64.05,a:1.85,d:1.03,e:"https://upload.wikimedia.org/wikipedia/sco/e/e5/AFC_Bournemouth_%282013%29.svg"}
-var engBRE = {spi:65.68,a:1.74,d:0.88,e:desco}
+var engBRE = {spi:65.68,a:1.74,d:0.88,e:"https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg"}
 var engBUR = {spi:71.17,a:1.84,d:0.73,e:"https://upload.wikimedia.org/wikipedia/pt/0/07/BurnleyFC_logo2014.gif"}
-var walCAR = {spi:51.60,a:1.42,d:1.17,e:desco}
-var engCHA = {spi:36.60,a:1.11,d:1.50,e:desco}
+var walCAR = {spi:51.60,a:1.42,d:1.17,e:"https://upload.wikimedia.org/wikipedia/sco/3/3c/Cardiff_City_crest.svg"}
+var engCHA = {spi:36.60,a:1.11,d:1.50,e:"https://upload.wikimedia.org/wikipedia/pt/9/9a/Charlton_Athletic_FC.png"}
 var engCHE = {spi:85.54,a:2.44,d:0.47,e:"https://upload.wikimedia.org/wikipedia/sco/c/cc/Chelsea_FC.svg"}
 var engCRY = {spi:70.27,a:1.76,d:0.71,e:"https://upload.wikimedia.org/wikipedia/sco/0/0c/Crystal_Palace_FC_logo.svg"}
-var engDER = {spi:48.88,a:1.43,d:1.29,e:desco}
+var engDER = {spi:48.88,a:1.43,d:1.29,e:"https://upload.wikimedia.org/wikipedia/pt/d/db/Derby_County_FC.png"}
 var engEVE = {spi:77.72,a:2.1,d:0.64,e:"https://upload.wikimedia.org/wikipedia/sco/7/7c/Everton_FC_logo.svg"}
-var engFUL = {spi:55.45,a:1.50,d:1.08,e:desco}
-var engHUD = {spi:48.78,a:1.34,d:1.20,e:desco}
-var engHUL = {spi:41.18,a:1.31,d:1.52,e:desco}
+var engFUL = {spi:55.45,a:1.50,d:1.08,e:"https://upload.wikimedia.org/wikipedia/pt/1/13/Fulham_FC.svg"}
+var engHUD = {spi:48.78,a:1.34,d:1.20,e:"https://upload.wikimedia.org/wikipedia/pt/b/be/Huddersfield_Town_FC.png"}
+var engHUL = {spi:41.18,a:1.31,d:1.52,e:"https://upload.wikimedia.org/wikipedia/pt/e/ee/Hull_City_AFC_new_logo.png"}
 var engLEE = {spi:67.97,a:1.79,d:0.82,e:"https://upload.wikimedia.org/wikipedia/de/d/de/Leeds_United.svg"}
 var engLEI = {spi:81.58,a:2.16,d:0.5,e:"https://upload.wikimedia.org/wikipedia/sco/2/2d/Leicester_City_crest.svg"}
 var engLIV = {spi:91.91,a:2.87,d:0.31,e:"https://upload.wikimedia.org/wikipedia/sco/0/0c/Liverpool_FC.svg"}
-var engLUT = {spi:35.31,a:1.09,d:1.55,e:desco}
+var engLUT = {spi:35.31,a:1.09,d:1.55,e:"https://upload.wikimedia.org/wikipedia/fr/9/94/Logo_Luton_Town_2009_FC.svg"}
 var engMANC = {spi:94.8,a:3.16,d:0.21,e:"https://upload.wikimedia.org/wikipedia/sco/e/eb/Manchester_City_FC_badge.svg"}
 var engMANU = {spi:86.23,a:2.38,d:0.4,e:"https://upload.wikimedia.org/wikipedia/sco/7/7a/Manchester_United_FC_crest.svg"}
-var engMID = {spi:46.60,a:1.24,d:1.20,e:desco}
-var engMIL = {spi:52.63,a:1.29,d:1.00,e:desco}
+var engMID = {spi:46.60,a:1.24,d:1.20,e:"https://upload.wikimedia.org/wikipedia/sco/2/2c/Middlesbrough_FC_crest.svg"}
+var engMIL = {spi:52.63,a:1.29,d:1.00,e:"https://upload.wikimedia.org/wikipedia/pt/9/99/Millwall_football_club_logo.png"}
 var engNEW = {spi:62.72,a:1.62,d:0.90,e:"https://upload.wikimedia.org/wikipedia/sco/5/56/Newcastle_United_Logo.svg"}
 var engNOR = {spi:61.63,a:1.66,d:0.98,e:"https://upload.wikimedia.org/wikipedia/pt/e/e2/Norwich_City_FC.png"}
-var engNOT = {spi:47.26,a:1.25,d:1.18,e:desco}
-var engPNE = {spi:47.98,a:1.26,d:1.15,e:desco}
-var engQPR = {spi:50.91,a:1.53,d:1.31,e:desco}
-var engREA = {spi:44.96,a:1.22,d:1.24,e:desco}
+var engNOT = {spi:47.26,a:1.25,d:1.18,e:"https://upload.wikimedia.org/wikipedia/sco/d/d2/Nottingham_Forest_logo.svg"}
+var engPNE = {spi:47.98,a:1.26,d:1.15,e:"https://upload.wikimedia.org/wikipedia/pt/4/47/Preston_North_End_FC.png"}
+var engQPR = {spi:50.91,a:1.53,d:1.31,e:"https://upload.wikimedia.org/wikipedia/pt/c/c8/Queens_Park_Rangers_Crest_2016.png"}
+var engREA = {spi:44.96,a:1.22,d:1.24,e:"https://upload.wikimedia.org/wikipedia/sco/1/11/Reading_FC.svg"}
 var engSHEU = {spi:73.32,a:1.76,d:0.59,e:"https://upload.wikimedia.org/wikipedia/en/3/39/SUFC_logo.svg"}
 var engSHEW = {spi:44.27,a:1.26,d:1.31,e:"https://upload.wikimedia.org/wikipedia/pt/b/b4/SheffieldWednesday2016logo.png"}
 var engSOU = {spi:68.31,a:1.88,d:0.88,e:"https://upload.wikimedia.org/wikipedia/sco/c/c9/FC_Southampton.svg"}
-var engSTO = {spi:53.01,a:1.39,d:1.07,e:desco}
+var engSTO = {spi:53.01,a:1.39,d:1.07,e:"https://upload.wikimedia.org/wikipedia/pt/a/a7/Stoke_City_FC.png"}
 var engSUN = {spi:31.75,a:0.9,d:1.47,e:"https://upload.wikimedia.org/wikipedia/pt/0/01/Sunderland_AFC.png"}
 var walSWA = {spi:48.53,a:1.38,d:1.26,e:"https://upload.wikimedia.org/wikipedia/pt/1/16/Swansea_City_AFC_logo.png"}
 var engTOT = {spi:76.59,a:2.2,d:0.75,e:"https://upload.wikimedia.org/wikipedia/sco/b/b4/Tottenham_Hotspur.svg"}
 var engWAT = {spi:72.81,a:1.92,d:0.72,e:"https://upload.wikimedia.org/wikipedia/sco/e/e2/Watford.svg"}
 var engWBA = {spi:60.08,a:1.57,d:0.96,e:"https://upload.wikimedia.org/wikipedia/pt/b/b1/West_Bromwich_Albion.png"}
 var engWHU = {spi:67.27,a:1.94,d:0.97,e:"https://upload.wikimedia.org/wikipedia/sco/c/c2/West_Ham_United_FC_logo.svg"}
-var engWIG = {spi:47.06,a:1.19,d:1.12,e:desco}
+var engWIG = {spi:47.06,a:1.19,d:1.12,e:"https://upload.wikimedia.org/wikipedia/pt/9/92/Wigan_Athletic.png"}
 var engWOL = {spi:80.53,a:2.04,d:0.47,e:"https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"}
 
 //Alemanha
@@ -370,7 +370,8 @@ var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/c
 
 //Fantasia
 var fanALB = {spi:50,a:1.5,d:1.5,e:"pic/albaduz.svg"}
-var fanAST = {spi:50,a:1.5,d:1.5,e:"pic/astro.svg"}
+var fanARB = {spi:50,a:1.5,d:1.5,e:"pic/artaniaredbull.svg"}
+var fanAST = {spi:50,a:2.75,d:1.75,e:"pic/astro.svg"}
 var fanBAD = {spi:50,a:1.5,d:1.5,e:"pic/badenia.svg"}
 var fanDRA = {spi:50,a:1.5,d:1.5,e:"pic/drax.svg"}
 var fanGLA = {spi:50,a:1.5,d:1.5,e:"pic/glader.svg"}
@@ -379,7 +380,6 @@ var fanPHA = {spi:50,a:1.5,d:1.5,e:"pic/phalguna.svg"}
 var fanPEG = {spi:50,a:1.5,d:1.5,e:"pic/pegasus.svg"}
 var fanTAL = {spi:50,a:1.5,d:1.5,e:"pic/talmikan.svg"}
 var fanTUS = {spi:50,a:1.5,d:1.5,e:"pic/tusler.svg"}
-
 
 function mudavel(){
     var intervalosel = Number(document.getElementById('intervalodasimulacao').value)
@@ -2103,6 +2103,12 @@ function jogar(){
         Dcasa = fanALB.d
         escudocasa.src = fanALB.e
     }
+    else if(PELcasa=="fanARB"){//Artania Red Bull
+        Pcasa = fanARB.spi
+        Acasa = fanARB.a
+        Dcasa = fanARB.d
+        escudocasa.src = fanARB.e
+    }
     else if(PELcasa=="fanAST"){//Astro
         Pcasa = fanAST.spi
         Acasa = fanAST.a
@@ -3476,6 +3482,12 @@ function jogar(){
         Dfora = fraREI.d
         escudofora.src = fraREI.e
     }
+    else if(PELfora=="fraREN"){//REN
+        Pfora = fraREN.spi
+        Afora = fraREN.a
+        Dfora = fraREN.d
+        escudofora.src = fraREN.e
+    }
     else if(PELfora=="fraSTR"){//STR
         Pfora = fraSTR.spi
         Afora = fraSTR.a
@@ -3772,6 +3784,12 @@ function jogar(){
         Dfora = fanALB.d
         escudofora.src = fanALB.e
     }
+    else if(PELfora=="fanARB"){//Artania Red Bull
+        Pfora = fanARB.spi
+        Afora = fanARB.a
+        Dfora = fanARB.d
+        escudofora.src = fanARB.e
+    }
     else if(PELfora=="fanAST"){//Astro
         Pfora = fanAST.spi
         Afora = fanAST.a
@@ -3843,7 +3861,7 @@ function jogar(){
     var tempodejogo = Number(document.getElementById('tempoinicial').value)
     var sumulaA = String('')
     var sumulaB = String('')
-    setInterval(function apitoinicial(){
+    var rolaabola = setInterval(function apitoinicial(){
         if(document.getElementById('prorrogar').checked){
             var prorrogase = 1
         }else{
@@ -3897,8 +3915,8 @@ function jogar(){
             }
         }else{
             minutoagora.innerText = "'FIM"
-            acabou
-            alertagol()
+            clearInterval(rolaabola)
         }
     },chaveinter)
+    rolaabola
 }
