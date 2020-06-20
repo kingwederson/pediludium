@@ -369,17 +369,18 @@ var rusUSO = {spi:42.88,a:1.27,d:1.4,e:desco}
 var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"}
 
 //Fantasia
-var fanALB = {spi:50,a:1.5,d:1.5,e:"pic/albaduz.svg"}
-var fanARB = {spi:50,a:1.5,d:1.5,e:"pic/artaniaredbull.svg"}
-var fanAST = {spi:50,a:2.75,d:1.75,e:"pic/astro.svg"}
-var fanBAD = {spi:50,a:1.5,d:1.5,e:"pic/badenia.svg"}
-var fanDRA = {spi:50,a:1.5,d:1.5,e:"pic/drax.svg"}
-var fanGLA = {spi:50,a:1.5,d:1.5,e:"pic/glader.svg"}
-var fanLAN = {spi:50,a:1.5,d:1.5,e:"pic/lanz.svg"}
-var fanPHA = {spi:50,a:1.5,d:1.5,e:"pic/phalguna.svg"}
-var fanPEG = {spi:50,a:1.5,d:1.5,e:"pic/pegasus.svg"}
-var fanTAL = {spi:50,a:1.5,d:1.5,e:"pic/talmikan.svg"}
-var fanTUS = {spi:50,a:1.5,d:1.5,e:"pic/tusler.svg"}
+var fanALB = {spi:50,a:1.25,d:1.25,e:"pic/albaduz.svg"}
+var fanART = {spi:50,a:1.25,d:1.25,e:"pic/artania.svg"}
+var fanAST = {spi:50,a:1.25,d:1.25,e:"pic/astro.svg"}
+var fanAUR = {spi:50,a:1.25,d:1.25,e:"pic/aurania.svg"}
+var fanBAD = {spi:50,a:1.25,d:1.25,e:"pic/badenia.svg"}
+var fanDRA = {spi:50,a:1.25,d:1.25,e:"pic/drax.svg"}
+var fanGLA = {spi:50,a:1.25,d:1.25,e:"pic/glader.svg"}
+var fanLAN = {spi:50,a:1.25,d:1.25,e:"pic/lanz.svg"}
+var fanPHA = {spi:50,a:1.25,d:1.25,e:"pic/phalguna.svg"}
+var fanPEG = {spi:50,a:1.25,d:1.25,e:"pic/pegasus.svg"}
+var fanTAL = {spi:50,a:1.25,d:1.25,e:"pic/talmikan.svg"}
+var fanTUS = {spi:50,a:1.25,d:1.25,e:"pic/tusler.svg"}
 
 function mudavel(){
     var intervalosel = Number(document.getElementById('intervalodasimulacao').value)
@@ -433,13 +434,29 @@ function sortear(){
         document.getElementById('timedefora').selectedIndex = sort2+1
     }
 }
-function alertagol(){
-    var audio = new Audio('gol.mp3')
-    audio.volume = 0.01
-    audio.play()
+
+function torcida(){
+    var cheer40s = new Audio('cheer40s.ogg')
+    cheer40s.loop = true
+    cheer40s.volume = 0.1
+    cheer40s.play()
 }
+function alertagol(){
+    var gritagol = new Audio('gritagol.ogg')
+    gritagol.volume = 0.4
+    gritagol.play()
+}
+function cornetar(){
+    var corneta = new Audio('check.mp3')
+    corneta.volume = 0.3
+    corneta.play()
+}
+
 function jogar(){
+    torcida()
     minutoagora.innerText = "0"
+    placar1.innerText = "0"
+    placar2.innerText = "0"
     if(document.getElementById('camponeutro').checked){
         var neutralidade = 1
     }else{
@@ -1291,11 +1308,11 @@ function jogar(){
         Dcasa = engSUN.d
         escudocasa.src = engSUN.e
     }
-    else if(PELcasa=="engSWA"){//Swansea
-        Pcasa = engSWA.spi
-        Acasa = engSWA.a
-        Dcasa = engSWA.d
-        escudocasa.src = engSWA.e
+    else if(PELcasa=="walSWA"){//Swansea
+        Pcasa = walSWA.spi
+        Acasa = walSWA.a
+        Dcasa = walSWA.d
+        escudocasa.src = walSWA.e
     }
     else if(PELcasa=="engTOT"){//Tottenham
         Pcasa = engTOT.spi
@@ -2103,17 +2120,23 @@ function jogar(){
         Dcasa = fanALB.d
         escudocasa.src = fanALB.e
     }
-    else if(PELcasa=="fanARB"){//Artania Red Bull
-        Pcasa = fanARB.spi
-        Acasa = fanARB.a
-        Dcasa = fanARB.d
-        escudocasa.src = fanARB.e
+    else if(PELcasa=="fanART"){//Artania Taurus
+        Pcasa = fanART.spi
+        Acasa = fanART.a
+        Dcasa = fanART.d
+        escudocasa.src = fanART.e
     }
     else if(PELcasa=="fanAST"){//Astro
         Pcasa = fanAST.spi
         Acasa = fanAST.a
         Dcasa = fanAST.d
         escudocasa.src = fanAST.e
+    }
+    else if(PELcasa=="fanAUR"){//Aurania
+        Pcasa = fanAUR.spi
+        Acasa = fanAUR.a
+        Dcasa = fanAUR.d
+        escudocasa.src = fanAUR.e
     }
     else if(PELcasa=="fanBAD"){//Badenia
         Pcasa = fanBAD.spi
@@ -2966,11 +2989,11 @@ function jogar(){
         Dfora = engSUN.d
         escudofora.src = engSUN.e
     }
-    else if(PELfora=="engSWA"){//Swansea
-        Pfora = engSWA.spi
-        Afora = engSWA.a
-        Dfora = engSWA.d
-        escudofora.src = engSWA.e
+    else if(PELfora=="walSWA"){//Swansea
+        Pfora = walSWA.spi
+        Afora = walSWA.a
+        Dfora = walSWA.d
+        escudofora.src = walSWA.e
     }
     else if(PELfora=="engTOT"){//Tottenham
         Pfora = engTOT.spi
@@ -3784,17 +3807,23 @@ function jogar(){
         Dfora = fanALB.d
         escudofora.src = fanALB.e
     }
-    else if(PELfora=="fanARB"){//Artania Red Bull
-        Pfora = fanARB.spi
-        Afora = fanARB.a
-        Dfora = fanARB.d
-        escudofora.src = fanARB.e
+    else if(PELfora=="fanART"){//Artania Taurus
+        Pfora = fanART.spi
+        Afora = fanART.a
+        Dfora = fanART.d
+        escudofora.src = fanART.e
     }
     else if(PELfora=="fanAST"){//Astro
         Pfora = fanAST.spi
         Afora = fanAST.a
         Dfora = fanAST.d
         escudofora.src = fanAST.e
+    }
+    else if(PELfora=="fanAUR"){//Aurania
+        Pfora = fanAUR.spi
+        Afora = fanAUR.a
+        Dfora = fanAUR.d
+        escudofora.src = fanAUR.e
     }
     else if(PELfora=="fanBAD"){//Badenia
         Pfora = fanBAD.spi
@@ -3899,7 +3928,7 @@ function jogar(){
                 alertagol()
                 golatualA = golatualA+1
                 placar1.innerText=golatualA
-                sumulaA = sumulaA+`${tempodejogo}&apos;&nbsp;`
+                sumulaA = sumulaA+`${tempodejogo}&apos; `
                 txtsumulaA.innerHTML = sumulaA
             }else{
                 placar1.innerText=golatualA
@@ -3908,7 +3937,7 @@ function jogar(){
                 alertagol()
                 golatualB = golatualB+1
                 placar2.innerText=golatualB
-                sumulaB = sumulaB+`${tempodejogo}&apos;&nbsp;`
+                sumulaB = sumulaB+`${tempodejogo}&apos; `
                 txtsumulaB.innerHTML = sumulaB
             }else{
                 placar2.innerText=golatualB
@@ -3916,6 +3945,7 @@ function jogar(){
         }else{
             minutoagora.innerText = "'FIM"
             clearInterval(rolaabola)
+            cornetar()
         }
     },chaveinter)
     rolaabola
