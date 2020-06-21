@@ -370,17 +370,36 @@ var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/c
 
 //Fantasia
 var fanALB = {spi:50,a:1.25,d:1.25,e:"pic/albaduz.svg"}
-var fanART = {spi:50,a:1.25,d:1.25,e:"pic/artania.svg"}
 var fanAST = {spi:50,a:1.25,d:1.25,e:"pic/astro.svg"}
 var fanAUR = {spi:50,a:1.25,d:1.25,e:"pic/aurania.svg"}
 var fanBAD = {spi:50,a:1.25,d:1.25,e:"pic/badenia.svg"}
 var fanDRA = {spi:50,a:1.25,d:1.25,e:"pic/drax.svg"}
 var fanGLA = {spi:50,a:1.25,d:1.25,e:"pic/glader.svg"}
+var fanKEL = {spi:50,a:1.25,d:1.25,e:"pic/kelapan.svg"}
 var fanLAN = {spi:50,a:1.25,d:1.25,e:"pic/lanz.svg"}
+var fanMON = {spi:50,a:1.25,d:1.25,e:"pic/monarchs.svg"}
 var fanPHA = {spi:50,a:1.25,d:1.25,e:"pic/phalguna.svg"}
 var fanPEG = {spi:50,a:1.25,d:1.25,e:"pic/pegasus.svg"}
 var fanTAL = {spi:50,a:1.25,d:1.25,e:"pic/talmikan.svg"}
+var fanTAU = {spi:50,a:1.25,d:1.25,e:"pic/taurus.svg"}
 var fanTUS = {spi:50,a:1.25,d:1.25,e:"pic/tusler.svg"}
+
+function torcida(){
+    var cheer40s = new Audio('cheer40s.ogg')
+    cheer40s.loop = true
+    cheer40s.volume = 0.05
+    cheer40s.play()
+}
+function alertagol(){
+    var gritagol = new Audio('gritagol.ogg')
+    gritagol.volume = 0.4
+    gritagol.play()
+}
+function cornetar(){
+    var corneta = new Audio('check.mp3')
+    corneta.volume = 0.3
+    corneta.play()
+}
 
 function mudavel(){
     var intervalosel = Number(document.getElementById('intervalodasimulacao').value)
@@ -435,25 +454,7 @@ function sortear(){
     }
 }
 
-function torcida(){
-    var cheer40s = new Audio('cheer40s.ogg')
-    cheer40s.loop = true
-    cheer40s.volume = 0.1
-    cheer40s.play()
-}
-function alertagol(){
-    var gritagol = new Audio('gritagol.ogg')
-    gritagol.volume = 0.4
-    gritagol.play()
-}
-function cornetar(){
-    var corneta = new Audio('check.mp3')
-    corneta.volume = 0.3
-    corneta.play()
-}
-
 function jogar(){
-    torcida()
     minutoagora.innerText = "0"
     placar1.innerText = "0"
     placar2.innerText = "0"
@@ -2120,12 +2121,6 @@ function jogar(){
         Dcasa = fanALB.d
         escudocasa.src = fanALB.e
     }
-    else if(PELcasa=="fanART"){//Artania Taurus
-        Pcasa = fanART.spi
-        Acasa = fanART.a
-        Dcasa = fanART.d
-        escudocasa.src = fanART.e
-    }
     else if(PELcasa=="fanAST"){//Astro
         Pcasa = fanAST.spi
         Acasa = fanAST.a
@@ -2156,11 +2151,23 @@ function jogar(){
         Dcasa = fanGLA.d
         escudocasa.src = fanGLA.e
     }
+    else if(PELcasa=="fanKEL"){//Kelapan
+        Pcasa = fanKEL.spi
+        Acasa = fanKEL.a
+        Dcasa = fanKEL.d
+        escudocasa.src = fanKEL.e
+    }
     else if(PELcasa=="fanLAN"){//Lanz
         Pcasa = fanLAN.spi
         Acasa = fanLAN.a
         Dcasa = fanLAN.d
         escudocasa.src = fanLAN.e
+    }
+    else if(PELcasa=="fanMON"){//Monarchs
+        Pcasa = fanMON.spi
+        Acasa = fanMON.a
+        Dcasa = fanMON.d
+        escudocasa.src = fanMON.e
     }
     else if(PELcasa=="fanPHA"){//Phalguna
         Pcasa = fanPHA.spi
@@ -2179,6 +2186,12 @@ function jogar(){
         Acasa = fanTAL.a
         Dcasa = fanTAL.d
         escudocasa.src = fanTAL.e
+    }
+    else if(PELcasa=="fanTAU"){//Taurus Artarus
+        Pcasa = fanTAU.spi
+        Acasa = fanTAU.a
+        Dcasa = fanTAU.d
+        escudocasa.src = fanTAU.e
     }
     else if(PELcasa=="fanTUS"){//Tusler
         Pcasa = fanTUS.spi
@@ -3807,12 +3820,6 @@ function jogar(){
         Dfora = fanALB.d
         escudofora.src = fanALB.e
     }
-    else if(PELfora=="fanART"){//Artania Taurus
-        Pfora = fanART.spi
-        Afora = fanART.a
-        Dfora = fanART.d
-        escudofora.src = fanART.e
-    }
     else if(PELfora=="fanAST"){//Astro
         Pfora = fanAST.spi
         Afora = fanAST.a
@@ -3843,11 +3850,23 @@ function jogar(){
         Dfora = fanGLA.d
         escudofora.src = fanGLA.e
     }
+    else if(PELfora=="fanKEL"){//Kelapan
+        Pfora = fanKEL.spi
+        Afora = fanKEL.a
+        Dfora = fanKEL.d
+        escudofora.src = fanKEL.e
+    }
     else if(PELfora=="fanLAN"){//Lanz
         Pfora = fanLAN.spi
         Afora = fanLAN.a
         Dfora = fanLAN.d
         escudofora.src = fanLAN.e
+    }
+    else if(PELfora=="fanMON"){//Monarchs
+        Pfora = fanMON.spi
+        Afora = fanMON.a
+        Dfora = fanMON.d
+        escudofora.src = fanMON.e
     }
     else if(PELfora=="fanPHA"){//Phalguna
         Pfora = fanPHA.spi
@@ -3866,6 +3885,12 @@ function jogar(){
         Afora = fanTAL.a
         Dfora = fanTAL.d
         escudofora.src = fanTAL.e
+    }
+    else if(PELfora=="fanTAU"){//Taurus Artarus
+        Pfora = fanTAU.spi
+        Afora = fanTAU.a
+        Dfora = fanTAU.d
+        escudofora.src = fanTAU.e
     }
     else if(PELfora=="fanTUS"){//Tusler
         Pfora = fanTUS.spi
@@ -3922,7 +3947,9 @@ function jogar(){
         }
         var golAagora = nounce1-aleatorio1
         var golBagora = nounce2-aleatorio2
+
         if(tempodejogo<90+acrescimo+prorrogacao){
+            torcida()
             tempodejogo += 1
             if(golAagora>0){
                 alertagol()
