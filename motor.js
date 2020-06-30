@@ -369,20 +369,29 @@ var rusUSO = {spi:42.88,a:1.27,d:1.4,e:desco}
 var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"}
 
 //Fantasia
-var fanALB = {spi:50,a:1.25,d:1.25,e:"pic/albaduz.svg"}
-var fanAST = {spi:50,a:1.25,d:1.25,e:"pic/astro.svg"}
-var fanAUR = {spi:50,a:1.25,d:1.25,e:"pic/aurania.svg"}
-var fanBAD = {spi:50,a:1.25,d:1.25,e:"pic/badenia.svg"}
-var fanDRA = {spi:50,a:1.25,d:1.25,e:"pic/drax.svg"}
-var fanGLA = {spi:50,a:1.25,d:1.25,e:"pic/glader.svg"}
-var fanKEL = {spi:50,a:1.25,d:1.25,e:"pic/kelapan.svg"}
-var fanLAN = {spi:50,a:1.25,d:1.25,e:"pic/lanz.svg"}
-var fanMON = {spi:50,a:1.25,d:1.25,e:"pic/monarchs.svg"}
-var fanPHA = {spi:50,a:1.25,d:1.25,e:"pic/phalguna.svg"}
-var fanPEG = {spi:50,a:1.25,d:1.25,e:"pic/pegasus.svg"}
-var fanTAL = {spi:50,a:1.25,d:1.25,e:"pic/talmikan.svg"}
-var fanTAU = {spi:50,a:1.25,d:1.25,e:"pic/taurus.svg"}
-var fanTUS = {spi:50,a:1.25,d:1.25,e:"pic/tusler.svg"}
+var fanALB = {spi:50,a:1.50,d:1.50,e:"pic/albaduz.svg"}
+var fanAST = {spi:50,a:1.50,d:1.50,e:"pic/astro.svg"}
+var fanAUR = {spi:50,a:1.50,d:1.50,e:"pic/aurania.svg"}
+var fanBAD = {spi:50,a:1.50,d:1.50,e:"pic/badenia.svg"}
+var fanDRA = {spi:50,a:1.50,d:1.50,e:"pic/drax.svg"}
+var fanGLA = {spi:50,a:1.50,d:1.50,e:"pic/glader.svg"}
+var fanKEL = {spi:50,a:1.50,d:1.50,e:"pic/kelapan.svg"}
+var fanLAN = {spi:50,a:1.50,d:1.50,e:"pic/lanz.svg"}
+var fanMON = {spi:50,a:1.50,d:1.50,e:"pic/monarchs.svg"}
+var fanPHA = {spi:50,a:1.50,d:1.50,e:"pic/phalguna.svg"}
+var fanPEG = {spi:50,a:1.50,d:1.50,e:"pic/pegasus.svg"}
+var fanTAL = {spi:50,a:1.50,d:1.50,e:"pic/talmikan.svg"}
+var fanTAU = {spi:50,a:1.50,d:1.50,e:"pic/taurus.svg"}
+var fanTUS = {spi:50,a:1.50,d:1.50,e:"pic/tusler.svg"}
+
+//México
+var mexAME = {spi:53.26,a:1.46,d:1.13,e:"https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"}
+var mexATL = {spi:38.4,a:1.12,d:1.43,e:"https://upload.wikimedia.org/wikipedia/en/8/8d/Club_Atlas_de_Guadalajara_logo.svg"}
+var mexLEO = {spi:50.88,a:1.56,d:1.34,e:"https://upload.wikimedia.org/wikipedia/en/8/80/Leon_FC_logo.png"}
+var mexMON = {spi:56.38,a:1.59,d:1.13,e:"https://upload.wikimedia.org/wikipedia/en/a/ab/CFMonterrey2012_LargeVector.svg"}
+var mexNEC = {spi:44.09,a:1.29,d:1.35,e:"https://upload.wikimedia.org/wikipedia/en/c/c3/Club_Necaxa_2.svg"}
+var mexPUE = {spi:37.71,a:1.0,d:1.32,e:"https://upload.wikimedia.org/wikipedia/en/5/5d/Club_Puebla_logo.svg"}
+
 
 function torcida(){
     var cheer40s = new Audio('cheer40s.ogg')
@@ -390,6 +399,7 @@ function torcida(){
     cheer40s.volume = 0.05
     cheer40s.play()
 }
+//torcida()
 function alertagol(){
     var gritagol = new Audio('gritagol.ogg')
     gritagol.volume = 0.4
@@ -2088,6 +2098,42 @@ function jogar(){
         Acasa = usaSAC.a
         Dcasa = usaSAC.d
         escudocasa.src = usaSAC.e
+    }
+    else if(PELcasa=="mexAME"){//Club América
+        Pcasa = mexAME.spi
+        Acasa = mexAME.a
+        Dcasa = mexAME.d
+        escudocasa.src = mexAME.e
+    }
+    else if(PELcasa=="mexATL"){//Atlas
+        Pcasa = mexATL.spi
+        Acasa = mexATL.a
+        Dcasa = mexATL.d
+        escudocasa.src = mexATL.e
+    }
+    else if(PELcasa=="mexLEO"){//León
+        Pcasa = mexLEO.spi
+        Acasa = mexLEO.a
+        Dcasa = mexLEO.d
+        escudocasa.src = mexLEO.e
+    }
+    else if(PELcasa=="mexMON"){//Monterrey
+        Pcasa = mexMON.spi
+        Acasa = mexMON.a
+        Dcasa = mexMON.d
+        escudocasa.src = mexMON.e
+    }
+    else if(PELcasa=="mexNEC"){//Necaxa
+        Pcasa = mexNEC.spi
+        Acasa = mexNEC.a
+        Dcasa = mexNEC.d
+        escudocasa.src = mexNEC.e
+    }
+    else if(PELcasa=="mexPUE"){//Puebla
+        Pcasa = mexPUE.spi
+        Acasa = mexPUE.a
+        Dcasa = mexPUE.d
+        escudocasa.src = mexPUE.e
     }
     else if(PELcasa=="nedAJA"){//Ajax
         Pcasa = nedAJA.spi
@@ -3788,6 +3834,42 @@ function jogar(){
         Dfora = usaSAC.d
         escudofora.src = usaSAC.e
     }
+    else if(PELfora=="mexAME"){//Club América
+        Pfora = mexAME.spi
+        Afora = mexAME.a
+        Dfora = mexAME.d
+        escudofora.src = mexAME.e
+    }
+    else if(PELfora=="mexATL"){//Atlas
+        Pfora = mexATL.spi
+        Afora = mexATL.a
+        Dfora = mexATL.d
+        escudofora.src = mexATL.e
+    }
+    else if(PELfora=="mexLEO"){//León
+        Pfora = mexLEO.spi
+        Afora = mexLEO.a
+        Dfora = mexLEO.d
+        escudofora.src = mexLEO.e
+    }
+    else if(PELfora=="mexMON"){//Monterrey
+        Pfora = mexMON.spi
+        Afora = mexMON.a
+        Dfora = mexMON.d
+        escudofora.src = mexMON.e
+    }
+    else if(PELfora=="mexNEC"){//Necaxa
+        Pfora = mexNEC.spi
+        Afora = mexNEC.a
+        Dfora = mexNEC.d
+        escudofora.src = mexNEC.e
+    }
+    else if(PELfora=="mexPUE"){//Puebla
+        Pfora = mexPUE.spi
+        Afora = mexPUE.a
+        Dfora = mexPUE.d
+        escudofora.src = mexPUE.e
+    }
     else if(PELfora=="nedAJA"){//Ajax
         Pfora = nedAJA.spi
         Afora = nedAJA.a
@@ -3906,8 +3988,8 @@ function jogar(){
     }
     txtsumulaA.innerHTML = ''
     txtsumulaB.innerHTML = ''
-    var golA = (Pcasa/Pfora)*(1.10-0.1*neutralidade)*(Number(Acasa)+Number(Dfora))/2
-    var golB = (Pfora/Pcasa)*(0.91+0.09*neutralidade)*(Number(Afora)+Number(Dcasa))/2
+    var golA = (Pcasa/Pfora)*(1.00-0.00*neutralidade)*(Number(Acasa)+Number(Dfora))/2
+    var golB = (Pfora/Pcasa)*(0.85+0.15*neutralidade)*(Number(Afora)+Number(Dcasa))/2
     txtmediaA.innerText = Number(golA).toFixed(2)
     txtmediaB.innerText = Number(golB).toFixed(2)
     var golatualA = Number(document.getElementById('placarAinicial').value)
@@ -3949,7 +4031,6 @@ function jogar(){
         var golBagora = nounce2-aleatorio2
 
         if(tempodejogo<90+acrescimo+prorrogacao){
-            torcida()
             tempodejogo += 1
             if(golAagora>0){
                 alertagol()
