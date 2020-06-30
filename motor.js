@@ -154,7 +154,9 @@ var gerDOR = {spi:86.95,a:2.54,d:0.45,e:"https://upload.wikimedia.org/wikipedia/
 var gerDUS = {spi:58.95,a:1.72,d:1.14,e:"https://upload.wikimedia.org/wikipedia/commons/9/94/Fortuna_D%C3%BCsseldorf.svg"}
 var gerEIN = {spi:70.02,a:2.08,d:0.96,e:"https://upload.wikimedia.org/wikipedia/commons/0/04/Eintracht_Frankfurt_Logo.svg"}
 var gerFRE = {spi:61.48,a:1.79,d:1.09,e:"https://upload.wikimedia.org/wikipedia/pt/7/7b/SC_Freiburg.png"}
+var gerHAM = {spi:45.25,a:1.41,d:1.44,e:"https://upload.wikimedia.org/wikipedia/commons/6/66/HSV-Logo.svg"}
 var gerHER = {spi:68.77,a:1.94,d:0.91,e:"https://upload.wikimedia.org/wikipedia/commons/8/81/Hertha_BSC_Logo_2012.svg"}
+var gerHEI = {spi:35.64,a:1.06,d:1.49,e:"https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg"}
 var gerHOF = {spi:68.77,a:1.94,d:0.91,e:"https://upload.wikimedia.org/wikipedia/commons/e/e7/Logo_TSG_Hoffenheim.svg"}
 var gerKOL = {spi:69.49,a:2.05,d:0.96,e:"https://upload.wikimedia.org/wikipedia/en/5/53/FC_Cologne_logo.svg"}
 var gerLEV = {spi:81.34,a:2.45,d:0.69,e:"https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg"}
@@ -163,6 +165,7 @@ var gerMON = {spi:75.88,a:2.24,d:0.82,e:"https://upload.wikimedia.org/wikipedia/
 var gerPAD = {spi:56.78,a:1.63,d:1.15,e:"https://upload.wikimedia.org/wikipedia/pt/1/14/Sc_paderborn_07.png"}
 var gerRBL = {spi:87.18,a:2.59,d:0.46,e:"https://upload.wikimedia.org/wikipedia/fr/0/04/RB_Leipzig_2014_logo.svg"}
 var gerSCH = {spi:62.66,a:1.64,d:0.92,e:"https://upload.wikimedia.org/wikipedia/commons/6/6d/FC_Schalke_04_Logo.svg"}
+var gerSTU = {spi:49.81,a:1.53,d:1.35,e:"https://upload.wikimedia.org/wikipedia/commons/e/eb/VfB_Stuttgart_1893_Logo.svg"}
 var gerWER = {spi:59.72,a:1.62,d:1.02,e:"https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg"}
 var gerWOL = {spi:76.34,a:2.05,d:0.66,e:"https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"}
 
@@ -1523,6 +1526,18 @@ function jogar(){
         Dcasa = gerFRE.d
         escudocasa.src = gerFRE.e
     }
+    else if(PELcasa=="gerHAM"){//Hamburg SV
+        Pcasa = gerHAM.spi
+        Acasa = gerHAM.a
+        Dcasa = gerHAM.d
+        escudocasa.src = gerHAM.e
+    }
+    else if(PELcasa=="gerHAN"){//Hannover 96
+        Pcasa = gerHAN.spi
+        Acasa = gerHAN.a
+        Dcasa = gerHAN.d
+        escudocasa.src = gerHAN.e
+    }
     else if(PELcasa=="gerHER"){//Hertha Berlin
         Pcasa = gerHER.spi
         Acasa = gerHER.a
@@ -1534,6 +1549,12 @@ function jogar(){
         Acasa = gerHOF.a
         Dcasa = gerHOF.d
         escudocasa.src = gerHOF.e
+    }
+    else if(PELcasa=="gerHEI"){//Heidenheim
+        Pcasa = gerHEI.spi
+        Acasa = gerHEI.a
+        Dcasa = gerHEI.d
+        escudocasa.src = gerHEI.e
     }
     else if(PELcasa=="gerKOL"){//Koln
         Pcasa = gerKOL.spi
@@ -1576,6 +1597,12 @@ function jogar(){
         Acasa = gerSCH.a
         Dcasa = gerSCH.d
         escudocasa.src = gerSCH.e
+    }
+    else if(PELcasa=="gerSTU"){//Stuttgart
+        Pcasa = gerSTU.spi
+        Acasa = gerSTU.a
+        Dcasa = gerSTU.d
+        escudocasa.src = gerSTU.e
     }
     else if(PELcasa=="gerWER"){//Werder Bremen
         Pcasa = gerWER.spi
@@ -3252,6 +3279,18 @@ function jogar(){
         Dfora = gerFRE.d
         escudofora.src = gerFRE.e
     }
+    else if(PELfora=="gerHAM"){//Hamburg SV
+        Pfora = gerHAM.spi
+        Afora = gerHAM.a
+        Dfora = gerHAM.d
+        escudofora.src = gerHAM.e
+    }
+    else if(PELfora=="gerHAN"){//Hannover 96
+        Pfora = gerHAN.spi
+        Afora = gerHAN.a
+        Dfora = gerHAN.d
+        escudofora.src = gerHAN.e
+    }
     else if(PELfora=="gerHER"){//Hertha Berlin
         Pfora = gerHER.spi
         Afora = gerHER.a
@@ -3263,6 +3302,12 @@ function jogar(){
         Afora = gerHOF.a
         Dfora = gerHOF.d
         escudofora.src = gerHOF.e
+    }
+    else if(PELfora=="gerHEI"){//Heidenheim
+        Pfora = gerHEI.spi
+        Afora = gerHEI.a
+        Dfora = gerHEI.d
+        escudofora.src = gerHEI.e
     }
     else if(PELfora=="gerKOL"){//Koln
         Pfora = gerKOL.spi
@@ -3305,6 +3350,12 @@ function jogar(){
         Afora = gerSCH.a
         Dfora = gerSCH.d
         escudofora.src = gerSCH.e
+    }
+    else if(PELfora=="gerSTU"){//Stuttgart
+        Pfora = gerSTU.spi
+        Afora = gerSTU.a
+        Dfora = gerSTU.d
+        escudofora.src = gerSTU.e
     }
     else if(PELfora=="gerWER"){//Werder Bremen
         Pfora = gerWER.spi
