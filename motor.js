@@ -88,7 +88,7 @@ var braCTB = {spi:40.01,a:1.07,d:1.29,e:"https://upload.wikimedia.org/wikipedia/
 var braFLA = {spi:70.67,a:2.01,d:0.88,e:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"}
 var braFLU = {spi:51.03,a:1.28,d:1.05,e:"https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"}
 var braFOR = {spi:46.85,a:1.18,d:1.12,e:"https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"}
-var braGOI = {spi:41.28,a:1.23,d:1.42,e:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Goias_Esporte_Clube_logo.svg/240px-Goias_Esporte_Clube_logo.svg.png"}
+var braGOI = {spi:41.28,a:1.23,d:1.42,e:"https://upload.wikimedia.org/wikipedia/commons/7/7f/Goias_Esporte_Clube_logo.svg"}
 var braGRE = {spi:66.13,a:1.71,d:0.84,e:"https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"}
 var braINT = {spi:60.27,a:1.46,d:0.86,e:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"}
 var braPAL = {spi:66.34,a:1.62,d:0.76,e:"https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"}
@@ -1053,7 +1053,7 @@ function jogar(){
         Pcasa = braGOI.spi
         Acasa = braGOI.a
         Dcasa = braGOI.d
-        escudocasa.src = braGOI.E
+        escudocasa.src = braGOI.e
     }
     else if(PELcasa=="braGRE"){//Grêmio
         Pcasa = braGRE.spi
@@ -2866,7 +2866,7 @@ function jogar(){
         Pfora = braGOI.spi
         Afora = braGOI.a
         Dfora = braGOI.d
-        escudofora.src = braGOI.E
+        escudofora.src = braGOI.e
     }
     else if(PELfora=="braGRE"){//Grêmio
         Pfora = braGRE.spi
