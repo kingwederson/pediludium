@@ -72,32 +72,32 @@ var WAL = {spi:68.79,a:1.78,d:0.74,e:desco}
 //FICHEIRO DOS CLUBES
 //Brasil
 var braAAPP = {spi:35.62,a:1.02,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"}
-var braAGO = {spi:38.90,a:1.16,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"}
+var braAGO = {spi:40.44,a:1.1,d:1.31,e:"https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"}
 var braAMG = {spi:35.62,a:1.02,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"}
 var braAVA = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"}
-var braBAH = {spi:48.12,a:1.28,d:1.17,e:"https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"}
-var braBOT = {spi:40.50,a:1.10,d:1.31,e:"https://logodetimes.com/times/botafogo/logo-botafogo-256.png"}
-var braCAM = {spi:51.72,a:1.41,d:1.16,e:"https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"}
-var braCAP = {spi:56.11,a:1.39,d:0.95,e:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"}
-var braCEA = {spi:46.29,a:1.23,d:1.19,e:"https://logodetimes.com/times/ceara/logo-ceara-256.png"}
+var braBAH = {spi:46.62,a:1.28,d:1.23,e:"https://cdn.worldvectorlogo.com/logos/esporte-clube-bahia-de-salvador-ba.svg"}
+var braBOT = {spi:40.9,a:1.07,d:1.25,e:"https://logodetimes.com/times/botafogo/logo-botafogo-256.png"}
+var braCAM = {spi:53.64,a:1.43,d:1.09,e:"https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"}
+var braCAP = {spi:54.09,a:1.28,d:0.92,e:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"}
+var braCEA = {spi:47.1,a:1.2,d:1.13,e:"https://logodetimes.com/times/ceara/logo-ceara-256.png"}
 var braCHA = {spi:40.75,a:1.05,d:1.23,e:"https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"}
-var braCOR = {spi:55.51,a:1.42,d:1.01,e:"https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"}
+var braCOR = {spi:53.83,a:1.4,d:1.06,e:"https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"}
 var braCRU = {spi:51.58,a:1.22,d:0.96,e:"https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"}
 var braCSA = {spi:35.62,a:1.02,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"}
-var braCTB = {spi:41.08,a:1.22,d:1.42,e:"https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"}
-var braFLA = {spi:73.73,a:2.15,d:0.85,e:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"}
-var braFLU = {spi:50.90,a:1.36,d:1.14,e:"https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"}
-var braFOR = {spi:45.02,a:1.27,d:1.29,e:"https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"}
-var braGOI = {spi:42.55,a:1.29,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"}
-var braGRE = {spi:65.63,a:1.79,d:0.92,e:"https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"}
-var braINT = {spi:55.90,a:1.50,d:1.06,e:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"}
-var braPAL = {spi:67.88,a:1.79,d:0.83,e:"https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"}
+var braCTB = {spi:40.01,a:1.07,d:1.29,e:"https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"}
+var braFLA = {spi:70.67,a:2.01,d:0.88,e:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"}
+var braFLU = {spi:51.03,a:1.28,d:1.05,e:"https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"}
+var braFOR = {spi:46.85,a:1.18,d:1.12,e:"https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"}
+var braGOI = {spi:41.28,a:1.23,d:1.42,e:"https://upload.wikimedia.org/wikipedia/commons/7/71/Goias_Esporte_Clube_inverted_logo.svg"}
+var braGRE = {spi:66.13,a:1.71,d:0.84,e:"https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"}
+var braINT = {spi:60.27,a:1.46,d:0.86,e:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"}
+var braPAL = {spi:66.34,a:1.62,d:0.76,e:"https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"}
 var braPAR = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"}
-var braRBB = {spi:43.00,a:1.27,d:1.38,e:"https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"}
-var braSAN = {spi:61.02,a:1.58,d:0.93,e:"https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"}
-var braSPFC = {spi:58.05,a:1.45,d:0.94,e:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"}
-var braSPO = {spi:40.01,a:1.19,d:1.43,e:"https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"}
-var braVAS = {spi:50.06,a:1.35,d:1.16,e:"https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"}
+var braRBB = {spi:44.8,a:1.26,d:1.29,e:"https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"}
+var braSAN = {spi:56.81,a:1.46,d:0.99,e:"https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"}
+var braSPFC = {spi:58.3,a:1.39,d:0.87,e:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"}
+var braSPO = {spi:41.45,a:1.16,d:1.33,e:"https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"}
+var braVAS = {spi:51.52,a:1.31,d:1.06,e:"https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"}
 var braVIT = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"}
 
 //Inglaterra e Gales
@@ -171,7 +171,9 @@ var gerWOL = {spi:76.34,a:2.05,d:0.66,e:"https://upload.wikimedia.org/wikipedia/
 
 //EUA e Canadá
 var usaATL = {spi:46.35,a:1.41,d:1.38,e:"https://upload.wikimedia.org/wikipedia/en/b/bb/Atlanta_MLS.svg"}
+var usaARI = {spi:41.22,a:1.47,d:1.7,e:desco}
 var usaAUS = {spi:22.94,a:0.85,d:1.93,e:"https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"}
+var usaBOLD = {spi:22.94,a:0.85,d:1.93,e:desco}
 var usaCHA = {spi:20.00,a:0.85,d:2.00,e:desco}
 var usaCHI = {spi:42.14,a:1.42,d:1.6,e:"https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"}
 var usaCIN = {spi:23.81,a:0.92,d:1.99,e:"https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"}
@@ -181,7 +183,10 @@ var usaDAL = {spi:40.7,a:1.36,d:1.6,e:"https://upload.wikimedia.org/wikipedia/pt
 var usaDCU = {spi:33.65,a:1.11,d:1.66,e:"https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"}
 var usaGAL = {spi:42.1,a:1.69,d:1.9,e:"https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"}
 var usaHOU = {spi:33.25,a:1.16,d:1.74,e:"https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"}
+var usaIND = {spi:27.92,a:0.95,d:1.76,e:desco}
 var usaLAFC = {spi:57.05,a:1.98,d:1.46,e:"https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"}
+var usaLOU = {spi:26.54,a:0.96,d:1.87,desco}
+var usaMFC = {spi:27.69,a:1.06,d:1.93,e:desco}
 var usaMIA = {spi:44.25,a:1.35,d:1.42,e:"https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"}
 var usaMIN = {spi:41.98,a:1.4,d:1.58,e:"https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"}
 var canMON = {spi:31.91,a:1.14,d:1.79,e:"https://upload.wikimedia.org/wikipedia/fr/7/70/Logo_Impact_de_Montr%C3%A9al_%28MLS%29.svg"}
@@ -189,16 +194,20 @@ var usaNAS = {spi:27.53,a:0.86,d:1.65,e:"https://upload.wikimedia.org/wikipedia/
 var usaNER = {spi:37.85,a:1.36,d:1.74,e:"https://upload.wikimedia.org/wikipedia/pt/f/f6/NewEnglandRevolution.png"}
 var usaNYC = {spi:44.86,a:1.42,d:1.46,e:"https://upload.wikimedia.org/wikipedia/en/f/f9/New_York_City_FC.svg"}
 var usaNYRB = {spi:39.26,a:1.39,d:1.71,e:"https://upload.wikimedia.org/wikipedia/pt/5/54/Red_Bull_New_York.PNG"}
+var usaORA = {spi:26.69,a:0.96,d:1.85,e:desco}
 var usaORL = {spi:34.11,a:1.17,d:1.71,e:"https://upload.wikimedia.org/wikipedia/pt/c/c0/OrlandoCity_SC_logo.png"}
 var usaPHI = {spi:46.0,a:1.51,d:1.51,e:"https://upload.wikimedia.org/wikipedia/pt/f/f3/Philadelphia_Union.png"}
 var usaPOR = {spi:38.16,a:1.38,d:1.75,e:"https://upload.wikimedia.org/wikipedia/pt/5/5e/Portland_Timbers.png"}
+var usaREN = {spi:24.53,a:0.98,d:2.02,e:desco}
 var usaRSL = {spi:38.12,a:1.01,d:1.31,e:"https://upload.wikimedia.org/wikipedia/pt/0/0f/Real_Salt_Lake.png"}
 var usaSAC = {spi:23.23,a:0.85,d:1.92,e:"https://upload.wikimedia.org/wikipedia/pt/1/19/Sacramento_Republic_FC.png"}
+var usaSAFC = {spi:27.27,a:1.1,d:2.02,e:desco}
 var usaSEA = {spi:44.11,a:1.42,d:1.51,e:"https://upload.wikimedia.org/wikipedia/pt/7/7c/Seattle_Sounders_FC.png"}
 var usaSJE = {spi:37.45,a:1.38,d:1.79,e:"https://upload.wikimedia.org/wikipedia/pt/3/3a/SJ_Earthquakes.png"}
 var usaSPO = {spi:39.15,a:1.4,d:1.73,e:"https://upload.wikimedia.org/wikipedia/pt/f/fc/Sporting_Kansas_City.png"}
+var usaTAM = {spi:27.74,a:0.96,d:1.79,e:desco}
 var canTOR = {spi:46.71,a:1.5,d:1.47,e:"https://upload.wikimedia.org/wikipedia/pt/8/8f/Toronto_FC.png"}
-var canVAN = {spi:25.01,a:0.92,d:1.9,e:"https://upload.wikimedia.org/wikipedia/commons/5/5d/Vancouver_Whitecaps_FC_logo.svg"}
+var canVAN = {spi:25.01,a:0.92,d:1.9,e:"https://upload.wikimedia.org/wikipedia/de/3/3c/Vancouver_Whitecaps_FC_Logo.svg"}
 
 //Espanha e Catalunha
 var spaALA = {spi:66.83,a:1.7,d:0.8,e:"https://upload.wikimedia.org/wikipedia/pt/4/44/Deportivo_Alav%C3%A9s.png"}
@@ -370,23 +379,6 @@ var rusTER = {spi:41.83,a:1.0,d:1.12,e:desco}
 var rusUFA = {spi:47.85,a:0.94,d:0.82,e:desco}
 var rusUSO = {spi:42.88,a:1.27,d:1.4,e:desco}
 var rusZEN = {spi:76.75,a:2.0,d:0.62,e:"https://upload.wikimedia.org/wikipedia/commons/e/ef/FK_Zenit_St_Peterburg.svg"}
-
-//Fantasia
-var fanALB = {spi:50,a:1.50,d:1.50,e:"pic/albaduz.svg"}
-var fanAST = {spi:50,a:1.50,d:1.50,e:"pic/astro.svg"}
-var fanAUR = {spi:50,a:1.50,d:1.50,e:"pic/aurania.svg"}
-var fanBAD = {spi:50,a:1.50,d:1.50,e:"pic/badenia.svg"}
-var fanDRA = {spi:50,a:1.50,d:1.50,e:"pic/drax.svg"}
-var fanGLA = {spi:50,a:1.50,d:1.50,e:"pic/glader.svg"}
-var fanKEL = {spi:50,a:1.50,d:1.50,e:"pic/kelapan.svg"}
-var fanLAN = {spi:50,a:1.50,d:1.50,e:"pic/lanz.svg"}
-var fanMON = {spi:50,a:1.50,d:1.50,e:"pic/monarchs.svg"}
-var fanPHA = {spi:50,a:1.50,d:1.50,e:"pic/phalguna.svg"}
-var fanPEG = {spi:50,a:1.50,d:1.50,e:"pic/pegasus.svg"}
-var fanTAL = {spi:50,a:1.50,d:1.50,e:"pic/talmikan.svg"}
-var fanTAU = {spi:50,a:1.50,d:1.50,e:"pic/taurus.svg"}
-var fanTUS = {spi:50,a:1.50,d:1.50,e:"pic/tusler.svg"}
-
 //México
 var mexAME = {spi:53.26,a:1.46,d:1.13,e:"https://upload.wikimedia.org/wikipedia/en/c/c1/Club_Am%C3%A9rica_crest.svg"}
 var mexATL = {spi:38.4,a:1.12,d:1.43,e:"https://upload.wikimedia.org/wikipedia/en/8/8d/Club_Atlas_de_Guadalajara_logo.svg"}
@@ -395,6 +387,24 @@ var mexMON = {spi:56.38,a:1.59,d:1.13,e:"https://upload.wikimedia.org/wikipedia/
 var mexNEC = {spi:44.09,a:1.29,d:1.35,e:"https://upload.wikimedia.org/wikipedia/en/c/c3/Club_Necaxa_2.svg"}
 var mexPUE = {spi:37.71,a:1.0,d:1.32,e:"https://upload.wikimedia.org/wikipedia/en/5/5d/Club_Puebla_logo.svg"}
 
+
+//Fantasia
+var fanALB = {spi:27.46,a:1.45,d:1.04,e:"pic/albaduz.svg"}
+var fanAST = {spi:29.70,a:1.29,d:1.20,e:"pic/astro.svg"}
+var fanAUR = {spi:27.25,a:1.14,d:1.35,e:"pic/aurania.svg"}
+var fanBAD = {spi:31.92,a:1.47,d:1.02,e:"pic/badenia.svg"}
+var fanDRA = {spi:26.94,a:1.17,d:1.32,e:"pic/drax.svg"}
+var fanGLA = {spi:27.77,a:1.45,d:1.04,e:"pic/glader.svg"}
+var fanKEL = {spi:21.16,a:1.25,d:1.25,e:"pic/kelapan.svg"}
+var fanLAN = {spi:27.98,a:1.25,d:1.25,e:"pic/lanz.svg"}
+var fanMON = {spi:21.16,a:1.50,d:1.50,e:"pic/monarchs.svg"}
+var fanNOR = {spi:21.16,a:1.50,d:1.50,e:"pic/norpago.svg"}
+var fanPHA = {spi:28.30,a:1.50,d:0.99,e:"pic/phalguna.svg"}
+var fanPEG = {spi:30.91,a:1.48,d:1.01,e:"pic/pegasus.svg"}
+var fanTAL = {spi:28.30,a:1.96,d:1.53,e:"pic/talmikan.svg"}
+var fanTAU = {spi:27.98,a:1.36,d:1.13,e:"pic/taurus.svg"}
+var fanTUS = {spi:32.04,a:0.89,d:1.60,e:"pic/tusler.svg"}
+var fanWEB = {spi:21.16,a:0.89,d:1.60,e:"pic/webbos.svg"}
 
 function torcida(){
     var cheer40s = new Audio('cheer40s.ogg')
@@ -2126,6 +2136,54 @@ function jogar(){
         Dcasa = usaSAC.d
         escudocasa.src = usaSAC.e
     }
+    else if(PELcasa=="usaARI"){//Arizona United
+        Pcasa = usaARI.spi
+        Acasa = usaARI.a
+        Dcasa = usaARI.d
+        escudocasa.src = usaARI.e
+    }
+    else if(PELcasa=="usaIND"){//Indy Eleven
+        Pcasa = usaIND.spi
+        Acasa = usaIND.a
+        Dcasa = usaIND.d
+        escudocasa.src = usaIND.e
+    }
+    else if(PELcasa=="usaTAM"){//Tampa Bay Rowdies
+        Pcasa = usaTAM.spi
+        Acasa = usaTAM.a
+        Dcasa = usaTAM.d
+        escudocasa.src = usaTAM.e
+    }
+    else if(PELcasa=="usaMFC"){//Miami FC
+        Pcasa = usaMFC.spi
+        Acasa = usaMFC.a
+        Dcasa = usaMFC.d
+        escudocasa.src = usaMFC.e
+    }
+    else if(PELcasa=="usaSAFC"){//San Antonio FC
+        Pcasa = usaSAFC.spi
+        Acasa = usaSAFC.a
+        Dcasa = usaSAFC.d
+        escudocasa.src = usaSAFC.e
+    }
+    else if(PELcasa=="usaORA"){//Orange Country
+        Pcasa = usaORA.spi
+        Acasa = usaORA.a
+        Dcasa = usaORA.d
+        escudocasa.src = usaORA.e
+    }
+    else if(PELcasa=="usaREN"){//Reno 1868 FC
+        Pcasa = usaREN.spi
+        Acasa = usaREN.a
+        Dcasa = usaREN.d
+        escudocasa.src = usaREN.e
+    }
+    else if(PELcasa=="usaBOLD"){//Austin Bold FC
+        Pcasa = usaBOLD.spi
+        Acasa = usaBOLD.a
+        Dcasa = usaBOLD.d
+        escudocasa.src = usaBOLD.e
+    }
     else if(PELcasa=="mexAME"){//Club América
         Pcasa = mexAME.spi
         Acasa = mexAME.a
@@ -2242,6 +2300,12 @@ function jogar(){
         Dcasa = fanMON.d
         escudocasa.src = fanMON.e
     }
+    else if(PELcasa=="fanNOR"){//Norpago
+        Pcasa = fanNOR.spi
+        Acasa = fanNOR.a
+        Dcasa = fanNOR.d
+        escudocasa.src = fanNOR.e
+    }
     else if(PELcasa=="fanPHA"){//Phalguna
         Pcasa = fanPHA.spi
         Acasa = fanPHA.a
@@ -2271,6 +2335,12 @@ function jogar(){
         Acasa = fanTUS.a
         Dcasa = fanTUS.d
         escudocasa.src = fanTUS.e
+    }
+    else if(PELcasa=="fanWEB"){//Webbos
+        Pcasa = fanWEB.spi
+        Acasa = fanWEB.a
+        Dcasa = fanWEB.d
+        escudocasa.src = fanWEB.e
     }
     else{
         Pcasa = 5.29
@@ -3885,6 +3955,54 @@ function jogar(){
         Dfora = usaSAC.d
         escudofora.src = usaSAC.e
     }
+    else if(PELfora=="usaARI"){//Arizona United
+        Pfora = usaARI.spi
+        Afora = usaARI.a
+        Dfora = usaARI.d
+        escudofora.src = usaARI.e
+    }
+    else if(PELfora=="usaIND"){//Indy Eleven
+        Pfora = usaIND.spi
+        Afora = usaIND.a
+        Dfora = usaIND.d
+        escudofora.src = usaIND.e
+    }
+    else if(PELfora=="usaTAM"){//Tampa Bay Rowdies
+        Pfora = usaTAM.spi
+        Afora = usaTAM.a
+        Dfora = usaTAM.d
+        escudofora.src = usaTAM.e
+    }
+    else if(PELfora=="usaMFC"){//Miami FC
+        Pfora = usaMFC.spi
+        Afora = usaMFC.a
+        Dfora = usaMFC.d
+        escudofora.src = usaMFC.e
+    }
+    else if(PELfora=="usaSAFC"){//San Antonio FC
+        Pfora = usaSAFC.spi
+        Afora = usaSAFC.a
+        Dfora = usaSAFC.d
+        escudofora.src = usaSAFC.e
+    }
+    else if(PELfora=="usaORA"){//Orange Country
+        Pfora = usaORA.spi
+        Afora = usaORA.a
+        Dfora = usaORA.d
+        escudofora.src = usaORA.e
+    }
+    else if(PELfora=="usaREN"){//Reno 1868 FC
+        Pfora = usaREN.spi
+        Afora = usaREN.a
+        Dfora = usaREN.d
+        escudofora.src = usaREN.e
+    }
+    else if(PELfora=="usaBOLD"){//Austin Bold FC
+        Pfora = usaBOLD.spi
+        Afora = usaBOLD.a
+        Dfora = usaBOLD.d
+        escudofora.src = usaBOLD.e
+    }
     else if(PELfora=="mexAME"){//Club América
         Pfora = mexAME.spi
         Afora = mexAME.a
@@ -4001,6 +4119,12 @@ function jogar(){
         Dfora = fanMON.d
         escudofora.src = fanMON.e
     }
+    else if(PELfora=="fanNOR"){//Norpago
+        Pfora = fanNOR.spi
+        Afora = fanNOR.a
+        Dfora = fanNOR.d
+        escudofora.src = fanNOR.e
+    }
     else if(PELfora=="fanPHA"){//Phalguna
         Pfora = fanPHA.spi
         Afora = fanPHA.a
@@ -4030,6 +4154,12 @@ function jogar(){
         Afora = fanTUS.a
         Dfora = fanTUS.d
         escudofora.src = fanTUS.e
+    }
+    else if(PELfora=="fanWEB"){//Webbos
+        Pfora = fanWEB.spi
+        Afora = fanWEB.a
+        Dfora = fanWEB.d
+        escudofora.src = fanWEB.e
     }
     else{
         Pfora = 5.00
