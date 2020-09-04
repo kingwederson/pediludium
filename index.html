@@ -7,8 +7,8 @@
     <title>Pediludium, a football score match simulator</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="estilo.css?id=7" />
-    <script type="text/javascript" src="motor.js?id=18"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css?id=8" />
+    <script type="text/javascript" src="motor.js?id=19"></script>
 </head>
 <body>
     <h1><img class="logo" src="https://i.imgur.com/QsSd4qb.png"></h1>
@@ -42,7 +42,7 @@
         </tr>
         <tr>
             <td>
-                    <select id="timedacasa">
+                <select id="timedacasa">
                             <option></option>
                         <optgroup label="Brazil (24)" class="brasil">
                             <option value="braCAP">Athletico Paranaense</option>
@@ -89,9 +89,11 @@
                             <option value="argSLO">San Lorenzo</option>
                             <option value="argVEL">Vélez Sarsfield</option>
                         </optgroup>
-                        <optgroup label="Canada & USA (30)" class="eua">
+                        <optgroup label="Canada & USA (36)" class="eua">
                             <option value="usaATL">Atlanta United</option>
-                            <option value="usaAUS">Austin FC</option><!--
+                            <option value="usaARI">Arizona United</option>
+                            <option value="usaAUS">Austin FC</option>
+                            <option value="usaBOLD">Austin Bold</option><!--
                             <option value="usaCHA" disabled>Charlotte</option>-->
                             <option value="usaCHI">Chicago Fire</option>
                             <option value="usaCIN">Cincinnati</option>
@@ -100,24 +102,30 @@
                             <option value="usaDAL">Dallas</option>
                             <option value="usaDCU">DC United</option>
                             <option value="usaHOU">Houston Dynamo</option>
+                            <option value="usaIND">Indy Eleven</option>
                             <option value="usaMIA">Inter Miami</option>
                             <option value="usaLAFC">Los Angeles FC</option>
                             <option value="usaGAL">LA Galaxy</option>
+                            <option value="usaMFC">Miami FC</option>
                             <option value="usaMIN">Minnesota</option>
                             <option value="canMON">Montreal Impact</option>
                             <option value="usaNAS">Nashiville</option>
                             <option value="usaNER">New England Revolution</option>
                             <option value="usaNYC">New York City FC</option>
                             <option value="usaNYRB">New York Red Bulls</option>
+                            <option value="usaORA">Orange Country</option>
                             <option value="usaORL">Orlando City</option>
                             <option value="usaPHI">Philadelphia Union</option>
                             <option value="usaPOR">Portland Timbers</option>
                             <option value="usaRSL">Real Salt Lake</option>
+                            <option value="usaREN">Reno 1868 FC</option>
                             <option value="usaSAC">Sacramento Republic</option><!--
                             <option value="usaLOU" disabled>Saint Louis</option>-->
+                            <option value="usaSAFC">San Antonio FC</option>
                             <option value="usaSJE">San Jose Earthquakes</option>
                             <option value="usaSEA">Seattle Sounders</option>
                             <option value="usaSPO">Sporting Kansas City</option>
+                            <option value="canTAM">Tampa Bay Rowdies</option>
                             <option value="canTOR">Toronto</option>
                             <option value="canVAN">Vancouver Whitecaps</option>
                         </optgroup>
@@ -357,7 +365,7 @@
                             <option value="RSA">South Africa</option>
                             <option value="TUN">Tunisia</option>
                         </optgroup>
-                        <optgroup class="ficcao" label="Fantasy (14)">
+                        <optgroup class="ficcao" label="Fantasy (16)">
                             <option value="fanALB">Albaduz S.C.</option>
                             <option value="fanAST">Astro Soccer</option>
                             <option value="fanAUR">Aurania</option>
@@ -367,13 +375,15 @@
                             <option value="fanKEL">Kelapan F.C.</option>
                             <option value="fanLAN">Lanz F.C.</option>
                             <option value="fanMON">Monarchs</option>
+                            <option value="fanNOR">Norpago F.C.</option>
                             <option value="fanPHA">Phalguna Athletic</option>
                             <option value="fanPEG">Pegasus</option>
                             <option value="fanTAL">Talmikan</option>
                             <option value="fanTAU">Taurus Artarus</option>
                             <option value="fanTUS">Tusler</option>
+                            <option value="fanWEB">Webbos</option>
                         </optgroup>
-                    </select>
+                </select>
             </td>
             <td><span id="txtmediaA"></span></td>
             <td><span id="txtmediaB"></span></td>
@@ -425,9 +435,11 @@
                     <option value="argSLO">San Lorenzo</option>
                     <option value="argVEL">Vélez Sarsfield</option>
                 </optgroup>
-                <optgroup label="Canada & USA (30)" class="eua">
+                <optgroup label="Canada & USA (36)" class="eua">
                     <option value="usaATL">Atlanta United</option>
-                    <option value="usaAUS">Austin FC</option><!--
+                    <option value="usaARI">Arizona United</option>
+                    <option value="usaAUS">Austin FC</option>
+                    <option value="usaBOLD">Austin Bold</option><!--
                     <option value="usaCHA" disabled>Charlotte</option>-->
                     <option value="usaCHI">Chicago Fire</option>
                     <option value="usaCIN">Cincinnati</option>
@@ -436,24 +448,30 @@
                     <option value="usaDAL">Dallas</option>
                     <option value="usaDCU">DC United</option>
                     <option value="usaHOU">Houston Dynamo</option>
+                    <option value="usaIND">Indy Eleven</option>
                     <option value="usaMIA">Inter Miami</option>
                     <option value="usaLAFC">Los Angeles FC</option>
                     <option value="usaGAL">LA Galaxy</option>
+                    <option value="usaMFC">Miami FC</option>
                     <option value="usaMIN">Minnesota</option>
                     <option value="canMON">Montreal Impact</option>
                     <option value="usaNAS">Nashiville</option>
                     <option value="usaNER">New England Revolution</option>
                     <option value="usaNYC">New York City FC</option>
                     <option value="usaNYRB">New York Red Bulls</option>
+                    <option value="usaORA">Orange Country</option>
                     <option value="usaORL">Orlando City</option>
                     <option value="usaPHI">Philadelphia Union</option>
                     <option value="usaPOR">Portland Timbers</option>
                     <option value="usaRSL">Real Salt Lake</option>
+                    <option value="usaREN">Reno 1868 FC</option>
                     <option value="usaSAC">Sacramento Republic</option><!--
                     <option value="usaLOU" disabled>Saint Louis</option>-->
+                    <option value="usaSAFC">San Antonio FC</option>
                     <option value="usaSJE">San Jose Earthquakes</option>
                     <option value="usaSEA">Seattle Sounders</option>
                     <option value="usaSPO">Sporting Kansas City</option>
+                    <option value="canTAM">Tampa Bay Rowdies</option>
                     <option value="canTOR">Toronto</option>
                     <option value="canVAN">Vancouver Whitecaps</option>
                 </optgroup>
@@ -693,7 +711,7 @@
                     <option value="RSA">South Africa</option>
                     <option value="TUN">Tunisia</option>
                 </optgroup>
-                <optgroup class="ficcao" label="Fantasy (14)">
+                <optgroup class="ficcao" label="Fantasy (16)">
                     <option value="fanALB">Albaduz S.C.</option>
                     <option value="fanAST">Astro Soccer</option>
                     <option value="fanAUR">Aurania</option>
@@ -703,13 +721,15 @@
                     <option value="fanKEL">Kelapan F.C.</option>
                     <option value="fanLAN">Lanz F.C.</option>
                     <option value="fanMON">Monarchs</option>
+                    <option value="fanNOR">Norpago F.C.</option>
                     <option value="fanPHA">Phalguna Athletic</option>
                     <option value="fanPEG">Pegasus</option>
                     <option value="fanTAL">Talmikan</option>
                     <option value="fanTAU">Taurus Artarus</option>
                     <option value="fanTUS">Tusler</option>
+                    <option value="fanWEB">Webbos</option>
                 </optgroup>
-            </select>
+                </select>
         </td>
         </tr>
         <tr>
@@ -859,7 +879,7 @@
             <td rowspan=3>
                 <table class="subtabela">
                     <tr>
-                        <td>Neutro field</td>
+                        <td>Neutral field</td>
                         <td><input type="checkbox" id="camponeutro" value="1"></td>
                     </tr>
                     <tr>
@@ -892,7 +912,7 @@
         </tr>
         <tr>
             <td id="txtsumulaA" class="sumula"></td>
-            <td class="cronometro" colspan="2" id="minutoagora">'&#x1F554;'</td>
+            <td class="cronometro" colspan="2"><span id="minutoagora">'&#x1F554;</span>'</td>
             <td id="txtsumulaB" class="sumula"></td>
         </tr>
     </table>
