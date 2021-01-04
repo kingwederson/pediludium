@@ -72,32 +72,32 @@ var WAL = {spi:68.79,a:1.78,d:0.74,e:desco}
 //FICHEIRO DOS CLUBES
 //Brasil
 var braAAPP = {spi:35.62,a:1.02,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/7/7e/Escudo_Oficial_Ponte_Preta.png"}
-var braAGO = {spi:40.44,a:1.1,d:1.31,e:"https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"}
+var braAGO = {spi:46.50,a:1.20,d:1.10,e:"https://upload.wikimedia.org/wikipedia/pt/f/f3/AtleticoGO2017.png"}
 var braAMG = {spi:35.62,a:1.02,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/a/ac/Escudo_do_America_Futebol_Clube.svg"}
 var braAVA = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/commons/f/fe/Avai_FC_%2805-E%29_-_SC.svg"}
-var braBAH = {spi:46.62,a:1.28,d:1.23,e:"https://seeklogo.com/images/E/Esporte_Clube_Bahia_de_Salvador-BA-logo-B92D7D1BEA-seeklogo.com.png"}
-var braBOT = {spi:40.9,a:1.07,d:1.25,e:"https://logodetimes.com/times/botafogo/logo-botafogo-256.png"}
-var braCAM = {spi:53.64,a:1.43,d:1.09,e:"https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"}
-var braCAP = {spi:54.09,a:1.28,d:0.92,e:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"}
-var braCEA = {spi:47.1,a:1.2,d:1.13,e:"https://logodetimes.com/times/ceara/logo-ceara-256.png"}
+var braBAH = {spi:45.50,a:1.30,d:1.30,e:"https://seeklogo.com/images/E/Esporte_Clube_Bahia_de_Salvador-BA-logo-B92D7D1BEA-seeklogo.com.png"}
+var braBOT = {spi:42.50,a:1.20,d:1.30,e:"https://logodetimes.com/times/botafogo/logo-botafogo-256.png"}
+var braCAM = {spi:59.40,a:1.60,d:1.00,e:"https://logodetimes.com/times/atletico-mineiro/logo-atletico-mineiro-256.png"}
+var braCAP = {spi:50.10,a:1.20,d:1.00,e:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/CA_Paranaense.svg/240px-CA_Paranaense.svg.png"}
+var braCEA = {spi:52.20,a:1.40,d:1.10,e:"https://logodetimes.com/times/ceara/logo-ceara-256.png"}
 var braCHA = {spi:40.75,a:1.05,d:1.23,e:"https://upload.wikimedia.org/wikipedia/commons/6/61/S%C3%ADmbolo_Chapecoense_sem_estrelas.svg"}
-var braCOR = {spi:53.83,a:1.4,d:1.06,e:"https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"}
+var braCOR = {spi:50.40,a:1.20,d:1.00,e:"https://s.glbimg.com/es/sde/f/equipes/2018/03/10/corinthians.svg"}
 var braCRU = {spi:51.58,a:1.22,d:0.96,e:"https://cdn.worldvectorlogo.com/logos/cruzeiro.svg"}
 var braCSA = {spi:35.62,a:1.02,d:1.43,e:"https://upload.wikimedia.org/wikipedia/commons/6/64/CSA_logo.png"}
 var braCTB = {spi:40.01,a:1.07,d:1.29,e:"https://upload.wikimedia.org/wikipedia/commons/3/38/Coritiba_FBC_%282011%29_-_PR.svg"}
-var braFLA = {spi:70.67,a:2.01,d:0.88,e:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"}
-var braFLU = {spi:51.03,a:1.28,d:1.05,e:"https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"}
-var braFOR = {spi:46.85,a:1.18,d:1.12,e:"https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"}
-var braGOI = {spi:41.28,a:1.23,d:1.42,e:"https://upload.wikimedia.org/wikipedia/commons/7/7f/Goias_Esporte_Clube_logo.svg"}
-var braGRE = {spi:66.13,a:1.71,d:0.84,e:"https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"}
-var braINT = {spi:60.27,a:1.46,d:0.86,e:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"}
-var braPAL = {spi:66.34,a:1.62,d:0.76,e:"https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"}
+var braFLA = {spi:70.60,a:2.10,d:0.90,e:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Flamengo_braz_logo.svg"}
+var braFLU = {spi:51.80,a:1.30,d:1.00,e:"https://upload.wikimedia.org/wikipedia/de/1/12/Fluminense_Football_Club.svg"}
+var braFOR = {spi:47.40,a:1.10,d:1.00,e:"https://upload.wikimedia.org/wikipedia/commons/3/3d/Fortaleza_Esporte_Clube_logo.svg"}
+var braGOI = {spi:40.00,a:1.10,d:1.40,e:"https://upload.wikimedia.org/wikipedia/commons/7/7f/Goias_Esporte_Clube_logo.svg"}
+var braGRE = {spi:64.00,a:1.60,d:0.80,e:"https://upload.wikimedia.org/wikipedia/en/f/f1/Gremio.svg"}
+var braINT = {spi:60.40,a:1.50,d:0.80,e:"https://upload.wikimedia.org/wikipedia/commons/f/f1/Escudo_do_Sport_Club_Internacional.svg"}
+var braPAL = {spi:60.60,a:1.50,d:0.90,e:"https://upload.wikimedia.org/wikipedia/commons/1/10/Palmeiras_logo.svg"}
 var braPAR = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/0/07/Parana_Clube.png"}
-var braRBB = {spi:44.8,a:1.26,d:1.29,e:"https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"}
-var braSAN = {spi:56.81,a:1.46,d:0.99,e:"https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"}
-var braSPFC = {spi:58.3,a:1.39,d:0.87,e:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"}
-var braSPO = {spi:41.45,a:1.16,d:1.33,e:"https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"}
-var braVAS = {spi:51.52,a:1.31,d:1.06,e:"https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"}
+var braRBB = {spi:54.80,a:1.40,d:1.00,e:"https://upload.wikimedia.org/wikipedia/pt/9/94/Red_Bull_Brasil.png"}
+var braSAN = {spi:51.80,a:1.30,d:1.10,e:"https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"}
+var braSPFC = {spi:65.90,a:1.60,d:0.80,e:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"}
+var braSPO = {spi:40.10,a:1.10,d:1.30,e:"https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"}
+var braVAS = {spi:40.70,a:1.10,d:1.30,e:"https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"}
 var braVIT = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"}
 
 //Inglaterra e Gales
@@ -174,18 +174,18 @@ var usaATL = {spi:46.35,a:1.41,d:1.38,e:"https://upload.wikimedia.org/wikipedia/
 var usaARI = {spi:41.22,a:1.47,d:1.7,e:desco}
 var usaAUS = {spi:22.94,a:0.85,d:1.93,e:"https://upload.wikimedia.org/wikipedia/en/8/85/Austin_FC_logo.svg"}
 var usaBOLD = {spi:22.94,a:0.85,d:1.93,e:desco}
-var usaCHA = {spi:20.00,a:0.85,d:2.00,e:desco}
+var usaCHA = {spi:20.00,a:0.85,d:2.00,e:"https://charlottefootballclub.com/wp-content/uploads/2020/03/logo-charlotte-football-club-small.png"}
 var usaCHI = {spi:42.14,a:1.42,d:1.6,e:"https://upload.wikimedia.org/wikipedia/pt/9/96/Chicago_Fire_SC.png"}
 var usaCIN = {spi:23.81,a:0.92,d:1.99,e:"https://upload.wikimedia.org/wikipedia/pt/0/08/FC_Cincinnati.png"}
 var usaCOL ={spi:37.32,a:1.34,d:1.75,e:"https://upload.wikimedia.org/wikipedia/pt/1/11/Colorado_Rapids.png"}
-var usaCREW = {spi:38.75,a:1.14,d:1.43,e:"https://upload.wikimedia.org/wikipedia/pt/b/b1/Columbus_Crew_SC.png"}
+var usaCREW = {spi:38.75,a:1.14,d:1.43,e:"https://columbus-mp7static.mlsdigital.net/styles/non-retina_desktop_logo/s3/clb-logo-300.png?xQ3I4a2OwZPtugDoHeHNfTU7cyTox.gm&itok=Wr9usdFW"}
 var usaDAL = {spi:40.7,a:1.36,d:1.6,e:"https://upload.wikimedia.org/wikipedia/pt/c/cb/FC_Dallas.png"}
 var usaDCU = {spi:33.65,a:1.11,d:1.66,e:"https://upload.wikimedia.org/wikipedia/pt/8/8a/DC_United_First_Logo.png"}
 var usaGAL = {spi:42.1,a:1.69,d:1.9,e:"https://upload.wikimedia.org/wikipedia/fr/b/b1/Logo_Los_Angeles_Galaxy.svg"}
-var usaHOU = {spi:33.25,a:1.16,d:1.74,e:"https://upload.wikimedia.org/wikipedia/en/0/0c/Houston_Dynamo_logo.svg"}
+var usaHOU = {spi:33.25,a:1.16,d:1.74,e:"https://houston-mp7static.mlsdigital.net/styles/non-retina_desktop_logo/s3/theme/logo-large.png"}
 var usaIND = {spi:27.92,a:0.95,d:1.76,e:desco}
 var usaLAFC = {spi:57.05,a:1.98,d:1.46,e:"https://upload.wikimedia.org/wikipedia/it/8/89/Los_Angeles_Football_Club_logo.svg"}
-var usaLOU = {spi:26.54,a:0.96,d:1.87,desco}
+var usaLOU = {spi:26.54,a:0.96,d:1.87,e:"https://www.stlcitysc.com/wp-content/uploads/2020/06/LOGO_production-42020.png"}
 var usaMFC = {spi:27.69,a:1.06,d:1.93,e:desco}
 var usaMIA = {spi:44.25,a:1.35,d:1.42,e:"https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"}
 var usaMIN = {spi:41.98,a:1.4,d:1.58,e:"https://upload.wikimedia.org/wikipedia/pt/7/74/Minnesota.png"}
@@ -402,7 +402,7 @@ var fanNOR = {spi:21.16,a:1.50,d:1.50,e:"pic/norpago.svg"}
 var fanPHA = {spi:28.30,a:1.50,d:0.99,e:"pic/phalguna.svg"}
 var fanPEG = {spi:30.91,a:1.48,d:1.01,e:"pic/pegasus.svg"}
 var fanTAL = {spi:28.30,a:1.96,d:1.53,e:"pic/talmikan.svg"}
-var fanTAU = {spi:27.98,a:1.36,d:1.13,e:"pic/taurus.svg"}
+var fanTAU = {spi:27.98,a:1.36,d:1.13,e:"pic/artaniaredbull.svg"}
 var fanTUS = {spi:32.04,a:0.89,d:1.60,e:"pic/tusler.svg"}
 var fanWEB = {spi:21.16,a:0.89,d:1.60,e:"pic/webbos.svg"}
 
@@ -2067,7 +2067,7 @@ function jogar(){
     else if(PELcasa=="usaDAL"){//FC Dallas
         Pcasa = usaDAL.spi
         Acasa = usaDAL.a
-        Dcasa = usaDALd
+        Dcasa = usaDAL.d
         escudocasa.src = usaDAL.e
     }
     else if(PELcasa=="usaCREW"){//Columbus Crew
@@ -2130,6 +2130,12 @@ function jogar(){
         Dcasa = usaCIN.d
         escudocasa.src = usaCIN.e
     }
+    else if(PELcasa=="usaCHA"){//Chalotte
+        Pcasa = usaCHA.spi
+        Acasa = usaCHA.a
+        Dcasa = usaCHA.d
+        escudocasa.src = usaCHA.e
+    }
     else if(PELcasa=="usaSAC"){//Sacramento Republic FC
         Pcasa = usaSAC.spi
         Acasa = usaSAC.a
@@ -2184,6 +2190,12 @@ function jogar(){
         Dcasa = usaBOLD.d
         escudocasa.src = usaBOLD.e
     }
+    else if(PELcasa=="usaLOU"){//Saint Louis City
+        Pcasa = usaLOU.spi
+        Acasa = usaLOU.a
+        Dcasa = usaLOU.d
+        escudocasa.src = usaLOU.e
+    }
     else if(PELcasa=="mexAME"){//Club América
         Pcasa = mexAME.spi
         Acasa = mexAME.a
@@ -2226,11 +2238,23 @@ function jogar(){
         Dcasa = nedAJA.d
         escudocasa.src = nedAJA.e
     }
+    else if(PELcasa=="nedAZA"){//AZ
+        Pcasa = nedAZA.spi
+        Acasa = nedAZA.a
+        Dcasa = nedAZA.d
+        escudocasa.src = nedAZA.e
+    }
     else if(PELcasa=="nedPSV"){//PSV
         Pcasa = nedPSV.spi
         Acasa = nedPSV.a
         Dcasa = nedPSV.d
         escudocasa.src = nedPSV.e
+    }
+    else if(PELcasa=="belAND"){//Anderlecht
+        Pcasa = belAND.spi
+        Acasa = belAND.a
+        Dcasa = belAND.d
+        escudocasa.src = belAND.e
     }
     else if(PELcasa=="autRBS"){//Red Bull Salzburg
         Pcasa = autRBS.spi
@@ -2244,6 +2268,12 @@ function jogar(){
         Dcasa = rusZEN.d
         escudocasa.src = rusZEN.e
         //molduradefora.style.backgroundColor = "#00000000"
+    }
+    else if(PELcasa=="rusCSKA"){//CSKA
+        Pcasa = rusCSKA.spi
+        Acasa = rusCSKA.a
+        Dcasa = rusCSKA.d
+        escudocasa.src = rusCSKA.e
     }
     //FANTASIA
     else if(PELcasa=="fanALB"){//Albaduz
@@ -3886,7 +3916,7 @@ function jogar(){
     else if(PELfora=="usaDAL"){//FC Dallas
         Pfora = usaDAL.spi
         Afora = usaDAL.a
-        Dfora = usaDALd
+        Dfora = usaDAL.d
         escudofora.src = usaDAL.e
     }
     else if(PELfora=="usaCREW"){//Columbus Crew
@@ -3949,6 +3979,12 @@ function jogar(){
         Dfora = usaCIN.d
         escudofora.src = usaCIN.e
     }
+    else if(PELfora=="usaCHA"){//Chalotte
+        Pfora = usaCHA.spi
+        Afora = usaCHA.a
+        Dfora = usaCHA.d
+        escudofora.src = usaCHA.e
+    }
     else if(PELfora=="usaSAC"){//Sacramento Republic FC
         Pfora = usaSAC.spi
         Afora = usaSAC.a
@@ -4003,6 +4039,12 @@ function jogar(){
         Dfora = usaBOLD.d
         escudofora.src = usaBOLD.e
     }
+    else if(PELfora=="usaLOU"){//Saint Louis City
+        Pfora = usaLOU.spi
+        Afora = usaLOU.a
+        Dfora = usaLOU.d
+        escudofora.src = usaLOU.e
+    }
     else if(PELfora=="mexAME"){//Club América
         Pfora = mexAME.spi
         Afora = mexAME.a
@@ -4045,11 +4087,23 @@ function jogar(){
         Dfora = nedAJA.d
         escudofora.src = nedAJA.e
     }
+    else if(PELfora=="nedAZA"){//Ajax
+        Pfora = nedAZA.spi
+        Afora = nedAZA.a
+        Dfora = nedAZA.d
+        escudofora.src = nedAZA.e
+    }
     else if(PELfora=="nedPSV"){//PSV
         Pfora = nedPSV.spi
         Afora = nedPSV.a
         Dfora = nedPSV.d
         escudofora.src = nedPSV.e
+    }
+    else if(PELfora=="belAND"){//Anderlecht
+        Pfora = belAND.spi
+        Afora = belAND.a
+        Dfora = belAND.d
+        escudofora.src = belAND.e
     }
     else if(PELfora=="autRBS"){//Red Bull Salzburg
         Pfora = autRBS.spi
@@ -4063,6 +4117,12 @@ function jogar(){
         Dfora = rusZEN.d
         escudofora.src = rusZEN.e
         //molduradefora.style.backgroundColor = "#00000000"
+    }
+    else if(PELfora=="rusCSKA"){//CSKA
+        Pfora = rusCSKA.spi
+        Afora = rusCSKA.a
+        Dfora = rusCSKA.d
+        escudofora.src = rusCSKA.e
     }
     //FANTASIA
     else if(PELfora=="fanALB"){//Albaduz
@@ -4214,7 +4274,7 @@ function jogar(){
         if(tempodejogo<90+acrescimo+prorrogacao){
             tempodejogo += 1
             if(golAagora>0){
-                alertagol()
+                //alertagol()
                 golatualA = golatualA+1
                 placar1.innerText=golatualA
                 sumulaA = sumulaA+`${tempodejogo}&apos; `
@@ -4223,7 +4283,7 @@ function jogar(){
                 placar1.innerText=golatualA
             }
             if(golBagora>0){
-                alertagol()
+                //alertagol()
                 golatualB = golatualB+1
                 placar2.innerText=golatualB
                 sumulaB = sumulaB+`${tempodejogo}&apos; `
@@ -4234,7 +4294,7 @@ function jogar(){
         }else{
             minutoagora.innerText = "'FIM"
             clearInterval(rolaabola)
-            cornetar()
+            //cornetar()
         }
     },chaveinter)
     rolaabola

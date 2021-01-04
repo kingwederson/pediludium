@@ -237,4 +237,5 @@ select{
 .ficcao{
     background-color: white;
     color:black;
+    display: none;
 }
