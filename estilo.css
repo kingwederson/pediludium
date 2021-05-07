@@ -3,6 +3,7 @@ body{
     color: white;
     background-color: darkblue;
     background-image: url("https://images.pexels.com/photos/270085/pexels-photo-270085.jpeg");
+    background-blend-mode: darken;
     height: 100%;
     text-align: center;
     margin: none;
