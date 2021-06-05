@@ -2,7 +2,7 @@
 body{
     /*background-image: url(pic/futebol-1gal.png);*/
     color: white;
-    background-color: darkblue;
+    background-color: rgb(0, 248, 0);
     background-image: url("https://images.pexels.com/photos/270085/pexels-photo-270085.jpeg");
     background-blend-mode: darken;
     height: 100%;
@@ -222,7 +222,7 @@ select{
 }
 /* alça */
 ::-webkit-scrollbar-thumb {
-    background: darkblue; 
+    background: darkgreen; 
     border-radius: 10px;
 }
 
