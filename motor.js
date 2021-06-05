@@ -97,7 +97,7 @@ var braRBB = {spi:54.80,a:1.40,d:1.00,e:"https://upload.wikimedia.org/wikipedia/
 var braSAN = {spi:51.80,a:1.30,d:1.10,e:"https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"}
 var braSPFC = {spi:65.90,a:1.60,d:0.80,e:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"}
 var braSPO = {spi:40.10,a:1.10,d:1.30,e:"https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"}
-var braVAS = {spi:40.70,a:1.10,d:1.30,e:"https://upload.wikimedia.org/wikipedia/en/1/1a/ClubDeRegatasVascoDaGama.svg"}
+var braVAS = {spi:40.70,a:1.10,d:1.30,e:"https://cdn.worldvectorlogo.com/logos/vasco-da-gama.svg"}
 var braVIT = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"}
 
 //Inglaterra e Gales
