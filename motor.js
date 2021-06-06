@@ -5,6 +5,7 @@ var AUS = {spi:67.34,a:1.92,d:0.90,e:"https://upload.wikimedia.org/wikipedia/pt/
 var AUT = {spi:73.34,a:2.02,d:0.72,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/aut"}
 var ALG = {spi:71.02,a:1.94,d:0.76,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/alg"}
 var BEL = {spi:88.29,a:3.05,d:0.59,e:"https://upload.wikimedia.org/wikipedia/en/f/f9/Royal_Belgian_FA_logo_2019.svg"}
+var BLZ = {spi:17.54,a:0.72,d:2.17,e:"https://upload.wikimedia.org/wikipedia/en/f/f0/Belize_FA_2.svg"}
 var BIH = {spi:68.70,a:2.00,d:0.91,e:"https://upload.wikimedia.org/wikipedia/pt/5/5a/Logo_of_the_Football_Association_of_Bosnia_and_Herzegovina_%282013-present%29.png"}
 var BOL = {spi:53.10,a:1.54,d:1.19,e:"https://tmssl.akamaized.net/images/wappen/normquad/5233.png"}
 var BRA = {spi:90.29,a:2.88,d:0.37,e:"https://upload.wikimedia.org/wikipedia/commons/2/26/Escudo_CBF.png"}
@@ -15,6 +16,8 @@ var CMR = {spi:58.85,a:1.46,d:0.86,e:"https://upload.wikimedia.org/wikipedia/pt/
 var COL = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/en/6/61/Federacion_Colombiana_de_Futbol_logo.svg"}
 var CRC = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/pt/f/f5/Costa_Rica_football_association.png"}
 var CRO = {spi:80.05,a:2.51,d:0.74,e:"https://upload.wikimedia.org/wikipedia/en/3/39/Croatia_national_football_team_crest.svg"}
+var CUB = {spi:29.22,a:0.82,d:1.50,e:"https://upload.wikimedia.org/wikipedia/en/1/1b/Football_Association_of_Cuba.svg"}
+var CUW = {spi:43.59,a:1.23,d:1.30,e:"https://upload.wikimedia.org/wikipedia/en/1/1c/Curacao_Football_Federation.svg"}
 var CZE = {spi:69.13,a:1.98,d:0.88,e:"https://upload.wikimedia.org/wikipedia/en/e/e1/Football_Association_of_the_Czech_Republic_logo.svg"}
 var DEN = {spi:75.63,a:2.08,d:0.66,e:"https://upload.wikimedia.org/wikipedia/en/4/4f/Dansk_Boldspil-Union_logo.svg"}
 var ECU = {spi:67.79,a:1.81,d:0.80,e:"https://tmssl.akamaized.net/images/wappen/normquad/5750.png"}
@@ -24,6 +27,8 @@ var FRA = {spi:85.13,a:2.65,d:0.56,e:"https://upload.wikimedia.org/wikipedia/pt/
 var GER = {spi:89.43,a:3.24,d:0.61,e:"https://upload.wikimedia.org/wikipedia/de/a/a9/Deutscher_Fu%C3%9Fball-Bund_logo.svg"}
 var GHA = {spi:68.24,a:1.53,d:0.57,e:"https://upload.wikimedia.org/wikipedia/pt/6/67/Ghana_Football_Association.png"}
 var GRC = {spi:61.67,a:1.51,d:0.80,e:desco}//Grécia
+var GUA = {spi:57.08,a:1.56,d:1.04,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/gua"}
+var GUY = {spi:28.38,a:1.20,d:2.09,e:"https://upload.wikimedia.org/wikipedia/de/c/c0/Guyana_FA.svg"}
 var FIN = {spi:58.08,a:1.55,d:0.98,e:desco}
 var HAI = {spi:50.56,a:1.47,d:1.23,e:"https://upload.wikimedia.org/wikipedia/fr/1/1f/Haitifootballlogo.png"}
 var HON = {spi:55.12,a:1.60,d:1.16,e:desco}
@@ -38,14 +43,15 @@ var JPN = {spi:70.23,a:1.94,d:0.80,e:"https://upload.wikimedia.org/wikipedia/en/
 var KOR = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"}
 var MLI = {spi:65.33,a:1.57,d:0.71,e:desco}//Mali
 var MAR = {spi:69.08,a:1.68,d:0.65,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/mar"}
-var MEX = {spi:76.36,a:2.24,d:0.74,e:"https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"}
+var MEX = {spi:77.30,a:2.18,d:0.66,e:"https://upload.wikimedia.org/wikipedia/pt/5/51/Mexico_national_football_team_seal.svg.png"}
 var NED = {spi:86.24,a:2.76,d:0.56,e:"https://upload.wikimedia.org/wikipedia/en/7/78/Netherlands_national_football_team_logo.svg"}
 var NIR = {spi:58.76,a:1.46,d:0.87,e:"https://upload.wikimedia.org/wikipedia/en/2/25/Irish_Football_Association_logo.svg"}
-var NGA = {spi:63.23,a:1.87,d:1.05,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"}//Nigéria
+var NGR = {spi:63.23,a:1.87,d:1.05,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ngr"}//Nigéria
+var NCA = {spi:26.76,a:0.92,d:1.80,e:"https://upload.wikimedia.org/wikipedia/en/7/77/Nicaragua_FA_logo.svg"}//Nicarágua
 var NOR = {spi:70.35,a:1.94,d:0.79,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/nor"}
 var NZL = {spi:44.18,a:1.26,d:1.30,e:"https://upload.wikimedia.org/wikipedia/en/6/6b/New_Zealand_Football.svg"}
 var PAR = {spi:68.07,a:1.75,d:0.75,e:"https://tmssl.akamaized.net/images/wappen/normquad/3581.png"}
-var PAN = {spi:49.55,a:1.29,d:1.09,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/pan"}
+var PAN = {spi:49.55,a:1.29,d:1.09,e:"https://upload.wikimedia.org/wikipedia/pt/a/aa/Panama_FA_2.svg.png"}
 var PER = {spi:71.90,a:1.97,d:0.68,e:"https://upload.wikimedia.org/wikipedia/en/3/36/Fpf-logo.svg"}
 var POL = {spi:70.98,a:1.94,d:0.76,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/pol"}
 var POR = {spi:82.75,a:2.42,d:0.55,e:"https://upload.wikimedia.org/wikipedia/pt/7/75/Portugal_FPF.png"}
@@ -56,8 +62,9 @@ var SAU = {spi:53.09,a:1.57,d:1.22,e:"https://api.fifa.com/api/v1/picture/flags-
 var SCO = {spi:58.33,a:1.60,d:1.02,e:desco}
 var SER = {spi:71.24,a:2.14,d:0.90,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/srb"}
 var SEN = {spi:69.73,a:1.67,d:0.62,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/sen"}
-var SLV = {spi:65.67,a:1.89,d:0.96,e:desco}
+var SLV = {spi:46.05,a:1.01,d:0.94,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/slv"}
 var SPA = {spi:91.92,a:3.53,d:0.56,e:"https://upload.wikimedia.org/wikipedia/pt/3/31/Spain_National_Football_Team_badge.png"}
+var SUR = {spi:34.39,a:1.12,d:1.63,e:"https://upload.wikimedia.org/wikipedia/en/6/6c/Surinamese_Football_Association_logo.png"}
 var SWE = {spi:74.83,a:2.06,d:0.69,e:"https://upload.wikimedia.org/wikipedia/en/8/8d/Swedish_Football_Association_crest.svg"}
 var SWI = {spi:79.98,a:2.44,d:0.70,e:"https://upload.wikimedia.org/wikipedia/en/5/53/SFV_Logo.svg"}
 var TUN = {spi:62.67,a:1.57,d:0.81,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/tun"}
@@ -65,7 +72,7 @@ var TUR = {spi:67.73,a:1.80,d:0.90,e:"https://api.fifa.com/api/v1/picture/flags-
 var UKR = {spi:72.61,a:1.93,d:0.69,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"}
 var URU = {spi:83.16,a:2.37,d:0.50,e:"https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"}
 var UZB = {spi:55.65,a:1.52,d:1.06,e:desco}
-var USA = {spi:69.54,a:1.84,d:0.75,e:"https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"}
+var USA = {spi:76.70,a:2.21,d:0.71,e:"https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"}
 var VEN = {spi:70.17,a:1.90,d:0.77,e:"https://tmssl.akamaized.net/images/wappen/normquad/3504.png"}
 var WAL = {spi:68.79,a:1.78,d:0.74,e:desco}
 
@@ -97,7 +104,7 @@ var braRBB = {spi:54.80,a:1.40,d:1.00,e:"https://upload.wikimedia.org/wikipedia/
 var braSAN = {spi:51.80,a:1.30,d:1.10,e:"https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"}
 var braSPFC = {spi:65.90,a:1.60,d:0.80,e:"https://upload.wikimedia.org/wikipedia/commons/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg"}
 var braSPO = {spi:40.10,a:1.10,d:1.30,e:"https://upload.wikimedia.org/wikipedia/pt/1/17/Sport_Club_do_Recife.png"}
-var braVAS = {spi:40.70,a:1.10,d:1.30,e:"https://cdn.worldvectorlogo.com/logos/vasco-da-gama.svg"}
+var braVAS = {spi:40.70,a:1.10,d:1.30,e:"https://upload.wikimedia.org/wikipedia/ru/3/31/Vasco_Da_Gama.svg"}
 var braVIT = {spi:32.34,a:0.9,d:1.45,e:"https://upload.wikimedia.org/wikipedia/pt/3/34/Esporte_Clube_Vit%C3%B3ria_logo.png"}
 
 //Inglaterra e Gales
@@ -586,6 +593,12 @@ function jogar(){
         Dcasa = BRA.d
         escudocasa.src = BRA.e
     }
+    else if(PELcasa=="BLZ"){//Belize
+        Pcasa = BLZ.spi
+        Acasa = BLZ.a
+        Dcasa = BLZ.d
+        escudocasa.src = BLZ.e
+    }
     else if(PELcasa=="CAN"){//Canadá
         Pcasa = CAN.spi
         Acasa = CAN.a
@@ -628,6 +641,18 @@ function jogar(){
         Dcasa = CRO.d
         escudocasa.src = CRO.e
     }
+    else if(PELcasa=="CUB"){//Cuba
+        Pcasa = CUB.spi
+        Acasa = CUB.a
+        Dcasa = CUB.d
+        escudocasa.src = CUB.e
+    }
+    else if(PELcasa=="CUW"){//Curaçao
+        Pcasa = CUW.spi
+        Acasa = CUW.a
+        Dcasa = CUW.d
+        escudocasa.src = CUW.e
+    }
     else if(PELcasa=="CZE"){//Tchéquia
         Pcasa = CZE.spi
         Acasa = CZE.a
@@ -639,6 +664,12 @@ function jogar(){
         Acasa = DEN.a
         Dcasa = DEN.d
         escudocasa.src = DEN.e
+    }
+    else if(PELcasa=="SLV"){//El Salvador
+        Pcasa = SLV.spi
+        Acasa = SLV.a
+        Dcasa = SLV.d
+        escudocasa.src = SLV.e
     }
     else if(PELcasa=="ECU"){//Equador
         Pcasa = ECU.spi
@@ -687,6 +718,18 @@ function jogar(){
         Acasa = GRC.a
         Dcasa = GRC.d
         escudocasa.src = GRC.e
+    }
+    else if(PELcasa=="GUA"){//Guatemala
+        Pcasa = GUA.spi
+        Acasa = GUA.a
+        Dcasa = GUA.d
+        escudocasa.src = GUA.e
+    }
+    else if(PELcasa=="GUY"){//Guyana
+        Pcasa = GUY.spi
+        Acasa = GUY.a
+        Dcasa = GUY.d
+        escudocasa.src = GUY.e
     }
     else if(PELcasa=="HAI"){//Haiti
         Pcasa = HAI.spi
@@ -778,11 +821,17 @@ function jogar(){
         Dcasa = NIR.d
         escudocasa.src = NIR.e
     }
-    else if(PELcasa=="NGA"){//Nigéria
-        Pcasa = NGA.spi
-        Acasa = NGA.a
-        Dcasa = NGA.d
-        escudocasa.src = NGA.e
+    else if(PELcasa=="NGR"){//Nigéria
+        Pcasa = NGR.spi
+        Acasa = NGR.a
+        Dcasa = NGR.d
+        escudocasa.src = NGR.e
+    }
+    else if(PELcasa=="NCA"){//Nicarágua
+        Pcasa = NCA.spi
+        Acasa = NCA.a
+        Dcasa = NCA.d
+        escudocasa.src = NCA.e
     }
     else if(PELcasa=="NOR"){//Noruega
         Pcasa = NOR.spi
@@ -886,6 +935,12 @@ function jogar(){
         Acasa = SPA.a
         Dcasa = SPA.d
         escudocasa.src = SPA.e
+    }
+    else if(PELcasa=="SUR"){//Suriname
+        Pcasa = SUR.spi
+        Acasa = SUR.a
+        Dcasa = SUR.d
+        escudocasa.src = SUR.e
     }
     else if(PELcasa=="SWI"){//Suiça
         Pcasa = 77.1
@@ -2429,6 +2484,12 @@ function jogar(){
         Dfora = BRA.d
         escudofora.src = BRA.e
     }
+    else if(PELfora=="BLZ"){//Belize
+        Pfora = BLZ.spi
+        Afora = BLZ.a
+        Dfora = BLZ.d
+        escudofora.src = BLZ.e
+    }
     else if(PELfora=="CAN"){//Canadá
         Pfora = CAN.spi
         Afora = CAN.a
@@ -2471,6 +2532,18 @@ function jogar(){
         Dfora = CRO.d
         escudofora.src = CRO.e
     }
+    else if(PELfora=="CUB"){//Cuba
+        Pfora = CUB.spi
+        Afora = CUB.a
+        Dfora = CUB.d
+        escudofora.src = CUB.e
+    }
+    else if(PELfora=="CUW"){//Curaçao
+        Pfora = CUW.spi
+        Afora = CUW.a
+        Dfora = CUW.d
+        escudofora.src = CUW.e
+    }
     else if(PELfora=="CZE"){//Tchéquia
         Pfora = CZE.spi
         Afora = CZE.a
@@ -2482,6 +2555,12 @@ function jogar(){
         Afora = DEN.a
         Dfora = DEN.d
         escudofora.src = DEN.e
+    }
+    else if(PELfora=="SLV"){//El Salvador
+        Pfora = SLV.spi
+        Afora = SLV.a
+        Dfora = SLV.d
+        escudofora.src = SLV.e
     }
     else if(PELfora=="ECU"){//Equador
         Pfora = ECU.spi
@@ -2530,6 +2609,18 @@ function jogar(){
         Afora = GRC.a
         Dfora = GRC.d
         escudofora.src = GRC.e
+    }
+    else if(PELfora=="GUA"){//Guatemala
+        Pfora = GUA.spi
+        Afora = GUA.a
+        Dfora = GUA.d
+        escudofora.src = GUA.e
+    }
+    else if(PELfora=="GUY"){//Guyana
+        Pfora = GUY.spi
+        Afora = GUY.a
+        Dfora = GUY.d
+        escudofora.src = GUY.e
     }
     else if(PELfora=="HAI"){//Haiti
         Pfora = HAI.spi
@@ -2621,11 +2712,17 @@ function jogar(){
         Dfora = NIR.d
         escudofora.src = NIR.e
     }
-    else if(PELfora=="NGA"){//Nigéria
-        Pfora = NGA.spi
-        Afora = NGA.a
-        Dfora = NGA.d
-        escudofora.src = NGA.e
+    else if(PELfora=="NGR"){//Nigéria
+        Pfora = NGR.spi
+        Afora = NGR.a
+        Dfora = NGR.d
+        escudofora.src = NGR.e
+    }
+    else if(PELfora=="NCA"){//Nicarágua
+        Pfora = NCA.spi
+        Afora = NCA.a
+        Dfora = NCA.d
+        escudofora.src = NCA.e
     }
     else if(PELfora=="NOR"){//Noruega
         Pfora = NOR.spi
@@ -2729,6 +2826,12 @@ function jogar(){
         Afora = SPA.a
         Dfora = SPA.d
         escudofora.src = SPA.e
+    }
+    else if(PELfora=="SUR"){//Suriname
+        Pfora = SUR.spi
+        Afora = SUR.a
+        Dfora = SUR.d
+        escudofora.src = SUR.e
     }
     else if(PELfora=="SWI"){//Suiça
         Pfora = 77.1
