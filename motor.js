@@ -37,7 +37,7 @@ var IRE = {spi:58.14,a:1.39,d:0.83,e:desco}
 var IRQ = {spi:59.17,a:1.46,d:0.86,e:desco}
 var ISL = {spi:60.83,a:1.69,d:1.00,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/isl"}
 var ISR = {spi:55.16,a:1.67,d:1.23,e:"https://upload.wikimedia.org/wikipedia/en/8/85/Israel_football_association.svg"}
-var ITA = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/commons/3/33/FIGC_Logo_2017.svg"}
+var ITA = {spi:83.26,a:2.21,d:0.40,e:"https://upload.wikimedia.org/wikipedia/commons/e/e2/Federazione_Italiana_Giuoco_Calcio%2C_Logo_2017%2C_4_stars.svg"}
 var JAM = {spi:47.08,a:1.31,d:1.22,e:"https://upload.wikimedia.org/wikipedia/en/c/cf/Jamaica_Football_Federation.svg"}
 var JPN = {spi:70.23,a:1.94,d:0.80,e:"https://upload.wikimedia.org/wikipedia/en/8/84/Japan_national_football_team_crest.svg"}
 var KOR = {spi:61.93,a:1.62,d:0.89,e:"https://upload.wikimedia.org/wikipedia/en/4/4d/Emblem_of_Korea_Football_Association.svg"}
@@ -68,13 +68,13 @@ var SUR = {spi:34.39,a:1.12,d:1.63,e:"https://upload.wikimedia.org/wikipedia/en/
 var SWE = {spi:74.83,a:2.06,d:0.69,e:"https://upload.wikimedia.org/wikipedia/en/8/8d/Swedish_Football_Association_crest.svg"}
 var SWI = {spi:79.98,a:2.44,d:0.70,e:"https://upload.wikimedia.org/wikipedia/en/5/53/SFV_Logo.svg"}
 var TUN = {spi:62.67,a:1.57,d:0.81,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/tun"}
-var TUR = {spi:67.73,a:1.80,d:0.90,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/tur"}
+var TUR = {spi:67.73,a:1.80,d:0.90,e:"https://upload.wikimedia.org/wikipedia/en/7/70/Turkish_Football_Federation_crest.svg"}
 var UKR = {spi:72.61,a:1.93,d:0.69,e:"https://api.fifa.com/api/v1/picture/flags-sq-4/ukr"}
 var URU = {spi:83.16,a:2.37,d:0.50,e:"https://upload.wikimedia.org/wikipedia/pt/a/a9/Uruguay_football_association.svg.png"}
 var UZB = {spi:55.65,a:1.52,d:1.06,e:desco}
 var USA = {spi:76.70,a:2.21,d:0.71,e:"https://upload.wikimedia.org/wikipedia/commons/8/86/Crest_of_the_United_States_Soccer_Federation.png"}
 var VEN = {spi:70.17,a:1.90,d:0.77,e:"https://tmssl.akamaized.net/images/wappen/normquad/3504.png"}
-var WAL = {spi:68.79,a:1.78,d:0.74,e:desco}
+var WAL = {spi:68.79,a:1.78,d:0.74,e:"https://upload.wikimedia.org/wikipedia/en/d/dc/Wales_national_football_team_logo.svg"}
 
 //FICHEIRO DOS CLUBES
 //Brasil
