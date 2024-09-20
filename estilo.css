@@ -41,6 +41,10 @@ img{
     /*max-width: 120px;*/
     margin:auto;
 }
+img.counterimg{
+    height: 5mm;
+    width:auto;
+}
 img.logo{
     max-width: 100%;
 }
